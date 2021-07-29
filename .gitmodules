@@ -1,3 +1,6 @@
 [submodule "ext/cimgui"]
 	path = ext/cimgui
 	url = https://github.com/cimgui/cimgui
+[submodule "ext/my-msbuild"]
+	path = ext/my-msbuild
+	url = https://github.com/lithiumtoast/my-msbuild
