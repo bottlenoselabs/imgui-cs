@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- NuGet -->
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <RepositoryUrl>https://github.com/lithiumtoast/sokol-cs</RepositoryUrl>
+    <PackageDescription>Automatically updated C# bindings for sokol with native dynamic link libraries.</PackageDescription>
+    <NoWarn>NU5101</NoWarn>
+  </PropertyGroup>
+  
+  <!-- NuGet references -->
+  <ItemGroup>
+    <PackageReference Include="C2CS.Runtime" Version="*-*" />
+  </ItemGroup>
+
+  <!-- Dynamic link libraries -->
+  <ItemGroup>
+    <Content Include="$(GitRepositoryPath)lib/*.dll">
+      <Link>%(Filename)%(Extension)</Link>
+      <PackagePath>runtimes\win-x64\native\%(Filename)%(Extension)</PackagePath>
+      <Pack>true</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(GitRepositoryPath)lib/*.dylib">
+      <Link>%(Filename)%(Extension)</Link>
+      <PackagePath>runtimes/osx-x64/native/%(Filename)%(Extension)</PackagePath>
+      <Pack>true</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(GitRepositoryPath)lib/*.so">
+      <Link>%(Filename)%(Extension)</Link>
+      <PackagePath>runtimes/linux-x64/native/%(Filename)%(Extension)</PackagePath>
+      <Pack>true</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
