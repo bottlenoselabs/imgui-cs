@@ -28,7 +28,30 @@ function download_C2CS_osx() {
 function bindgen() {
     ./C2CS ast -i ./ext/cimgui/cimgui.h -o ./ast.json -s ./ext/cimgui -b 64 -d CIMGUI_DEFINE_ENUMS_AND_STRUCTS
     exitIfLastCommandFailed
-    ./C2CS cs -i ./sokol.json -o ./src/cs/production/imgui-cs/imgui.cs -l "cimgui" -c "imgui"
+    ./C2CS cs -i ./ast.json -o ./src/cs/production/imgui-cs/imgui.cs -l "cimgui" -c "imgui" --namespaces "System.Numerics" -g \
+"ImWchar" \
+"ImWchar16" \
+"ImWchar32" \
+"Vector4" \
+"Vector3" \
+"Vector2" \
+"ImVec1" \
+-a \
+"ImWchar -> char" \
+"ImWchar16 -> char" \
+"ImWchar32 -> uint" \
+"ImVec4 -> Vector4" \
+"ImVec3 -> Vector3" \
+"ImVec2 -> Vector2" \
+"ImVec1 -> float" \
+"ImU64 -> ulong" \
+"ImU32 -> uint" \
+"ImU16 -> ushort" \
+"ImU8 -> byte" \
+"ImS64 -> long" \
+"ImS32 -> int" \
+"ImS16 -> short" \
+"ImS8 -> sbyte"
     exitIfLastCommandFailed
     rm ./ast.json
     exitIfLastCommandFailed
