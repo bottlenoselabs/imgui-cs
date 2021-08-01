@@ -89,7 +89,7 @@ jobs:
     - name: "Clone"
       uses: actions/checkout@master
       with:
-        submodules: true
+        submodules: 'recursive'
 
     - name: "Windows"
       if: ${{ startsWith(matrix.platform.rid, 'win') }}
