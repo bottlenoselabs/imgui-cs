@@ -40,6 +40,7 @@ jobs:
       with:
         default_author: user_info
         message: "Update bindings"
+        pull_strategy: '--rebase'
 
   version-job:
     name: "Version"
