@@ -20,7 +20,7 @@ jobs:
     - name: "Clone Git repository"
       uses: actions/checkout@master
       with:
-        rref: ${{ github.event.pull_request.head.sha }}
+        ref: ${{ github.event.pull_request.head.sha }}
         submodules: true
 
     - name: "Bindgen (Unix)"
