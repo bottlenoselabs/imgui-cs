@@ -20,17 +20,9 @@ if not exist "%~dp0\C2CS.exe" (
 goto:eof
 
 :bindgen
-%~dp0\C2CS ast -i .\ext\cimgui\cimgui.h -o .\ast.json -s .\ext\cimgui -b 64 -d CIMGUI_DEFINE_ENUMS_AND_STRUCTS
+%~dp0\C2CS ast -i .\ext\cimgui\cimgui.h -o .\ast\cimgui.json -s .\ext\cimgui -b 64 -s .\ext\cimgui .\ext\cimgui\generator/output
 call:exit_if_last_command_failed
-%~dp0\C2CS cs -i .\ast.json -o .\src\cs\production\imgui-cs\imgui.cs -l "cimgui" -c "imgui" --namespaces "System.Numerics" -g ^
- "ImWchar" ^
- "ImWchar16" ^
- "ImWchar32" ^
- "Vector4" ^
- "Vector3" ^
- "Vector2" ^
- "ImVec1" ^
- -a ^
+%~dp0\C2CS cs -i .\ast\cimgui.json -o .\src\cs\production\imgui-cs\imgui.cs -l "cimgui" -c "imgui" --namespaces "System.Numerics" -g .\ignored.txt -a ^
  "ImWchar -> char" ^
  "ImWchar16 -> char" ^
  "ImWchar32 -> uint" ^
@@ -47,5 +39,4 @@ call:exit_if_last_command_failed
  "ImS16 -> short" ^
  "ImS8 -> sbyte"
 call:exit_if_last_command_failed
-del %~dp0\ast.json
 goto:eof 
