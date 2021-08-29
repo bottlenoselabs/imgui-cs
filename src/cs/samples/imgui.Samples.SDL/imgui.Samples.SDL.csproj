@@ -3,9 +3,6 @@
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
-        <RuntimeIdentifier Condition="$([MSBuild]::IsOSPlatform('Linux'))" >linux-x64</RuntimeIdentifier>
-        <RuntimeIdentifier Condition="$([MSBuild]::IsOSPlatform('OSX'))" >osx-x64</RuntimeIdentifier>
-        <RuntimeIdentifier Condition="$([MSBuild]::IsOSPlatform('Windows'))" >win-x64</RuntimeIdentifier>
     </PropertyGroup>
 
     <!-- Simple way to have assets files beside the application. -->
@@ -14,11 +11,10 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
     </ItemGroup>
-
+    
+    <!-- Project references -->
     <ItemGroup>
-        <PackageReference Include="sdl-cs.linux-x64" Version="*-*" Condition="$([MSBuild]::IsOSPlatform('Linux'))" />
-        <PackageReference Include="sdl-cs.osx-x64" Version="*-*" Condition="$([MSBuild]::IsOSPlatform('OSX'))" />
-        <PackageReference Include="sdl-cs.win-x64" Version="*-*" Condition="$([MSBuild]::IsOSPlatform('Windows'))" />
+      <ProjectReference Include="$(GitRepositoryPath)ext\sdl-cs\src\cs\production\SDL-cs\SDL-cs.csproj" />
     </ItemGroup>
 
 </Project>
