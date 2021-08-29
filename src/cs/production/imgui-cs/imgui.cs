@@ -24,27 +24,27 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2354:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImVec2* ImVec2_ImVec2_Nil();
+    public static extern Vector2* ImVec2_ImVec2_Nil();
 
     // Function @ cimgui.h:2355:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImVec2_destroy(ImVec2* self);
+    public static extern void ImVec2_destroy(Vector2* self);
 
     // Function @ cimgui.h:2356:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImVec2* ImVec2_ImVec2_Float(float _x, float _y);
+    public static extern Vector2* ImVec2_ImVec2_Float(float _x, float _y);
 
     // Function @ cimgui.h:2357:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImVec4* ImVec4_ImVec4_Nil();
+    public static extern Vector4* ImVec4_ImVec4_Nil();
 
     // Function @ cimgui.h:2358:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImVec4_destroy(ImVec4* self);
+    public static extern void ImVec4_destroy(Vector4* self);
 
     // Function @ cimgui.h:2359:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImVec4* ImVec4_ImVec4_Float(float _x, float _y, float _z, float _w);
+    public static extern Vector4* ImVec4_ImVec4_Float(float _x, float _y, float _z, float _w);
 
     // Function @ cimgui.h:2360:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -140,11 +140,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2383:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igBeginChild_Str(CString8U str_id, ImVec2 size, CBool border, ImGuiWindowFlags flags);
+    public static extern CBool igBeginChild_Str(CString8U str_id, Vector2 size, CBool border, ImGuiWindowFlags flags);
 
     // Function @ cimgui.h:2384:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igBeginChild_ID(ImGuiID id, ImVec2 size, CBool border, ImGuiWindowFlags flags);
+    public static extern CBool igBeginChild_ID(ImGuiID id, Vector2 size, CBool border, ImGuiWindowFlags flags);
 
     // Function @ cimgui.h:2385:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -172,11 +172,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2391:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetWindowPos(ImVec2* pOut);
+    public static extern void igGetWindowPos(Vector2* pOut);
 
     // Function @ cimgui.h:2392:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetWindowSize(ImVec2* pOut);
+    public static extern void igGetWindowSize(Vector2* pOut);
 
     // Function @ cimgui.h:2393:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -188,19 +188,19 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2395:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetNextWindowPos(ImVec2 pos, ImGuiCond cond, ImVec2 pivot);
+    public static extern void igSetNextWindowPos(Vector2 pos, ImGuiCond cond, Vector2 pivot);
 
     // Function @ cimgui.h:2396:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetNextWindowSize(ImVec2 size, ImGuiCond cond);
+    public static extern void igSetNextWindowSize(Vector2 size, ImGuiCond cond);
 
     // Function @ cimgui.h:2397:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetNextWindowSizeConstraints(ImVec2 size_min, ImVec2 size_max, ImGuiSizeCallback custom_callback, void* custom_callback_data);
+    public static extern void igSetNextWindowSizeConstraints(Vector2 size_min, Vector2 size_max, ImGuiSizeCallback custom_callback, void* custom_callback_data);
 
     // Function @ cimgui.h:2398:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetNextWindowContentSize(ImVec2 size);
+    public static extern void igSetNextWindowContentSize(Vector2 size);
 
     // Function @ cimgui.h:2399:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -216,11 +216,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2402:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetWindowPos_Vec2(ImVec2 pos, ImGuiCond cond);
+    public static extern void igSetWindowPos_Vec2(Vector2 pos, ImGuiCond cond);
 
     // Function @ cimgui.h:2403:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetWindowSize_Vec2(ImVec2 size, ImGuiCond cond);
+    public static extern void igSetWindowSize_Vec2(Vector2 size, ImGuiCond cond);
 
     // Function @ cimgui.h:2404:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -236,11 +236,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2407:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetWindowPos_Str(CString8U name, ImVec2 pos, ImGuiCond cond);
+    public static extern void igSetWindowPos_Str(CString8U name, Vector2 pos, ImGuiCond cond);
 
     // Function @ cimgui.h:2408:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetWindowSize_Str(CString8U name, ImVec2 size, ImGuiCond cond);
+    public static extern void igSetWindowSize_Str(CString8U name, Vector2 size, ImGuiCond cond);
 
     // Function @ cimgui.h:2409:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -252,19 +252,19 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2411:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetContentRegionAvail(ImVec2* pOut);
+    public static extern void igGetContentRegionAvail(Vector2* pOut);
 
     // Function @ cimgui.h:2412:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetContentRegionMax(ImVec2* pOut);
+    public static extern void igGetContentRegionMax(Vector2* pOut);
 
     // Function @ cimgui.h:2413:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetWindowContentRegionMin(ImVec2* pOut);
+    public static extern void igGetWindowContentRegionMin(Vector2* pOut);
 
     // Function @ cimgui.h:2414:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetWindowContentRegionMax(ImVec2* pOut);
+    public static extern void igGetWindowContentRegionMax(Vector2* pOut);
 
     // Function @ cimgui.h:2415:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -320,11 +320,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2428:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igPushStyleColor_U32(ImGuiCol idx, ImU32 col);
+    public static extern void igPushStyleColor_U32(ImGuiCol idx, uint col);
 
     // Function @ cimgui.h:2429:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igPushStyleColor_Vec4(ImGuiCol idx, ImVec4 col);
+    public static extern void igPushStyleColor_Vec4(ImGuiCol idx, Vector4 col);
 
     // Function @ cimgui.h:2430:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -336,7 +336,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2432:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igPushStyleVar_Vec2(ImGuiStyleVar idx, ImVec2 val);
+    public static extern void igPushStyleVar_Vec2(ImGuiStyleVar idx, Vector2 val);
 
     // Function @ cimgui.h:2433:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -392,23 +392,23 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2446:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetFontTexUvWhitePixel(ImVec2* pOut);
+    public static extern void igGetFontTexUvWhitePixel(Vector2* pOut);
 
     // Function @ cimgui.h:2447:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImU32 igGetColorU32_Col(ImGuiCol idx, float alpha_mul);
+    public static extern uint igGetColorU32_Col(ImGuiCol idx, float alpha_mul);
 
     // Function @ cimgui.h:2448:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImU32 igGetColorU32_Vec4(ImVec4 col);
+    public static extern uint igGetColorU32_Vec4(Vector4 col);
 
     // Function @ cimgui.h:2449:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImU32 igGetColorU32_U32(ImU32 col);
+    public static extern uint igGetColorU32_U32(uint col);
 
     // Function @ cimgui.h:2450:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImVec4* igGetStyleColorVec4(ImGuiCol idx);
+    public static extern Vector4* igGetStyleColorVec4(ImGuiCol idx);
 
     // Function @ cimgui.h:2451:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -428,7 +428,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2455:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igDummy(ImVec2 size);
+    public static extern void igDummy(Vector2 size);
 
     // Function @ cimgui.h:2456:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -448,7 +448,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2460:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetCursorPos(ImVec2* pOut);
+    public static extern void igGetCursorPos(Vector2* pOut);
 
     // Function @ cimgui.h:2461:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -460,7 +460,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2463:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetCursorPos(ImVec2 local_pos);
+    public static extern void igSetCursorPos(Vector2 local_pos);
 
     // Function @ cimgui.h:2464:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -472,15 +472,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2466:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetCursorStartPos(ImVec2* pOut);
+    public static extern void igGetCursorStartPos(Vector2* pOut);
 
     // Function @ cimgui.h:2467:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetCursorScreenPos(ImVec2* pOut);
+    public static extern void igGetCursorScreenPos(Vector2* pOut);
 
     // Function @ cimgui.h:2468:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetCursorScreenPos(ImVec2 pos);
+    public static extern void igSetCursorScreenPos(Vector2 pos);
 
     // Function @ cimgui.h:2469:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -548,11 +548,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2485:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igTextColored(ImVec4 col, CString8U fmt);
+    public static extern void igTextColored(Vector4 col, CString8U fmt);
 
     // Function @ cimgui.h:2486:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igTextColoredV(ImVec4 col, CString8U fmt, IntPtr args);
+    public static extern void igTextColoredV(Vector4 col, CString8U fmt, IntPtr args);
 
     // Function @ cimgui.h:2487:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -588,7 +588,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2495:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igButton(CString8U label, ImVec2 size);
+    public static extern CBool igButton(CString8U label, Vector2 size);
 
     // Function @ cimgui.h:2496:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -596,7 +596,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2497:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igInvisibleButton(CString8U str_id, ImVec2 size, ImGuiButtonFlags flags);
+    public static extern CBool igInvisibleButton(CString8U str_id, Vector2 size, ImGuiButtonFlags flags);
 
     // Function @ cimgui.h:2498:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -604,11 +604,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2499:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImage(ImTextureID user_texture_id, ImVec2 size, ImVec2 uv0, ImVec2 uv1, ImVec4 tint_col, ImVec4 border_col);
+    public static extern void igImage(ImTextureID user_texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, Vector4 tint_col, Vector4 border_col);
 
     // Function @ cimgui.h:2500:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igImageButton(ImTextureID user_texture_id, ImVec2 size, ImVec2 uv0, ImVec2 uv1, int frame_padding, ImVec4 bg_col, ImVec4 tint_col);
+    public static extern CBool igImageButton(ImTextureID user_texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, int frame_padding, Vector4 bg_col, Vector4 tint_col);
 
     // Function @ cimgui.h:2501:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -632,7 +632,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2506:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igProgressBar(float fraction, ImVec2 size_arg, CString8U overlay);
+    public static extern void igProgressBar(float fraction, Vector2 size_arg, CString8U overlay);
 
     // Function @ cimgui.h:2507:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -752,15 +752,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2536:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igVSliderFloat(CString8U label, ImVec2 size, float* v, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
+    public static extern CBool igVSliderFloat(CString8U label, Vector2 size, float* v, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
     // Function @ cimgui.h:2537:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igVSliderInt(CString8U label, ImVec2 size, long* v, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
+    public static extern CBool igVSliderInt(CString8U label, Vector2 size, long* v, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
     // Function @ cimgui.h:2538:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igVSliderScalar(CString8U label, ImVec2 size, ImGuiDataType data_type, void* p_data, void* p_min, void* p_max, CString8U format, ImGuiSliderFlags flags);
+    public static extern CBool igVSliderScalar(CString8U label, Vector2 size, ImGuiDataType data_type, void* p_data, void* p_min, void* p_max, CString8U format, ImGuiSliderFlags flags);
 
     // Function @ cimgui.h:2539:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -768,7 +768,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2540:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igInputTextMultiline(CString8U label, CString8U buf, ulong buf_size, ImVec2 size, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
+    public static extern CBool igInputTextMultiline(CString8U label, CString8U buf, ulong buf_size, Vector2 size, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
     // Function @ cimgui.h:2541:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -836,7 +836,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2557:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igColorButton(CString8U desc_id, ImVec4 col, ImGuiColorEditFlags flags, ImVec2 size);
+    public static extern CBool igColorButton(CString8U desc_id, Vector4 col, ImGuiColorEditFlags flags, Vector2 size);
 
     // Function @ cimgui.h:2558:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -912,15 +912,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2576:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igSelectable_Bool(CString8U label, CBool selected, ImGuiSelectableFlags flags, ImVec2 size);
+    public static extern CBool igSelectable_Bool(CString8U label, CBool selected, ImGuiSelectableFlags flags, Vector2 size);
 
     // Function @ cimgui.h:2577:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igSelectable_BoolPtr(CString8U label, CBool* p_selected, ImGuiSelectableFlags flags, ImVec2 size);
+    public static extern CBool igSelectable_BoolPtr(CString8U label, CBool* p_selected, ImGuiSelectableFlags flags, Vector2 size);
 
     // Function @ cimgui.h:2578:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igBeginListBox(CString8U label, ImVec2 size);
+    public static extern CBool igBeginListBox(CString8U label, Vector2 size);
 
     // Function @ cimgui.h:2579:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -936,19 +936,19 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2582:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igPlotLines_FloatPtr(CString8U label, float* values, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, ImVec2 graph_size, int stride);
+    public static extern void igPlotLines_FloatPtr(CString8U label, float* values, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 graph_size, int stride);
 
     // Function @ cimgui.h:2583:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igPlotLines_FnFloatPtr(CString8U label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, ImVec2 graph_size);
+    public static extern void igPlotLines_FnFloatPtr(CString8U label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 graph_size);
 
     // Function @ cimgui.h:2584:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igPlotHistogram_FloatPtr(CString8U label, float* values, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, ImVec2 graph_size, int stride);
+    public static extern void igPlotHistogram_FloatPtr(CString8U label, float* values, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 graph_size, int stride);
 
     // Function @ cimgui.h:2585:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igPlotHistogram_FnFloatPtr(CString8U label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, ImVec2 graph_size);
+    public static extern void igPlotHistogram_FnFloatPtr(CString8U label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 graph_size);
 
     // Function @ cimgui.h:2586:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1060,7 +1060,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2613:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igBeginTable(CString8U str_id, int column, ImGuiTableFlags flags, ImVec2 outer_size, float inner_width);
+    public static extern CBool igBeginTable(CString8U str_id, int column, ImGuiTableFlags flags, Vector2 outer_size, float inner_width);
 
     // Function @ cimgui.h:2614:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1124,7 +1124,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2629:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igTableSetBgColor(ImGuiTableBgTarget target, ImU32 color, int column_n);
+    public static extern void igTableSetBgColor(ImGuiTableBgTarget target, uint color, int column_n);
 
     // Function @ cimgui.h:2630:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1244,7 +1244,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2659:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igPushClipRect(ImVec2 clip_rect_min, ImVec2 clip_rect_max, CBool intersect_with_current_clip_rect);
+    public static extern void igPushClipRect(Vector2 clip_rect_min, Vector2 clip_rect_max, CBool intersect_with_current_clip_rect);
 
     // Function @ cimgui.h:2660:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1312,15 +1312,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2676:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetItemRectMin(ImVec2* pOut);
+    public static extern void igGetItemRectMin(Vector2* pOut);
 
     // Function @ cimgui.h:2677:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetItemRectMax(ImVec2* pOut);
+    public static extern void igGetItemRectMax(Vector2* pOut);
 
     // Function @ cimgui.h:2678:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetItemRectSize(ImVec2* pOut);
+    public static extern void igGetItemRectSize(Vector2* pOut);
 
     // Function @ cimgui.h:2679:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1332,11 +1332,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2681:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igIsRectVisible_Nil(ImVec2 size);
+    public static extern CBool igIsRectVisible_Nil(Vector2 size);
 
     // Function @ cimgui.h:2682:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igIsRectVisible_Vec2(ImVec2 rect_min, ImVec2 rect_max);
+    public static extern CBool igIsRectVisible_Vec2(Vector2 rect_min, Vector2 rect_max);
 
     // Function @ cimgui.h:2683:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1376,7 +1376,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2692:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igBeginChildFrame(ImGuiID id, ImVec2 size, ImGuiWindowFlags flags);
+    public static extern CBool igBeginChildFrame(ImGuiID id, Vector2 size, ImGuiWindowFlags flags);
 
     // Function @ cimgui.h:2693:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1384,15 +1384,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2694:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igCalcTextSize(ImVec2* pOut, CString8U text, CString8U text_end, CBool hide_text_after_double_hash, float wrap_width);
+    public static extern void igCalcTextSize(Vector2* pOut, CString8U text, CString8U text_end, CBool hide_text_after_double_hash, float wrap_width);
 
     // Function @ cimgui.h:2695:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igColorConvertU32ToFloat4(ImVec4* pOut, ImU32 @in);
+    public static extern void igColorConvertU32ToFloat4(Vector4* pOut, uint @in);
 
     // Function @ cimgui.h:2696:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImU32 igColorConvertFloat4ToU32(ImVec4 @in);
+    public static extern uint igColorConvertFloat4ToU32(Vector4 @in);
 
     // Function @ cimgui.h:2697:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1444,11 +1444,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2709:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igIsMouseHoveringRect(ImVec2 r_min, ImVec2 r_max, CBool clip);
+    public static extern CBool igIsMouseHoveringRect(Vector2 r_min, Vector2 r_max, CBool clip);
 
     // Function @ cimgui.h:2710:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igIsMousePosValid(ImVec2* mouse_pos);
+    public static extern CBool igIsMousePosValid(Vector2* mouse_pos);
 
     // Function @ cimgui.h:2711:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1456,11 +1456,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2712:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetMousePos(ImVec2* pOut);
+    public static extern void igGetMousePos(Vector2* pOut);
 
     // Function @ cimgui.h:2713:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetMousePosOnOpeningCurrentPopup(ImVec2* pOut);
+    public static extern void igGetMousePosOnOpeningCurrentPopup(Vector2* pOut);
 
     // Function @ cimgui.h:2714:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1468,7 +1468,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2715:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetMouseDragDelta(ImVec2* pOut, ImGuiMouseButton button, float lock_threshold);
+    public static extern void igGetMouseDragDelta(Vector2* pOut, ImGuiMouseButton button, float lock_threshold);
 
     // Function @ cimgui.h:2716:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1548,7 +1548,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2735:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImGuiIO_AddInputCharacterUTF16(ImGuiIO* self, ImWchar16 c);
+    public static extern void ImGuiIO_AddInputCharacterUTF16(ImGuiIO* self, char c);
 
     // Function @ cimgui.h:2736:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1848,7 +1848,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2810:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImColor* ImColor_ImColor_U32(ImU32 rgba);
+    public static extern ImColor* ImColor_ImColor_U32(uint rgba);
 
     // Function @ cimgui.h:2811:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1856,7 +1856,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2812:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImColor* ImColor_ImColor_Vec4(ImVec4 col);
+    public static extern ImColor* ImColor_ImColor_Vec4(Vector4 col);
 
     // Function @ cimgui.h:2813:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1916,7 +1916,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2827:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PushClipRect(ImDrawList* self, ImVec2 clip_rect_min, ImVec2 clip_rect_max, CBool intersect_with_current_clip_rect);
+    public static extern void ImDrawList_PushClipRect(ImDrawList* self, Vector2 clip_rect_min, Vector2 clip_rect_max, CBool intersect_with_current_clip_rect);
 
     // Function @ cimgui.h:2828:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -1936,95 +1936,95 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2832:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_GetClipRectMin(ImVec2* pOut, ImDrawList* self);
+    public static extern void ImDrawList_GetClipRectMin(Vector2* pOut, ImDrawList* self);
 
     // Function @ cimgui.h:2833:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_GetClipRectMax(ImVec2* pOut, ImDrawList* self);
+    public static extern void ImDrawList_GetClipRectMax(Vector2* pOut, ImDrawList* self);
 
     // Function @ cimgui.h:2834:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddLine(ImDrawList* self, ImVec2 p1, ImVec2 p2, ImU32 col, float thickness);
+    public static extern void ImDrawList_AddLine(ImDrawList* self, Vector2 p1, Vector2 p2, uint col, float thickness);
 
     // Function @ cimgui.h:2835:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddRect(ImDrawList* self, ImVec2 p_min, ImVec2 p_max, ImU32 col, float rounding, ImDrawFlags flags, float thickness);
+    public static extern void ImDrawList_AddRect(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col, float rounding, ImDrawFlags flags, float thickness);
 
     // Function @ cimgui.h:2836:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddRectFilled(ImDrawList* self, ImVec2 p_min, ImVec2 p_max, ImU32 col, float rounding, ImDrawFlags flags);
+    public static extern void ImDrawList_AddRectFilled(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col, float rounding, ImDrawFlags flags);
 
     // Function @ cimgui.h:2837:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddRectFilledMultiColor(ImDrawList* self, ImVec2 p_min, ImVec2 p_max, ImU32 col_upr_left, ImU32 col_upr_right, ImU32 col_bot_right, ImU32 col_bot_left);
+    public static extern void ImDrawList_AddRectFilledMultiColor(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col_upr_left, uint col_upr_right, uint col_bot_right, uint col_bot_left);
 
     // Function @ cimgui.h:2838:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddQuad(ImDrawList* self, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImVec2 p4, ImU32 col, float thickness);
+    public static extern void ImDrawList_AddQuad(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col, float thickness);
 
     // Function @ cimgui.h:2839:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddQuadFilled(ImDrawList* self, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImVec2 p4, ImU32 col);
+    public static extern void ImDrawList_AddQuadFilled(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col);
 
     // Function @ cimgui.h:2840:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddTriangle(ImDrawList* self, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImU32 col, float thickness);
+    public static extern void ImDrawList_AddTriangle(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col, float thickness);
 
     // Function @ cimgui.h:2841:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddTriangleFilled(ImDrawList* self, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImU32 col);
+    public static extern void ImDrawList_AddTriangleFilled(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col);
 
     // Function @ cimgui.h:2842:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddCircle(ImDrawList* self, ImVec2 center, float radius, ImU32 col, int num_segments, float thickness);
+    public static extern void ImDrawList_AddCircle(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments, float thickness);
 
     // Function @ cimgui.h:2843:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddCircleFilled(ImDrawList* self, ImVec2 center, float radius, ImU32 col, int num_segments);
+    public static extern void ImDrawList_AddCircleFilled(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments);
 
     // Function @ cimgui.h:2844:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddNgon(ImDrawList* self, ImVec2 center, float radius, ImU32 col, int num_segments, float thickness);
+    public static extern void ImDrawList_AddNgon(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments, float thickness);
 
     // Function @ cimgui.h:2845:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddNgonFilled(ImDrawList* self, ImVec2 center, float radius, ImU32 col, int num_segments);
+    public static extern void ImDrawList_AddNgonFilled(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments);
 
     // Function @ cimgui.h:2846:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddText_Vec2(ImDrawList* self, ImVec2 pos, ImU32 col, CString8U text_begin, CString8U text_end);
+    public static extern void ImDrawList_AddText_Vec2(ImDrawList* self, Vector2 pos, uint col, CString8U text_begin, CString8U text_end);
 
     // Function @ cimgui.h:2847:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddText_FontPtr(ImDrawList* self, ImFont* font, float font_size, ImVec2 pos, ImU32 col, CString8U text_begin, CString8U text_end, float wrap_width, ImVec4* cpu_fine_clip_rect);
+    public static extern void ImDrawList_AddText_FontPtr(ImDrawList* self, ImFont* font, float font_size, Vector2 pos, uint col, CString8U text_begin, CString8U text_end, float wrap_width, Vector4* cpu_fine_clip_rect);
 
     // Function @ cimgui.h:2848:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddPolyline(ImDrawList* self, ImVec2* points, int num_points, ImU32 col, ImDrawFlags flags, float thickness);
+    public static extern void ImDrawList_AddPolyline(ImDrawList* self, Vector2* points, int num_points, uint col, ImDrawFlags flags, float thickness);
 
     // Function @ cimgui.h:2849:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddConvexPolyFilled(ImDrawList* self, ImVec2* points, int num_points, ImU32 col);
+    public static extern void ImDrawList_AddConvexPolyFilled(ImDrawList* self, Vector2* points, int num_points, uint col);
 
     // Function @ cimgui.h:2850:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddBezierCubic(ImDrawList* self, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImVec2 p4, ImU32 col, float thickness, int num_segments);
+    public static extern void ImDrawList_AddBezierCubic(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col, float thickness, int num_segments);
 
     // Function @ cimgui.h:2851:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddBezierQuadratic(ImDrawList* self, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImU32 col, float thickness, int num_segments);
+    public static extern void ImDrawList_AddBezierQuadratic(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col, float thickness, int num_segments);
 
     // Function @ cimgui.h:2852:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddImage(ImDrawList* self, ImTextureID user_texture_id, ImVec2 p_min, ImVec2 p_max, ImVec2 uv_min, ImVec2 uv_max, ImU32 col);
+    public static extern void ImDrawList_AddImage(ImDrawList* self, ImTextureID user_texture_id, Vector2 p_min, Vector2 p_max, Vector2 uv_min, Vector2 uv_max, uint col);
 
     // Function @ cimgui.h:2853:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddImageQuad(ImDrawList* self, ImTextureID user_texture_id, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImVec2 p4, ImVec2 uv1, ImVec2 uv2, ImVec2 uv3, ImVec2 uv4, ImU32 col);
+    public static extern void ImDrawList_AddImageQuad(ImDrawList* self, ImTextureID user_texture_id, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 uv1, Vector2 uv2, Vector2 uv3, Vector2 uv4, uint col);
 
     // Function @ cimgui.h:2854:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_AddImageRounded(ImDrawList* self, ImTextureID user_texture_id, ImVec2 p_min, ImVec2 p_max, ImVec2 uv_min, ImVec2 uv_max, ImU32 col, float rounding, ImDrawFlags flags);
+    public static extern void ImDrawList_AddImageRounded(ImDrawList* self, ImTextureID user_texture_id, Vector2 p_min, Vector2 p_max, Vector2 uv_min, Vector2 uv_max, uint col, float rounding, ImDrawFlags flags);
 
     // Function @ cimgui.h:2855:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2032,39 +2032,39 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2856:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PathLineTo(ImDrawList* self, ImVec2 pos);
+    public static extern void ImDrawList_PathLineTo(ImDrawList* self, Vector2 pos);
 
     // Function @ cimgui.h:2857:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PathLineToMergeDuplicate(ImDrawList* self, ImVec2 pos);
+    public static extern void ImDrawList_PathLineToMergeDuplicate(ImDrawList* self, Vector2 pos);
 
     // Function @ cimgui.h:2858:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PathFillConvex(ImDrawList* self, ImU32 col);
+    public static extern void ImDrawList_PathFillConvex(ImDrawList* self, uint col);
 
     // Function @ cimgui.h:2859:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PathStroke(ImDrawList* self, ImU32 col, ImDrawFlags flags, float thickness);
+    public static extern void ImDrawList_PathStroke(ImDrawList* self, uint col, ImDrawFlags flags, float thickness);
 
     // Function @ cimgui.h:2860:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PathArcTo(ImDrawList* self, ImVec2 center, float radius, float a_min, float a_max, int num_segments);
+    public static extern void ImDrawList_PathArcTo(ImDrawList* self, Vector2 center, float radius, float a_min, float a_max, int num_segments);
 
     // Function @ cimgui.h:2861:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PathArcToFast(ImDrawList* self, ImVec2 center, float radius, int a_min_of_12, int a_max_of_12);
+    public static extern void ImDrawList_PathArcToFast(ImDrawList* self, Vector2 center, float radius, int a_min_of_12, int a_max_of_12);
 
     // Function @ cimgui.h:2862:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PathBezierCubicCurveTo(ImDrawList* self, ImVec2 p2, ImVec2 p3, ImVec2 p4, int num_segments);
+    public static extern void ImDrawList_PathBezierCubicCurveTo(ImDrawList* self, Vector2 p2, Vector2 p3, Vector2 p4, int num_segments);
 
     // Function @ cimgui.h:2863:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PathBezierQuadraticCurveTo(ImDrawList* self, ImVec2 p2, ImVec2 p3, int num_segments);
+    public static extern void ImDrawList_PathBezierQuadraticCurveTo(ImDrawList* self, Vector2 p2, Vector2 p3, int num_segments);
 
     // Function @ cimgui.h:2864:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PathRect(ImDrawList* self, ImVec2 rect_min, ImVec2 rect_max, float rounding, ImDrawFlags flags);
+    public static extern void ImDrawList_PathRect(ImDrawList* self, Vector2 rect_min, Vector2 rect_max, float rounding, ImDrawFlags flags);
 
     // Function @ cimgui.h:2865:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2100,19 +2100,19 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2873:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PrimRect(ImDrawList* self, ImVec2 a, ImVec2 b, ImU32 col);
+    public static extern void ImDrawList_PrimRect(ImDrawList* self, Vector2 a, Vector2 b, uint col);
 
     // Function @ cimgui.h:2874:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PrimRectUV(ImDrawList* self, ImVec2 a, ImVec2 b, ImVec2 uv_a, ImVec2 uv_b, ImU32 col);
+    public static extern void ImDrawList_PrimRectUV(ImDrawList* self, Vector2 a, Vector2 b, Vector2 uv_a, Vector2 uv_b, uint col);
 
     // Function @ cimgui.h:2875:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PrimQuadUV(ImDrawList* self, ImVec2 a, ImVec2 b, ImVec2 c, ImVec2 d, ImVec2 uv_a, ImVec2 uv_b, ImVec2 uv_c, ImVec2 uv_d, ImU32 col);
+    public static extern void ImDrawList_PrimQuadUV(ImDrawList* self, Vector2 a, Vector2 b, Vector2 c, Vector2 d, Vector2 uv_a, Vector2 uv_b, Vector2 uv_c, Vector2 uv_d, uint col);
 
     // Function @ cimgui.h:2876:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PrimWriteVtx(ImDrawList* self, ImVec2 pos, ImVec2 uv, ImU32 col);
+    public static extern void ImDrawList_PrimWriteVtx(ImDrawList* self, Vector2 pos, Vector2 uv, uint col);
 
     // Function @ cimgui.h:2877:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2120,7 +2120,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2878:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList_PrimVtx(ImDrawList* self, ImVec2 pos, ImVec2 uv, ImU32 col);
+    public static extern void ImDrawList_PrimVtx(ImDrawList* self, Vector2 pos, Vector2 uv, uint col);
 
     // Function @ cimgui.h:2879:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2156,11 +2156,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2887:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList__PathArcToFastEx(ImDrawList* self, ImVec2 center, float radius, int a_min_sample, int a_max_sample, int a_step);
+    public static extern void ImDrawList__PathArcToFastEx(ImDrawList* self, Vector2 center, float radius, int a_min_sample, int a_max_sample, int a_step);
 
     // Function @ cimgui.h:2888:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawList__PathArcToN(ImDrawList* self, ImVec2 center, float radius, float a_min, float a_max, int num_segments);
+    public static extern void ImDrawList__PathArcToN(ImDrawList* self, Vector2 center, float radius, float a_min, float a_max, int num_segments);
 
     // Function @ cimgui.h:2889:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2180,7 +2180,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2893:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImDrawData_ScaleClipRects(ImDrawData* self, ImVec2 fb_scale);
+    public static extern void ImDrawData_ScaleClipRects(ImDrawData* self, Vector2 fb_scale);
 
     // Function @ cimgui.h:2894:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2212,7 +2212,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2901:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImFontGlyphRangesBuilder_AddChar(ImFontGlyphRangesBuilder* self, ImWchar c);
+    public static extern void ImFontGlyphRangesBuilder_AddChar(ImFontGlyphRangesBuilder* self, char c);
 
     // Function @ cimgui.h:2902:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2220,7 +2220,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2903:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImFontGlyphRangesBuilder_AddRanges(ImFontGlyphRangesBuilder* self, ImWchar* ranges);
+    public static extern void ImFontGlyphRangesBuilder_AddRanges(ImFontGlyphRangesBuilder* self, char* ranges);
 
     // Function @ cimgui.h:2904:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2256,19 +2256,19 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2912:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImFont* ImFontAtlas_AddFontFromFileTTF(ImFontAtlas* self, CString8U filename, float size_pixels, ImFontConfig* font_cfg, ImWchar* glyph_ranges);
+    public static extern ImFont* ImFontAtlas_AddFontFromFileTTF(ImFontAtlas* self, CString8U filename, float size_pixels, ImFontConfig* font_cfg, char* glyph_ranges);
 
     // Function @ cimgui.h:2913:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImFont* ImFontAtlas_AddFontFromMemoryTTF(ImFontAtlas* self, void* font_data, int font_size, float size_pixels, ImFontConfig* font_cfg, ImWchar* glyph_ranges);
+    public static extern ImFont* ImFontAtlas_AddFontFromMemoryTTF(ImFontAtlas* self, void* font_data, int font_size, float size_pixels, ImFontConfig* font_cfg, char* glyph_ranges);
 
     // Function @ cimgui.h:2914:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedTTF(ImFontAtlas* self, void* compressed_font_data, int compressed_font_size, float size_pixels, ImFontConfig* font_cfg, ImWchar* glyph_ranges);
+    public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedTTF(ImFontAtlas* self, void* compressed_font_data, int compressed_font_size, float size_pixels, ImFontConfig* font_cfg, char* glyph_ranges);
 
     // Function @ cimgui.h:2915:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedBase85TTF(ImFontAtlas* self, CString8U compressed_font_data_base85, float size_pixels, ImFontConfig* font_cfg, ImWchar* glyph_ranges);
+    public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedBase85TTF(ImFontAtlas* self, CString8U compressed_font_data_base85, float size_pixels, ImFontConfig* font_cfg, char* glyph_ranges);
 
     // Function @ cimgui.h:2916:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2308,35 +2308,35 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2925:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImWchar* ImFontAtlas_GetGlyphRangesDefault(ImFontAtlas* self);
+    public static extern char* ImFontAtlas_GetGlyphRangesDefault(ImFontAtlas* self);
 
     // Function @ cimgui.h:2926:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImWchar* ImFontAtlas_GetGlyphRangesKorean(ImFontAtlas* self);
+    public static extern char* ImFontAtlas_GetGlyphRangesKorean(ImFontAtlas* self);
 
     // Function @ cimgui.h:2927:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImWchar* ImFontAtlas_GetGlyphRangesJapanese(ImFontAtlas* self);
+    public static extern char* ImFontAtlas_GetGlyphRangesJapanese(ImFontAtlas* self);
 
     // Function @ cimgui.h:2928:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImWchar* ImFontAtlas_GetGlyphRangesChineseFull(ImFontAtlas* self);
+    public static extern char* ImFontAtlas_GetGlyphRangesChineseFull(ImFontAtlas* self);
 
     // Function @ cimgui.h:2929:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImWchar* ImFontAtlas_GetGlyphRangesChineseSimplifiedCommon(ImFontAtlas* self);
+    public static extern char* ImFontAtlas_GetGlyphRangesChineseSimplifiedCommon(ImFontAtlas* self);
 
     // Function @ cimgui.h:2930:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImWchar* ImFontAtlas_GetGlyphRangesCyrillic(ImFontAtlas* self);
+    public static extern char* ImFontAtlas_GetGlyphRangesCyrillic(ImFontAtlas* self);
 
     // Function @ cimgui.h:2931:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImWchar* ImFontAtlas_GetGlyphRangesThai(ImFontAtlas* self);
+    public static extern char* ImFontAtlas_GetGlyphRangesThai(ImFontAtlas* self);
 
     // Function @ cimgui.h:2932:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImWchar* ImFontAtlas_GetGlyphRangesVietnamese(ImFontAtlas* self);
+    public static extern char* ImFontAtlas_GetGlyphRangesVietnamese(ImFontAtlas* self);
 
     // Function @ cimgui.h:2933:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2344,7 +2344,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2934:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern int ImFontAtlas_AddCustomRectFontGlyph(ImFontAtlas* self, ImFont* font, ImWchar id, int width, int height, float advance_x, ImVec2 offset);
+    public static extern int ImFontAtlas_AddCustomRectFontGlyph(ImFontAtlas* self, ImFont* font, char id, int width, int height, float advance_x, Vector2 offset);
 
     // Function @ cimgui.h:2935:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2352,11 +2352,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2936:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImFontAtlas_CalcCustomRectUV(ImFontAtlas* self, ImFontAtlasCustomRect* rect, ImVec2* out_uv_min, ImVec2* out_uv_max);
+    public static extern void ImFontAtlas_CalcCustomRectUV(ImFontAtlas* self, ImFontAtlasCustomRect* rect, Vector2* out_uv_min, Vector2* out_uv_max);
 
     // Function @ cimgui.h:2937:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool ImFontAtlas_GetMouseCursorTexData(ImFontAtlas* self, ImGuiMouseCursor cursor, ImVec2* out_offset, ImVec2* out_size, ImVec2* out_uv_border, ImVec2* out_uv_fill);
+    public static extern CBool ImFontAtlas_GetMouseCursorTexData(ImFontAtlas* self, ImGuiMouseCursor cursor, Vector2* out_offset, Vector2* out_size, Vector2* out_uv_border, Vector2* out_uv_fill);
 
     // Function @ cimgui.h:2938:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2368,15 +2368,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2940:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImFontGlyph* ImFont_FindGlyph(ImFont* self, ImWchar c);
+    public static extern ImFontGlyph* ImFont_FindGlyph(ImFont* self, char c);
 
     // Function @ cimgui.h:2941:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImFontGlyph* ImFont_FindGlyphNoFallback(ImFont* self, ImWchar c);
+    public static extern ImFontGlyph* ImFont_FindGlyphNoFallback(ImFont* self, char c);
 
     // Function @ cimgui.h:2942:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern float ImFont_GetCharAdvance(ImFont* self, ImWchar c);
+    public static extern float ImFont_GetCharAdvance(ImFont* self, char c);
 
     // Function @ cimgui.h:2943:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2388,7 +2388,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2945:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImFont_CalcTextSizeA(ImVec2* pOut, ImFont* self, float size, float max_width, float wrap_width, CString8U text_begin, CString8U text_end, CString8U* remaining);
+    public static extern void ImFont_CalcTextSizeA(Vector2* pOut, ImFont* self, float size, float max_width, float wrap_width, CString8U text_begin, CString8U text_end, CString8U* remaining);
 
     // Function @ cimgui.h:2946:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2396,11 +2396,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2947:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImFont_RenderChar(ImFont* self, ImDrawList* draw_list, float size, ImVec2 pos, ImU32 col, ImWchar c);
+    public static extern void ImFont_RenderChar(ImFont* self, ImDrawList* draw_list, float size, Vector2 pos, uint col, char c);
 
     // Function @ cimgui.h:2948:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImFont_RenderText(ImFont* self, ImDrawList* draw_list, float size, ImVec2 pos, ImU32 col, ImVec4 clip_rect, CString8U text_begin, CString8U text_end, float wrap_width, CBool cpu_fine_clip);
+    public static extern void ImFont_RenderText(ImFont* self, ImDrawList* draw_list, float size, Vector2 pos, uint col, Vector4 clip_rect, CString8U text_begin, CString8U text_end, float wrap_width, CBool cpu_fine_clip);
 
     // Function @ cimgui.h:2949:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2416,15 +2416,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2952:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImFont_AddGlyph(ImFont* self, ImFontConfig* src_cfg, ImWchar c, float x0, float y0, float x1, float y1, float u0, float v0, float u1, float v1, float advance_x);
+    public static extern void ImFont_AddGlyph(ImFont* self, ImFontConfig* src_cfg, char c, float x0, float y0, float x1, float y1, float u0, float v0, float u1, float v1, float advance_x);
 
     // Function @ cimgui.h:2953:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImFont_AddRemapChar(ImFont* self, ImWchar dst, ImWchar src, CBool overwrite_dst);
+    public static extern void ImFont_AddRemapChar(ImFont* self, char dst, char src, CBool overwrite_dst);
 
     // Function @ cimgui.h:2954:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImFont_SetGlyphVisible(ImFont* self, ImWchar c, CBool visible);
+    public static extern void ImFont_SetGlyphVisible(ImFont* self, char c, CBool visible);
 
     // Function @ cimgui.h:2955:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2440,23 +2440,23 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2958:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImGuiViewport_GetCenter(ImVec2* pOut, ImGuiViewport* self);
+    public static extern void ImGuiViewport_GetCenter(Vector2* pOut, ImGuiViewport* self);
 
     // Function @ cimgui.h:2959:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImGuiViewport_GetWorkCenter(ImVec2* pOut, ImGuiViewport* self);
+    public static extern void ImGuiViewport_GetWorkCenter(Vector2* pOut, ImGuiViewport* self);
 
     // Function @ cimgui.h:2960:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImGuiID igImHashData(void* data, ulong data_size, ImU32 seed);
+    public static extern ImGuiID igImHashData(void* data, ulong data_size, uint seed);
 
     // Function @ cimgui.h:2961:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImGuiID igImHashStr(CString8U data, ulong data_size, ImU32 seed);
+    public static extern ImGuiID igImHashStr(CString8U data, ulong data_size, uint seed);
 
     // Function @ cimgui.h:2962:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImU32 igImAlphaBlendColors(ImU32 col_a, ImU32 col_b);
+    public static extern uint igImAlphaBlendColors(uint col_a, uint col_b);
 
     // Function @ cimgui.h:2963:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2464,7 +2464,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2964:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igImIsPowerOfTwo_U64(ImU64 v);
+    public static extern CBool igImIsPowerOfTwo_U64(ulong v);
 
     // Function @ cimgui.h:2965:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2496,7 +2496,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2972:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern int igImStrlenW(ImWchar* str);
+    public static extern int igImStrlenW(char* str);
 
     // Function @ cimgui.h:2973:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2504,7 +2504,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2974:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImWchar* igImStrbolW(ImWchar* buf_mid_line, ImWchar* buf_begin);
+    public static extern char* igImStrbolW(char* buf_mid_line, char* buf_begin);
 
     // Function @ cimgui.h:2975:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2556,7 +2556,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2987:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern int igImTextStrToUtf8(CString8U out_buf, int out_buf_size, ImWchar* in_text, ImWchar* in_text_end);
+    public static extern int igImTextStrToUtf8(CString8U out_buf, int out_buf_size, char* in_text, char* in_text_end);
 
     // Function @ cimgui.h:2988:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2564,7 +2564,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2989:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern int igImTextStrFromUtf8(ImWchar* out_buf, int out_buf_size, CString8U in_text, CString8U in_text_end, CString8U* in_remaining);
+    public static extern int igImTextStrFromUtf8(char* out_buf, int out_buf_size, CString8U in_text, CString8U in_text_end, CString8U* in_remaining);
 
     // Function @ cimgui.h:2990:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2576,7 +2576,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2992:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern int igImTextCountUtf8BytesFromStr(ImWchar* in_text, ImWchar* in_text_end);
+    public static extern int igImTextCountUtf8BytesFromStr(char* in_text, char* in_text_end);
 
     // Function @ cimgui.h:2993:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2588,15 +2588,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:2995:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImU64 igImFileGetSize(ImFileHandle file);
+    public static extern ulong igImFileGetSize(ImFileHandle file);
 
     // Function @ cimgui.h:2996:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImU64 igImFileRead(void* data, ImU64 size, ImU64 count, ImFileHandle file);
+    public static extern ulong igImFileRead(void* data, ulong size, ulong count, ImFileHandle file);
 
     // Function @ cimgui.h:2997:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImU64 igImFileWrite(void* data, ImU64 size, ImU64 count, ImFileHandle file);
+    public static extern ulong igImFileWrite(void* data, ulong size, ulong count, ImFileHandle file);
 
     // Function @ cimgui.h:2998:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2648,27 +2648,27 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3010:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImMin(ImVec2* pOut, ImVec2 lhs, ImVec2 rhs);
+    public static extern void igImMin(Vector2* pOut, Vector2 lhs, Vector2 rhs);
 
     // Function @ cimgui.h:3011:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImMax(ImVec2* pOut, ImVec2 lhs, ImVec2 rhs);
+    public static extern void igImMax(Vector2* pOut, Vector2 lhs, Vector2 rhs);
 
     // Function @ cimgui.h:3012:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImClamp(ImVec2* pOut, ImVec2 v, ImVec2 mn, ImVec2 mx);
+    public static extern void igImClamp(Vector2* pOut, Vector2 v, Vector2 mn, Vector2 mx);
 
     // Function @ cimgui.h:3013:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImLerp_Vec2Float(ImVec2* pOut, ImVec2 a, ImVec2 b, float t);
+    public static extern void igImLerp_Vec2Float(Vector2* pOut, Vector2 a, Vector2 b, float t);
 
     // Function @ cimgui.h:3014:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImLerp_Vec2Vec2(ImVec2* pOut, ImVec2 a, ImVec2 b, ImVec2 t);
+    public static extern void igImLerp_Vec2Vec2(Vector2* pOut, Vector2 a, Vector2 b, Vector2 t);
 
     // Function @ cimgui.h:3015:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImLerp_Vec4(ImVec4* pOut, ImVec4 a, ImVec4 b, float t);
+    public static extern void igImLerp_Vec4(Vector4* pOut, Vector4 a, Vector4 b, float t);
 
     // Function @ cimgui.h:3016:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2676,15 +2676,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3017:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern float igImLengthSqr_Vec2(ImVec2 lhs);
+    public static extern float igImLengthSqr_Vec2(Vector2 lhs);
 
     // Function @ cimgui.h:3018:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern float igImLengthSqr_Vec4(ImVec4 lhs);
+    public static extern float igImLengthSqr_Vec4(Vector4 lhs);
 
     // Function @ cimgui.h:3019:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern float igImInvLength(ImVec2 lhs, float fail_value);
+    public static extern float igImInvLength(Vector2 lhs, float fail_value);
 
     // Function @ cimgui.h:3020:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2696,7 +2696,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3022:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImFloor_Vec2(ImVec2* pOut, ImVec2 v);
+    public static extern void igImFloor_Vec2(Vector2* pOut, Vector2 v);
 
     // Function @ cimgui.h:3023:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2704,11 +2704,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3024:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern float igImDot(ImVec2 a, ImVec2 b);
+    public static extern float igImDot(Vector2 a, Vector2 b);
 
     // Function @ cimgui.h:3025:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImRotate(ImVec2* pOut, ImVec2 v, float cos_a, float sin_a);
+    public static extern void igImRotate(Vector2* pOut, Vector2 v, float cos_a, float sin_a);
 
     // Function @ cimgui.h:3026:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2716,43 +2716,43 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3027:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImMul(ImVec2* pOut, ImVec2 lhs, ImVec2 rhs);
+    public static extern void igImMul(Vector2* pOut, Vector2 lhs, Vector2 rhs);
 
     // Function @ cimgui.h:3028:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImBezierCubicCalc(ImVec2* pOut, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImVec2 p4, float t);
+    public static extern void igImBezierCubicCalc(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, float t);
 
     // Function @ cimgui.h:3029:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImBezierCubicClosestPoint(ImVec2* pOut, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImVec2 p4, ImVec2 p, int num_segments);
+    public static extern void igImBezierCubicClosestPoint(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 p, int num_segments);
 
     // Function @ cimgui.h:3030:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImBezierCubicClosestPointCasteljau(ImVec2* pOut, ImVec2 p1, ImVec2 p2, ImVec2 p3, ImVec2 p4, ImVec2 p, float tess_tol);
+    public static extern void igImBezierCubicClosestPointCasteljau(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 p, float tess_tol);
 
     // Function @ cimgui.h:3031:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImBezierQuadraticCalc(ImVec2* pOut, ImVec2 p1, ImVec2 p2, ImVec2 p3, float t);
+    public static extern void igImBezierQuadraticCalc(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, float t);
 
     // Function @ cimgui.h:3032:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImLineClosestPoint(ImVec2* pOut, ImVec2 a, ImVec2 b, ImVec2 p);
+    public static extern void igImLineClosestPoint(Vector2* pOut, Vector2 a, Vector2 b, Vector2 p);
 
     // Function @ cimgui.h:3033:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igImTriangleContainsPoint(ImVec2 a, ImVec2 b, ImVec2 c, ImVec2 p);
+    public static extern CBool igImTriangleContainsPoint(Vector2 a, Vector2 b, Vector2 c, Vector2 p);
 
     // Function @ cimgui.h:3034:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImTriangleClosestPoint(ImVec2* pOut, ImVec2 a, ImVec2 b, ImVec2 c, ImVec2 p);
+    public static extern void igImTriangleClosestPoint(Vector2* pOut, Vector2 a, Vector2 b, Vector2 c, Vector2 p);
 
     // Function @ cimgui.h:3035:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImTriangleBarycentricCoords(ImVec2 a, ImVec2 b, ImVec2 c, ImVec2 p, float* out_u, float* out_v, float* out_w);
+    public static extern void igImTriangleBarycentricCoords(Vector2 a, Vector2 b, Vector2 c, Vector2 p, float* out_u, float* out_v, float* out_w);
 
     // Function @ cimgui.h:3036:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern float igImTriangleArea(ImVec2 a, ImVec2 b, ImVec2 c);
+    public static extern float igImTriangleArea(Vector2 a, Vector2 b, Vector2 c);
 
     // Function @ cimgui.h:3037:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2760,15 +2760,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3038:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImVec1* ImVec1_ImVec1_Nil();
+    public static extern float* ImVec1_ImVec1_Nil();
 
     // Function @ cimgui.h:3039:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImVec1_destroy(ImVec1* self);
+    public static extern void ImVec1_destroy(float* self);
 
     // Function @ cimgui.h:3040:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImVec1* ImVec1_ImVec1_Float(float _x);
+    public static extern float* ImVec1_ImVec1_Float(float _x);
 
     // Function @ cimgui.h:3041:22 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2784,7 +2784,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3044:22 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImVec2ih* ImVec2ih_ImVec2ih_Vec2(ImVec2 rhs);
+    public static extern ImVec2ih* ImVec2ih_ImVec2ih_Vec2(Vector2 rhs);
 
     // Function @ cimgui.h:3045:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2796,11 +2796,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3047:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImRect* ImRect_ImRect_Vec2(ImVec2 min, ImVec2 max);
+    public static extern ImRect* ImRect_ImRect_Vec2(Vector2 min, Vector2 max);
 
     // Function @ cimgui.h:3048:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImRect* ImRect_ImRect_Vec4(ImVec4 v);
+    public static extern ImRect* ImRect_ImRect_Vec4(Vector4 v);
 
     // Function @ cimgui.h:3049:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2808,11 +2808,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3050:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_GetCenter(ImVec2* pOut, ImRect* self);
+    public static extern void ImRect_GetCenter(Vector2* pOut, ImRect* self);
 
     // Function @ cimgui.h:3051:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_GetSize(ImVec2* pOut, ImRect* self);
+    public static extern void ImRect_GetSize(Vector2* pOut, ImRect* self);
 
     // Function @ cimgui.h:3052:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2828,23 +2828,23 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3055:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_GetTL(ImVec2* pOut, ImRect* self);
+    public static extern void ImRect_GetTL(Vector2* pOut, ImRect* self);
 
     // Function @ cimgui.h:3056:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_GetTR(ImVec2* pOut, ImRect* self);
+    public static extern void ImRect_GetTR(Vector2* pOut, ImRect* self);
 
     // Function @ cimgui.h:3057:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_GetBL(ImVec2* pOut, ImRect* self);
+    public static extern void ImRect_GetBL(Vector2* pOut, ImRect* self);
 
     // Function @ cimgui.h:3058:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_GetBR(ImVec2* pOut, ImRect* self);
+    public static extern void ImRect_GetBR(Vector2* pOut, ImRect* self);
 
     // Function @ cimgui.h:3059:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool ImRect_Contains_Vec2(ImRect* self, ImVec2 p);
+    public static extern CBool ImRect_Contains_Vec2(ImRect* self, Vector2 p);
 
     // Function @ cimgui.h:3060:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2856,7 +2856,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3062:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_Add_Vec2(ImRect* self, ImVec2 p);
+    public static extern void ImRect_Add_Vec2(ImRect* self, Vector2 p);
 
     // Function @ cimgui.h:3063:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2868,11 +2868,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3065:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_Expand_Vec2(ImRect* self, ImVec2 amount);
+    public static extern void ImRect_Expand_Vec2(ImRect* self, Vector2 amount);
 
     // Function @ cimgui.h:3066:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_Translate(ImRect* self, ImVec2 d);
+    public static extern void ImRect_Translate(ImRect* self, Vector2 d);
 
     // Function @ cimgui.h:3067:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2900,23 +2900,23 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3073:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImRect_ToVec4(ImVec4* pOut, ImRect* self);
+    public static extern void ImRect_ToVec4(Vector4* pOut, ImRect* self);
 
     // Function @ cimgui.h:3074:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igImBitArrayTestBit(ImU32* arr, int n);
+    public static extern CBool igImBitArrayTestBit(uint* arr, int n);
 
     // Function @ cimgui.h:3075:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImBitArrayClearBit(ImU32* arr, int n);
+    public static extern void igImBitArrayClearBit(uint* arr, int n);
 
     // Function @ cimgui.h:3076:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImBitArraySetBit(ImU32* arr, int n);
+    public static extern void igImBitArraySetBit(uint* arr, int n);
 
     // Function @ cimgui.h:3077:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igImBitArraySetBitRange(ImU32* arr, int n, int n2);
+    public static extern void igImBitArraySetBitRange(uint* arr, int n, int n2);
 
     // Function @ cimgui.h:3078:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -2980,7 +2980,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3093:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Vec2(ImGuiStyleVar idx, ImVec2 v);
+    public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Vec2(ImGuiStyleVar idx, Vector2 v);
 
     // Function @ cimgui.h:3094:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3160,11 +3160,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3138:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImGuiViewportP_CalcWorkRectPos(ImVec2* pOut, ImGuiViewportP* self, ImVec2 off_min);
+    public static extern void ImGuiViewportP_CalcWorkRectPos(Vector2* pOut, ImGuiViewportP* self, Vector2 off_min);
 
     // Function @ cimgui.h:3139:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void ImGuiViewportP_CalcWorkRectSize(ImVec2* pOut, ImGuiViewportP* self, ImVec2 off_min, ImVec2 off_max);
+    public static extern void ImGuiViewportP_CalcWorkRectSize(Vector2* pOut, ImGuiViewportP* self, Vector2 off_min, Vector2 off_max);
 
     // Function @ cimgui.h:3140:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3392,7 +3392,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3196:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igCalcWindowNextAutoFitSize(ImVec2* pOut, ImGuiWindow* window);
+    public static extern void igCalcWindowNextAutoFitSize(Vector2* pOut, ImGuiWindow* window);
 
     // Function @ cimgui.h:3197:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3408,11 +3408,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3200:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetWindowPos_WindowPtr(ImGuiWindow* window, ImVec2 pos, ImGuiCond cond);
+    public static extern void igSetWindowPos_WindowPtr(ImGuiWindow* window, Vector2 pos, ImGuiCond cond);
 
     // Function @ cimgui.h:3201:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetWindowSize_WindowPtr(ImGuiWindow* window, ImVec2 size, ImGuiCond cond);
+    public static extern void igSetWindowSize_WindowPtr(ImGuiWindow* window, Vector2 size, ImGuiCond cond);
 
     // Function @ cimgui.h:3202:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3420,7 +3420,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3203:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetWindowHitTestHole(ImGuiWindow* window, ImVec2 pos, ImVec2 size);
+    public static extern void igSetWindowHitTestHole(ImGuiWindow* window, Vector2 pos, Vector2 size);
 
     // Function @ cimgui.h:3204:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3528,7 +3528,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3230:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igSetNextWindowScroll(ImVec2 scroll);
+    public static extern void igSetNextWindowScroll(Vector2 scroll);
 
     // Function @ cimgui.h:3231:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3548,7 +3548,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3235:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igScrollToBringRectIntoView(ImVec2* pOut, ImGuiWindow* window, ImRect item_rect);
+    public static extern void igScrollToBringRectIntoView(Vector2* pOut, ImGuiWindow* window, ImRect item_rect);
 
     // Function @ cimgui.h:3236:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3608,7 +3608,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3250:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igItemSize_Vec2(ImVec2 size, float text_baseline_y);
+    public static extern void igItemSize_Vec2(Vector2 size, float text_baseline_y);
 
     // Function @ cimgui.h:3251:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3632,11 +3632,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3256:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igCalcItemSize(ImVec2* pOut, ImVec2 size, float default_w, float default_h);
+    public static extern void igCalcItemSize(Vector2* pOut, Vector2 size, float default_w, float default_h);
 
     // Function @ cimgui.h:3257:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern float igCalcWrapWidthForPos(ImVec2 pos, float wrap_pos_x);
+    public static extern float igCalcWrapWidthForPos(Vector2 pos, float wrap_pos_x);
 
     // Function @ cimgui.h:3258:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3648,7 +3648,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3260:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetContentRegionMaxAbs(ImVec2* pOut);
+    public static extern void igGetContentRegionMaxAbs(Vector2* pOut);
 
     // Function @ cimgui.h:3261:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3672,7 +3672,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3266:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igLogRenderedText(ImVec2* ref_pos, CString8U text, CString8U text_end);
+    public static extern void igLogRenderedText(Vector2* ref_pos, CString8U text, CString8U text_end);
 
     // Function @ cimgui.h:3267:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3680,7 +3680,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3268:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igBeginChildEx(CString8U name, ImGuiID id, ImVec2 size_arg, CBool border, ImGuiWindowFlags flags);
+    public static extern CBool igBeginChildEx(CString8U name, ImGuiID id, Vector2 size_arg, CBool border, ImGuiWindowFlags flags);
 
     // Function @ cimgui.h:3269:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3716,11 +3716,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3277:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igFindBestWindowPosForPopup(ImVec2* pOut, ImGuiWindow* window);
+    public static extern void igFindBestWindowPosForPopup(Vector2* pOut, ImGuiWindow* window);
 
     // Function @ cimgui.h:3278:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igFindBestWindowPosForPopupEx(ImVec2* pOut, ImVec2 ref_pos, ImVec2 size, ImGuiDir* last_dir, ImRect r_outer, ImRect r_avoid, ImGuiPopupPositionPolicy policy);
+    public static extern void igFindBestWindowPosForPopupEx(Vector2* pOut, Vector2 ref_pos, Vector2 size, ImGuiDir* last_dir, ImRect r_outer, ImRect r_avoid, ImGuiPopupPositionPolicy policy);
 
     // Function @ cimgui.h:3279:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3768,7 +3768,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3290:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igGetNavInputAmount2d(ImVec2* pOut, ImGuiNavDirSourceFlags dir_sources, ImGuiInputReadMode mode, float slow_factor, float fast_factor);
+    public static extern void igGetNavInputAmount2d(Vector2* pOut, ImGuiNavDirSourceFlags dir_sources, ImGuiInputReadMode mode, float slow_factor, float fast_factor);
 
     // Function @ cimgui.h:3291:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -3928,7 +3928,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3330:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igBeginTableEx(CString8U name, ImGuiID id, int columns_count, ImGuiTableFlags flags, ImVec2 outer_size, float inner_width);
+    public static extern CBool igBeginTableEx(CString8U name, ImGuiID id, int columns_count, ImGuiTableFlags flags, Vector2 outer_size, float inner_width);
 
     // Function @ cimgui.h:3331:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4092,7 +4092,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3371:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igTabBarQueueReorderFromMousePos(ImGuiTabBar* tab_bar, ImGuiTabItem* tab, ImVec2 mouse_pos);
+    public static extern void igTabBarQueueReorderFromMousePos(ImGuiTabBar* tab_bar, ImGuiTabItem* tab, Vector2 mouse_pos);
 
     // Function @ cimgui.h:3372:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4104,47 +4104,47 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3374:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igTabItemCalcSize(ImVec2* pOut, CString8U label, CBool has_close_button);
+    public static extern void igTabItemCalcSize(Vector2* pOut, CString8U label, CBool has_close_button);
 
     // Function @ cimgui.h:3375:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igTabItemBackground(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, ImU32 col);
+    public static extern void igTabItemBackground(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, uint col);
 
     // Function @ cimgui.h:3376:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igTabItemLabelAndCloseButton(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, ImVec2 frame_padding, CString8U label, ImGuiID tab_id, ImGuiID close_button_id, CBool is_contents_visible, CBool* out_just_closed, CBool* out_text_clipped);
+    public static extern void igTabItemLabelAndCloseButton(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, Vector2 frame_padding, CString8U label, ImGuiID tab_id, ImGuiID close_button_id, CBool is_contents_visible, CBool* out_just_closed, CBool* out_text_clipped);
 
     // Function @ cimgui.h:3377:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderText(ImVec2 pos, CString8U text, CString8U text_end, CBool hide_text_after_hash);
+    public static extern void igRenderText(Vector2 pos, CString8U text, CString8U text_end, CBool hide_text_after_hash);
 
     // Function @ cimgui.h:3378:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderTextWrapped(ImVec2 pos, CString8U text, CString8U text_end, float wrap_width);
+    public static extern void igRenderTextWrapped(Vector2 pos, CString8U text, CString8U text_end, float wrap_width);
 
     // Function @ cimgui.h:3379:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderTextClipped(ImVec2 pos_min, ImVec2 pos_max, CString8U text, CString8U text_end, ImVec2* text_size_if_known, ImVec2 align, ImRect* clip_rect);
+    public static extern void igRenderTextClipped(Vector2 pos_min, Vector2 pos_max, CString8U text, CString8U text_end, Vector2* text_size_if_known, Vector2 align, ImRect* clip_rect);
 
     // Function @ cimgui.h:3380:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderTextClippedEx(ImDrawList* draw_list, ImVec2 pos_min, ImVec2 pos_max, CString8U text, CString8U text_end, ImVec2* text_size_if_known, ImVec2 align, ImRect* clip_rect);
+    public static extern void igRenderTextClippedEx(ImDrawList* draw_list, Vector2 pos_min, Vector2 pos_max, CString8U text, CString8U text_end, Vector2* text_size_if_known, Vector2 align, ImRect* clip_rect);
 
     // Function @ cimgui.h:3381:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderTextEllipsis(ImDrawList* draw_list, ImVec2 pos_min, ImVec2 pos_max, float clip_max_x, float ellipsis_max_x, CString8U text, CString8U text_end, ImVec2* text_size_if_known);
+    public static extern void igRenderTextEllipsis(ImDrawList* draw_list, Vector2 pos_min, Vector2 pos_max, float clip_max_x, float ellipsis_max_x, CString8U text, CString8U text_end, Vector2* text_size_if_known);
 
     // Function @ cimgui.h:3382:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderFrame(ImVec2 p_min, ImVec2 p_max, ImU32 fill_col, CBool border, float rounding);
+    public static extern void igRenderFrame(Vector2 p_min, Vector2 p_max, uint fill_col, CBool border, float rounding);
 
     // Function @ cimgui.h:3383:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderFrameBorder(ImVec2 p_min, ImVec2 p_max, float rounding);
+    public static extern void igRenderFrameBorder(Vector2 p_min, Vector2 p_max, float rounding);
 
     // Function @ cimgui.h:3384:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderColorRectWithAlphaCheckerboard(ImDrawList* draw_list, ImVec2 p_min, ImVec2 p_max, ImU32 fill_col, float grid_step, ImVec2 grid_off, float rounding, ImDrawFlags flags);
+    public static extern void igRenderColorRectWithAlphaCheckerboard(ImDrawList* draw_list, Vector2 p_min, Vector2 p_max, uint fill_col, float grid_step, Vector2 grid_off, float rounding, ImDrawFlags flags);
 
     // Function @ cimgui.h:3385:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4156,31 +4156,31 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3387:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderArrow(ImDrawList* draw_list, ImVec2 pos, ImU32 col, ImGuiDir dir, float scale);
+    public static extern void igRenderArrow(ImDrawList* draw_list, Vector2 pos, uint col, ImGuiDir dir, float scale);
 
     // Function @ cimgui.h:3388:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderBullet(ImDrawList* draw_list, ImVec2 pos, ImU32 col);
+    public static extern void igRenderBullet(ImDrawList* draw_list, Vector2 pos, uint col);
 
     // Function @ cimgui.h:3389:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderCheckMark(ImDrawList* draw_list, ImVec2 pos, ImU32 col, float sz);
+    public static extern void igRenderCheckMark(ImDrawList* draw_list, Vector2 pos, uint col, float sz);
 
     // Function @ cimgui.h:3390:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderMouseCursor(ImDrawList* draw_list, ImVec2 pos, float scale, ImGuiMouseCursor mouse_cursor, ImU32 col_fill, ImU32 col_border, ImU32 col_shadow);
+    public static extern void igRenderMouseCursor(ImDrawList* draw_list, Vector2 pos, float scale, ImGuiMouseCursor mouse_cursor, uint col_fill, uint col_border, uint col_shadow);
 
     // Function @ cimgui.h:3391:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderArrowPointingAt(ImDrawList* draw_list, ImVec2 pos, ImVec2 half_sz, ImGuiDir direction, ImU32 col);
+    public static extern void igRenderArrowPointingAt(ImDrawList* draw_list, Vector2 pos, Vector2 half_sz, ImGuiDir direction, uint col);
 
     // Function @ cimgui.h:3392:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderRectFilledRangeH(ImDrawList* draw_list, ImRect rect, ImU32 col, float x_start_norm, float x_end_norm, float rounding);
+    public static extern void igRenderRectFilledRangeH(ImDrawList* draw_list, ImRect rect, uint col, float x_start_norm, float x_end_norm, float rounding);
 
     // Function @ cimgui.h:3393:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igRenderRectFilledWithHole(ImDrawList* draw_list, ImRect outer, ImRect inner, ImU32 col, float rounding);
+    public static extern void igRenderRectFilledWithHole(ImDrawList* draw_list, ImRect outer, ImRect inner, uint col, float rounding);
 
     // Function @ cimgui.h:3394:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4188,19 +4188,19 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3395:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igButtonEx(CString8U label, ImVec2 size_arg, ImGuiButtonFlags flags);
+    public static extern CBool igButtonEx(CString8U label, Vector2 size_arg, ImGuiButtonFlags flags);
 
     // Function @ cimgui.h:3396:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igCloseButton(ImGuiID id, ImVec2 pos);
+    public static extern CBool igCloseButton(ImGuiID id, Vector2 pos);
 
     // Function @ cimgui.h:3397:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igCollapseButton(ImGuiID id, ImVec2 pos);
+    public static extern CBool igCollapseButton(ImGuiID id, Vector2 pos);
 
     // Function @ cimgui.h:3398:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igArrowButtonEx(CString8U str_id, ImGuiDir dir, ImVec2 size_arg, ImGuiButtonFlags flags);
+    public static extern CBool igArrowButtonEx(CString8U str_id, ImGuiDir dir, Vector2 size_arg, ImGuiButtonFlags flags);
 
     // Function @ cimgui.h:3399:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4212,7 +4212,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3401:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igImageButtonEx(ImGuiID id, ImTextureID texture_id, ImVec2 size, ImVec2 uv0, ImVec2 uv1, ImVec2 padding, ImVec4 bg_col, ImVec4 tint_col);
+    public static extern CBool igImageButtonEx(ImGuiID id, ImTextureID texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, Vector2 padding, Vector4 bg_col, Vector4 tint_col);
 
     // Function @ cimgui.h:3402:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4236,11 +4236,11 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3407:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igCheckboxFlags_S64Ptr(CString8U label, ImS64* flags, ImS64 flags_value);
+    public static extern CBool igCheckboxFlags_S64Ptr(CString8U label, long* flags, long flags_value);
 
     // Function @ cimgui.h:3408:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igCheckboxFlags_U64Ptr(CString8U label, ImU64* flags, ImU64 flags_value);
+    public static extern CBool igCheckboxFlags_U64Ptr(CString8U label, ulong* flags, ulong flags_value);
 
     // Function @ cimgui.h:3409:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4296,7 +4296,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3422:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern CBool igInputTextEx(CString8U label, CString8U hint, CString8U buf, int buf_size, ImVec2 size_arg, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
+    public static extern CBool igInputTextEx(CString8U label, CString8U hint, CString8U buf, int buf_size, Vector2 size_arg, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
     // Function @ cimgui.h:3423:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4328,15 +4328,15 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3430:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern int igPlotEx(ImGuiPlotType plot_type, CString8U label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, ImVec2 frame_size);
+    public static extern int igPlotEx(ImGuiPlotType plot_type, CString8U label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 frame_size);
 
     // Function @ cimgui.h:3431:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igShadeVertsLinearColorGradientKeepAlpha(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, ImVec2 gradient_p0, ImVec2 gradient_p1, ImU32 col0, ImU32 col1);
+    public static extern void igShadeVertsLinearColorGradientKeepAlpha(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, Vector2 gradient_p0, Vector2 gradient_p1, uint col0, uint col1);
 
     // Function @ cimgui.h:3432:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igShadeVertsLinearUV(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, ImVec2 a, ImVec2 b, ImVec2 uv_a, ImVec2 uv_b, CBool clamp);
+    public static extern void igShadeVertsLinearUV(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, Vector2 a, Vector2 b, Vector2 uv_a, Vector2 uv_b, CBool clamp);
 
     // Function @ cimgui.h:3433:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4356,7 +4356,7 @@ public static unsafe partial class imgui
 
     // Function @ cimgui.h:3437:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
-    public static extern void igDebugDrawItemRect(ImU32 col);
+    public static extern void igDebugDrawItemRect(uint col);
 
     // Function @ cimgui.h:3438:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
@@ -4825,7 +4825,7 @@ public static unsafe partial class imgui
         public int WindowsActiveCount;
 
         [FieldOffset(7164)] // size = 8, padding = 4
-        public ImVec2 WindowsHoverPadding;
+        public Vector2 WindowsHoverPadding;
 
         [FieldOffset(7176)] // size = 8, padding = 0
         public ImGuiWindow* CurrentWindow;
@@ -4843,7 +4843,7 @@ public static unsafe partial class imgui
         public ImGuiWindow* WheelingWindow;
 
         [FieldOffset(7216)] // size = 8, padding = 0
-        public ImVec2 WheelingWindowRefMousePos;
+        public Vector2 WheelingWindowRefMousePos;
 
         [FieldOffset(7224)] // size = 4, padding = 0
         public float WheelingWindowTimer;
@@ -4903,16 +4903,16 @@ public static unsafe partial class imgui
         public CBool ActiveIdUsingMouseWheel;
 
         [FieldOffset(7268)] // size = 4, padding = 0
-        public ImU32 ActiveIdUsingNavDirMask;
+        public uint ActiveIdUsingNavDirMask;
 
         [FieldOffset(7272)] // size = 4, padding = 4
-        public ImU32 ActiveIdUsingNavInputMask;
+        public uint ActiveIdUsingNavInputMask;
 
         [FieldOffset(7280)] // size = 8, padding = 0
-        public ImU64 ActiveIdUsingKeyInputMask;
+        public ulong ActiveIdUsingKeyInputMask;
 
         [FieldOffset(7288)] // size = 8, padding = 0
-        public ImVec2 ActiveIdClickOffset;
+        public Vector2 ActiveIdClickOffset;
 
         [FieldOffset(7296)] // size = 8, padding = 0
         public ImGuiWindow* ActiveIdWindow;
@@ -5234,7 +5234,7 @@ public static unsafe partial class imgui
         public ImVector_ImGuiShrinkWidthItem ShrinkWidthBuffer;
 
         [FieldOffset(8400)] // size = 8, padding = 0
-        public ImVec2 LastValidMousePos;
+        public Vector2 LastValidMousePos;
 
         [FieldOffset(8408)] // size = 3736, padding = 0
         public ImGuiInputTextState InputTextState;
@@ -5271,7 +5271,7 @@ public static unsafe partial class imgui
         }
 
         [FieldOffset(12284)] // size = 16, padding = 0
-        public ImVec4 ColorPickerRef;
+        public Vector4 ColorPickerRef;
 
         [FieldOffset(12300)] // size = 48, padding = 0
         public ImGuiComboPreviewData ComboPreviewData;
@@ -5310,10 +5310,10 @@ public static unsafe partial class imgui
         public ImVector_ImGuiID MenusIdSubmittedThisFrame;
 
         [FieldOffset(12416)] // size = 8, padding = 0
-        public ImVec2 PlatformImePos;
+        public Vector2 PlatformImePos;
 
         [FieldOffset(12424)] // size = 8, padding = 0
-        public ImVec2 PlatformImeLastPos;
+        public Vector2 PlatformImeLastPos;
 
         [FieldOffset(12432)] // size = 1, padding = 0
         public byte PlatformLocaleDecimalPoint;
@@ -5435,34 +5435,6 @@ public static unsafe partial class imgui
         }
     }
 
-    // Struct @ cimgui.h:91:23 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 4)]
-    public struct ImVec2
-    {
-        [FieldOffset(0)] // size = 4, padding = 0
-        public float x;
-
-        [FieldOffset(4)] // size = 4, padding = 0
-        public float y;
-    }
-
-    // Struct @ cimgui.h:90:23 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
-    public struct ImVec4
-    {
-        [FieldOffset(0)] // size = 4, padding = 0
-        public float x;
-
-        [FieldOffset(4)] // size = 4, padding = 0
-        public float y;
-
-        [FieldOffset(8)] // size = 4, padding = 0
-        public float z;
-
-        [FieldOffset(12)] // size = 4, padding = 0
-        public float w;
-    }
-
     // Struct @ cimgui.h:111:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 1168, Pack = 8)]
     public struct ImFontAtlas
@@ -5501,10 +5473,10 @@ public static unsafe partial class imgui
         public int TexHeight;
 
         [FieldOffset(56)] // size = 8, padding = 0
-        public ImVec2 TexUvScale;
+        public Vector2 TexUvScale;
 
         [FieldOffset(64)] // size = 8, padding = 0
-        public ImVec2 TexUvWhitePixel;
+        public Vector2 TexUvWhitePixel;
 
         [FieldOffset(72)] // size = 16, padding = 0
         public ImVector_ImFontPtr Fonts;
@@ -5518,14 +5490,14 @@ public static unsafe partial class imgui
         [FieldOffset(120)] // size = 1024, padding = 0
         public fixed uint _TexUvLines[1024 / 4]; // ImVec4[64]
 
-        public Span<ImVec4> TexUvLines
+        public Span<Vector4> TexUvLines
         {
             get
             {
                 fixed (ImFontAtlas* @this = &this)
                 {
                     var pointer = &@this->_TexUvLines[0];
-                    var span = new Span<ImVec4>(pointer, 64);
+                    var span = new Span<Vector4>(pointer, 64);
                     return span;
                 }
             }
@@ -5555,7 +5527,7 @@ public static unsafe partial class imgui
         public ImGuiBackendFlags BackendFlags;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImVec2 DisplaySize;
+        public Vector2 DisplaySize;
 
         [FieldOffset(16)] // size = 4, padding = 0
         public float DeltaTime;
@@ -5616,7 +5588,7 @@ public static unsafe partial class imgui
         public ImFont* FontDefault;
 
         [FieldOffset(184)] // size = 8, padding = 0
-        public ImVec2 DisplayFramebufferScale;
+        public Vector2 DisplayFramebufferScale;
 
         [FieldOffset(192)] // size = 1, padding = 0
         public CBool MouseDrawCursor;
@@ -5670,7 +5642,7 @@ public static unsafe partial class imgui
         public void* ImeWindowHandle;
 
         [FieldOffset(288)] // size = 8, padding = 0
-        public ImVec2 MousePos;
+        public Vector2 MousePos;
 
         [FieldOffset(296)] // size = 5, padding = 3
         public fixed byte _MouseDown[5 / 1]; // _Bool[5]
@@ -5778,7 +5750,7 @@ public static unsafe partial class imgui
         public int MetricsActiveAllocations;
 
         [FieldOffset(940)] // size = 8, padding = 0
-        public ImVec2 MouseDelta;
+        public Vector2 MouseDelta;
 
         [FieldOffset(948)] // size = 4, padding = 0
         public ImGuiKeyModFlags KeyMods;
@@ -5787,19 +5759,19 @@ public static unsafe partial class imgui
         public ImGuiKeyModFlags KeyModsPrev;
 
         [FieldOffset(956)] // size = 8, padding = 0
-        public ImVec2 MousePosPrev;
+        public Vector2 MousePosPrev;
 
         [FieldOffset(964)] // size = 40, padding = 4
         public fixed uint _MouseClickedPos[40 / 4]; // ImVec2[5]
 
-        public Span<ImVec2> MouseClickedPos
+        public Span<Vector2> MouseClickedPos
         {
             get
             {
                 fixed (ImGuiIO* @this = &this)
                 {
                     var pointer = &@this->_MouseClickedPos[0];
-                    var span = new Span<ImVec2>(pointer, 5);
+                    var span = new Span<Vector2>(pointer, 5);
                     return span;
                 }
             }
@@ -5936,14 +5908,14 @@ public static unsafe partial class imgui
         [FieldOffset(1116)] // size = 40, padding = 0
         public fixed uint _MouseDragMaxDistanceAbs[40 / 4]; // ImVec2[5]
 
-        public Span<ImVec2> MouseDragMaxDistanceAbs
+        public Span<Vector2> MouseDragMaxDistanceAbs
         {
             get
             {
                 fixed (ImGuiIO* @this = &this)
                 {
                     var pointer = &@this->_MouseDragMaxDistanceAbs[0];
-                    var span = new Span<ImVec2>(pointer, 5);
+                    var span = new Span<Vector2>(pointer, 5);
                     return span;
                 }
             }
@@ -6033,7 +6005,7 @@ public static unsafe partial class imgui
         public float PenPressure;
 
         [FieldOffset(5436)] // size = 2, padding = 2
-        public ImWchar16 InputQueueSurrogate;
+        public char InputQueueSurrogate;
 
         [FieldOffset(5440)] // size = 16, padding = 0
         public ImVector_ImWchar InputQueueCharacters;
@@ -6050,7 +6022,7 @@ public static unsafe partial class imgui
         public float DisabledAlpha;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImVec2 WindowPadding;
+        public Vector2 WindowPadding;
 
         [FieldOffset(16)] // size = 4, padding = 0
         public float WindowRounding;
@@ -6059,10 +6031,10 @@ public static unsafe partial class imgui
         public float WindowBorderSize;
 
         [FieldOffset(24)] // size = 8, padding = 0
-        public ImVec2 WindowMinSize;
+        public Vector2 WindowMinSize;
 
         [FieldOffset(32)] // size = 8, padding = 0
-        public ImVec2 WindowTitleAlign;
+        public Vector2 WindowTitleAlign;
 
         [FieldOffset(40)] // size = 4, padding = 0
         public ImGuiDir WindowMenuButtonPosition;
@@ -6080,7 +6052,7 @@ public static unsafe partial class imgui
         public float PopupBorderSize;
 
         [FieldOffset(60)] // size = 8, padding = 0
-        public ImVec2 FramePadding;
+        public Vector2 FramePadding;
 
         [FieldOffset(68)] // size = 4, padding = 0
         public float FrameRounding;
@@ -6089,16 +6061,16 @@ public static unsafe partial class imgui
         public float FrameBorderSize;
 
         [FieldOffset(76)] // size = 8, padding = 0
-        public ImVec2 ItemSpacing;
+        public Vector2 ItemSpacing;
 
         [FieldOffset(84)] // size = 8, padding = 0
-        public ImVec2 ItemInnerSpacing;
+        public Vector2 ItemInnerSpacing;
 
         [FieldOffset(92)] // size = 8, padding = 0
-        public ImVec2 CellPadding;
+        public Vector2 CellPadding;
 
         [FieldOffset(100)] // size = 8, padding = 0
-        public ImVec2 TouchExtraPadding;
+        public Vector2 TouchExtraPadding;
 
         [FieldOffset(108)] // size = 4, padding = 0
         public float IndentSpacing;
@@ -6134,16 +6106,16 @@ public static unsafe partial class imgui
         public ImGuiDir ColorButtonPosition;
 
         [FieldOffset(152)] // size = 8, padding = 0
-        public ImVec2 ButtonTextAlign;
+        public Vector2 ButtonTextAlign;
 
         [FieldOffset(160)] // size = 8, padding = 0
-        public ImVec2 SelectableTextAlign;
+        public Vector2 SelectableTextAlign;
 
         [FieldOffset(168)] // size = 8, padding = 0
-        public ImVec2 DisplayWindowPadding;
+        public Vector2 DisplayWindowPadding;
 
         [FieldOffset(176)] // size = 8, padding = 0
-        public ImVec2 DisplaySafeAreaPadding;
+        public Vector2 DisplaySafeAreaPadding;
 
         [FieldOffset(184)] // size = 4, padding = 0
         public float MouseCursorScale;
@@ -6166,14 +6138,14 @@ public static unsafe partial class imgui
         [FieldOffset(200)] // size = 848, padding = 0
         public fixed uint _Colors[848 / 4]; // ImVec4[53]
 
-        public Span<ImVec4> Colors
+        public Span<Vector4> Colors
         {
             get
             {
                 fixed (ImGuiStyle* @this = &this)
                 {
                     var pointer = &@this->_Colors[0];
-                    var span = new Span<ImVec4>(pointer, 53);
+                    var span = new Span<Vector4>(pointer, 53);
                     return span;
                 }
             }
@@ -6200,13 +6172,13 @@ public static unsafe partial class imgui
         public ImDrawList** CmdLists;
 
         [FieldOffset(24)] // size = 8, padding = 0
-        public ImVec2 DisplayPos;
+        public Vector2 DisplayPos;
 
         [FieldOffset(32)] // size = 8, padding = 0
-        public ImVec2 DisplaySize;
+        public Vector2 DisplaySize;
 
         [FieldOffset(40)] // size = 8, padding = 0
-        public ImVec2 FramebufferScale;
+        public Vector2 FramebufferScale;
     }
 
     // Struct @ cimgui.h:116:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -6291,13 +6263,13 @@ public static unsafe partial class imgui
         public short ConfigDataCount;
 
         [FieldOffset(82)] // size = 2, padding = 0
-        public ImWchar FallbackChar;
+        public char FallbackChar;
 
         [FieldOffset(84)] // size = 2, padding = 0
-        public ImWchar EllipsisChar;
+        public char EllipsisChar;
 
         [FieldOffset(86)] // size = 2, padding = 0
-        public ImWchar DotChar;
+        public char DotChar;
 
         [FieldOffset(88)] // size = 1, padding = 3
         public CBool DirtyLookupTables;
@@ -6317,14 +6289,14 @@ public static unsafe partial class imgui
         [FieldOffset(108)] // size = 2, padding = 2
         public fixed byte _Used4kPagesMap[2 / 1]; // ImU8[2]
 
-        public Span<ImU8> Used4kPagesMap
+        public Span<byte> Used4kPagesMap
         {
             get
             {
                 fixed (ImFont* @this = &this)
                 {
                     var pointer = &@this->_Used4kPagesMap[0];
-                    var span = new Span<ImU8>(pointer, 2);
+                    var span = new Span<byte>(pointer, 2);
                     return span;
                 }
             }
@@ -6395,16 +6367,16 @@ public static unsafe partial class imgui
         public ImGuiViewportFlags Flags;
 
         [FieldOffset(4)] // size = 8, padding = 0
-        public ImVec2 Pos;
+        public Vector2 Pos;
 
         [FieldOffset(12)] // size = 8, padding = 0
-        public ImVec2 Size;
+        public Vector2 Size;
 
         [FieldOffset(20)] // size = 8, padding = 0
-        public ImVec2 WorkPos;
+        public Vector2 WorkPos;
 
         [FieldOffset(28)] // size = 8, padding = 0
-        public ImVec2 WorkSize;
+        public Vector2 WorkSize;
     }
 
     // Struct @ cimgui.h:115:37 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -6412,7 +6384,7 @@ public static unsafe partial class imgui
     public struct ImDrawListSharedData
     {
         [FieldOffset(0)] // size = 8, padding = 0
-        public ImVec2 TexUvWhitePixel;
+        public Vector2 TexUvWhitePixel;
 
         [FieldOffset(8)] // size = 8, padding = 0
         public ImFont* Font;
@@ -6427,7 +6399,7 @@ public static unsafe partial class imgui
         public float CircleSegmentMaxError;
 
         [FieldOffset(28)] // size = 16, padding = 0
-        public ImVec4 ClipRectFullscreen;
+        public Vector4 ClipRectFullscreen;
 
         [FieldOffset(44)] // size = 4, padding = 0
         public ImDrawListFlags InitialFlags;
@@ -6435,14 +6407,14 @@ public static unsafe partial class imgui
         [FieldOffset(48)] // size = 384, padding = 0
         public fixed uint _ArcFastVtx[384 / 4]; // ImVec2[48]
 
-        public Span<ImVec2> ArcFastVtx
+        public Span<Vector2> ArcFastVtx
         {
             get
             {
                 fixed (ImDrawListSharedData* @this = &this)
                 {
                     var pointer = &@this->_ArcFastVtx[0];
-                    var span = new Span<ImVec2>(pointer, 48);
+                    var span = new Span<Vector2>(pointer, 48);
                     return span;
                 }
             }
@@ -6454,21 +6426,21 @@ public static unsafe partial class imgui
         [FieldOffset(436)] // size = 64, padding = 4
         public fixed byte _CircleSegmentCounts[64 / 1]; // ImU8[64]
 
-        public Span<ImU8> CircleSegmentCounts
+        public Span<byte> CircleSegmentCounts
         {
             get
             {
                 fixed (ImDrawListSharedData* @this = &this)
                 {
                     var pointer = &@this->_CircleSegmentCounts[0];
-                    var span = new Span<ImU8>(pointer, 64);
+                    var span = new Span<byte>(pointer, 64);
                     return span;
                 }
             }
         }
 
         [FieldOffset(504)] // size = 8, padding = 0
-        public ImVec4* TexUvLines;
+        public Vector4* TexUvLines;
     }
 
     // Struct @ cimgui.h:98:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -6493,7 +6465,7 @@ public static unsafe partial class imgui
         public void* UserData;
 
         [FieldOffset(16)] // size = 2, padding = 2
-        public ImWchar EventChar;
+        public char EventChar;
 
         [FieldOffset(20)] // size = 4, padding = 0
         public ImGuiKey EventKey;
@@ -6528,10 +6500,10 @@ public static unsafe partial class imgui
         public ImGuiID ColumnUserID;
 
         [FieldOffset(4)] // size = 2, padding = 0
-        public ImS16 ColumnIndex;
+        public short ColumnIndex;
 
         [FieldOffset(6)] // size = 2, padding = 0
-        public ImS16 SortOrder;
+        public short SortOrder;
 
         [FieldOffset(8)] // size = 4, padding = 0
         public ImGuiSortDirection SortDirection;
@@ -6644,7 +6616,7 @@ public static unsafe partial class imgui
     public struct ImColor
     {
         [FieldOffset(0)] // size = 16, padding = 0
-        public ImVec4 Value;
+        public Vector4 Value;
     }
 
     // Struct @ cimgui.h:118:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -6652,7 +6624,7 @@ public static unsafe partial class imgui
     public struct ImDrawCmd
     {
         [FieldOffset(0)] // size = 16, padding = 0
-        public ImVec4 ClipRect;
+        public Vector4 ClipRect;
 
         [FieldOffset(16)] // size = 8, padding = 0
         public ImTextureID TextureId;
@@ -6716,13 +6688,13 @@ public static unsafe partial class imgui
         public CBool PixelSnapH;
 
         [FieldOffset(36)] // size = 8, padding = 0
-        public ImVec2 GlyphExtraSpacing;
+        public Vector2 GlyphExtraSpacing;
 
         [FieldOffset(44)] // size = 8, padding = 4
-        public ImVec2 GlyphOffset;
+        public Vector2 GlyphOffset;
 
         [FieldOffset(56)] // size = 8, padding = 0
-        public ImWchar* GlyphRanges;
+        public char* GlyphRanges;
 
         [FieldOffset(64)] // size = 4, padding = 0
         public float GlyphMinAdvanceX;
@@ -6740,7 +6712,7 @@ public static unsafe partial class imgui
         public float RasterizerMultiply;
 
         [FieldOffset(84)] // size = 2, padding = 0
-        public ImWchar EllipsisChar;
+        public char EllipsisChar;
 
         [FieldOffset(86)] // size = 40, padding = 2
         public fixed byte _Name[40 / 1]; // char[40]
@@ -6781,7 +6753,7 @@ public static unsafe partial class imgui
         public int Capacity;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImWchar* Data;
+        public char* Data;
     }
 
     // Struct @ cimgui.h:86:38 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -6807,7 +6779,7 @@ public static unsafe partial class imgui
         public float GlyphAdvanceX;
 
         [FieldOffset(16)] // size = 8, padding = 0
-        public ImVec2 GlyphOffset;
+        public Vector2 GlyphOffset;
 
         [FieldOffset(24)] // size = 8, padding = 0
         public ImFont* Font;
@@ -6870,10 +6842,10 @@ public static unsafe partial class imgui
     public struct ImRect
     {
         [FieldOffset(0)] // size = 8, padding = 0
-        public ImVec2 Min;
+        public Vector2 Min;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImVec2 Max;
+        public Vector2 Max;
     }
 
     // Struct @ cimgui.h:85:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -6921,13 +6893,13 @@ public static unsafe partial class imgui
         public ImRect PreviewRect;
 
         [FieldOffset(16)] // size = 8, padding = 0
-        public ImVec2 BackupCursorPos;
+        public Vector2 BackupCursorPos;
 
         [FieldOffset(24)] // size = 8, padding = 0
-        public ImVec2 BackupCursorMaxPos;
+        public Vector2 BackupCursorMaxPos;
 
         [FieldOffset(32)] // size = 8, padding = 0
-        public ImVec2 BackupCursorPosPrevLine;
+        public Vector2 BackupCursorPosPrevLine;
 
         [FieldOffset(40)] // size = 4, padding = 0
         public float BackupPrevLineTextBaseOffset;
@@ -6941,37 +6913,37 @@ public static unsafe partial class imgui
     public struct ImGuiMenuColumns
     {
         [FieldOffset(0)] // size = 4, padding = 0
-        public ImU32 TotalWidth;
+        public uint TotalWidth;
 
         [FieldOffset(4)] // size = 4, padding = 0
-        public ImU32 NextTotalWidth;
+        public uint NextTotalWidth;
 
         [FieldOffset(8)] // size = 2, padding = 0
-        public ImU16 Spacing;
+        public ushort Spacing;
 
         [FieldOffset(10)] // size = 2, padding = 0
-        public ImU16 OffsetIcon;
+        public ushort OffsetIcon;
 
         [FieldOffset(12)] // size = 2, padding = 0
-        public ImU16 OffsetLabel;
+        public ushort OffsetLabel;
 
         [FieldOffset(14)] // size = 2, padding = 0
-        public ImU16 OffsetShortcut;
+        public ushort OffsetShortcut;
 
         [FieldOffset(16)] // size = 2, padding = 0
-        public ImU16 OffsetMark;
+        public ushort OffsetMark;
 
         [FieldOffset(18)] // size = 8, padding = 2
         public fixed ushort _Widths[8 / 2]; // ImU16[4]
 
-        public Span<ImU16> Widths
+        public Span<ushort> Widths
         {
             get
             {
                 fixed (ImGuiMenuColumns* @this = &this)
                 {
                     var pointer = &@this->_Widths[0];
-                    var span = new Span<ImU16>(pointer, 4);
+                    var span = new Span<ushort>(pointer, 4);
                     return span;
                 }
             }
@@ -7054,10 +7026,10 @@ public static unsafe partial class imgui
         public ImGuiID OpenParentId;
 
         [FieldOffset(32)] // size = 8, padding = 0
-        public ImVec2 OpenPopupPos;
+        public Vector2 OpenPopupPos;
 
         [FieldOffset(40)] // size = 8, padding = 0
-        public ImVec2 OpenMousePos;
+        public Vector2 OpenMousePos;
     }
 
     // Struct @ cimgui.h:75:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -7103,19 +7075,19 @@ public static unsafe partial class imgui
         public ImGuiCond CollapsedCond;
 
         [FieldOffset(16)] // size = 8, padding = 0
-        public ImVec2 PosVal;
+        public Vector2 PosVal;
 
         [FieldOffset(24)] // size = 8, padding = 0
-        public ImVec2 PosPivotVal;
+        public Vector2 PosPivotVal;
 
         [FieldOffset(32)] // size = 8, padding = 0
-        public ImVec2 SizeVal;
+        public Vector2 SizeVal;
 
         [FieldOffset(40)] // size = 8, padding = 0
-        public ImVec2 ContentSizeVal;
+        public Vector2 ContentSizeVal;
 
         [FieldOffset(48)] // size = 8, padding = 0
-        public ImVec2 ScrollVal;
+        public Vector2 ScrollVal;
 
         [FieldOffset(56)] // size = 1, padding = 3
         public CBool CollapsedVal;
@@ -7133,7 +7105,7 @@ public static unsafe partial class imgui
         public float BgAlphaVal;
 
         [FieldOffset(100)] // size = 8, padding = 4
-        public ImVec2 MenuBarOffsetMinVal;
+        public Vector2 MenuBarOffsetMinVal;
     }
 
     // Struct @ cimgui.h:72:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -7306,16 +7278,16 @@ public static unsafe partial class imgui
         public ImDrawDataBuilder DrawDataBuilder;
 
         [FieldOffset(144)] // size = 8, padding = 0
-        public ImVec2 WorkOffsetMin;
+        public Vector2 WorkOffsetMin;
 
         [FieldOffset(152)] // size = 8, padding = 0
-        public ImVec2 WorkOffsetMax;
+        public Vector2 WorkOffsetMax;
 
         [FieldOffset(160)] // size = 8, padding = 0
-        public ImVec2 BuildWorkOffsetMin;
+        public Vector2 BuildWorkOffsetMin;
 
         [FieldOffset(168)] // size = 8, padding = 0
-        public ImVec2 BuildWorkOffsetMax;
+        public Vector2 BuildWorkOffsetMax;
     }
 
     // Struct @ cimgui.h:56:36 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -7456,25 +7428,25 @@ public static unsafe partial class imgui
         public ImGuiWindowFlags Flags;
 
         [FieldOffset(16)] // size = 8, padding = 0
-        public ImVec2 Pos;
+        public Vector2 Pos;
 
         [FieldOffset(24)] // size = 8, padding = 0
-        public ImVec2 Size;
+        public Vector2 Size;
 
         [FieldOffset(32)] // size = 8, padding = 0
-        public ImVec2 SizeFull;
+        public Vector2 SizeFull;
 
         [FieldOffset(40)] // size = 8, padding = 0
-        public ImVec2 ContentSize;
+        public Vector2 ContentSize;
 
         [FieldOffset(48)] // size = 8, padding = 0
-        public ImVec2 ContentSizeIdeal;
+        public Vector2 ContentSizeIdeal;
 
         [FieldOffset(56)] // size = 8, padding = 0
-        public ImVec2 ContentSizeExplicit;
+        public Vector2 ContentSizeExplicit;
 
         [FieldOffset(64)] // size = 8, padding = 0
-        public ImVec2 WindowPadding;
+        public Vector2 WindowPadding;
 
         [FieldOffset(72)] // size = 4, padding = 0
         public float WindowRounding;
@@ -7492,22 +7464,22 @@ public static unsafe partial class imgui
         public ImGuiID ChildId;
 
         [FieldOffset(92)] // size = 8, padding = 0
-        public ImVec2 Scroll;
+        public Vector2 Scroll;
 
         [FieldOffset(100)] // size = 8, padding = 0
-        public ImVec2 ScrollMax;
+        public Vector2 ScrollMax;
 
         [FieldOffset(108)] // size = 8, padding = 0
-        public ImVec2 ScrollTarget;
+        public Vector2 ScrollTarget;
 
         [FieldOffset(116)] // size = 8, padding = 0
-        public ImVec2 ScrollTargetCenterRatio;
+        public Vector2 ScrollTargetCenterRatio;
 
         [FieldOffset(124)] // size = 8, padding = 0
-        public ImVec2 ScrollTargetEdgeSnapDist;
+        public Vector2 ScrollTargetEdgeSnapDist;
 
         [FieldOffset(132)] // size = 8, padding = 0
-        public ImVec2 ScrollbarSizes;
+        public Vector2 ScrollbarSizes;
 
         [FieldOffset(140)] // size = 1, padding = 0
         public CBool ScrollbarX;
@@ -7564,13 +7536,13 @@ public static unsafe partial class imgui
         public ImGuiID PopupId;
 
         [FieldOffset(168)] // size = 1, padding = 0
-        public ImS8 AutoFitFramesX;
+        public sbyte AutoFitFramesX;
 
         [FieldOffset(169)] // size = 1, padding = 0
-        public ImS8 AutoFitFramesY;
+        public sbyte AutoFitFramesY;
 
         [FieldOffset(170)] // size = 1, padding = 0
-        public ImS8 AutoFitChildAxises;
+        public sbyte AutoFitChildAxises;
 
         [FieldOffset(171)] // size = 1, padding = 0
         public CBool AutoFitOnlyGrows;
@@ -7579,16 +7551,16 @@ public static unsafe partial class imgui
         public ImGuiDir AutoPosLastDirection;
 
         [FieldOffset(176)] // size = 1, padding = 0
-        public ImS8 HiddenFramesCanSkipItems;
+        public sbyte HiddenFramesCanSkipItems;
 
         [FieldOffset(177)] // size = 1, padding = 0
-        public ImS8 HiddenFramesCannotSkipItems;
+        public sbyte HiddenFramesCannotSkipItems;
 
         [FieldOffset(178)] // size = 1, padding = 0
-        public ImS8 HiddenFramesForRenderOnly;
+        public sbyte HiddenFramesForRenderOnly;
 
         [FieldOffset(179)] // size = 1, padding = 0
-        public ImS8 DisableInputsFrames;
+        public sbyte DisableInputsFrames;
 
         [FieldOffset(180)] // size = 4, padding = -3
         public ImGuiCond SetWindowPosAllowFlags;
@@ -7600,10 +7572,10 @@ public static unsafe partial class imgui
         public ImGuiCond SetWindowCollapsedAllowFlags;
 
         [FieldOffset(184)] // size = 8, padding = 0
-        public ImVec2 SetWindowPosVal;
+        public Vector2 SetWindowPosVal;
 
         [FieldOffset(192)] // size = 8, padding = 0
-        public ImVec2 SetWindowPosPivot;
+        public Vector2 SetWindowPosPivot;
 
         [FieldOffset(200)] // size = 16, padding = 0
         public ImVector_ImGuiID IDStack;
@@ -7748,13 +7720,13 @@ public static unsafe partial class imgui
         public float ContentWidth;
 
         [FieldOffset(28)] // size = 4, padding = 0
-        public ImS32 NameOffset;
+        public int NameOffset;
 
         [FieldOffset(32)] // size = 2, padding = 0
-        public ImS16 BeginOrder;
+        public short BeginOrder;
 
         [FieldOffset(34)] // size = 2, padding = 0
-        public ImS16 IndexDuringLayout;
+        public short IndexDuringLayout;
 
         [FieldOffset(36)] // size = 1, padding = 3
         public CBool WantClose;
@@ -7825,10 +7797,10 @@ public static unsafe partial class imgui
         public ImGuiID ReorderRequestTabId;
 
         [FieldOffset(104)] // size = 2, padding = 0
-        public ImS16 ReorderRequestOffset;
+        public short ReorderRequestOffset;
 
         [FieldOffset(106)] // size = 1, padding = 0
-        public ImS8 BeginCount;
+        public sbyte BeginCount;
 
         [FieldOffset(107)] // size = 1, padding = 0
         public CBool WantLayout;
@@ -7840,19 +7812,19 @@ public static unsafe partial class imgui
         public CBool TabsAddedNew;
 
         [FieldOffset(110)] // size = 2, padding = 0
-        public ImS16 TabsActiveCount;
+        public short TabsActiveCount;
 
         [FieldOffset(112)] // size = 2, padding = 2
-        public ImS16 LastTabItemIdx;
+        public short LastTabItemIdx;
 
         [FieldOffset(116)] // size = 4, padding = 0
         public float ItemSpacingY;
 
         [FieldOffset(120)] // size = 8, padding = 0
-        public ImVec2 FramePadding;
+        public Vector2 FramePadding;
 
         [FieldOffset(128)] // size = 8, padding = 0
-        public ImVec2 BackupCursorPos;
+        public Vector2 BackupCursorPos;
 
         [FieldOffset(136)] // size = 16, padding = 0
         public ImGuiTextBuffer TabsNames;
@@ -7914,7 +7886,7 @@ public static unsafe partial class imgui
         public float ContentMaxXHeadersIdeal;
 
         [FieldOffset(80)] // size = 2, padding = 0
-        public ImS16 NameOffset;
+        public short NameOffset;
 
         [FieldOffset(82)] // size = 1, padding = 0
         public ImGuiTableColumnIdx DisplayOrder;
@@ -7965,25 +7937,25 @@ public static unsafe partial class imgui
         public CBool IsPreserveWidthAuto;
 
         [FieldOffset(98)] // size = 1, padding = 0
-        public ImS8 NavLayerCurrent;
+        public sbyte NavLayerCurrent;
 
         [FieldOffset(99)] // size = 1, padding = 0
-        public ImU8 AutoFitQueue;
+        public byte AutoFitQueue;
 
         [FieldOffset(100)] // size = 1, padding = 0
-        public ImU8 CannotSkipItemsQueue;
+        public byte CannotSkipItemsQueue;
 
         [FieldOffset(101)] // size = 1, padding = -1
-        public ImU8 SortDirection;
+        public byte SortDirection;
 
         [FieldOffset(101)] // size = 1, padding = -1
-        public ImU8 SortDirectionsAvailCount;
+        public byte SortDirectionsAvailCount;
 
         [FieldOffset(101)] // size = 1, padding = 0
-        public ImU8 SortDirectionsAvailMask;
+        public byte SortDirectionsAvailMask;
 
         [FieldOffset(102)] // size = 1, padding = 1
-        public ImU8 SortDirectionsAvailList;
+        public byte SortDirectionsAvailList;
     }
 
     // Struct @ cimgui.h:63:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -8012,16 +7984,16 @@ public static unsafe partial class imgui
         public ImSpan_ImGuiTableCellData RowCellData;
 
         [FieldOffset(72)] // size = 8, padding = 0
-        public ImU64 EnabledMaskByDisplayOrder;
+        public ulong EnabledMaskByDisplayOrder;
 
         [FieldOffset(80)] // size = 8, padding = 0
-        public ImU64 EnabledMaskByIndex;
+        public ulong EnabledMaskByIndex;
 
         [FieldOffset(88)] // size = 8, padding = 0
-        public ImU64 VisibleMaskByIndex;
+        public ulong VisibleMaskByIndex;
 
         [FieldOffset(96)] // size = 8, padding = 0
-        public ImU64 RequestOutputMaskByIndex;
+        public ulong RequestOutputMaskByIndex;
 
         [FieldOffset(104)] // size = 4, padding = 0
         public ImGuiTableFlags SettingsLoadedFlags;
@@ -8042,10 +8014,10 @@ public static unsafe partial class imgui
         public int CurrentColumn;
 
         [FieldOffset(128)] // size = 2, padding = 0
-        public ImS16 InstanceCurrent;
+        public short InstanceCurrent;
 
         [FieldOffset(130)] // size = 2, padding = 0
-        public ImS16 InstanceInteracted;
+        public short InstanceInteracted;
 
         [FieldOffset(132)] // size = 4, padding = 0
         public float RowPosY1;
@@ -8074,24 +8046,24 @@ public static unsafe partial class imgui
         [FieldOffset(160)] // size = 8, padding = 0
         public fixed uint _RowBgColor[8 / 4]; // ImU32[2]
 
-        public Span<ImU32> RowBgColor
+        public Span<uint> RowBgColor
         {
             get
             {
                 fixed (ImGuiTable* @this = &this)
                 {
                     var pointer = &@this->_RowBgColor[0];
-                    var span = new Span<ImU32>(pointer, 2);
+                    var span = new Span<uint>(pointer, 2);
                     return span;
                 }
             }
         }
 
         [FieldOffset(168)] // size = 4, padding = 0
-        public ImU32 BorderColorStrong;
+        public uint BorderColorStrong;
 
         [FieldOffset(172)] // size = 4, padding = 0
-        public ImU32 BorderColorLight;
+        public uint BorderColorLight;
 
         [FieldOffset(176)] // size = 4, padding = 0
         public float BorderX1;
@@ -8324,7 +8296,7 @@ public static unsafe partial class imgui
         public float LastTimeActive;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImVec2 UserOuterSize;
+        public Vector2 UserOuterSize;
 
         [FieldOffset(16)] // size = 24, padding = 0
         public ImDrawListSplitter DrawSplitter;
@@ -8336,16 +8308,16 @@ public static unsafe partial class imgui
         public ImRect HostBackupParentWorkRect;
 
         [FieldOffset(72)] // size = 8, padding = 0
-        public ImVec2 HostBackupPrevLineSize;
+        public Vector2 HostBackupPrevLineSize;
 
         [FieldOffset(80)] // size = 8, padding = 0
-        public ImVec2 HostBackupCurrLineSize;
+        public Vector2 HostBackupCurrLineSize;
 
         [FieldOffset(88)] // size = 8, padding = 0
-        public ImVec2 HostBackupCursorMaxPos;
+        public Vector2 HostBackupCursorMaxPos;
 
         [FieldOffset(96)] // size = 4, padding = 0
-        public ImVec1 HostBackupColumnsOffset;
+        public float HostBackupColumnsOffset;
 
         [FieldOffset(100)] // size = 4, padding = 0
         public float HostBackupItemWidth;
@@ -8374,13 +8346,13 @@ public static unsafe partial class imgui
         public ImGuiTableColumnIdx SortOrder;
 
         [FieldOffset(11)] // size = 1, padding = -1
-        public ImU8 SortDirection;
+        public byte SortDirection;
 
         [FieldOffset(11)] // size = 1, padding = -1
-        public ImU8 IsEnabled;
+        public byte IsEnabled;
 
         [FieldOffset(11)] // size = 1, padding = 0
-        public ImU8 IsStretch;
+        public byte IsStretch;
     }
 
     // Struct @ cimgui.h:60:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -8827,13 +8799,13 @@ public static unsafe partial class imgui
     public struct ImDrawVert
     {
         [FieldOffset(0)] // size = 8, padding = 0
-        public ImVec2 pos;
+        public Vector2 pos;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImVec2 uv;
+        public Vector2 uv;
 
         [FieldOffset(16)] // size = 4, padding = 0
-        public ImU32 col;
+        public uint col;
     }
 
     // Struct @ cimgui.h:295:70 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -8847,7 +8819,7 @@ public static unsafe partial class imgui
         public int Capacity;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImVec4* Data;
+        public Vector4* Data;
     }
 
     // Struct @ cimgui.h:292:80 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -8875,7 +8847,7 @@ public static unsafe partial class imgui
         public int Capacity;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImVec2* Data;
+        public Vector2* Data;
     }
 
     // Struct @ cimgui.h:87:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -8883,7 +8855,7 @@ public static unsafe partial class imgui
     public struct ImDrawCmdHeader
     {
         [FieldOffset(0)] // size = 16, padding = 0
-        public ImVec4 ClipRect;
+        public Vector4 ClipRect;
 
         [FieldOffset(16)] // size = 8, padding = 0
         public ImTextureID TextureId;
@@ -8900,13 +8872,13 @@ public static unsafe partial class imgui
         public void* UserData;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImVec2 Pos;
+        public Vector2 Pos;
 
         [FieldOffset(16)] // size = 8, padding = 0
-        public ImVec2 CurrentSize;
+        public Vector2 CurrentSize;
 
         [FieldOffset(24)] // size = 8, padding = 0
-        public ImVec2 DesiredSize;
+        public Vector2 DesiredSize;
     }
 
     // Struct @ cimgui.h:271:80 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -8948,7 +8920,7 @@ public static unsafe partial class imgui
         public int Capacity;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImU32* Data;
+        public uint* Data;
     }
 
     // Struct @ cimgui.h:53:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -9017,25 +8989,25 @@ public static unsafe partial class imgui
     public struct ImGuiWindowTempData
     {
         [FieldOffset(0)] // size = 8, padding = 0
-        public ImVec2 CursorPos;
+        public Vector2 CursorPos;
 
         [FieldOffset(8)] // size = 8, padding = 0
-        public ImVec2 CursorPosPrevLine;
+        public Vector2 CursorPosPrevLine;
 
         [FieldOffset(16)] // size = 8, padding = 0
-        public ImVec2 CursorStartPos;
+        public Vector2 CursorStartPos;
 
         [FieldOffset(24)] // size = 8, padding = 0
-        public ImVec2 CursorMaxPos;
+        public Vector2 CursorMaxPos;
 
         [FieldOffset(32)] // size = 8, padding = 0
-        public ImVec2 IdealMaxPos;
+        public Vector2 IdealMaxPos;
 
         [FieldOffset(40)] // size = 8, padding = 0
-        public ImVec2 CurrLineSize;
+        public Vector2 CurrLineSize;
 
         [FieldOffset(48)] // size = 8, padding = 0
-        public ImVec2 PrevLineSize;
+        public Vector2 PrevLineSize;
 
         [FieldOffset(56)] // size = 4, padding = 0
         public float CurrLineTextBaseOffset;
@@ -9044,13 +9016,13 @@ public static unsafe partial class imgui
         public float PrevLineTextBaseOffset;
 
         [FieldOffset(64)] // size = 4, padding = 0
-        public ImVec1 Indent;
+        public float Indent;
 
         [FieldOffset(68)] // size = 4, padding = 0
-        public ImVec1 ColumnsOffset;
+        public float ColumnsOffset;
 
         [FieldOffset(72)] // size = 4, padding = 0
-        public ImVec1 GroupOffset;
+        public float GroupOffset;
 
         [FieldOffset(76)] // size = 4, padding = 0
         public ImGuiNavLayer NavLayerCurrent;
@@ -9074,7 +9046,7 @@ public static unsafe partial class imgui
         public CBool MenuBarAppending;
 
         [FieldOffset(92)] // size = 8, padding = 0
-        public ImVec2 MenuBarOffset;
+        public Vector2 MenuBarOffset;
 
         [FieldOffset(100)] // size = 28, padding = 0
         public ImGuiMenuColumns MenuColumns;
@@ -9083,7 +9055,7 @@ public static unsafe partial class imgui
         public int TreeDepth;
 
         [FieldOffset(132)] // size = 4, padding = 0
-        public ImU32 TreeJumpToParentOnPopMask;
+        public uint TreeJumpToParentOnPopMask;
 
         [FieldOffset(136)] // size = 16, padding = 0
         public ImVector_ImGuiWindowPtr ChildWindows;
@@ -9219,7 +9191,7 @@ public static unsafe partial class imgui
         public ImGuiCol Col;
 
         [FieldOffset(4)] // size = 16, padding = 0
-        public ImVec4 BackupValue;
+        public Vector4 BackupValue;
     }
 
     // Struct @ cimgui.h:79:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -9230,19 +9202,19 @@ public static unsafe partial class imgui
         public ImGuiID WindowID;
 
         [FieldOffset(4)] // size = 8, padding = 0
-        public ImVec2 BackupCursorPos;
+        public Vector2 BackupCursorPos;
 
         [FieldOffset(12)] // size = 8, padding = 0
-        public ImVec2 BackupCursorMaxPos;
+        public Vector2 BackupCursorMaxPos;
 
         [FieldOffset(20)] // size = 4, padding = 0
-        public ImVec1 BackupIndent;
+        public float BackupIndent;
 
         [FieldOffset(24)] // size = 4, padding = 0
-        public ImVec1 BackupGroupOffset;
+        public float BackupGroupOffset;
 
         [FieldOffset(28)] // size = 8, padding = 0
-        public ImVec2 BackupCurrLineSize;
+        public Vector2 BackupCurrLineSize;
 
         [FieldOffset(36)] // size = 4, padding = 0
         public float BackupCurrLineTextBaseOffset;
@@ -9364,14 +9336,14 @@ public static unsafe partial class imgui
         [FieldOffset(1584)] // size = 1998, padding = 0
         public fixed ushort _undo_char[1998 / 2]; // ImWchar[999]
 
-        public Span<ImWchar> undo_char
+        public Span<char> undo_char
         {
             get
             {
                 fixed (StbUndoState* @this = &this)
                 {
                     var pointer = &@this->_undo_char[0];
-                    var span = new Span<ImWchar>(pointer, 999);
+                    var span = new Span<char>(pointer, 999);
                     return span;
                 }
             }
@@ -9395,7 +9367,7 @@ public static unsafe partial class imgui
     public struct ImGuiTableCellData
     {
         [FieldOffset(0)] // size = 4, padding = 0
-        public ImU32 BgColor;
+        public uint BgColor;
 
         [FieldOffset(4)] // size = 1, padding = 3
         public ImGuiTableColumnIdx Column;
@@ -9506,17 +9478,6 @@ public static unsafe partial class imgui
 
         public static implicit operator int(ImGuiCol data) => data.Data;
         public static implicit operator ImGuiCol(int data) => new() { Data = data };
-    }
-
-    // Typedef @ cimgui.h:198:22 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
-    public struct ImU32
-    {
-        [FieldOffset(0)] // size = 4, padding = 0
-        public uint Data;
-
-        public static implicit operator uint(ImU32 data) => data.Data;
-        public static implicit operator ImU32(uint data) => new() { Data = data };
     }
 
     // Typedef @ cimgui.h:158:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -9783,17 +9744,6 @@ public static unsafe partial class imgui
         public static implicit operator ImDrawIdx(ushort data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:200:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 8)]
-    public struct ImU64
-    {
-        [FieldOffset(0)] // size = 8, padding = 0
-        public ulong Data;
-
-        public static implicit operator ulong(ImU64 data) => data.Data;
-        public static implicit operator ImU64(ulong data) => new() { Data = data };
-    }
-
     // Typedef @ cimgui.h:250:15 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 8)]
     public struct ImFileHandle
@@ -9948,17 +9898,6 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiSeparatorFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:199:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 8)]
-    public struct ImS64
-    {
-        [FieldOffset(0)] // size = 8, padding = 0
-        public long Data;
-
-        public static implicit operator long(ImS64 data) => data.Data;
-        public static implicit operator ImS64(long data) => new() { Data = data };
-    }
-
     // Typedef @ cimgui.h:162:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImFontAtlasFlags
@@ -10014,17 +9953,6 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiViewportFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:195:22 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 2, Pack = 2)]
-    public struct ImS16
-    {
-        [FieldOffset(0)] // size = 2, padding = 0
-        public short Data;
-
-        public static implicit operator short(ImS16 data) => data.Data;
-        public static implicit operator ImS16(short data) => new() { Data = data };
-    }
-
     // Typedef @ cimgui.h:235:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiLayoutType
@@ -10034,17 +9962,6 @@ public static unsafe partial class imgui
 
         public static implicit operator int(ImGuiLayoutType data) => data.Data;
         public static implicit operator ImGuiLayoutType(int data) => new() { Data = data };
-    }
-
-    // Typedef @ cimgui.h:196:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 2, Pack = 2)]
-    public struct ImU16
-    {
-        [FieldOffset(0)] // size = 2, padding = 0
-        public ushort Data;
-
-        public static implicit operator ushort(ImU16 data) => data.Data;
-        public static implicit operator ImU16(ushort data) => new() { Data = data };
     }
 
     // Typedef @ cimgui.h:244:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -10069,37 +9986,15 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiNextItemDataFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:193:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 1, Pack = 1)]
-    public struct ImS8
-    {
-        [FieldOffset(0)] // size = 1, padding = 0
-        public sbyte Data;
-
-        public static implicit operator sbyte(ImS8 data) => data.Data;
-        public static implicit operator ImS8(sbyte data) => new() { Data = data };
-    }
-
-    // Typedef @ cimgui.h:197:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
-    public struct ImS32
-    {
-        [FieldOffset(0)] // size = 4, padding = 0
-        public int Data;
-
-        public static implicit operator int(ImS32 data) => data.Data;
-        public static implicit operator ImS32(int data) => new() { Data = data };
-    }
-
     // Typedef @ cimgui.h:253:14 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 1, Pack = 1)]
     public struct ImGuiTableColumnIdx
     {
         [FieldOffset(0)] // size = 1, padding = 0
-        public ImS8 Data;
+        public sbyte Data;
 
-        public static implicit operator ImS8(ImGuiTableColumnIdx data) => data.Data;
-        public static implicit operator ImGuiTableColumnIdx(ImS8 data) => new() { Data = data };
+        public static implicit operator sbyte(ImGuiTableColumnIdx data) => data.Data;
+        public static implicit operator ImGuiTableColumnIdx(sbyte data) => new() { Data = data };
     }
 
     // Typedef @ cimgui.h:254:14 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
@@ -10107,21 +10002,10 @@ public static unsafe partial class imgui
     public struct ImGuiTableDrawChannelIdx
     {
         [FieldOffset(0)] // size = 1, padding = 0
-        public ImU8 Data;
-
-        public static implicit operator ImU8(ImGuiTableDrawChannelIdx data) => data.Data;
-        public static implicit operator ImGuiTableDrawChannelIdx(ImU8 data) => new() { Data = data };
-    }
-
-    // Typedef @ cimgui.h:194:23 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
-    [StructLayout(LayoutKind.Explicit, Size = 1, Pack = 1)]
-    public struct ImU8
-    {
-        [FieldOffset(0)] // size = 1, padding = 0
         public byte Data;
 
-        public static implicit operator byte(ImU8 data) => data.Data;
-        public static implicit operator ImU8(byte data) => new() { Data = data };
+        public static implicit operator byte(ImGuiTableDrawChannelIdx data) => data.Data;
+        public static implicit operator ImGuiTableDrawChannelIdx(byte data) => new() { Data = data };
     }
 
     // Typedef @ cimgui.h:251:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
