@@ -5,7 +5,7 @@ echo "Started building native libraries... Directory: $script_dir"
 build_dir="$script_dir/cmake-build-release"
 lib_dir="$script_dir/lib/"
 
-cmake -S $script_dir/src/c/cimgui -B $build_dir
+cmake -S $script_dir/ext/cimgui -B $build_dir
 cmake --build $build_dir --config Release
 mkdir -p $lib_dir
 

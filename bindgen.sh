@@ -27,7 +27,7 @@ function download_C2CS_osx() {
 }
 
 function bindgen() {
-    $script_dir/C2CS ast -i $script_dir/src/c/cimgui/cimgui_lib.h -o $script_dir/ast/cimgui.json -s $script_dir/ext/cimgui $script_dir/ext/cimgui/generator/output -b 64
+    $script_dir/C2CS ast -i $script_dir/ext/cimgui/cimgui.h -o $script_dir/ast/cimgui.json -s $script_dir/ext/cimgui -b 64 -d CIMGUI_DEFINE_ENUMS_AND_STRUCTS
     exitIfLastCommandFailed
     $script_dir/C2CS cs -i $script_dir/ast/cimgui.json -o $script_dir/src/cs/production/imgui-cs/imgui.cs -l "cimgui" -c "imgui" --namespaces "System.Numerics" -g $script_dir/ignored.txt \
 -a \
