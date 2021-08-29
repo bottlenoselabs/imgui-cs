@@ -29,20 +29,20 @@ function bindgen() {
     ./C2CS ast -i ./src/c/cimgui/cimgui_lib.h -o ./ast/cimgui.json -s ./ext/cimgui ./ext/cimgui/generator/output -b 64
     exitIfLastCommandFailed
     ./C2CS cs -i ./ast/cimgui.json -o ./src/cs/production/imgui-cs/imgui.cs -l "cimgui" -c "imgui" --namespaces "System.Numerics" -g ./ignored.txt -a \
-"ImWchar -> char" \
-"ImWchar16 -> char" \
-"ImWchar32 -> uint" \
-"ImVec4 -> Vector4" \
-"ImVec3 -> Vector3" \
-"ImVec2 -> Vector2" \
-"ImVec1 -> float" \
-"ImU64 -> ulong" \
-"ImU32 -> uint" \
-"ImU16 -> ushort" \
-"ImU8 -> byte" \
-"ImS64 -> long" \
-"ImS32 -> int" \
-"ImS16 -> short" \
+"ImWchar -> char"\
+"ImWchar16 -> char"\
+"ImWchar32 -> uint"\
+"ImVec4 -> Vector4"\
+"ImVec3 -> Vector3"\
+"ImVec2 -> Vector2"\
+"ImVec1 -> float"\
+"ImU64 -> ulong"\
+"ImU32 -> uint"\
+"ImU16 -> ushort"\
+"ImU8 -> byte"\
+"ImS64 -> long"\
+"ImS32 -> int"\
+"ImS16 -> short"\
 "ImS8 -> sbyte"
     exitIfLastCommandFailed
 }
