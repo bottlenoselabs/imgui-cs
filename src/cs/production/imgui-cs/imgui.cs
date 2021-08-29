@@ -22,4590 +22,4590 @@ public static unsafe partial class imgui
 {
     private const string LibraryName = "cimgui";
 
-    // Function @ cimgui.h:2354:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2354:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern Vector2* ImVec2_ImVec2_Nil();
 
-    // Function @ cimgui.h:2355:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2355:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImVec2_destroy(Vector2* self);
 
-    // Function @ cimgui.h:2356:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2356:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern Vector2* ImVec2_ImVec2_Float(float _x, float _y);
 
-    // Function @ cimgui.h:2357:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2357:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern Vector4* ImVec4_ImVec4_Nil();
 
-    // Function @ cimgui.h:2358:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2358:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImVec4_destroy(Vector4* self);
 
-    // Function @ cimgui.h:2359:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2359:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern Vector4* ImVec4_ImVec4_Float(float _x, float _y, float _z, float _w);
 
-    // Function @ cimgui.h:2360:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2360:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiContext* igCreateContext(ImFontAtlas* shared_font_atlas);
 
-    // Function @ cimgui.h:2361:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2361:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDestroyContext(ImGuiContext* ctx);
 
-    // Function @ cimgui.h:2362:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2362:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiContext* igGetCurrentContext();
 
-    // Function @ cimgui.h:2363:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2363:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetCurrentContext(ImGuiContext* ctx);
 
-    // Function @ cimgui.h:2364:21 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2364:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiIO* igGetIO();
 
-    // Function @ cimgui.h:2365:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2365:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStyle* igGetStyle();
 
-    // Function @ cimgui.h:2366:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2366:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igNewFrame();
 
-    // Function @ cimgui.h:2367:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2367:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndFrame();
 
-    // Function @ cimgui.h:2368:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2368:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRender();
 
-    // Function @ cimgui.h:2369:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2369:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawData* igGetDrawData();
 
-    // Function @ cimgui.h:2370:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2370:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShowDemoWindow(CBool* p_open);
 
-    // Function @ cimgui.h:2371:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2371:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShowMetricsWindow(CBool* p_open);
 
-    // Function @ cimgui.h:2372:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2372:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShowAboutWindow(CBool* p_open);
 
-    // Function @ cimgui.h:2373:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2373:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShowStyleEditor(ImGuiStyle* @ref);
 
-    // Function @ cimgui.h:2374:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2374:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igShowStyleSelector(CString8U label);
 
-    // Function @ cimgui.h:2375:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2375:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShowFontSelector(CString8U label);
 
-    // Function @ cimgui.h:2376:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2376:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShowUserGuide();
 
-    // Function @ cimgui.h:2377:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2377:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igGetVersion();
 
-    // Function @ cimgui.h:2378:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2378:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igStyleColorsDark(ImGuiStyle* dst);
 
-    // Function @ cimgui.h:2379:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2379:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igStyleColorsLight(ImGuiStyle* dst);
 
-    // Function @ cimgui.h:2380:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2380:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igStyleColorsClassic(ImGuiStyle* dst);
 
-    // Function @ cimgui.h:2381:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2381:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBegin(CString8U name, CBool* p_open, ImGuiWindowFlags flags);
 
-    // Function @ cimgui.h:2382:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2382:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEnd();
 
-    // Function @ cimgui.h:2383:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2383:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginChild_Str(CString8U str_id, Vector2 size, CBool border, ImGuiWindowFlags flags);
 
-    // Function @ cimgui.h:2384:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2384:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginChild_ID(ImGuiID id, Vector2 size, CBool border, ImGuiWindowFlags flags);
 
-    // Function @ cimgui.h:2385:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2385:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndChild();
 
-    // Function @ cimgui.h:2386:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2386:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsWindowAppearing();
 
-    // Function @ cimgui.h:2387:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2387:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsWindowCollapsed();
 
-    // Function @ cimgui.h:2388:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2388:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsWindowFocused(ImGuiFocusedFlags flags);
 
-    // Function @ cimgui.h:2389:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2389:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsWindowHovered(ImGuiHoveredFlags flags);
 
-    // Function @ cimgui.h:2390:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2390:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawList* igGetWindowDrawList();
 
-    // Function @ cimgui.h:2391:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2391:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetWindowPos(Vector2* pOut);
 
-    // Function @ cimgui.h:2392:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2392:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetWindowSize(Vector2* pOut);
 
-    // Function @ cimgui.h:2393:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2393:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetWindowWidth();
 
-    // Function @ cimgui.h:2394:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2394:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetWindowHeight();
 
-    // Function @ cimgui.h:2395:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2395:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextWindowPos(Vector2 pos, ImGuiCond cond, Vector2 pivot);
 
-    // Function @ cimgui.h:2396:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2396:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextWindowSize(Vector2 size, ImGuiCond cond);
 
-    // Function @ cimgui.h:2397:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2397:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextWindowSizeConstraints(Vector2 size_min, Vector2 size_max, ImGuiSizeCallback custom_callback, void* custom_callback_data);
 
-    // Function @ cimgui.h:2398:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2398:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextWindowContentSize(Vector2 size);
 
-    // Function @ cimgui.h:2399:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2399:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextWindowCollapsed(CBool collapsed, ImGuiCond cond);
 
-    // Function @ cimgui.h:2400:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2400:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextWindowFocus();
 
-    // Function @ cimgui.h:2401:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2401:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextWindowBgAlpha(float alpha);
 
-    // Function @ cimgui.h:2402:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2402:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowPos_Vec2(Vector2 pos, ImGuiCond cond);
 
-    // Function @ cimgui.h:2403:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2403:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowSize_Vec2(Vector2 size, ImGuiCond cond);
 
-    // Function @ cimgui.h:2404:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2404:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowCollapsed_Bool(CBool collapsed, ImGuiCond cond);
 
-    // Function @ cimgui.h:2405:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2405:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowFocus_Nil();
 
-    // Function @ cimgui.h:2406:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2406:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowFontScale(float scale);
 
-    // Function @ cimgui.h:2407:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2407:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowPos_Str(CString8U name, Vector2 pos, ImGuiCond cond);
 
-    // Function @ cimgui.h:2408:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2408:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowSize_Str(CString8U name, Vector2 size, ImGuiCond cond);
 
-    // Function @ cimgui.h:2409:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2409:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowCollapsed_Str(CString8U name, CBool collapsed, ImGuiCond cond);
 
-    // Function @ cimgui.h:2410:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2410:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowFocus_Str(CString8U name);
 
-    // Function @ cimgui.h:2411:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2411:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetContentRegionAvail(Vector2* pOut);
 
-    // Function @ cimgui.h:2412:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2412:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetContentRegionMax(Vector2* pOut);
 
-    // Function @ cimgui.h:2413:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2413:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetWindowContentRegionMin(Vector2* pOut);
 
-    // Function @ cimgui.h:2414:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2414:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetWindowContentRegionMax(Vector2* pOut);
 
-    // Function @ cimgui.h:2415:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2415:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetWindowContentRegionWidth();
 
-    // Function @ cimgui.h:2416:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2416:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetScrollX();
 
-    // Function @ cimgui.h:2417:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2417:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetScrollY();
 
-    // Function @ cimgui.h:2418:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2418:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollX_Float(float scroll_x);
 
-    // Function @ cimgui.h:2419:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2419:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollY_Float(float scroll_y);
 
-    // Function @ cimgui.h:2420:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2420:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetScrollMaxX();
 
-    // Function @ cimgui.h:2421:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2421:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetScrollMaxY();
 
-    // Function @ cimgui.h:2422:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2422:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollHereX(float center_x_ratio);
 
-    // Function @ cimgui.h:2423:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2423:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollHereY(float center_y_ratio);
 
-    // Function @ cimgui.h:2424:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2424:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollFromPosX_Float(float local_x, float center_x_ratio);
 
-    // Function @ cimgui.h:2425:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2425:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollFromPosY_Float(float local_y, float center_y_ratio);
 
-    // Function @ cimgui.h:2426:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2426:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushFont(ImFont* font);
 
-    // Function @ cimgui.h:2427:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2427:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopFont();
 
-    // Function @ cimgui.h:2428:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2428:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushStyleColor_U32(ImGuiCol idx, uint col);
 
-    // Function @ cimgui.h:2429:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2429:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushStyleColor_Vec4(ImGuiCol idx, Vector4 col);
 
-    // Function @ cimgui.h:2430:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2430:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopStyleColor(int count);
 
-    // Function @ cimgui.h:2431:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2431:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushStyleVar_Float(ImGuiStyleVar idx, float val);
 
-    // Function @ cimgui.h:2432:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2432:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushStyleVar_Vec2(ImGuiStyleVar idx, Vector2 val);
 
-    // Function @ cimgui.h:2433:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2433:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopStyleVar(int count);
 
-    // Function @ cimgui.h:2434:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2434:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushAllowKeyboardFocus(CBool allow_keyboard_focus);
 
-    // Function @ cimgui.h:2435:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2435:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopAllowKeyboardFocus();
 
-    // Function @ cimgui.h:2436:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2436:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushButtonRepeat(CBool repeat);
 
-    // Function @ cimgui.h:2437:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2437:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopButtonRepeat();
 
-    // Function @ cimgui.h:2438:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2438:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushItemWidth(float item_width);
 
-    // Function @ cimgui.h:2439:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2439:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopItemWidth();
 
-    // Function @ cimgui.h:2440:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2440:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextItemWidth(float item_width);
 
-    // Function @ cimgui.h:2441:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2441:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igCalcItemWidth();
 
-    // Function @ cimgui.h:2442:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2442:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushTextWrapPos(float wrap_local_pos_x);
 
-    // Function @ cimgui.h:2443:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2443:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopTextWrapPos();
 
-    // Function @ cimgui.h:2444:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2444:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFont* igGetFont();
 
-    // Function @ cimgui.h:2445:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2445:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetFontSize();
 
-    // Function @ cimgui.h:2446:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2446:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetFontTexUvWhitePixel(Vector2* pOut);
 
-    // Function @ cimgui.h:2447:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2447:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern uint igGetColorU32_Col(ImGuiCol idx, float alpha_mul);
 
-    // Function @ cimgui.h:2448:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2448:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern uint igGetColorU32_Vec4(Vector4 col);
 
-    // Function @ cimgui.h:2449:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2449:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern uint igGetColorU32_U32(uint col);
 
-    // Function @ cimgui.h:2450:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2450:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern Vector4* igGetStyleColorVec4(ImGuiCol idx);
 
-    // Function @ cimgui.h:2451:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2451:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSeparator();
 
-    // Function @ cimgui.h:2452:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2452:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSameLine(float offset_from_start_x, float spacing);
 
-    // Function @ cimgui.h:2453:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2453:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igNewLine();
 
-    // Function @ cimgui.h:2454:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2454:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSpacing();
 
-    // Function @ cimgui.h:2455:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2455:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDummy(Vector2 size);
 
-    // Function @ cimgui.h:2456:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2456:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igIndent(float indent_w);
 
-    // Function @ cimgui.h:2457:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2457:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igUnindent(float indent_w);
 
-    // Function @ cimgui.h:2458:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2458:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBeginGroup();
 
-    // Function @ cimgui.h:2459:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2459:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndGroup();
 
-    // Function @ cimgui.h:2460:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2460:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetCursorPos(Vector2* pOut);
 
-    // Function @ cimgui.h:2461:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2461:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetCursorPosX();
 
-    // Function @ cimgui.h:2462:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2462:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetCursorPosY();
 
-    // Function @ cimgui.h:2463:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2463:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetCursorPos(Vector2 local_pos);
 
-    // Function @ cimgui.h:2464:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2464:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetCursorPosX(float local_x);
 
-    // Function @ cimgui.h:2465:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2465:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetCursorPosY(float local_y);
 
-    // Function @ cimgui.h:2466:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2466:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetCursorStartPos(Vector2* pOut);
 
-    // Function @ cimgui.h:2467:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2467:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetCursorScreenPos(Vector2* pOut);
 
-    // Function @ cimgui.h:2468:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2468:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetCursorScreenPos(Vector2 pos);
 
-    // Function @ cimgui.h:2469:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2469:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igAlignTextToFramePadding();
 
-    // Function @ cimgui.h:2470:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2470:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetTextLineHeight();
 
-    // Function @ cimgui.h:2471:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2471:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetTextLineHeightWithSpacing();
 
-    // Function @ cimgui.h:2472:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2472:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetFrameHeight();
 
-    // Function @ cimgui.h:2473:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2473:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetFrameHeightWithSpacing();
 
-    // Function @ cimgui.h:2474:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2474:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushID_Str(CString8U str_id);
 
-    // Function @ cimgui.h:2475:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2475:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushID_StrStr(CString8U str_id_begin, CString8U str_id_end);
 
-    // Function @ cimgui.h:2476:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2476:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushID_Ptr(void* ptr_id);
 
-    // Function @ cimgui.h:2477:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2477:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushID_Int(int int_id);
 
-    // Function @ cimgui.h:2478:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2478:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopID();
 
-    // Function @ cimgui.h:2479:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2479:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetID_Str(CString8U str_id);
 
-    // Function @ cimgui.h:2480:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2480:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetID_StrStr(CString8U str_id_begin, CString8U str_id_end);
 
-    // Function @ cimgui.h:2481:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2481:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetID_Ptr(void* ptr_id);
 
-    // Function @ cimgui.h:2482:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2482:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTextUnformatted(CString8U text, CString8U text_end);
 
-    // Function @ cimgui.h:2483:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2483:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igText(CString8U fmt);
 
-    // Function @ cimgui.h:2484:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2484:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTextV(CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2485:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2485:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTextColored(Vector4 col, CString8U fmt);
 
-    // Function @ cimgui.h:2486:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2486:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTextColoredV(Vector4 col, CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2487:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2487:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTextDisabled(CString8U fmt);
 
-    // Function @ cimgui.h:2488:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2488:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTextDisabledV(CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2489:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2489:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTextWrapped(CString8U fmt);
 
-    // Function @ cimgui.h:2490:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2490:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTextWrappedV(CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2491:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2491:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLabelText(CString8U label, CString8U fmt);
 
-    // Function @ cimgui.h:2492:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2492:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLabelTextV(CString8U label, CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2493:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2493:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBulletText(CString8U fmt);
 
-    // Function @ cimgui.h:2494:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2494:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBulletTextV(CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2495:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2495:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igButton(CString8U label, Vector2 size);
 
-    // Function @ cimgui.h:2496:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2496:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSmallButton(CString8U label);
 
-    // Function @ cimgui.h:2497:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2497:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInvisibleButton(CString8U str_id, Vector2 size, ImGuiButtonFlags flags);
 
-    // Function @ cimgui.h:2498:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2498:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igArrowButton(CString8U str_id, ImGuiDir dir);
 
-    // Function @ cimgui.h:2499:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2499:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImage(ImTextureID user_texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, Vector4 tint_col, Vector4 border_col);
 
-    // Function @ cimgui.h:2500:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2500:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igImageButton(ImTextureID user_texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, int frame_padding, Vector4 bg_col, Vector4 tint_col);
 
-    // Function @ cimgui.h:2501:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2501:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCheckbox(CString8U label, CBool* v);
 
-    // Function @ cimgui.h:2502:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2502:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCheckboxFlags_IntPtr(CString8U label, long* flags, int flags_value);
 
-    // Function @ cimgui.h:2503:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2503:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCheckboxFlags_UintPtr(CString8U label, ulong* flags, uint flags_value);
 
-    // Function @ cimgui.h:2504:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2504:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igRadioButton_Bool(CString8U label, CBool active);
 
-    // Function @ cimgui.h:2505:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2505:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igRadioButton_IntPtr(CString8U label, long* v, int v_button);
 
-    // Function @ cimgui.h:2506:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2506:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igProgressBar(float fraction, Vector2 size_arg, CString8U overlay);
 
-    // Function @ cimgui.h:2507:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2507:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBullet();
 
-    // Function @ cimgui.h:2508:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2508:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginCombo(CString8U label, CString8U preview_value, ImGuiComboFlags flags);
 
-    // Function @ cimgui.h:2509:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2509:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndCombo();
 
-    // Function @ cimgui.h:2510:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2510:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCombo_Str_arr(CString8U label, long* current_item, CString8U* items, int items_count, int popup_max_height_in_items);
 
-    // Function @ cimgui.h:2511:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2511:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCombo_Str(CString8U label, long* current_item, CString8U items_separated_by_zeros, int popup_max_height_in_items);
 
-    // Function @ cimgui.h:2512:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2512:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCombo_FnBoolPtr(CString8U label, long* current_item, FnPtr_IMGUI_VoidPtr_Int_CString8UPtr_CBool items_getter, void* data, int items_count, int popup_max_height_in_items);
 
-    // Function @ cimgui.h:2513:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2513:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragFloat(CString8U label, float* v, float v_speed, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2514:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2514:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragFloat2(CString8U label, float* v, float v_speed, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2515:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2515:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragFloat3(CString8U label, float* v, float v_speed, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2516:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2516:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragFloat4(CString8U label, float* v, float v_speed, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2517:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2517:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragFloatRange2(CString8U label, float* v_current_min, float* v_current_max, float v_speed, float v_min, float v_max, CString8U format, CString8U format_max, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2518:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2518:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragInt(CString8U label, long* v, float v_speed, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2519:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2519:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragInt2(CString8U label, int* v, float v_speed, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2520:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2520:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragInt3(CString8U label, int* v, float v_speed, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2521:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2521:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragInt4(CString8U label, int* v, float v_speed, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2522:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2522:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragIntRange2(CString8U label, long* v_current_min, long* v_current_max, float v_speed, int v_min, int v_max, CString8U format, CString8U format_max, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2523:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2523:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragScalar(CString8U label, ImGuiDataType data_type, void* p_data, float v_speed, void* p_min, void* p_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2524:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2524:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragScalarN(CString8U label, ImGuiDataType data_type, void* p_data, int components, float v_speed, void* p_min, void* p_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2525:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2525:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderFloat(CString8U label, float* v, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2526:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2526:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderFloat2(CString8U label, float* v, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2527:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2527:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderFloat3(CString8U label, float* v, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2528:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2528:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderFloat4(CString8U label, float* v, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2529:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2529:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderAngle(CString8U label, float* v_rad, float v_degrees_min, float v_degrees_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2530:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2530:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderInt(CString8U label, long* v, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2531:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2531:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderInt2(CString8U label, int* v, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2532:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2532:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderInt3(CString8U label, int* v, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2533:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2533:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderInt4(CString8U label, int* v, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2534:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2534:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderScalar(CString8U label, ImGuiDataType data_type, void* p_data, void* p_min, void* p_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2535:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2535:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderScalarN(CString8U label, ImGuiDataType data_type, void* p_data, int components, void* p_min, void* p_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2536:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2536:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igVSliderFloat(CString8U label, Vector2 size, float* v, float v_min, float v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2537:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2537:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igVSliderInt(CString8U label, Vector2 size, long* v, int v_min, int v_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2538:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2538:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igVSliderScalar(CString8U label, Vector2 size, ImGuiDataType data_type, void* p_data, void* p_min, void* p_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:2539:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2539:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputText(CString8U label, CString8U buf, ulong buf_size, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
-    // Function @ cimgui.h:2540:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2540:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputTextMultiline(CString8U label, CString8U buf, ulong buf_size, Vector2 size, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
-    // Function @ cimgui.h:2541:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2541:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputTextWithHint(CString8U label, CString8U hint, CString8U buf, ulong buf_size, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
-    // Function @ cimgui.h:2542:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2542:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputFloat(CString8U label, float* v, float step, float step_fast, CString8U format, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2543:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2543:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputFloat2(CString8U label, float* v, CString8U format, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2544:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2544:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputFloat3(CString8U label, float* v, CString8U format, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2545:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2545:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputFloat4(CString8U label, float* v, CString8U format, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2546:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2546:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputInt(CString8U label, long* v, int step, int step_fast, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2547:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2547:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputInt2(CString8U label, int* v, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2548:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2548:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputInt3(CString8U label, int* v, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2549:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2549:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputInt4(CString8U label, int* v, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2550:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2550:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputDouble(CString8U label, double* v, double step, double step_fast, CString8U format, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2551:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2551:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputScalar(CString8U label, ImGuiDataType data_type, void* p_data, void* p_step, void* p_step_fast, CString8U format, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2552:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2552:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputScalarN(CString8U label, ImGuiDataType data_type, void* p_data, int components, void* p_step, void* p_step_fast, CString8U format, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:2553:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2553:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igColorEdit3(CString8U label, float* col, ImGuiColorEditFlags flags);
 
-    // Function @ cimgui.h:2554:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2554:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igColorEdit4(CString8U label, float* col, ImGuiColorEditFlags flags);
 
-    // Function @ cimgui.h:2555:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2555:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igColorPicker3(CString8U label, float* col, ImGuiColorEditFlags flags);
 
-    // Function @ cimgui.h:2556:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2556:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igColorPicker4(CString8U label, float* col, ImGuiColorEditFlags flags, float* ref_col);
 
-    // Function @ cimgui.h:2557:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2557:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igColorButton(CString8U desc_id, Vector4 col, ImGuiColorEditFlags flags, Vector2 size);
 
-    // Function @ cimgui.h:2558:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2558:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetColorEditOptions(ImGuiColorEditFlags flags);
 
-    // Function @ cimgui.h:2559:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2559:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNode_Str(CString8U label);
 
-    // Function @ cimgui.h:2560:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2560:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNode_StrStr(CString8U str_id, CString8U fmt);
 
-    // Function @ cimgui.h:2561:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2561:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNode_Ptr(void* ptr_id, CString8U fmt);
 
-    // Function @ cimgui.h:2562:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2562:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNodeV_Str(CString8U str_id, CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2563:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2563:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNodeV_Ptr(void* ptr_id, CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2564:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2564:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNodeEx_Str(CString8U label, ImGuiTreeNodeFlags flags);
 
-    // Function @ cimgui.h:2565:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2565:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNodeEx_StrStr(CString8U str_id, ImGuiTreeNodeFlags flags, CString8U fmt);
 
-    // Function @ cimgui.h:2566:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2566:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNodeEx_Ptr(void* ptr_id, ImGuiTreeNodeFlags flags, CString8U fmt);
 
-    // Function @ cimgui.h:2567:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2567:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNodeExV_Str(CString8U str_id, ImGuiTreeNodeFlags flags, CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2568:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2568:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNodeExV_Ptr(void* ptr_id, ImGuiTreeNodeFlags flags, CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2569:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2569:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTreePush_Str(CString8U str_id);
 
-    // Function @ cimgui.h:2570:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2570:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTreePush_Ptr(void* ptr_id);
 
-    // Function @ cimgui.h:2571:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2571:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTreePop();
 
-    // Function @ cimgui.h:2572:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2572:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetTreeNodeToLabelSpacing();
 
-    // Function @ cimgui.h:2573:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2573:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCollapsingHeader_TreeNodeFlags(CString8U label, ImGuiTreeNodeFlags flags);
 
-    // Function @ cimgui.h:2574:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2574:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCollapsingHeader_BoolPtr(CString8U label, CBool* p_visible, ImGuiTreeNodeFlags flags);
 
-    // Function @ cimgui.h:2575:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2575:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextItemOpen(CBool is_open, ImGuiCond cond);
 
-    // Function @ cimgui.h:2576:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2576:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSelectable_Bool(CString8U label, CBool selected, ImGuiSelectableFlags flags, Vector2 size);
 
-    // Function @ cimgui.h:2577:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2577:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSelectable_BoolPtr(CString8U label, CBool* p_selected, ImGuiSelectableFlags flags, Vector2 size);
 
-    // Function @ cimgui.h:2578:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2578:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginListBox(CString8U label, Vector2 size);
 
-    // Function @ cimgui.h:2579:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2579:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndListBox();
 
-    // Function @ cimgui.h:2580:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2580:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igListBox_Str_arr(CString8U label, long* current_item, CString8U* items, int items_count, int height_in_items);
 
-    // Function @ cimgui.h:2581:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2581:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igListBox_FnBoolPtr(CString8U label, long* current_item, FnPtr_IMGUI_VoidPtr_Int_CString8UPtr_CBool items_getter, void* data, int items_count, int height_in_items);
 
-    // Function @ cimgui.h:2582:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2582:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPlotLines_FloatPtr(CString8U label, float* values, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 graph_size, int stride);
 
-    // Function @ cimgui.h:2583:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2583:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPlotLines_FnFloatPtr(CString8U label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 graph_size);
 
-    // Function @ cimgui.h:2584:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2584:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPlotHistogram_FloatPtr(CString8U label, float* values, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 graph_size, int stride);
 
-    // Function @ cimgui.h:2585:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2585:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPlotHistogram_FnFloatPtr(CString8U label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 graph_size);
 
-    // Function @ cimgui.h:2586:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2586:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igValue_Bool(CString8U prefix, CBool b);
 
-    // Function @ cimgui.h:2587:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2587:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igValue_Int(CString8U prefix, int v);
 
-    // Function @ cimgui.h:2588:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2588:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igValue_Uint(CString8U prefix, uint v);
 
-    // Function @ cimgui.h:2589:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2589:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igValue_Float(CString8U prefix, float v, CString8U float_format);
 
-    // Function @ cimgui.h:2590:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2590:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginMenuBar();
 
-    // Function @ cimgui.h:2591:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2591:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndMenuBar();
 
-    // Function @ cimgui.h:2592:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2592:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginMainMenuBar();
 
-    // Function @ cimgui.h:2593:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2593:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndMainMenuBar();
 
-    // Function @ cimgui.h:2594:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2594:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginMenu(CString8U label, CBool enabled);
 
-    // Function @ cimgui.h:2595:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2595:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndMenu();
 
-    // Function @ cimgui.h:2596:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2596:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igMenuItem_Bool(CString8U label, CString8U shortcut, CBool selected, CBool enabled);
 
-    // Function @ cimgui.h:2597:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2597:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igMenuItem_BoolPtr(CString8U label, CString8U shortcut, CBool* p_selected, CBool enabled);
 
-    // Function @ cimgui.h:2598:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2598:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBeginTooltip();
 
-    // Function @ cimgui.h:2599:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2599:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndTooltip();
 
-    // Function @ cimgui.h:2600:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2600:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetTooltip(CString8U fmt);
 
-    // Function @ cimgui.h:2601:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2601:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetTooltipV(CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2602:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2602:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginPopup(CString8U str_id, ImGuiWindowFlags flags);
 
-    // Function @ cimgui.h:2603:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2603:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginPopupModal(CString8U name, CBool* p_open, ImGuiWindowFlags flags);
 
-    // Function @ cimgui.h:2604:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2604:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndPopup();
 
-    // Function @ cimgui.h:2605:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2605:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igOpenPopup_Str(CString8U str_id, ImGuiPopupFlags popup_flags);
 
-    // Function @ cimgui.h:2606:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2606:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igOpenPopup_ID(ImGuiID id, ImGuiPopupFlags popup_flags);
 
-    // Function @ cimgui.h:2607:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2607:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igOpenPopupOnItemClick(CString8U str_id, ImGuiPopupFlags popup_flags);
 
-    // Function @ cimgui.h:2608:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2608:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igCloseCurrentPopup();
 
-    // Function @ cimgui.h:2609:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2609:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginPopupContextItem(CString8U str_id, ImGuiPopupFlags popup_flags);
 
-    // Function @ cimgui.h:2610:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2610:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginPopupContextWindow(CString8U str_id, ImGuiPopupFlags popup_flags);
 
-    // Function @ cimgui.h:2611:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2611:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginPopupContextVoid(CString8U str_id, ImGuiPopupFlags popup_flags);
 
-    // Function @ cimgui.h:2612:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2612:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsPopupOpen_Str(CString8U str_id, ImGuiPopupFlags flags);
 
-    // Function @ cimgui.h:2613:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2613:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginTable(CString8U str_id, int column, ImGuiTableFlags flags, Vector2 outer_size, float inner_width);
 
-    // Function @ cimgui.h:2614:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2614:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndTable();
 
-    // Function @ cimgui.h:2615:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2615:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableNextRow(ImGuiTableRowFlags row_flags, float min_row_height);
 
-    // Function @ cimgui.h:2616:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2616:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTableNextColumn();
 
-    // Function @ cimgui.h:2617:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2617:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTableSetColumnIndex(int column_n);
 
-    // Function @ cimgui.h:2618:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2618:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSetupColumn(CString8U label, ImGuiTableColumnFlags flags, float init_width_or_weight, ImGuiID user_id);
 
-    // Function @ cimgui.h:2619:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2619:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSetupScrollFreeze(int cols, int rows);
 
-    // Function @ cimgui.h:2620:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2620:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableHeadersRow();
 
-    // Function @ cimgui.h:2621:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2621:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableHeader(CString8U label);
 
-    // Function @ cimgui.h:2622:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2622:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableSortSpecs* igTableGetSortSpecs();
 
-    // Function @ cimgui.h:2623:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2623:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igTableGetColumnCount();
 
-    // Function @ cimgui.h:2624:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2624:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igTableGetColumnIndex();
 
-    // Function @ cimgui.h:2625:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2625:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igTableGetRowIndex();
 
-    // Function @ cimgui.h:2626:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2626:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igTableGetColumnName_Int(int column_n);
 
-    // Function @ cimgui.h:2627:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2627:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableColumnFlags igTableGetColumnFlags(int column_n);
 
-    // Function @ cimgui.h:2628:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2628:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSetColumnEnabled(int column_n, CBool v);
 
-    // Function @ cimgui.h:2629:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2629:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSetBgColor(ImGuiTableBgTarget target, uint color, int column_n);
 
-    // Function @ cimgui.h:2630:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2630:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igColumns(int count, CString8U id, CBool border);
 
-    // Function @ cimgui.h:2631:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2631:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igNextColumn();
 
-    // Function @ cimgui.h:2632:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2632:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igGetColumnIndex();
 
-    // Function @ cimgui.h:2633:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2633:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetColumnWidth(int column_index);
 
-    // Function @ cimgui.h:2634:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2634:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetColumnWidth(int column_index, float width);
 
-    // Function @ cimgui.h:2635:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2635:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetColumnOffset(int column_index);
 
-    // Function @ cimgui.h:2636:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2636:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetColumnOffset(int column_index, float offset_x);
 
-    // Function @ cimgui.h:2637:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2637:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igGetColumnsCount();
 
-    // Function @ cimgui.h:2638:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2638:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginTabBar(CString8U str_id, ImGuiTabBarFlags flags);
 
-    // Function @ cimgui.h:2639:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2639:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndTabBar();
 
-    // Function @ cimgui.h:2640:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2640:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginTabItem(CString8U label, CBool* p_open, ImGuiTabItemFlags flags);
 
-    // Function @ cimgui.h:2641:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2641:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndTabItem();
 
-    // Function @ cimgui.h:2642:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2642:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTabItemButton(CString8U label, ImGuiTabItemFlags flags);
 
-    // Function @ cimgui.h:2643:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2643:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetTabItemClosed(CString8U tab_or_docked_window_label);
 
-    // Function @ cimgui.h:2644:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2644:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogToTTY(int auto_open_depth);
 
-    // Function @ cimgui.h:2645:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2645:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogToFile(int auto_open_depth, CString8U filename);
 
-    // Function @ cimgui.h:2646:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2646:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogToClipboard(int auto_open_depth);
 
-    // Function @ cimgui.h:2647:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2647:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogFinish();
 
-    // Function @ cimgui.h:2648:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2648:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogButtons();
 
-    // Function @ cimgui.h:2649:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2649:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogTextV(CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2650:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2650:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginDragDropSource(ImGuiDragDropFlags flags);
 
-    // Function @ cimgui.h:2651:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2651:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSetDragDropPayload(CString8U type, void* data, ulong sz, ImGuiCond cond);
 
-    // Function @ cimgui.h:2652:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2652:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndDragDropSource();
 
-    // Function @ cimgui.h:2653:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2653:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginDragDropTarget();
 
-    // Function @ cimgui.h:2654:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2654:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiPayload* igAcceptDragDropPayload(CString8U type, ImGuiDragDropFlags flags);
 
-    // Function @ cimgui.h:2655:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2655:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndDragDropTarget();
 
-    // Function @ cimgui.h:2656:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2656:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiPayload* igGetDragDropPayload();
 
-    // Function @ cimgui.h:2657:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2657:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBeginDisabled(CBool disabled);
 
-    // Function @ cimgui.h:2658:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2658:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndDisabled();
 
-    // Function @ cimgui.h:2659:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2659:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushClipRect(Vector2 clip_rect_min, Vector2 clip_rect_max, CBool intersect_with_current_clip_rect);
 
-    // Function @ cimgui.h:2660:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2660:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopClipRect();
 
-    // Function @ cimgui.h:2661:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2661:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetItemDefaultFocus();
 
-    // Function @ cimgui.h:2662:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2662:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetKeyboardFocusHere(int offset);
 
-    // Function @ cimgui.h:2663:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2663:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemHovered(ImGuiHoveredFlags flags);
 
-    // Function @ cimgui.h:2664:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2664:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemActive();
 
-    // Function @ cimgui.h:2665:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2665:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemFocused();
 
-    // Function @ cimgui.h:2666:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2666:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemClicked(ImGuiMouseButton mouse_button);
 
-    // Function @ cimgui.h:2667:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2667:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemVisible();
 
-    // Function @ cimgui.h:2668:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2668:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemEdited();
 
-    // Function @ cimgui.h:2669:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2669:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemActivated();
 
-    // Function @ cimgui.h:2670:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2670:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemDeactivated();
 
-    // Function @ cimgui.h:2671:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2671:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemDeactivatedAfterEdit();
 
-    // Function @ cimgui.h:2672:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2672:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemToggledOpen();
 
-    // Function @ cimgui.h:2673:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2673:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsAnyItemHovered();
 
-    // Function @ cimgui.h:2674:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2674:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsAnyItemActive();
 
-    // Function @ cimgui.h:2675:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2675:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsAnyItemFocused();
 
-    // Function @ cimgui.h:2676:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2676:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetItemRectMin(Vector2* pOut);
 
-    // Function @ cimgui.h:2677:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2677:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetItemRectMax(Vector2* pOut);
 
-    // Function @ cimgui.h:2678:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2678:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetItemRectSize(Vector2* pOut);
 
-    // Function @ cimgui.h:2679:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2679:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetItemAllowOverlap();
 
-    // Function @ cimgui.h:2680:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2680:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiViewport* igGetMainViewport();
 
-    // Function @ cimgui.h:2681:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2681:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsRectVisible_Nil(Vector2 size);
 
-    // Function @ cimgui.h:2682:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2682:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsRectVisible_Vec2(Vector2 rect_min, Vector2 rect_max);
 
-    // Function @ cimgui.h:2683:19 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2683:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern double igGetTime();
 
-    // Function @ cimgui.h:2684:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2684:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igGetFrameCount();
 
-    // Function @ cimgui.h:2685:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2685:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawList* igGetBackgroundDrawList_Nil();
 
-    // Function @ cimgui.h:2686:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2686:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawList* igGetForegroundDrawList_Nil();
 
-    // Function @ cimgui.h:2687:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2687:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawListSharedData* igGetDrawListSharedData();
 
-    // Function @ cimgui.h:2688:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2688:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igGetStyleColorName(ImGuiCol idx);
 
-    // Function @ cimgui.h:2689:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2689:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetStateStorage(ImGuiStorage* storage);
 
-    // Function @ cimgui.h:2690:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2690:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStorage* igGetStateStorage();
 
-    // Function @ cimgui.h:2691:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2691:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igCalcListClipping(int items_count, float items_height, long* out_items_display_start, long* out_items_display_end);
 
-    // Function @ cimgui.h:2692:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2692:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginChildFrame(ImGuiID id, Vector2 size, ImGuiWindowFlags flags);
 
-    // Function @ cimgui.h:2693:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2693:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndChildFrame();
 
-    // Function @ cimgui.h:2694:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2694:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igCalcTextSize(Vector2* pOut, CString8U text, CString8U text_end, CBool hide_text_after_double_hash, float wrap_width);
 
-    // Function @ cimgui.h:2695:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2695:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igColorConvertU32ToFloat4(Vector4* pOut, uint @in);
 
-    // Function @ cimgui.h:2696:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2696:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern uint igColorConvertFloat4ToU32(Vector4 @in);
 
-    // Function @ cimgui.h:2697:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2697:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igColorConvertRGBtoHSV(float r, float g, float b, float* out_h, float* out_s, float* out_v);
 
-    // Function @ cimgui.h:2698:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2698:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igColorConvertHSVtoRGB(float h, float s, float v, float* out_r, float* out_g, float* out_b);
 
-    // Function @ cimgui.h:2699:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2699:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igGetKeyIndex(ImGuiKey imgui_key);
 
-    // Function @ cimgui.h:2700:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2700:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsKeyDown(int user_key_index);
 
-    // Function @ cimgui.h:2701:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2701:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsKeyPressed(int user_key_index, CBool repeat);
 
-    // Function @ cimgui.h:2702:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2702:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsKeyReleased(int user_key_index);
 
-    // Function @ cimgui.h:2703:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2703:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igGetKeyPressedAmount(int key_index, float repeat_delay, float rate);
 
-    // Function @ cimgui.h:2704:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2704:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igCaptureKeyboardFromApp(CBool want_capture_keyboard_value);
 
-    // Function @ cimgui.h:2705:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2705:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsMouseDown(ImGuiMouseButton button);
 
-    // Function @ cimgui.h:2706:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2706:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsMouseClicked(ImGuiMouseButton button, CBool repeat);
 
-    // Function @ cimgui.h:2707:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2707:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsMouseReleased(ImGuiMouseButton button);
 
-    // Function @ cimgui.h:2708:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2708:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsMouseDoubleClicked(ImGuiMouseButton button);
 
-    // Function @ cimgui.h:2709:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2709:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsMouseHoveringRect(Vector2 r_min, Vector2 r_max, CBool clip);
 
-    // Function @ cimgui.h:2710:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2710:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsMousePosValid(Vector2* mouse_pos);
 
-    // Function @ cimgui.h:2711:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2711:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsAnyMouseDown();
 
-    // Function @ cimgui.h:2712:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2712:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetMousePos(Vector2* pOut);
 
-    // Function @ cimgui.h:2713:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2713:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetMousePosOnOpeningCurrentPopup(Vector2* pOut);
 
-    // Function @ cimgui.h:2714:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2714:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsMouseDragging(ImGuiMouseButton button, float lock_threshold);
 
-    // Function @ cimgui.h:2715:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2715:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetMouseDragDelta(Vector2* pOut, ImGuiMouseButton button, float lock_threshold);
 
-    // Function @ cimgui.h:2716:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2716:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igResetMouseDragDelta(ImGuiMouseButton button);
 
-    // Function @ cimgui.h:2717:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2717:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiMouseCursor igGetMouseCursor();
 
-    // Function @ cimgui.h:2718:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2718:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetMouseCursor(ImGuiMouseCursor cursor_type);
 
-    // Function @ cimgui.h:2719:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2719:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igCaptureMouseFromApp(CBool want_capture_mouse_value);
 
-    // Function @ cimgui.h:2720:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2720:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igGetClipboardText();
 
-    // Function @ cimgui.h:2721:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2721:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetClipboardText(CString8U text);
 
-    // Function @ cimgui.h:2722:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2722:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLoadIniSettingsFromDisk(CString8U ini_filename);
 
-    // Function @ cimgui.h:2723:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2723:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLoadIniSettingsFromMemory(CString8U ini_data, ulong ini_size);
 
-    // Function @ cimgui.h:2724:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2724:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSaveIniSettingsToDisk(CString8U ini_filename);
 
-    // Function @ cimgui.h:2725:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2725:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igSaveIniSettingsToMemory(ulong* out_ini_size);
 
-    // Function @ cimgui.h:2726:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2726:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDebugCheckVersionAndDataLayout(CString8U version_str, ulong sz_io, ulong sz_style, ulong sz_vec2, ulong sz_vec4, ulong sz_drawvert, ulong sz_drawidx);
 
-    // Function @ cimgui.h:2727:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2727:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetAllocatorFunctions(ImGuiMemAllocFunc alloc_func, ImGuiMemFreeFunc free_func, void* user_data);
 
-    // Function @ cimgui.h:2728:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2728:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetAllocatorFunctions(ImGuiMemAllocFunc* p_alloc_func, ImGuiMemFreeFunc* p_free_func, void** p_user_data);
 
-    // Function @ cimgui.h:2729:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2729:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void* igMemAlloc(ulong size);
 
-    // Function @ cimgui.h:2730:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2730:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igMemFree(void* ptr);
 
-    // Function @ cimgui.h:2731:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2731:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStyle* ImGuiStyle_ImGuiStyle();
 
-    // Function @ cimgui.h:2732:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2732:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStyle_destroy(ImGuiStyle* self);
 
-    // Function @ cimgui.h:2733:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2733:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStyle_ScaleAllSizes(ImGuiStyle* self, float scale_factor);
 
-    // Function @ cimgui.h:2734:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2734:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiIO_AddInputCharacter(ImGuiIO* self, uint c);
 
-    // Function @ cimgui.h:2735:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2735:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiIO_AddInputCharacterUTF16(ImGuiIO* self, char c);
 
-    // Function @ cimgui.h:2736:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2736:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiIO_AddInputCharactersUTF8(ImGuiIO* self, CString8U str);
 
-    // Function @ cimgui.h:2737:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2737:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiIO_ClearInputCharacters(ImGuiIO* self);
 
-    // Function @ cimgui.h:2738:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2738:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiIO_AddFocusEvent(ImGuiIO* self, CBool focused);
 
-    // Function @ cimgui.h:2739:21 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2739:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiIO* ImGuiIO_ImGuiIO();
 
-    // Function @ cimgui.h:2740:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2740:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiIO_destroy(ImGuiIO* self);
 
-    // Function @ cimgui.h:2741:40 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2741:40 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiInputTextCallbackData* ImGuiInputTextCallbackData_ImGuiInputTextCallbackData();
 
-    // Function @ cimgui.h:2742:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2742:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextCallbackData_destroy(ImGuiInputTextCallbackData* self);
 
-    // Function @ cimgui.h:2743:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2743:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextCallbackData_DeleteChars(ImGuiInputTextCallbackData* self, int pos, int bytes_count);
 
-    // Function @ cimgui.h:2744:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2744:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextCallbackData_InsertChars(ImGuiInputTextCallbackData* self, int pos, CString8U text, CString8U text_end);
 
-    // Function @ cimgui.h:2745:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2745:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextCallbackData_SelectAll(ImGuiInputTextCallbackData* self);
 
-    // Function @ cimgui.h:2746:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2746:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextCallbackData_ClearSelection(ImGuiInputTextCallbackData* self);
 
-    // Function @ cimgui.h:2747:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2747:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiInputTextCallbackData_HasSelection(ImGuiInputTextCallbackData* self);
 
-    // Function @ cimgui.h:2748:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2748:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiPayload* ImGuiPayload_ImGuiPayload();
 
-    // Function @ cimgui.h:2749:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2749:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiPayload_destroy(ImGuiPayload* self);
 
-    // Function @ cimgui.h:2750:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2750:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiPayload_Clear(ImGuiPayload* self);
 
-    // Function @ cimgui.h:2751:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2751:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiPayload_IsDataType(ImGuiPayload* self, CString8U type);
 
-    // Function @ cimgui.h:2752:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2752:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiPayload_IsPreview(ImGuiPayload* self);
 
-    // Function @ cimgui.h:2753:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2753:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiPayload_IsDelivery(ImGuiPayload* self);
 
-    // Function @ cimgui.h:2754:39 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2754:39 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableColumnSortSpecs* ImGuiTableColumnSortSpecs_ImGuiTableColumnSortSpecs();
 
-    // Function @ cimgui.h:2755:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2755:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTableColumnSortSpecs_destroy(ImGuiTableColumnSortSpecs* self);
 
-    // Function @ cimgui.h:2756:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2756:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableSortSpecs* ImGuiTableSortSpecs_ImGuiTableSortSpecs();
 
-    // Function @ cimgui.h:2757:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2757:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTableSortSpecs_destroy(ImGuiTableSortSpecs* self);
 
-    // Function @ cimgui.h:2758:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2758:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiOnceUponAFrame* ImGuiOnceUponAFrame_ImGuiOnceUponAFrame();
 
-    // Function @ cimgui.h:2759:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2759:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiOnceUponAFrame_destroy(ImGuiOnceUponAFrame* self);
 
-    // Function @ cimgui.h:2760:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2760:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTextFilter* ImGuiTextFilter_ImGuiTextFilter(CString8U default_filter);
 
-    // Function @ cimgui.h:2761:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2761:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextFilter_destroy(ImGuiTextFilter* self);
 
-    // Function @ cimgui.h:2762:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2762:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiTextFilter_Draw(ImGuiTextFilter* self, CString8U label, float width);
 
-    // Function @ cimgui.h:2763:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2763:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiTextFilter_PassFilter(ImGuiTextFilter* self, CString8U text, CString8U text_end);
 
-    // Function @ cimgui.h:2764:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2764:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextFilter_Build(ImGuiTextFilter* self);
 
-    // Function @ cimgui.h:2765:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2765:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextFilter_Clear(ImGuiTextFilter* self);
 
-    // Function @ cimgui.h:2766:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2766:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiTextFilter_IsActive(ImGuiTextFilter* self);
 
-    // Function @ cimgui.h:2767:28 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2767:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTextRange* ImGuiTextRange_ImGuiTextRange_Nil();
 
-    // Function @ cimgui.h:2768:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2768:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextRange_destroy(ImGuiTextRange* self);
 
-    // Function @ cimgui.h:2769:28 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2769:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTextRange* ImGuiTextRange_ImGuiTextRange_Str(CString8U _b, CString8U _e);
 
-    // Function @ cimgui.h:2770:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2770:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiTextRange_empty(ImGuiTextRange* self);
 
-    // Function @ cimgui.h:2771:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2771:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextRange_split(ImGuiTextRange* self, byte separator, ImVector_ImGuiTextRange* @out);
 
-    // Function @ cimgui.h:2772:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2772:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTextBuffer* ImGuiTextBuffer_ImGuiTextBuffer();
 
-    // Function @ cimgui.h:2773:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2773:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextBuffer_destroy(ImGuiTextBuffer* self);
 
-    // Function @ cimgui.h:2774:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2774:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U ImGuiTextBuffer_begin(ImGuiTextBuffer* self);
 
-    // Function @ cimgui.h:2775:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2775:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U ImGuiTextBuffer_end(ImGuiTextBuffer* self);
 
-    // Function @ cimgui.h:2776:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2776:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImGuiTextBuffer_size(ImGuiTextBuffer* self);
 
-    // Function @ cimgui.h:2777:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2777:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiTextBuffer_empty(ImGuiTextBuffer* self);
 
-    // Function @ cimgui.h:2778:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2778:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextBuffer_clear(ImGuiTextBuffer* self);
 
-    // Function @ cimgui.h:2779:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2779:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextBuffer_reserve(ImGuiTextBuffer* self, int capacity);
 
-    // Function @ cimgui.h:2780:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2780:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U ImGuiTextBuffer_c_str(ImGuiTextBuffer* self);
 
-    // Function @ cimgui.h:2781:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2781:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextBuffer_append(ImGuiTextBuffer* self, CString8U str, CString8U str_end);
 
-    // Function @ cimgui.h:2782:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2782:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextBuffer_appendfv(ImGuiTextBuffer* self, CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2783:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2783:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStoragePair* ImGuiStoragePair_ImGuiStoragePair_Int(ImGuiID _key, int _val_i);
 
-    // Function @ cimgui.h:2784:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2784:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStoragePair_destroy(ImGuiStoragePair* self);
 
-    // Function @ cimgui.h:2785:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2785:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStoragePair* ImGuiStoragePair_ImGuiStoragePair_Float(ImGuiID _key, float _val_f);
 
-    // Function @ cimgui.h:2786:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2786:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStoragePair* ImGuiStoragePair_ImGuiStoragePair_Ptr(ImGuiID _key, void* _val_p);
 
-    // Function @ cimgui.h:2787:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2787:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStorage_Clear(ImGuiStorage* self);
 
-    // Function @ cimgui.h:2788:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2788:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImGuiStorage_GetInt(ImGuiStorage* self, ImGuiID key, int default_val);
 
-    // Function @ cimgui.h:2789:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2789:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStorage_SetInt(ImGuiStorage* self, ImGuiID key, int val);
 
-    // Function @ cimgui.h:2790:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2790:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiStorage_GetBool(ImGuiStorage* self, ImGuiID key, CBool default_val);
 
-    // Function @ cimgui.h:2791:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2791:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStorage_SetBool(ImGuiStorage* self, ImGuiID key, CBool val);
 
-    // Function @ cimgui.h:2792:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2792:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float ImGuiStorage_GetFloat(ImGuiStorage* self, ImGuiID key, float default_val);
 
-    // Function @ cimgui.h:2793:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2793:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStorage_SetFloat(ImGuiStorage* self, ImGuiID key, float val);
 
-    // Function @ cimgui.h:2794:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2794:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void* ImGuiStorage_GetVoidPtr(ImGuiStorage* self, ImGuiID key);
 
-    // Function @ cimgui.h:2795:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2795:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStorage_SetVoidPtr(ImGuiStorage* self, ImGuiID key, void* val);
 
-    // Function @ cimgui.h:2796:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2796:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern long* ImGuiStorage_GetIntRef(ImGuiStorage* self, ImGuiID key, int default_val);
 
-    // Function @ cimgui.h:2797:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2797:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool* ImGuiStorage_GetBoolRef(ImGuiStorage* self, ImGuiID key, CBool default_val);
 
-    // Function @ cimgui.h:2798:19 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2798:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float* ImGuiStorage_GetFloatRef(ImGuiStorage* self, ImGuiID key, float default_val);
 
-    // Function @ cimgui.h:2799:19 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2799:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void** ImGuiStorage_GetVoidPtrRef(ImGuiStorage* self, ImGuiID key, void* default_val);
 
-    // Function @ cimgui.h:2800:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2800:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStorage_SetAllInt(ImGuiStorage* self, int val);
 
-    // Function @ cimgui.h:2801:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2801:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStorage_BuildSortByKey(ImGuiStorage* self);
 
-    // Function @ cimgui.h:2802:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2802:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiListClipper* ImGuiListClipper_ImGuiListClipper();
 
-    // Function @ cimgui.h:2803:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2803:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiListClipper_destroy(ImGuiListClipper* self);
 
-    // Function @ cimgui.h:2804:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2804:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiListClipper_Begin(ImGuiListClipper* self, int items_count, float items_height);
 
-    // Function @ cimgui.h:2805:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2805:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiListClipper_End(ImGuiListClipper* self);
 
-    // Function @ cimgui.h:2806:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2806:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiListClipper_Step(ImGuiListClipper* self);
 
-    // Function @ cimgui.h:2807:21 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2807:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImColor* ImColor_ImColor_Nil();
 
-    // Function @ cimgui.h:2808:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2808:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImColor_destroy(ImColor* self);
 
-    // Function @ cimgui.h:2809:21 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2809:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImColor* ImColor_ImColor_Int(int r, int g, int b, int a);
 
-    // Function @ cimgui.h:2810:21 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2810:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImColor* ImColor_ImColor_U32(uint rgba);
 
-    // Function @ cimgui.h:2811:21 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2811:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImColor* ImColor_ImColor_Float(float r, float g, float b, float a);
 
-    // Function @ cimgui.h:2812:21 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2812:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImColor* ImColor_ImColor_Vec4(Vector4 col);
 
-    // Function @ cimgui.h:2813:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2813:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImColor_SetHSV(ImColor* self, float h, float s, float v, float a);
 
-    // Function @ cimgui.h:2814:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2814:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImColor_HSV(ImColor* pOut, float h, float s, float v, float a);
 
-    // Function @ cimgui.h:2815:23 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2815:23 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawCmd* ImDrawCmd_ImDrawCmd();
 
-    // Function @ cimgui.h:2816:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2816:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawCmd_destroy(ImDrawCmd* self);
 
-    // Function @ cimgui.h:2817:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2817:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImTextureID ImDrawCmd_GetTexID(ImDrawCmd* self);
 
-    // Function @ cimgui.h:2818:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2818:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawListSplitter* ImDrawListSplitter_ImDrawListSplitter();
 
-    // Function @ cimgui.h:2819:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2819:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawListSplitter_destroy(ImDrawListSplitter* self);
 
-    // Function @ cimgui.h:2820:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2820:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawListSplitter_Clear(ImDrawListSplitter* self);
 
-    // Function @ cimgui.h:2821:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2821:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawListSplitter_ClearFreeMemory(ImDrawListSplitter* self);
 
-    // Function @ cimgui.h:2822:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2822:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawListSplitter_Split(ImDrawListSplitter* self, ImDrawList* draw_list, int count);
 
-    // Function @ cimgui.h:2823:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2823:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawListSplitter_Merge(ImDrawListSplitter* self, ImDrawList* draw_list);
 
-    // Function @ cimgui.h:2824:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2824:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawListSplitter_SetCurrentChannel(ImDrawListSplitter* self, ImDrawList* draw_list, int channel_idx);
 
-    // Function @ cimgui.h:2825:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2825:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawList* ImDrawList_ImDrawList(ImDrawListSharedData* shared_data);
 
-    // Function @ cimgui.h:2826:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2826:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_destroy(ImDrawList* self);
 
-    // Function @ cimgui.h:2827:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2827:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PushClipRect(ImDrawList* self, Vector2 clip_rect_min, Vector2 clip_rect_max, CBool intersect_with_current_clip_rect);
 
-    // Function @ cimgui.h:2828:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2828:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PushClipRectFullScreen(ImDrawList* self);
 
-    // Function @ cimgui.h:2829:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2829:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PopClipRect(ImDrawList* self);
 
-    // Function @ cimgui.h:2830:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2830:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PushTextureID(ImDrawList* self, ImTextureID texture_id);
 
-    // Function @ cimgui.h:2831:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2831:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PopTextureID(ImDrawList* self);
 
-    // Function @ cimgui.h:2832:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2832:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_GetClipRectMin(Vector2* pOut, ImDrawList* self);
 
-    // Function @ cimgui.h:2833:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2833:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_GetClipRectMax(Vector2* pOut, ImDrawList* self);
 
-    // Function @ cimgui.h:2834:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2834:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddLine(ImDrawList* self, Vector2 p1, Vector2 p2, uint col, float thickness);
 
-    // Function @ cimgui.h:2835:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2835:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddRect(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col, float rounding, ImDrawFlags flags, float thickness);
 
-    // Function @ cimgui.h:2836:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2836:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddRectFilled(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col, float rounding, ImDrawFlags flags);
 
-    // Function @ cimgui.h:2837:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2837:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddRectFilledMultiColor(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col_upr_left, uint col_upr_right, uint col_bot_right, uint col_bot_left);
 
-    // Function @ cimgui.h:2838:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2838:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddQuad(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col, float thickness);
 
-    // Function @ cimgui.h:2839:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2839:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddQuadFilled(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col);
 
-    // Function @ cimgui.h:2840:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2840:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddTriangle(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col, float thickness);
 
-    // Function @ cimgui.h:2841:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2841:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddTriangleFilled(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col);
 
-    // Function @ cimgui.h:2842:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2842:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddCircle(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments, float thickness);
 
-    // Function @ cimgui.h:2843:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2843:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddCircleFilled(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments);
 
-    // Function @ cimgui.h:2844:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2844:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddNgon(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments, float thickness);
 
-    // Function @ cimgui.h:2845:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2845:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddNgonFilled(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments);
 
-    // Function @ cimgui.h:2846:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2846:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddText_Vec2(ImDrawList* self, Vector2 pos, uint col, CString8U text_begin, CString8U text_end);
 
-    // Function @ cimgui.h:2847:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2847:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddText_FontPtr(ImDrawList* self, ImFont* font, float font_size, Vector2 pos, uint col, CString8U text_begin, CString8U text_end, float wrap_width, Vector4* cpu_fine_clip_rect);
 
-    // Function @ cimgui.h:2848:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2848:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddPolyline(ImDrawList* self, Vector2* points, int num_points, uint col, ImDrawFlags flags, float thickness);
 
-    // Function @ cimgui.h:2849:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2849:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddConvexPolyFilled(ImDrawList* self, Vector2* points, int num_points, uint col);
 
-    // Function @ cimgui.h:2850:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2850:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddBezierCubic(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col, float thickness, int num_segments);
 
-    // Function @ cimgui.h:2851:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2851:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddBezierQuadratic(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col, float thickness, int num_segments);
 
-    // Function @ cimgui.h:2852:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2852:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddImage(ImDrawList* self, ImTextureID user_texture_id, Vector2 p_min, Vector2 p_max, Vector2 uv_min, Vector2 uv_max, uint col);
 
-    // Function @ cimgui.h:2853:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2853:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddImageQuad(ImDrawList* self, ImTextureID user_texture_id, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 uv1, Vector2 uv2, Vector2 uv3, Vector2 uv4, uint col);
 
-    // Function @ cimgui.h:2854:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2854:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddImageRounded(ImDrawList* self, ImTextureID user_texture_id, Vector2 p_min, Vector2 p_max, Vector2 uv_min, Vector2 uv_max, uint col, float rounding, ImDrawFlags flags);
 
-    // Function @ cimgui.h:2855:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2855:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathClear(ImDrawList* self);
 
-    // Function @ cimgui.h:2856:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2856:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathLineTo(ImDrawList* self, Vector2 pos);
 
-    // Function @ cimgui.h:2857:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2857:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathLineToMergeDuplicate(ImDrawList* self, Vector2 pos);
 
-    // Function @ cimgui.h:2858:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2858:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathFillConvex(ImDrawList* self, uint col);
 
-    // Function @ cimgui.h:2859:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2859:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathStroke(ImDrawList* self, uint col, ImDrawFlags flags, float thickness);
 
-    // Function @ cimgui.h:2860:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2860:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathArcTo(ImDrawList* self, Vector2 center, float radius, float a_min, float a_max, int num_segments);
 
-    // Function @ cimgui.h:2861:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2861:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathArcToFast(ImDrawList* self, Vector2 center, float radius, int a_min_of_12, int a_max_of_12);
 
-    // Function @ cimgui.h:2862:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2862:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathBezierCubicCurveTo(ImDrawList* self, Vector2 p2, Vector2 p3, Vector2 p4, int num_segments);
 
-    // Function @ cimgui.h:2863:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2863:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathBezierQuadraticCurveTo(ImDrawList* self, Vector2 p2, Vector2 p3, int num_segments);
 
-    // Function @ cimgui.h:2864:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2864:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PathRect(ImDrawList* self, Vector2 rect_min, Vector2 rect_max, float rounding, ImDrawFlags flags);
 
-    // Function @ cimgui.h:2865:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2865:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddCallback(ImDrawList* self, ImDrawCallback callback, void* callback_data);
 
-    // Function @ cimgui.h:2866:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2866:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_AddDrawCmd(ImDrawList* self);
 
-    // Function @ cimgui.h:2867:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2867:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawList* ImDrawList_CloneOutput(ImDrawList* self);
 
-    // Function @ cimgui.h:2868:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2868:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_ChannelsSplit(ImDrawList* self, int count);
 
-    // Function @ cimgui.h:2869:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2869:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_ChannelsMerge(ImDrawList* self);
 
-    // Function @ cimgui.h:2870:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2870:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_ChannelsSetCurrent(ImDrawList* self, int n);
 
-    // Function @ cimgui.h:2871:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2871:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PrimReserve(ImDrawList* self, int idx_count, int vtx_count);
 
-    // Function @ cimgui.h:2872:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2872:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PrimUnreserve(ImDrawList* self, int idx_count, int vtx_count);
 
-    // Function @ cimgui.h:2873:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2873:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PrimRect(ImDrawList* self, Vector2 a, Vector2 b, uint col);
 
-    // Function @ cimgui.h:2874:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2874:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PrimRectUV(ImDrawList* self, Vector2 a, Vector2 b, Vector2 uv_a, Vector2 uv_b, uint col);
 
-    // Function @ cimgui.h:2875:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2875:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PrimQuadUV(ImDrawList* self, Vector2 a, Vector2 b, Vector2 c, Vector2 d, Vector2 uv_a, Vector2 uv_b, Vector2 uv_c, Vector2 uv_d, uint col);
 
-    // Function @ cimgui.h:2876:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2876:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PrimWriteVtx(ImDrawList* self, Vector2 pos, Vector2 uv, uint col);
 
-    // Function @ cimgui.h:2877:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2877:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PrimWriteIdx(ImDrawList* self, ImDrawIdx idx);
 
-    // Function @ cimgui.h:2878:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2878:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList_PrimVtx(ImDrawList* self, Vector2 pos, Vector2 uv, uint col);
 
-    // Function @ cimgui.h:2879:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2879:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList__ResetForNewFrame(ImDrawList* self);
 
-    // Function @ cimgui.h:2880:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2880:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList__ClearFreeMemory(ImDrawList* self);
 
-    // Function @ cimgui.h:2881:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2881:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList__PopUnusedDrawCmd(ImDrawList* self);
 
-    // Function @ cimgui.h:2882:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2882:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList__TryMergeDrawCmds(ImDrawList* self);
 
-    // Function @ cimgui.h:2883:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2883:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList__OnChangedClipRect(ImDrawList* self);
 
-    // Function @ cimgui.h:2884:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2884:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList__OnChangedTextureID(ImDrawList* self);
 
-    // Function @ cimgui.h:2885:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2885:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList__OnChangedVtxOffset(ImDrawList* self);
 
-    // Function @ cimgui.h:2886:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2886:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImDrawList__CalcCircleAutoSegmentCount(ImDrawList* self, float radius);
 
-    // Function @ cimgui.h:2887:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2887:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList__PathArcToFastEx(ImDrawList* self, Vector2 center, float radius, int a_min_sample, int a_max_sample, int a_step);
 
-    // Function @ cimgui.h:2888:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2888:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawList__PathArcToN(ImDrawList* self, Vector2 center, float radius, float a_min, float a_max, int num_segments);
 
-    // Function @ cimgui.h:2889:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2889:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawData* ImDrawData_ImDrawData();
 
-    // Function @ cimgui.h:2890:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2890:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawData_destroy(ImDrawData* self);
 
-    // Function @ cimgui.h:2891:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2891:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawData_Clear(ImDrawData* self);
 
-    // Function @ cimgui.h:2892:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2892:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawData_DeIndexAllBuffers(ImDrawData* self);
 
-    // Function @ cimgui.h:2893:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2893:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawData_ScaleClipRects(ImDrawData* self, Vector2 fb_scale);
 
-    // Function @ cimgui.h:2894:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2894:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFontConfig* ImFontConfig_ImFontConfig();
 
-    // Function @ cimgui.h:2895:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2895:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontConfig_destroy(ImFontConfig* self);
 
-    // Function @ cimgui.h:2896:38 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2896:38 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFontGlyphRangesBuilder* ImFontGlyphRangesBuilder_ImFontGlyphRangesBuilder();
 
-    // Function @ cimgui.h:2897:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2897:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontGlyphRangesBuilder_destroy(ImFontGlyphRangesBuilder* self);
 
-    // Function @ cimgui.h:2898:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2898:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontGlyphRangesBuilder_Clear(ImFontGlyphRangesBuilder* self);
 
-    // Function @ cimgui.h:2899:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2899:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImFontGlyphRangesBuilder_GetBit(ImFontGlyphRangesBuilder* self, ulong n);
 
-    // Function @ cimgui.h:2900:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2900:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontGlyphRangesBuilder_SetBit(ImFontGlyphRangesBuilder* self, ulong n);
 
-    // Function @ cimgui.h:2901:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2901:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontGlyphRangesBuilder_AddChar(ImFontGlyphRangesBuilder* self, char c);
 
-    // Function @ cimgui.h:2902:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2902:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontGlyphRangesBuilder_AddText(ImFontGlyphRangesBuilder* self, CString8U text, CString8U text_end);
 
-    // Function @ cimgui.h:2903:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2903:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontGlyphRangesBuilder_AddRanges(ImFontGlyphRangesBuilder* self, char* ranges);
 
-    // Function @ cimgui.h:2904:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2904:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontGlyphRangesBuilder_BuildRanges(ImFontGlyphRangesBuilder* self, ImVector_ImWchar* out_ranges);
 
-    // Function @ cimgui.h:2905:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2905:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFontAtlasCustomRect* ImFontAtlasCustomRect_ImFontAtlasCustomRect();
 
-    // Function @ cimgui.h:2906:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2906:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlasCustomRect_destroy(ImFontAtlasCustomRect* self);
 
-    // Function @ cimgui.h:2907:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2907:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImFontAtlasCustomRect_IsPacked(ImFontAtlasCustomRect* self);
 
-    // Function @ cimgui.h:2908:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2908:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFontAtlas* ImFontAtlas_ImFontAtlas();
 
-    // Function @ cimgui.h:2909:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2909:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlas_destroy(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2910:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2910:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFont* ImFontAtlas_AddFont(ImFontAtlas* self, ImFontConfig* font_cfg);
 
-    // Function @ cimgui.h:2911:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2911:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFont* ImFontAtlas_AddFontDefault(ImFontAtlas* self, ImFontConfig* font_cfg);
 
-    // Function @ cimgui.h:2912:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2912:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFont* ImFontAtlas_AddFontFromFileTTF(ImFontAtlas* self, CString8U filename, float size_pixels, ImFontConfig* font_cfg, char* glyph_ranges);
 
-    // Function @ cimgui.h:2913:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2913:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFont* ImFontAtlas_AddFontFromMemoryTTF(ImFontAtlas* self, void* font_data, int font_size, float size_pixels, ImFontConfig* font_cfg, char* glyph_ranges);
 
-    // Function @ cimgui.h:2914:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2914:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedTTF(ImFontAtlas* self, void* compressed_font_data, int compressed_font_size, float size_pixels, ImFontConfig* font_cfg, char* glyph_ranges);
 
-    // Function @ cimgui.h:2915:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2915:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedBase85TTF(ImFontAtlas* self, CString8U compressed_font_data_base85, float size_pixels, ImFontConfig* font_cfg, char* glyph_ranges);
 
-    // Function @ cimgui.h:2916:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2916:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlas_ClearInputData(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2917:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2917:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlas_ClearTexData(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2918:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2918:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlas_ClearFonts(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2919:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2919:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlas_Clear(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2920:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2920:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImFontAtlas_Build(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2921:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2921:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlas_GetTexDataAsAlpha8(ImFontAtlas* self, ulong** out_pixels, long* out_width, long* out_height, long* out_bytes_per_pixel);
 
-    // Function @ cimgui.h:2922:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2922:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlas_GetTexDataAsRGBA32(ImFontAtlas* self, ulong** out_pixels, long* out_width, long* out_height, long* out_bytes_per_pixel);
 
-    // Function @ cimgui.h:2923:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2923:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImFontAtlas_IsBuilt(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2924:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2924:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlas_SetTexID(ImFontAtlas* self, ImTextureID id);
 
-    // Function @ cimgui.h:2925:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2925:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern char* ImFontAtlas_GetGlyphRangesDefault(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2926:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2926:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern char* ImFontAtlas_GetGlyphRangesKorean(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2927:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2927:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern char* ImFontAtlas_GetGlyphRangesJapanese(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2928:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2928:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern char* ImFontAtlas_GetGlyphRangesChineseFull(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2929:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2929:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern char* ImFontAtlas_GetGlyphRangesChineseSimplifiedCommon(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2930:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2930:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern char* ImFontAtlas_GetGlyphRangesCyrillic(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2931:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2931:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern char* ImFontAtlas_GetGlyphRangesThai(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2932:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2932:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern char* ImFontAtlas_GetGlyphRangesVietnamese(ImFontAtlas* self);
 
-    // Function @ cimgui.h:2933:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2933:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImFontAtlas_AddCustomRectRegular(ImFontAtlas* self, int width, int height);
 
-    // Function @ cimgui.h:2934:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2934:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImFontAtlas_AddCustomRectFontGlyph(ImFontAtlas* self, ImFont* font, char id, int width, int height, float advance_x, Vector2 offset);
 
-    // Function @ cimgui.h:2935:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2935:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFontAtlasCustomRect* ImFontAtlas_GetCustomRectByIndex(ImFontAtlas* self, int index);
 
-    // Function @ cimgui.h:2936:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2936:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFontAtlas_CalcCustomRectUV(ImFontAtlas* self, ImFontAtlasCustomRect* rect, Vector2* out_uv_min, Vector2* out_uv_max);
 
-    // Function @ cimgui.h:2937:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2937:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImFontAtlas_GetMouseCursorTexData(ImFontAtlas* self, ImGuiMouseCursor cursor, Vector2* out_offset, Vector2* out_size, Vector2* out_uv_border, Vector2* out_uv_fill);
 
-    // Function @ cimgui.h:2938:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2938:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFont* ImFont_ImFont();
 
-    // Function @ cimgui.h:2939:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2939:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_destroy(ImFont* self);
 
-    // Function @ cimgui.h:2940:31 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2940:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFontGlyph* ImFont_FindGlyph(ImFont* self, char c);
 
-    // Function @ cimgui.h:2941:31 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2941:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFontGlyph* ImFont_FindGlyphNoFallback(ImFont* self, char c);
 
-    // Function @ cimgui.h:2942:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2942:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float ImFont_GetCharAdvance(ImFont* self, char c);
 
-    // Function @ cimgui.h:2943:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2943:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImFont_IsLoaded(ImFont* self);
 
-    // Function @ cimgui.h:2944:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2944:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U ImFont_GetDebugName(ImFont* self);
 
-    // Function @ cimgui.h:2945:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2945:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_CalcTextSizeA(Vector2* pOut, ImFont* self, float size, float max_width, float wrap_width, CString8U text_begin, CString8U text_end, CString8U* remaining);
 
-    // Function @ cimgui.h:2946:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2946:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U ImFont_CalcWordWrapPositionA(ImFont* self, float scale, CString8U text, CString8U text_end, float wrap_width);
 
-    // Function @ cimgui.h:2947:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2947:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_RenderChar(ImFont* self, ImDrawList* draw_list, float size, Vector2 pos, uint col, char c);
 
-    // Function @ cimgui.h:2948:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2948:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_RenderText(ImFont* self, ImDrawList* draw_list, float size, Vector2 pos, uint col, Vector4 clip_rect, CString8U text_begin, CString8U text_end, float wrap_width, CBool cpu_fine_clip);
 
-    // Function @ cimgui.h:2949:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2949:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_BuildLookupTable(ImFont* self);
 
-    // Function @ cimgui.h:2950:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2950:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_ClearOutputData(ImFont* self);
 
-    // Function @ cimgui.h:2951:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2951:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_GrowIndex(ImFont* self, int new_size);
 
-    // Function @ cimgui.h:2952:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2952:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_AddGlyph(ImFont* self, ImFontConfig* src_cfg, char c, float x0, float y0, float x1, float y1, float u0, float v0, float u1, float v1, float advance_x);
 
-    // Function @ cimgui.h:2953:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2953:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_AddRemapChar(ImFont* self, char dst, char src, CBool overwrite_dst);
 
-    // Function @ cimgui.h:2954:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2954:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImFont_SetGlyphVisible(ImFont* self, char c, CBool visible);
 
-    // Function @ cimgui.h:2955:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2955:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImFont_IsGlyphRangeUnused(ImFont* self, uint c_begin, uint c_last);
 
-    // Function @ cimgui.h:2956:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2956:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiViewport* ImGuiViewport_ImGuiViewport();
 
-    // Function @ cimgui.h:2957:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2957:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewport_destroy(ImGuiViewport* self);
 
-    // Function @ cimgui.h:2958:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2958:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewport_GetCenter(Vector2* pOut, ImGuiViewport* self);
 
-    // Function @ cimgui.h:2959:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2959:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewport_GetWorkCenter(Vector2* pOut, ImGuiViewport* self);
 
-    // Function @ cimgui.h:2960:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2960:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igImHashData(void* data, ulong data_size, uint seed);
 
-    // Function @ cimgui.h:2961:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2961:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igImHashStr(CString8U data, ulong data_size, uint seed);
 
-    // Function @ cimgui.h:2962:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2962:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern uint igImAlphaBlendColors(uint col_a, uint col_b);
 
-    // Function @ cimgui.h:2963:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2963:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igImIsPowerOfTwo_Int(int v);
 
-    // Function @ cimgui.h:2964:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2964:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igImIsPowerOfTwo_U64(ulong v);
 
-    // Function @ cimgui.h:2965:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2965:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImUpperPowerOfTwo(int v);
 
-    // Function @ cimgui.h:2966:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2966:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImStricmp(CString8U str1, CString8U str2);
 
-    // Function @ cimgui.h:2967:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2967:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImStrnicmp(CString8U str1, CString8U str2, ulong count);
 
-    // Function @ cimgui.h:2968:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2968:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImStrncpy(CString8U dst, CString8U src, ulong count);
 
-    // Function @ cimgui.h:2969:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2969:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImStrdup(CString8U str);
 
-    // Function @ cimgui.h:2970:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2970:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImStrdupcpy(CString8U dst, ulong* p_dst_size, CString8U str);
 
-    // Function @ cimgui.h:2971:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2971:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImStrchrRange(CString8U str_begin, CString8U str_end, byte c);
 
-    // Function @ cimgui.h:2972:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2972:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImStrlenW(char* str);
 
-    // Function @ cimgui.h:2973:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2973:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImStreolRange(CString8U str, CString8U str_end);
 
-    // Function @ cimgui.h:2974:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2974:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern char* igImStrbolW(char* buf_mid_line, char* buf_begin);
 
-    // Function @ cimgui.h:2975:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2975:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImStristr(CString8U haystack, CString8U haystack_end, CString8U needle, CString8U needle_end);
 
-    // Function @ cimgui.h:2976:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2976:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImStrTrimBlanks(CString8U str);
 
-    // Function @ cimgui.h:2977:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2977:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImStrSkipBlank(CString8U str);
 
-    // Function @ cimgui.h:2978:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2978:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImFormatString(CString8U buf, ulong buf_size, CString8U fmt);
 
-    // Function @ cimgui.h:2979:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2979:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImFormatStringV(CString8U buf, ulong buf_size, CString8U fmt, IntPtr args);
 
-    // Function @ cimgui.h:2980:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2980:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImParseFormatFindStart(CString8U format);
 
-    // Function @ cimgui.h:2981:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2981:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImParseFormatFindEnd(CString8U format);
 
-    // Function @ cimgui.h:2982:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2982:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImParseFormatTrimDecorations(CString8U format, CString8U buf, ulong buf_size);
 
-    // Function @ cimgui.h:2983:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2983:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImParseFormatPrecision(CString8U format, int default_value);
 
-    // Function @ cimgui.h:2984:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2984:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igImCharIsBlankA(byte c);
 
-    // Function @ cimgui.h:2985:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2985:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igImCharIsBlankW(uint c);
 
-    // Function @ cimgui.h:2986:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2986:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igImTextCharToUtf8(CString8U out_buf, uint c);
 
-    // Function @ cimgui.h:2987:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2987:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImTextStrToUtf8(CString8U out_buf, int out_buf_size, char* in_text, char* in_text_end);
 
-    // Function @ cimgui.h:2988:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2988:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImTextCharFromUtf8(ulong* out_char, CString8U in_text, CString8U in_text_end);
 
-    // Function @ cimgui.h:2989:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2989:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImTextStrFromUtf8(char* out_buf, int out_buf_size, CString8U in_text, CString8U in_text_end, CString8U* in_remaining);
 
-    // Function @ cimgui.h:2990:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2990:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImTextCountCharsFromUtf8(CString8U in_text, CString8U in_text_end);
 
-    // Function @ cimgui.h:2991:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2991:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImTextCountUtf8BytesFromChar(CString8U in_text, CString8U in_text_end);
 
-    // Function @ cimgui.h:2992:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2992:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImTextCountUtf8BytesFromStr(char* in_text, char* in_text_end);
 
-    // Function @ cimgui.h:2993:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2993:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFileHandle igImFileOpen(CString8U filename, CString8U mode);
 
-    // Function @ cimgui.h:2994:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2994:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igImFileClose(ImFileHandle file);
 
-    // Function @ cimgui.h:2995:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2995:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ulong igImFileGetSize(ImFileHandle file);
 
-    // Function @ cimgui.h:2996:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2996:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ulong igImFileRead(void* data, ulong size, ulong count, ImFileHandle file);
 
-    // Function @ cimgui.h:2997:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2997:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ulong igImFileWrite(void* data, ulong size, ulong count, ImFileHandle file);
 
-    // Function @ cimgui.h:2998:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2998:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void* igImFileLoadToMemory(CString8U filename, CString8U mode, ulong* out_file_size, int padding_bytes);
 
-    // Function @ cimgui.h:2999:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:2999:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImPow_Float(float x, float y);
 
-    // Function @ cimgui.h:3000:19 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3000:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern double igImPow_double(double x, double y);
 
-    // Function @ cimgui.h:3001:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3001:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImLog_Float(float x);
 
-    // Function @ cimgui.h:3002:19 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3002:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern double igImLog_double(double x);
 
-    // Function @ cimgui.h:3003:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3003:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImAbs_Int(int x);
 
-    // Function @ cimgui.h:3004:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3004:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImAbs_Float(float x);
 
-    // Function @ cimgui.h:3005:19 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3005:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern double igImAbs_double(double x);
 
-    // Function @ cimgui.h:3006:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3006:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImSign_Float(float x);
 
-    // Function @ cimgui.h:3007:19 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3007:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern double igImSign_double(double x);
 
-    // Function @ cimgui.h:3008:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3008:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImRsqrt_Float(float x);
 
-    // Function @ cimgui.h:3009:19 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3009:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern double igImRsqrt_double(double x);
 
-    // Function @ cimgui.h:3010:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3010:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImMin(Vector2* pOut, Vector2 lhs, Vector2 rhs);
 
-    // Function @ cimgui.h:3011:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3011:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImMax(Vector2* pOut, Vector2 lhs, Vector2 rhs);
 
-    // Function @ cimgui.h:3012:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3012:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImClamp(Vector2* pOut, Vector2 v, Vector2 mn, Vector2 mx);
 
-    // Function @ cimgui.h:3013:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3013:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImLerp_Vec2Float(Vector2* pOut, Vector2 a, Vector2 b, float t);
 
-    // Function @ cimgui.h:3014:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3014:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImLerp_Vec2Vec2(Vector2* pOut, Vector2 a, Vector2 b, Vector2 t);
 
-    // Function @ cimgui.h:3015:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3015:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImLerp_Vec4(Vector4* pOut, Vector4 a, Vector4 b, float t);
 
-    // Function @ cimgui.h:3016:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3016:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImSaturate(float f);
 
-    // Function @ cimgui.h:3017:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3017:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImLengthSqr_Vec2(Vector2 lhs);
 
-    // Function @ cimgui.h:3018:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3018:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImLengthSqr_Vec4(Vector4 lhs);
 
-    // Function @ cimgui.h:3019:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3019:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImInvLength(Vector2 lhs, float fail_value);
 
-    // Function @ cimgui.h:3020:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3020:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImFloor_Float(float f);
 
-    // Function @ cimgui.h:3021:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3021:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImFloorSigned(float f);
 
-    // Function @ cimgui.h:3022:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3022:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImFloor_Vec2(Vector2* pOut, Vector2 v);
 
-    // Function @ cimgui.h:3023:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3023:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igImModPositive(int a, int b);
 
-    // Function @ cimgui.h:3024:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3024:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImDot(Vector2 a, Vector2 b);
 
-    // Function @ cimgui.h:3025:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3025:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImRotate(Vector2* pOut, Vector2 v, float cos_a, float sin_a);
 
-    // Function @ cimgui.h:3026:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3026:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImLinearSweep(float current, float target, float speed);
 
-    // Function @ cimgui.h:3027:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3027:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImMul(Vector2* pOut, Vector2 lhs, Vector2 rhs);
 
-    // Function @ cimgui.h:3028:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3028:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImBezierCubicCalc(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, float t);
 
-    // Function @ cimgui.h:3029:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3029:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImBezierCubicClosestPoint(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 p, int num_segments);
 
-    // Function @ cimgui.h:3030:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3030:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImBezierCubicClosestPointCasteljau(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 p, float tess_tol);
 
-    // Function @ cimgui.h:3031:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3031:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImBezierQuadraticCalc(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, float t);
 
-    // Function @ cimgui.h:3032:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3032:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImLineClosestPoint(Vector2* pOut, Vector2 a, Vector2 b, Vector2 p);
 
-    // Function @ cimgui.h:3033:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3033:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igImTriangleContainsPoint(Vector2 a, Vector2 b, Vector2 c, Vector2 p);
 
-    // Function @ cimgui.h:3034:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3034:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImTriangleClosestPoint(Vector2* pOut, Vector2 a, Vector2 b, Vector2 c, Vector2 p);
 
-    // Function @ cimgui.h:3035:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3035:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImTriangleBarycentricCoords(Vector2 a, Vector2 b, Vector2 c, Vector2 p, float* out_u, float* out_v, float* out_w);
 
-    // Function @ cimgui.h:3036:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3036:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igImTriangleArea(Vector2 a, Vector2 b, Vector2 c);
 
-    // Function @ cimgui.h:3037:21 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3037:21 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiDir igImGetDirQuadrantFromDelta(float dx, float dy);
 
-    // Function @ cimgui.h:3038:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3038:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float* ImVec1_ImVec1_Nil();
 
-    // Function @ cimgui.h:3039:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3039:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImVec1_destroy(float* self);
 
-    // Function @ cimgui.h:3040:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3040:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float* ImVec1_ImVec1_Float(float _x);
 
-    // Function @ cimgui.h:3041:22 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3041:22 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImVec2ih* ImVec2ih_ImVec2ih_Nil();
 
-    // Function @ cimgui.h:3042:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3042:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImVec2ih_destroy(ImVec2ih* self);
 
-    // Function @ cimgui.h:3043:22 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3043:22 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImVec2ih* ImVec2ih_ImVec2ih_short(short _x, short _y);
 
-    // Function @ cimgui.h:3044:22 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3044:22 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImVec2ih* ImVec2ih_ImVec2ih_Vec2(Vector2 rhs);
 
-    // Function @ cimgui.h:3045:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3045:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImRect* ImRect_ImRect_Nil();
 
-    // Function @ cimgui.h:3046:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3046:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_destroy(ImRect* self);
 
-    // Function @ cimgui.h:3047:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3047:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImRect* ImRect_ImRect_Vec2(Vector2 min, Vector2 max);
 
-    // Function @ cimgui.h:3048:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3048:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImRect* ImRect_ImRect_Vec4(Vector4 v);
 
-    // Function @ cimgui.h:3049:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3049:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImRect* ImRect_ImRect_Float(float x1, float y1, float x2, float y2);
 
-    // Function @ cimgui.h:3050:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3050:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_GetCenter(Vector2* pOut, ImRect* self);
 
-    // Function @ cimgui.h:3051:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3051:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_GetSize(Vector2* pOut, ImRect* self);
 
-    // Function @ cimgui.h:3052:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3052:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float ImRect_GetWidth(ImRect* self);
 
-    // Function @ cimgui.h:3053:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3053:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float ImRect_GetHeight(ImRect* self);
 
-    // Function @ cimgui.h:3054:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3054:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float ImRect_GetArea(ImRect* self);
 
-    // Function @ cimgui.h:3055:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3055:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_GetTL(Vector2* pOut, ImRect* self);
 
-    // Function @ cimgui.h:3056:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3056:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_GetTR(Vector2* pOut, ImRect* self);
 
-    // Function @ cimgui.h:3057:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3057:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_GetBL(Vector2* pOut, ImRect* self);
 
-    // Function @ cimgui.h:3058:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3058:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_GetBR(Vector2* pOut, ImRect* self);
 
-    // Function @ cimgui.h:3059:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3059:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImRect_Contains_Vec2(ImRect* self, Vector2 p);
 
-    // Function @ cimgui.h:3060:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3060:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImRect_Contains_Rect(ImRect* self, ImRect r);
 
-    // Function @ cimgui.h:3061:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3061:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImRect_Overlaps(ImRect* self, ImRect r);
 
-    // Function @ cimgui.h:3062:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3062:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_Add_Vec2(ImRect* self, Vector2 p);
 
-    // Function @ cimgui.h:3063:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3063:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_Add_Rect(ImRect* self, ImRect r);
 
-    // Function @ cimgui.h:3064:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3064:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_Expand_Float(ImRect* self, float amount);
 
-    // Function @ cimgui.h:3065:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3065:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_Expand_Vec2(ImRect* self, Vector2 amount);
 
-    // Function @ cimgui.h:3066:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3066:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_Translate(ImRect* self, Vector2 d);
 
-    // Function @ cimgui.h:3067:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3067:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_TranslateX(ImRect* self, float dx);
 
-    // Function @ cimgui.h:3068:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3068:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_TranslateY(ImRect* self, float dy);
 
-    // Function @ cimgui.h:3069:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3069:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_ClipWith(ImRect* self, ImRect r);
 
-    // Function @ cimgui.h:3070:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3070:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_ClipWithFull(ImRect* self, ImRect r);
 
-    // Function @ cimgui.h:3071:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3071:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_Floor(ImRect* self);
 
-    // Function @ cimgui.h:3072:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3072:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImRect_IsInverted(ImRect* self);
 
-    // Function @ cimgui.h:3073:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3073:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImRect_ToVec4(Vector4* pOut, ImRect* self);
 
-    // Function @ cimgui.h:3074:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3074:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igImBitArrayTestBit(uint* arr, int n);
 
-    // Function @ cimgui.h:3075:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3075:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImBitArrayClearBit(uint* arr, int n);
 
-    // Function @ cimgui.h:3076:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3076:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImBitArraySetBit(uint* arr, int n);
 
-    // Function @ cimgui.h:3077:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3077:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImBitArraySetBitRange(uint* arr, int n, int n2);
 
-    // Function @ cimgui.h:3078:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3078:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImBitVector_Create(ImBitVector* self, int sz);
 
-    // Function @ cimgui.h:3079:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3079:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImBitVector_Clear(ImBitVector* self);
 
-    // Function @ cimgui.h:3080:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3080:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImBitVector_TestBit(ImBitVector* self, int n);
 
-    // Function @ cimgui.h:3081:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3081:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImBitVector_SetBit(ImBitVector* self, int n);
 
-    // Function @ cimgui.h:3082:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3082:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImBitVector_ClearBit(ImBitVector* self, int n);
 
-    // Function @ cimgui.h:3083:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3083:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawListSharedData* ImDrawListSharedData_ImDrawListSharedData();
 
-    // Function @ cimgui.h:3084:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3084:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawListSharedData_destroy(ImDrawListSharedData* self);
 
-    // Function @ cimgui.h:3085:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3085:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawListSharedData_SetCircleTessellationMaxError(ImDrawListSharedData* self, float max_error);
 
-    // Function @ cimgui.h:3086:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3086:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawDataBuilder_Clear(ImDrawDataBuilder* self);
 
-    // Function @ cimgui.h:3087:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3087:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawDataBuilder_ClearFreeMemory(ImDrawDataBuilder* self);
 
-    // Function @ cimgui.h:3088:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3088:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImDrawDataBuilder_GetDrawListCount(ImDrawDataBuilder* self);
 
-    // Function @ cimgui.h:3089:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3089:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImDrawDataBuilder_FlattenIntoSingleLayer(ImDrawDataBuilder* self);
 
-    // Function @ cimgui.h:3090:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3090:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Int(ImGuiStyleVar idx, int v);
 
-    // Function @ cimgui.h:3091:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3091:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStyleMod_destroy(ImGuiStyleMod* self);
 
-    // Function @ cimgui.h:3092:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3092:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Float(ImGuiStyleVar idx, float v);
 
-    // Function @ cimgui.h:3093:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3093:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Vec2(ImGuiStyleVar idx, Vector2 v);
 
-    // Function @ cimgui.h:3094:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3094:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiComboPreviewData* ImGuiComboPreviewData_ImGuiComboPreviewData();
 
-    // Function @ cimgui.h:3095:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3095:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiComboPreviewData_destroy(ImGuiComboPreviewData* self);
 
-    // Function @ cimgui.h:3096:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3096:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiMenuColumns* ImGuiMenuColumns_ImGuiMenuColumns();
 
-    // Function @ cimgui.h:3097:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3097:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiMenuColumns_destroy(ImGuiMenuColumns* self);
 
-    // Function @ cimgui.h:3098:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3098:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiMenuColumns_Update(ImGuiMenuColumns* self, float spacing, CBool window_reappearing);
 
-    // Function @ cimgui.h:3099:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3099:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float ImGuiMenuColumns_DeclColumns(ImGuiMenuColumns* self, float w_icon, float w_label, float w_shortcut, float w_mark);
 
-    // Function @ cimgui.h:3100:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3100:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiMenuColumns_CalcNextTotalWidth(ImGuiMenuColumns* self, CBool update_offsets);
 
-    // Function @ cimgui.h:3101:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3101:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiInputTextState* ImGuiInputTextState_ImGuiInputTextState();
 
-    // Function @ cimgui.h:3102:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3102:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextState_destroy(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3103:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3103:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextState_ClearText(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3104:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3104:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextState_ClearFreeMemory(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3105:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3105:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImGuiInputTextState_GetUndoAvailCount(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3106:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3106:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImGuiInputTextState_GetRedoAvailCount(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3107:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3107:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextState_OnKeyPressed(ImGuiInputTextState* self, int key);
 
-    // Function @ cimgui.h:3108:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3108:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextState_CursorAnimReset(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3109:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3109:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextState_CursorClamp(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3110:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3110:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool ImGuiInputTextState_HasSelection(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3111:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3111:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextState_ClearSelection(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3112:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3112:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImGuiInputTextState_GetCursorPos(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3113:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3113:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImGuiInputTextState_GetSelectionStart(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3114:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3114:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImGuiInputTextState_GetSelectionEnd(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3115:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3115:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiInputTextState_SelectAll(ImGuiInputTextState* self);
 
-    // Function @ cimgui.h:3116:28 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3116:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiPopupData* ImGuiPopupData_ImGuiPopupData();
 
-    // Function @ cimgui.h:3117:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3117:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiPopupData_destroy(ImGuiPopupData* self);
 
-    // Function @ cimgui.h:3118:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3118:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiNavItemData* ImGuiNavItemData_ImGuiNavItemData();
 
-    // Function @ cimgui.h:3119:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3119:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiNavItemData_destroy(ImGuiNavItemData* self);
 
-    // Function @ cimgui.h:3120:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3120:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiNavItemData_Clear(ImGuiNavItemData* self);
 
-    // Function @ cimgui.h:3121:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3121:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiNextWindowData* ImGuiNextWindowData_ImGuiNextWindowData();
 
-    // Function @ cimgui.h:3122:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3122:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiNextWindowData_destroy(ImGuiNextWindowData* self);
 
-    // Function @ cimgui.h:3123:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3123:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiNextWindowData_ClearFlags(ImGuiNextWindowData* self);
 
-    // Function @ cimgui.h:3124:31 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3124:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiNextItemData* ImGuiNextItemData_ImGuiNextItemData();
 
-    // Function @ cimgui.h:3125:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3125:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiNextItemData_destroy(ImGuiNextItemData* self);
 
-    // Function @ cimgui.h:3126:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3126:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiNextItemData_ClearFlags(ImGuiNextItemData* self);
 
-    // Function @ cimgui.h:3127:31 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3127:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiLastItemData* ImGuiLastItemData_ImGuiLastItemData();
 
-    // Function @ cimgui.h:3128:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3128:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiLastItemData_destroy(ImGuiLastItemData* self);
 
-    // Function @ cimgui.h:3129:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3129:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiPtrOrIndex* ImGuiPtrOrIndex_ImGuiPtrOrIndex_Ptr(void* ptr);
 
-    // Function @ cimgui.h:3130:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3130:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiPtrOrIndex_destroy(ImGuiPtrOrIndex* self);
 
-    // Function @ cimgui.h:3131:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3131:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiPtrOrIndex* ImGuiPtrOrIndex_ImGuiPtrOrIndex_Int(int index);
 
-    // Function @ cimgui.h:3132:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3132:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiOldColumnData* ImGuiOldColumnData_ImGuiOldColumnData();
 
-    // Function @ cimgui.h:3133:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3133:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiOldColumnData_destroy(ImGuiOldColumnData* self);
 
-    // Function @ cimgui.h:3134:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3134:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiOldColumns* ImGuiOldColumns_ImGuiOldColumns();
 
-    // Function @ cimgui.h:3135:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3135:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiOldColumns_destroy(ImGuiOldColumns* self);
 
-    // Function @ cimgui.h:3136:28 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3136:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiViewportP* ImGuiViewportP_ImGuiViewportP();
 
-    // Function @ cimgui.h:3137:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3137:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewportP_destroy(ImGuiViewportP* self);
 
-    // Function @ cimgui.h:3138:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3138:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewportP_CalcWorkRectPos(Vector2* pOut, ImGuiViewportP* self, Vector2 off_min);
 
-    // Function @ cimgui.h:3139:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3139:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewportP_CalcWorkRectSize(Vector2* pOut, ImGuiViewportP* self, Vector2 off_min, Vector2 off_max);
 
-    // Function @ cimgui.h:3140:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3140:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewportP_UpdateWorkRect(ImGuiViewportP* self);
 
-    // Function @ cimgui.h:3141:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3141:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewportP_GetMainRect(ImRect* pOut, ImGuiViewportP* self);
 
-    // Function @ cimgui.h:3142:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3142:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewportP_GetWorkRect(ImRect* pOut, ImGuiViewportP* self);
 
-    // Function @ cimgui.h:3143:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3143:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiViewportP_GetBuildWorkRect(ImRect* pOut, ImGuiViewportP* self);
 
-    // Function @ cimgui.h:3144:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3144:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindowSettings* ImGuiWindowSettings_ImGuiWindowSettings();
 
-    // Function @ cimgui.h:3145:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3145:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiWindowSettings_destroy(ImGuiWindowSettings* self);
 
-    // Function @ cimgui.h:3146:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3146:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U ImGuiWindowSettings_GetName(ImGuiWindowSettings* self);
 
-    // Function @ cimgui.h:3147:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3147:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiSettingsHandler* ImGuiSettingsHandler_ImGuiSettingsHandler();
 
-    // Function @ cimgui.h:3148:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3148:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiSettingsHandler_destroy(ImGuiSettingsHandler* self);
 
-    // Function @ cimgui.h:3149:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3149:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiMetricsConfig* ImGuiMetricsConfig_ImGuiMetricsConfig();
 
-    // Function @ cimgui.h:3150:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3150:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiMetricsConfig_destroy(ImGuiMetricsConfig* self);
 
-    // Function @ cimgui.h:3151:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3151:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiStackSizes* ImGuiStackSizes_ImGuiStackSizes();
 
-    // Function @ cimgui.h:3152:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3152:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStackSizes_destroy(ImGuiStackSizes* self);
 
-    // Function @ cimgui.h:3153:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3153:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStackSizes_SetToCurrentState(ImGuiStackSizes* self);
 
-    // Function @ cimgui.h:3154:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3154:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiStackSizes_CompareWithCurrentState(ImGuiStackSizes* self);
 
-    // Function @ cimgui.h:3155:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3155:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiContextHook* ImGuiContextHook_ImGuiContextHook();
 
-    // Function @ cimgui.h:3156:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3156:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiContextHook_destroy(ImGuiContextHook* self);
 
-    // Function @ cimgui.h:3157:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3157:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiContext* ImGuiContext_ImGuiContext(ImFontAtlas* shared_font_atlas);
 
-    // Function @ cimgui.h:3158:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3158:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiContext_destroy(ImGuiContext* self);
 
-    // Function @ cimgui.h:3159:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3159:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindow* ImGuiWindow_ImGuiWindow(ImGuiContext* context, CString8U name);
 
-    // Function @ cimgui.h:3160:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3160:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiWindow_destroy(ImGuiWindow* self);
 
-    // Function @ cimgui.h:3161:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3161:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID ImGuiWindow_GetID_Str(ImGuiWindow* self, CString8U str, CString8U str_end);
 
-    // Function @ cimgui.h:3162:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3162:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID ImGuiWindow_GetID_Ptr(ImGuiWindow* self, void* ptr);
 
-    // Function @ cimgui.h:3163:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3163:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID ImGuiWindow_GetID_Int(ImGuiWindow* self, int n);
 
-    // Function @ cimgui.h:3164:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3164:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID ImGuiWindow_GetIDNoKeepAlive_Str(ImGuiWindow* self, CString8U str, CString8U str_end);
 
-    // Function @ cimgui.h:3165:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3165:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID ImGuiWindow_GetIDNoKeepAlive_Ptr(ImGuiWindow* self, void* ptr);
 
-    // Function @ cimgui.h:3166:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3166:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID ImGuiWindow_GetIDNoKeepAlive_Int(ImGuiWindow* self, int n);
 
-    // Function @ cimgui.h:3167:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3167:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID ImGuiWindow_GetIDFromRectangle(ImGuiWindow* self, ImRect r_abs);
 
-    // Function @ cimgui.h:3168:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3168:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiWindow_Rect(ImRect* pOut, ImGuiWindow* self);
 
-    // Function @ cimgui.h:3169:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3169:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float ImGuiWindow_CalcFontSize(ImGuiWindow* self);
 
-    // Function @ cimgui.h:3170:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3170:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float ImGuiWindow_TitleBarHeight(ImGuiWindow* self);
 
-    // Function @ cimgui.h:3171:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3171:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiWindow_TitleBarRect(ImRect* pOut, ImGuiWindow* self);
 
-    // Function @ cimgui.h:3172:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3172:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float ImGuiWindow_MenuBarHeight(ImGuiWindow* self);
 
-    // Function @ cimgui.h:3173:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3173:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiWindow_MenuBarRect(ImRect* pOut, ImGuiWindow* self);
 
-    // Function @ cimgui.h:3174:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3174:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTabItem* ImGuiTabItem_ImGuiTabItem();
 
-    // Function @ cimgui.h:3175:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3175:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTabItem_destroy(ImGuiTabItem* self);
 
-    // Function @ cimgui.h:3176:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3176:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTabBar* ImGuiTabBar_ImGuiTabBar();
 
-    // Function @ cimgui.h:3177:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3177:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTabBar_destroy(ImGuiTabBar* self);
 
-    // Function @ cimgui.h:3178:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3178:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int ImGuiTabBar_GetTabOrder(ImGuiTabBar* self, ImGuiTabItem* tab);
 
-    // Function @ cimgui.h:3179:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3179:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U ImGuiTabBar_GetTabName(ImGuiTabBar* self, ImGuiTabItem* tab);
 
-    // Function @ cimgui.h:3180:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3180:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableColumn* ImGuiTableColumn_ImGuiTableColumn();
 
-    // Function @ cimgui.h:3181:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3181:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTableColumn_destroy(ImGuiTableColumn* self);
 
-    // Function @ cimgui.h:3182:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3182:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTable* ImGuiTable_ImGuiTable();
 
-    // Function @ cimgui.h:3183:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3183:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTable_destroy(ImGuiTable* self);
 
-    // Function @ cimgui.h:3184:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3184:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableTempData* ImGuiTableTempData_ImGuiTableTempData();
 
-    // Function @ cimgui.h:3185:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3185:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTableTempData_destroy(ImGuiTableTempData* self);
 
-    // Function @ cimgui.h:3186:38 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3186:38 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableColumnSettings* ImGuiTableColumnSettings_ImGuiTableColumnSettings();
 
-    // Function @ cimgui.h:3187:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3187:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTableColumnSettings_destroy(ImGuiTableColumnSettings* self);
 
-    // Function @ cimgui.h:3188:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3188:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableSettings* ImGuiTableSettings_ImGuiTableSettings();
 
-    // Function @ cimgui.h:3189:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3189:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTableSettings_destroy(ImGuiTableSettings* self);
 
-    // Function @ cimgui.h:3190:38 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3190:38 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableColumnSettings* ImGuiTableSettings_GetColumnSettings(ImGuiTableSettings* self);
 
-    // Function @ cimgui.h:3191:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3191:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindow* igGetCurrentWindowRead();
 
-    // Function @ cimgui.h:3192:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3192:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindow* igGetCurrentWindow();
 
-    // Function @ cimgui.h:3193:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3193:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindow* igFindWindowByID(ImGuiID id);
 
-    // Function @ cimgui.h:3194:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3194:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindow* igFindWindowByName(CString8U name);
 
-    // Function @ cimgui.h:3195:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3195:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igUpdateWindowParentAndRootLinks(ImGuiWindow* window, ImGuiWindowFlags flags, ImGuiWindow* parent_window);
 
-    // Function @ cimgui.h:3196:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3196:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igCalcWindowNextAutoFitSize(Vector2* pOut, ImGuiWindow* window);
 
-    // Function @ cimgui.h:3197:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3197:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsWindowChildOf(ImGuiWindow* window, ImGuiWindow* potential_parent);
 
-    // Function @ cimgui.h:3198:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3198:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsWindowAbove(ImGuiWindow* potential_above, ImGuiWindow* potential_below);
 
-    // Function @ cimgui.h:3199:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3199:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsWindowNavFocusable(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3200:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3200:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowPos_WindowPtr(ImGuiWindow* window, Vector2 pos, ImGuiCond cond);
 
-    // Function @ cimgui.h:3201:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3201:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowSize_WindowPtr(ImGuiWindow* window, Vector2 size, ImGuiCond cond);
 
-    // Function @ cimgui.h:3202:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3202:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowCollapsed_WindowPtr(ImGuiWindow* window, CBool collapsed, ImGuiCond cond);
 
-    // Function @ cimgui.h:3203:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3203:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowHitTestHole(ImGuiWindow* window, Vector2 pos, Vector2 size);
 
-    // Function @ cimgui.h:3204:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3204:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igFocusWindow(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3205:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3205:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igFocusTopMostWindowUnderOne(ImGuiWindow* under_this_window, ImGuiWindow* ignore_window);
 
-    // Function @ cimgui.h:3206:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3206:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBringWindowToFocusFront(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3207:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3207:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBringWindowToDisplayFront(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3208:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3208:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBringWindowToDisplayBack(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3209:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3209:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetCurrentFont(ImFont* font);
 
-    // Function @ cimgui.h:3210:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3210:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFont* igGetDefaultFont();
 
-    // Function @ cimgui.h:3211:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3211:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawList* igGetForegroundDrawList_WindowPtr(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3212:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3212:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawList* igGetBackgroundDrawList_ViewportPtr(ImGuiViewport* viewport);
 
-    // Function @ cimgui.h:3213:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3213:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImDrawList* igGetForegroundDrawList_ViewportPtr(ImGuiViewport* viewport);
 
-    // Function @ cimgui.h:3214:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3214:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igInitialize(ImGuiContext* context);
 
-    // Function @ cimgui.h:3215:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3215:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShutdown(ImGuiContext* context);
 
-    // Function @ cimgui.h:3216:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3216:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igUpdateHoveredWindowAndCaptureFlags();
 
-    // Function @ cimgui.h:3217:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3217:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igStartMouseMovingWindow(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3218:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3218:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igUpdateMouseMovingWindowNewFrame();
 
-    // Function @ cimgui.h:3219:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3219:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igUpdateMouseMovingWindowEndFrame();
 
-    // Function @ cimgui.h:3220:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3220:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igAddContextHook(ImGuiContext* context, ImGuiContextHook* hook);
 
-    // Function @ cimgui.h:3221:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3221:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRemoveContextHook(ImGuiContext* context, ImGuiID hook_to_remove);
 
-    // Function @ cimgui.h:3222:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3222:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igCallContextHooks(ImGuiContext* context, ImGuiContextHookType type);
 
-    // Function @ cimgui.h:3223:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3223:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igMarkIniSettingsDirty_Nil();
 
-    // Function @ cimgui.h:3224:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3224:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igMarkIniSettingsDirty_WindowPtr(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3225:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3225:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igClearIniSettings();
 
-    // Function @ cimgui.h:3226:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3226:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindowSettings* igCreateNewWindowSettings(CString8U name);
 
-    // Function @ cimgui.h:3227:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3227:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindowSettings* igFindWindowSettings(ImGuiID id);
 
-    // Function @ cimgui.h:3228:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3228:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindowSettings* igFindOrCreateWindowSettings(CString8U name);
 
-    // Function @ cimgui.h:3229:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3229:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiSettingsHandler* igFindSettingsHandler(CString8U type_name);
 
-    // Function @ cimgui.h:3230:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3230:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNextWindowScroll(Vector2 scroll);
 
-    // Function @ cimgui.h:3231:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3231:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollX_WindowPtr(ImGuiWindow* window, float scroll_x);
 
-    // Function @ cimgui.h:3232:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3232:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollY_WindowPtr(ImGuiWindow* window, float scroll_y);
 
-    // Function @ cimgui.h:3233:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3233:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollFromPosX_WindowPtr(ImGuiWindow* window, float local_x, float center_x_ratio);
 
-    // Function @ cimgui.h:3234:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3234:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetScrollFromPosY_WindowPtr(ImGuiWindow* window, float local_y, float center_y_ratio);
 
-    // Function @ cimgui.h:3235:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3235:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igScrollToBringRectIntoView(Vector2* pOut, ImGuiWindow* window, ImRect item_rect);
 
-    // Function @ cimgui.h:3236:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3236:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetItemID();
 
-    // Function @ cimgui.h:3237:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3237:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiItemStatusFlags igGetItemStatusFlags();
 
-    // Function @ cimgui.h:3238:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3238:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiItemFlags igGetItemFlags();
 
-    // Function @ cimgui.h:3239:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3239:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetActiveID();
 
-    // Function @ cimgui.h:3240:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3240:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetFocusID();
 
-    // Function @ cimgui.h:3241:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3241:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetActiveID(ImGuiID id, ImGuiWindow* window);
 
-    // Function @ cimgui.h:3242:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3242:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetFocusID(ImGuiID id, ImGuiWindow* window);
 
-    // Function @ cimgui.h:3243:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3243:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igClearActiveID();
 
-    // Function @ cimgui.h:3244:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3244:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetHoveredID();
 
-    // Function @ cimgui.h:3245:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3245:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetHoveredID(ImGuiID id);
 
-    // Function @ cimgui.h:3246:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3246:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igKeepAliveID(ImGuiID id);
 
-    // Function @ cimgui.h:3247:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3247:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igMarkItemEdited(ImGuiID id);
 
-    // Function @ cimgui.h:3248:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3248:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushOverrideID(ImGuiID id);
 
-    // Function @ cimgui.h:3249:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3249:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetIDWithSeed(CString8U str_id_begin, CString8U str_id_end, ImGuiID seed);
 
-    // Function @ cimgui.h:3250:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3250:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igItemSize_Vec2(Vector2 size, float text_baseline_y);
 
-    // Function @ cimgui.h:3251:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3251:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igItemSize_Rect(ImRect bb, float text_baseline_y);
 
-    // Function @ cimgui.h:3252:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3252:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igItemAdd(ImRect bb, ImGuiID id, ImRect* nav_bb, ImGuiItemAddFlags flags);
 
-    // Function @ cimgui.h:3253:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3253:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igItemHoverable(ImRect bb, ImGuiID id);
 
-    // Function @ cimgui.h:3254:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3254:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igItemFocusable(ImGuiWindow* window, ImGuiID id);
 
-    // Function @ cimgui.h:3255:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3255:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsClippedEx(ImRect bb, ImGuiID id, CBool clip_even_when_logged);
 
-    // Function @ cimgui.h:3256:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3256:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igCalcItemSize(Vector2* pOut, Vector2 size, float default_w, float default_h);
 
-    // Function @ cimgui.h:3257:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3257:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igCalcWrapWidthForPos(Vector2 pos, float wrap_pos_x);
 
-    // Function @ cimgui.h:3258:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3258:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushMultiItemsWidths(int components, float width_full);
 
-    // Function @ cimgui.h:3259:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3259:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsItemToggledSelection();
 
-    // Function @ cimgui.h:3260:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3260:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetContentRegionMaxAbs(Vector2* pOut);
 
-    // Function @ cimgui.h:3261:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3261:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShrinkWidths(ImGuiShrinkWidthItem* items, int count, float width_excess);
 
-    // Function @ cimgui.h:3262:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3262:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushItemFlag(ImGuiItemFlags option, CBool enabled);
 
-    // Function @ cimgui.h:3263:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3263:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopItemFlag();
 
-    // Function @ cimgui.h:3264:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3264:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogBegin(ImGuiLogType type, int auto_open_depth);
 
-    // Function @ cimgui.h:3265:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3265:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogToBuffer(int auto_open_depth);
 
-    // Function @ cimgui.h:3266:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3266:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogRenderedText(Vector2* ref_pos, CString8U text, CString8U text_end);
 
-    // Function @ cimgui.h:3267:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3267:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogSetNextTextDecoration(CString8U prefix, CString8U suffix);
 
-    // Function @ cimgui.h:3268:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3268:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginChildEx(CString8U name, ImGuiID id, Vector2 size_arg, CBool border, ImGuiWindowFlags flags);
 
-    // Function @ cimgui.h:3269:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3269:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igOpenPopupEx(ImGuiID id, ImGuiPopupFlags popup_flags);
 
-    // Function @ cimgui.h:3270:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3270:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igClosePopupToLevel(int remaining, CBool restore_focus_to_window_under_popup);
 
-    // Function @ cimgui.h:3271:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3271:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igClosePopupsOverWindow(ImGuiWindow* ref_window, CBool restore_focus_to_window_under_popup);
 
-    // Function @ cimgui.h:3272:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3272:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsPopupOpen_ID(ImGuiID id, ImGuiPopupFlags popup_flags);
 
-    // Function @ cimgui.h:3273:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3273:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginPopupEx(ImGuiID id, ImGuiWindowFlags extra_flags);
 
-    // Function @ cimgui.h:3274:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3274:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBeginTooltipEx(ImGuiWindowFlags extra_flags, ImGuiTooltipFlags tooltip_flags);
 
-    // Function @ cimgui.h:3275:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3275:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetPopupAllowedExtentRect(ImRect* pOut, ImGuiWindow* window);
 
-    // Function @ cimgui.h:3276:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3276:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiWindow* igGetTopMostPopupModal();
 
-    // Function @ cimgui.h:3277:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3277:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igFindBestWindowPosForPopup(Vector2* pOut, ImGuiWindow* window);
 
-    // Function @ cimgui.h:3278:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3278:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igFindBestWindowPosForPopupEx(Vector2* pOut, Vector2 ref_pos, Vector2 size, ImGuiDir* last_dir, ImRect r_outer, ImRect r_avoid, ImGuiPopupPositionPolicy policy);
 
-    // Function @ cimgui.h:3279:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3279:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginViewportSideBar(CString8U name, ImGuiViewport* viewport, ImGuiDir dir, float size, ImGuiWindowFlags window_flags);
 
-    // Function @ cimgui.h:3280:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3280:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igMenuItemEx(CString8U label, CString8U icon, CString8U shortcut, CBool selected, CBool enabled);
 
-    // Function @ cimgui.h:3281:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3281:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginComboPopup(ImGuiID popup_id, ImRect bb, ImGuiComboFlags flags);
 
-    // Function @ cimgui.h:3282:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3282:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginComboPreview();
 
-    // Function @ cimgui.h:3283:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3283:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndComboPreview();
 
-    // Function @ cimgui.h:3284:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3284:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igNavInitWindow(ImGuiWindow* window, CBool force_reinit);
 
-    // Function @ cimgui.h:3285:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3285:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igNavMoveRequestButNoResultYet();
 
-    // Function @ cimgui.h:3286:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3286:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igNavMoveRequestCancel();
 
-    // Function @ cimgui.h:3287:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3287:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igNavMoveRequestForward(ImGuiDir move_dir, ImGuiDir clip_dir, ImRect bb_rel, ImGuiNavMoveFlags move_flags);
 
-    // Function @ cimgui.h:3288:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3288:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igNavMoveRequestTryWrapping(ImGuiWindow* window, ImGuiNavMoveFlags move_flags);
 
-    // Function @ cimgui.h:3289:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3289:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetNavInputAmount(ImGuiNavInput n, ImGuiInputReadMode mode);
 
-    // Function @ cimgui.h:3290:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3290:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetNavInputAmount2d(Vector2* pOut, ImGuiNavDirSourceFlags dir_sources, ImGuiInputReadMode mode, float slow_factor, float fast_factor);
 
-    // Function @ cimgui.h:3291:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3291:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igCalcTypematicRepeatAmount(float t0, float t1, float repeat_delay, float repeat_rate);
 
-    // Function @ cimgui.h:3292:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3292:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igActivateItem(ImGuiID id);
 
-    // Function @ cimgui.h:3293:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3293:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetNavID(ImGuiID id, ImGuiNavLayer nav_layer, ImGuiID focus_scope_id, ImRect rect_rel);
 
-    // Function @ cimgui.h:3294:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3294:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushFocusScope(ImGuiID id);
 
-    // Function @ cimgui.h:3295:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3295:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopFocusScope();
 
-    // Function @ cimgui.h:3296:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3296:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetFocusedFocusScope();
 
-    // Function @ cimgui.h:3297:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3297:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetFocusScope();
 
-    // Function @ cimgui.h:3298:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3298:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetItemUsingMouseWheel();
 
-    // Function @ cimgui.h:3299:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3299:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetActiveIdUsingNavAndKeys();
 
-    // Function @ cimgui.h:3300:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3300:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsActiveIdUsingNavDir(ImGuiDir dir);
 
-    // Function @ cimgui.h:3301:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3301:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsActiveIdUsingNavInput(ImGuiNavInput input);
 
-    // Function @ cimgui.h:3302:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3302:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsActiveIdUsingKey(ImGuiKey key);
 
-    // Function @ cimgui.h:3303:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3303:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsMouseDragPastThreshold(ImGuiMouseButton button, float lock_threshold);
 
-    // Function @ cimgui.h:3304:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3304:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsKeyPressedMap(ImGuiKey key, CBool repeat);
 
-    // Function @ cimgui.h:3305:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3305:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsNavInputDown(ImGuiNavInput n);
 
-    // Function @ cimgui.h:3306:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3306:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsNavInputTest(ImGuiNavInput n, ImGuiInputReadMode rm);
 
-    // Function @ cimgui.h:3307:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3307:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiKeyModFlags igGetMergedKeyModFlags();
 
-    // Function @ cimgui.h:3308:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3308:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginDragDropTargetCustom(ImRect bb, ImGuiID id);
 
-    // Function @ cimgui.h:3309:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3309:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igClearDragDrop();
 
-    // Function @ cimgui.h:3310:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3310:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igIsDragDropPayloadBeingAccepted();
 
-    // Function @ cimgui.h:3311:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3311:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSetWindowClipRectBeforeSetChannel(ImGuiWindow* window, ImRect clip_rect);
 
-    // Function @ cimgui.h:3312:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3312:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igBeginColumns(CString8U str_id, int count, ImGuiOldColumnFlags flags);
 
-    // Function @ cimgui.h:3313:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3313:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igEndColumns();
 
-    // Function @ cimgui.h:3314:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3314:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushColumnClipRect(int column_index);
 
-    // Function @ cimgui.h:3315:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3315:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPushColumnsBackground();
 
-    // Function @ cimgui.h:3316:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3316:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igPopColumnsBackground();
 
-    // Function @ cimgui.h:3317:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3317:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetColumnsID(CString8U str_id, int count);
 
-    // Function @ cimgui.h:3318:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3318:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiOldColumns* igFindOrCreateColumns(ImGuiWindow* window, ImGuiID id);
 
-    // Function @ cimgui.h:3319:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3319:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetColumnOffsetFromNorm(ImGuiOldColumns* columns, float offset_norm);
 
-    // Function @ cimgui.h:3320:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3320:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGetColumnNormFromOffset(ImGuiOldColumns* columns, float offset);
 
-    // Function @ cimgui.h:3321:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3321:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableOpenContextMenu(int column_n);
 
-    // Function @ cimgui.h:3322:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3322:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSetColumnWidth(int column_n, float width);
 
-    // Function @ cimgui.h:3323:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3323:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSetColumnSortDirection(int column_n, ImGuiSortDirection sort_direction, CBool append_to_sort_specs);
 
-    // Function @ cimgui.h:3324:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3324:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igTableGetHoveredColumn();
 
-    // Function @ cimgui.h:3325:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3325:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igTableGetHeaderRowHeight();
 
-    // Function @ cimgui.h:3326:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3326:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTablePushBackgroundChannel();
 
-    // Function @ cimgui.h:3327:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3327:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTablePopBackgroundChannel();
 
-    // Function @ cimgui.h:3328:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3328:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTable* igGetCurrentTable();
 
-    // Function @ cimgui.h:3329:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3329:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTable* igTableFindByID(ImGuiID id);
 
-    // Function @ cimgui.h:3330:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3330:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginTableEx(CString8U name, ImGuiID id, int columns_count, ImGuiTableFlags flags, Vector2 outer_size, float inner_width);
 
-    // Function @ cimgui.h:3331:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3331:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableBeginInitMemory(ImGuiTable* table, int columns_count);
 
-    // Function @ cimgui.h:3332:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3332:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableBeginApplyRequests(ImGuiTable* table);
 
-    // Function @ cimgui.h:3333:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3333:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSetupDrawChannels(ImGuiTable* table);
 
-    // Function @ cimgui.h:3334:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3334:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableUpdateLayout(ImGuiTable* table);
 
-    // Function @ cimgui.h:3335:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3335:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableUpdateBorders(ImGuiTable* table);
 
-    // Function @ cimgui.h:3336:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3336:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableUpdateColumnsWeightFromWidth(ImGuiTable* table);
 
-    // Function @ cimgui.h:3337:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3337:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableDrawBorders(ImGuiTable* table);
 
-    // Function @ cimgui.h:3338:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3338:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableDrawContextMenu(ImGuiTable* table);
 
-    // Function @ cimgui.h:3339:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3339:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableMergeDrawChannels(ImGuiTable* table);
 
-    // Function @ cimgui.h:3340:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3340:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSortSpecsSanitize(ImGuiTable* table);
 
-    // Function @ cimgui.h:3341:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3341:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSortSpecsBuild(ImGuiTable* table);
 
-    // Function @ cimgui.h:3342:31 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3342:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiSortDirection igTableGetColumnNextSortDirection(ImGuiTableColumn* column);
 
-    // Function @ cimgui.h:3343:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3343:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableFixColumnSortDirection(ImGuiTable* table, ImGuiTableColumn* column);
 
-    // Function @ cimgui.h:3344:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3344:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igTableGetColumnWidthAuto(ImGuiTable* table, ImGuiTableColumn* column);
 
-    // Function @ cimgui.h:3345:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3345:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableBeginRow(ImGuiTable* table);
 
-    // Function @ cimgui.h:3346:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3346:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableEndRow(ImGuiTable* table);
 
-    // Function @ cimgui.h:3347:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3347:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableBeginCell(ImGuiTable* table, int column_n);
 
-    // Function @ cimgui.h:3348:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3348:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableEndCell(ImGuiTable* table);
 
-    // Function @ cimgui.h:3349:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3349:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableGetCellBgRect(ImRect* pOut, ImGuiTable* table, int column_n);
 
-    // Function @ cimgui.h:3350:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3350:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igTableGetColumnName_TablePtr(ImGuiTable* table, int column_n);
 
-    // Function @ cimgui.h:3351:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3351:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igTableGetColumnResizeID(ImGuiTable* table, int column_n, int instance_no);
 
-    // Function @ cimgui.h:3352:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3352:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igTableGetMaxColumnWidth(ImGuiTable* table, int column_n);
 
-    // Function @ cimgui.h:3353:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3353:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSetColumnWidthAutoSingle(ImGuiTable* table, int column_n);
 
-    // Function @ cimgui.h:3354:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3354:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSetColumnWidthAutoAll(ImGuiTable* table);
 
-    // Function @ cimgui.h:3355:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3355:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableRemove(ImGuiTable* table);
 
-    // Function @ cimgui.h:3356:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3356:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableGcCompactTransientBuffers_TablePtr(ImGuiTable* table);
 
-    // Function @ cimgui.h:3357:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3357:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableGcCompactTransientBuffers_TableTempDataPtr(ImGuiTableTempData* table);
 
-    // Function @ cimgui.h:3358:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3358:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableGcCompactSettings();
 
-    // Function @ cimgui.h:3359:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3359:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableLoadSettings(ImGuiTable* table);
 
-    // Function @ cimgui.h:3360:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3360:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSaveSettings(ImGuiTable* table);
 
-    // Function @ cimgui.h:3361:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3361:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableResetSettings(ImGuiTable* table);
 
-    // Function @ cimgui.h:3362:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3362:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableSettings* igTableGetBoundSettings(ImGuiTable* table);
 
-    // Function @ cimgui.h:3363:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3363:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTableSettingsInstallHandler(ImGuiContext* context);
 
-    // Function @ cimgui.h:3364:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3364:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableSettings* igTableSettingsCreate(ImGuiID id, int columns_count);
 
-    // Function @ cimgui.h:3365:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3365:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTableSettings* igTableSettingsFindByID(ImGuiID id);
 
-    // Function @ cimgui.h:3366:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3366:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igBeginTabBarEx(ImGuiTabBar* tab_bar, ImRect bb, ImGuiTabBarFlags flags);
 
-    // Function @ cimgui.h:3367:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3367:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiTabItem* igTabBarFindTabByID(ImGuiTabBar* tab_bar, ImGuiID tab_id);
 
-    // Function @ cimgui.h:3368:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3368:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTabBarRemoveTab(ImGuiTabBar* tab_bar, ImGuiID tab_id);
 
-    // Function @ cimgui.h:3369:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3369:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTabBarCloseTab(ImGuiTabBar* tab_bar, ImGuiTabItem* tab);
 
-    // Function @ cimgui.h:3370:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3370:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTabBarQueueReorder(ImGuiTabBar* tab_bar, ImGuiTabItem* tab, int offset);
 
-    // Function @ cimgui.h:3371:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3371:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTabBarQueueReorderFromMousePos(ImGuiTabBar* tab_bar, ImGuiTabItem* tab, Vector2 mouse_pos);
 
-    // Function @ cimgui.h:3372:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3372:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTabBarProcessReorder(ImGuiTabBar* tab_bar);
 
-    // Function @ cimgui.h:3373:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3373:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTabItemEx(ImGuiTabBar* tab_bar, CString8U label, CBool* p_open, ImGuiTabItemFlags flags);
 
-    // Function @ cimgui.h:3374:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3374:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTabItemCalcSize(Vector2* pOut, CString8U label, CBool has_close_button);
 
-    // Function @ cimgui.h:3375:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3375:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTabItemBackground(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, uint col);
 
-    // Function @ cimgui.h:3376:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3376:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTabItemLabelAndCloseButton(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, Vector2 frame_padding, CString8U label, ImGuiID tab_id, ImGuiID close_button_id, CBool is_contents_visible, CBool* out_just_closed, CBool* out_text_clipped);
 
-    // Function @ cimgui.h:3377:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3377:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderText(Vector2 pos, CString8U text, CString8U text_end, CBool hide_text_after_hash);
 
-    // Function @ cimgui.h:3378:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3378:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderTextWrapped(Vector2 pos, CString8U text, CString8U text_end, float wrap_width);
 
-    // Function @ cimgui.h:3379:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3379:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderTextClipped(Vector2 pos_min, Vector2 pos_max, CString8U text, CString8U text_end, Vector2* text_size_if_known, Vector2 align, ImRect* clip_rect);
 
-    // Function @ cimgui.h:3380:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3380:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderTextClippedEx(ImDrawList* draw_list, Vector2 pos_min, Vector2 pos_max, CString8U text, CString8U text_end, Vector2* text_size_if_known, Vector2 align, ImRect* clip_rect);
 
-    // Function @ cimgui.h:3381:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3381:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderTextEllipsis(ImDrawList* draw_list, Vector2 pos_min, Vector2 pos_max, float clip_max_x, float ellipsis_max_x, CString8U text, CString8U text_end, Vector2* text_size_if_known);
 
-    // Function @ cimgui.h:3382:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3382:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderFrame(Vector2 p_min, Vector2 p_max, uint fill_col, CBool border, float rounding);
 
-    // Function @ cimgui.h:3383:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3383:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderFrameBorder(Vector2 p_min, Vector2 p_max, float rounding);
 
-    // Function @ cimgui.h:3384:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3384:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderColorRectWithAlphaCheckerboard(ImDrawList* draw_list, Vector2 p_min, Vector2 p_max, uint fill_col, float grid_step, Vector2 grid_off, float rounding, ImDrawFlags flags);
 
-    // Function @ cimgui.h:3385:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3385:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderNavHighlight(ImRect bb, ImGuiID id, ImGuiNavHighlightFlags flags);
 
-    // Function @ cimgui.h:3386:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3386:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CString8U igFindRenderedTextEnd(CString8U text, CString8U text_end);
 
-    // Function @ cimgui.h:3387:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3387:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderArrow(ImDrawList* draw_list, Vector2 pos, uint col, ImGuiDir dir, float scale);
 
-    // Function @ cimgui.h:3388:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3388:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderBullet(ImDrawList* draw_list, Vector2 pos, uint col);
 
-    // Function @ cimgui.h:3389:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3389:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderCheckMark(ImDrawList* draw_list, Vector2 pos, uint col, float sz);
 
-    // Function @ cimgui.h:3390:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3390:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderMouseCursor(ImDrawList* draw_list, Vector2 pos, float scale, ImGuiMouseCursor mouse_cursor, uint col_fill, uint col_border, uint col_shadow);
 
-    // Function @ cimgui.h:3391:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3391:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderArrowPointingAt(ImDrawList* draw_list, Vector2 pos, Vector2 half_sz, ImGuiDir direction, uint col);
 
-    // Function @ cimgui.h:3392:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3392:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderRectFilledRangeH(ImDrawList* draw_list, ImRect rect, uint col, float x_start_norm, float x_end_norm, float rounding);
 
-    // Function @ cimgui.h:3393:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3393:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igRenderRectFilledWithHole(ImDrawList* draw_list, ImRect outer, ImRect inner, uint col, float rounding);
 
-    // Function @ cimgui.h:3394:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3394:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTextEx(CString8U text, CString8U text_end, ImGuiTextFlags flags);
 
-    // Function @ cimgui.h:3395:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3395:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igButtonEx(CString8U label, Vector2 size_arg, ImGuiButtonFlags flags);
 
-    // Function @ cimgui.h:3396:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3396:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCloseButton(ImGuiID id, Vector2 pos);
 
-    // Function @ cimgui.h:3397:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3397:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCollapseButton(ImGuiID id, Vector2 pos);
 
-    // Function @ cimgui.h:3398:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3398:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igArrowButtonEx(CString8U str_id, ImGuiDir dir, Vector2 size_arg, ImGuiButtonFlags flags);
 
-    // Function @ cimgui.h:3399:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3399:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igScrollbar(ImGuiAxis axis);
 
-    // Function @ cimgui.h:3400:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3400:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igScrollbarEx(ImRect bb, ImGuiID id, ImGuiAxis axis, float* p_scroll_v, float avail_v, float contents_v, ImDrawFlags flags);
 
-    // Function @ cimgui.h:3401:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3401:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igImageButtonEx(ImGuiID id, ImTextureID texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, Vector2 padding, Vector4 bg_col, Vector4 tint_col);
 
-    // Function @ cimgui.h:3402:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3402:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGetWindowScrollbarRect(ImRect* pOut, ImGuiWindow* window, ImGuiAxis axis);
 
-    // Function @ cimgui.h:3403:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3403:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetWindowScrollbarID(ImGuiWindow* window, ImGuiAxis axis);
 
-    // Function @ cimgui.h:3404:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3404:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetWindowResizeCornerID(ImGuiWindow* window, int n);
 
-    // Function @ cimgui.h:3405:20 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3405:20 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiID igGetWindowResizeBorderID(ImGuiWindow* window, ImGuiDir dir);
 
-    // Function @ cimgui.h:3406:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3406:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igSeparatorEx(ImGuiSeparatorFlags flags);
 
-    // Function @ cimgui.h:3407:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3407:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCheckboxFlags_S64Ptr(CString8U label, long* flags, long flags_value);
 
-    // Function @ cimgui.h:3408:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3408:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igCheckboxFlags_U64Ptr(CString8U label, ulong* flags, ulong flags_value);
 
-    // Function @ cimgui.h:3409:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3409:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igButtonBehavior(ImRect bb, ImGuiID id, CBool* out_hovered, CBool* out_held, ImGuiButtonFlags flags);
 
-    // Function @ cimgui.h:3410:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3410:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDragBehavior(ImGuiID id, ImGuiDataType data_type, void* p_v, float v_speed, void* p_min, void* p_max, CString8U format, ImGuiSliderFlags flags);
 
-    // Function @ cimgui.h:3411:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3411:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSliderBehavior(ImRect bb, ImGuiID id, ImGuiDataType data_type, void* p_v, void* p_min, void* p_max, CString8U format, ImGuiSliderFlags flags, ImRect* out_grab_bb);
 
-    // Function @ cimgui.h:3412:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3412:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igSplitterBehavior(ImRect bb, ImGuiID id, ImGuiAxis axis, float* size1, float* size2, float min_size1, float min_size2, float hover_extend, float hover_visibility_delay);
 
-    // Function @ cimgui.h:3413:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3413:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNodeBehavior(ImGuiID id, ImGuiTreeNodeFlags flags, CString8U label, CString8U label_end);
 
-    // Function @ cimgui.h:3414:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3414:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTreeNodeBehaviorIsOpen(ImGuiID id, ImGuiTreeNodeFlags flags);
 
-    // Function @ cimgui.h:3415:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3415:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igTreePushOverrideID(ImGuiID id);
 
-    // Function @ cimgui.h:3416:37 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3416:37 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiDataTypeInfo* igDataTypeGetInfo(ImGuiDataType data_type);
 
-    // Function @ cimgui.h:3417:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3417:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igDataTypeFormatString(CString8U buf, int buf_size, ImGuiDataType data_type, void* p_data, CString8U format);
 
-    // Function @ cimgui.h:3418:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3418:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDataTypeApplyOp(ImGuiDataType data_type, int op, void* output, void* arg_1, void* arg_2);
 
-    // Function @ cimgui.h:3419:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3419:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDataTypeApplyOpFromText(CString8U buf, CString8U initial_value_buf, ImGuiDataType data_type, void* p_data, CString8U format);
 
-    // Function @ cimgui.h:3420:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3420:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igDataTypeCompare(ImGuiDataType data_type, void* arg_1, void* arg_2);
 
-    // Function @ cimgui.h:3421:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3421:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igDataTypeClamp(ImGuiDataType data_type, void* p_data, void* p_min, void* p_max);
 
-    // Function @ cimgui.h:3422:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3422:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igInputTextEx(CString8U label, CString8U hint, CString8U buf, int buf_size, Vector2 size_arg, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
-    // Function @ cimgui.h:3423:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3423:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTempInputText(ImRect bb, ImGuiID id, CString8U label, CString8U buf, int buf_size, ImGuiInputTextFlags flags);
 
-    // Function @ cimgui.h:3424:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3424:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTempInputScalar(ImRect bb, ImGuiID id, CString8U label, ImGuiDataType data_type, void* p_data, CString8U format, void* p_clamp_min, void* p_clamp_max);
 
-    // Function @ cimgui.h:3425:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3425:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern CBool igTempInputIsActive(ImGuiID id);
 
-    // Function @ cimgui.h:3426:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3426:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImGuiInputTextState* igGetInputTextState(ImGuiID id);
 
-    // Function @ cimgui.h:3427:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3427:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igColorTooltip(CString8U text, float* col, ImGuiColorEditFlags flags);
 
-    // Function @ cimgui.h:3428:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3428:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igColorEditOptionsPopup(float* col, ImGuiColorEditFlags flags);
 
-    // Function @ cimgui.h:3429:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3429:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igColorPickerOptionsPopup(float* ref_col, ImGuiColorEditFlags flags);
 
-    // Function @ cimgui.h:3430:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3430:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern int igPlotEx(ImGuiPlotType plot_type, CString8U label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString8U overlay_text, float scale_min, float scale_max, Vector2 frame_size);
 
-    // Function @ cimgui.h:3431:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3431:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShadeVertsLinearColorGradientKeepAlpha(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, Vector2 gradient_p0, Vector2 gradient_p1, uint col0, uint col1);
 
-    // Function @ cimgui.h:3432:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3432:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShadeVertsLinearUV(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, Vector2 a, Vector2 b, Vector2 uv_a, Vector2 uv_b, CBool clamp);
 
-    // Function @ cimgui.h:3433:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3433:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGcCompactTransientMiscBuffers();
 
-    // Function @ cimgui.h:3434:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3434:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGcCompactTransientWindowBuffers(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3435:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3435:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igGcAwakeTransientWindowBuffers(ImGuiWindow* window);
 
-    // Function @ cimgui.h:3436:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3436:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igErrorCheckEndFrameRecover(ImGuiErrorLogCallback log_callback, void* user_data);
 
-    // Function @ cimgui.h:3437:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3437:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugDrawItemRect(uint col);
 
-    // Function @ cimgui.h:3438:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3438:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugStartItemPicker();
 
-    // Function @ cimgui.h:3439:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3439:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igShowFontAtlas(ImFontAtlas* atlas);
 
-    // Function @ cimgui.h:3440:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3440:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeColumns(ImGuiOldColumns* columns);
 
-    // Function @ cimgui.h:3441:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3441:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeDrawList(ImGuiWindow* window, ImDrawList* draw_list, CString8U label);
 
-    // Function @ cimgui.h:3442:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3442:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeDrawCmdShowMeshAndBoundingBox(ImDrawList* out_draw_list, ImDrawList* draw_list, ImDrawCmd* draw_cmd, CBool show_mesh, CBool show_aabb);
 
-    // Function @ cimgui.h:3443:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3443:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeFont(ImFont* font);
 
-    // Function @ cimgui.h:3444:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3444:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeStorage(ImGuiStorage* storage, CString8U label);
 
-    // Function @ cimgui.h:3445:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3445:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeTabBar(ImGuiTabBar* tab_bar, CString8U label);
 
-    // Function @ cimgui.h:3446:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3446:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeTable(ImGuiTable* table);
 
-    // Function @ cimgui.h:3447:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3447:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeTableSettings(ImGuiTableSettings* settings);
 
-    // Function @ cimgui.h:3448:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3448:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeWindow(ImGuiWindow* window, CString8U label);
 
-    // Function @ cimgui.h:3449:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3449:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeWindowSettings(ImGuiWindowSettings* settings);
 
-    // Function @ cimgui.h:3450:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3450:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeWindowsList(ImVector_ImGuiWindowPtr* windows, CString8U label);
 
-    // Function @ cimgui.h:3451:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3451:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugNodeViewport(ImGuiViewportP* viewport);
 
-    // Function @ cimgui.h:3452:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3452:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igDebugRenderViewportThumbnail(ImDrawList* draw_list, ImGuiViewportP* viewport, ImRect bb);
 
-    // Function @ cimgui.h:3453:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3453:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImFontBuilderIO* igImFontAtlasGetBuilderForStbTruetype();
 
-    // Function @ cimgui.h:3454:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3454:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImFontAtlasBuildInit(ImFontAtlas* atlas);
 
-    // Function @ cimgui.h:3455:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3455:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImFontAtlasBuildSetupFont(ImFontAtlas* atlas, ImFont* font, ImFontConfig* font_config, float ascent, float descent);
 
-    // Function @ cimgui.h:3456:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3456:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImFontAtlasBuildPackCustomRects(ImFontAtlas* atlas, void* stbrp_context_opaque);
 
-    // Function @ cimgui.h:3457:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3457:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImFontAtlasBuildFinish(ImFontAtlas* atlas);
 
-    // Function @ cimgui.h:3458:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3458:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImFontAtlasBuildRender8bppRectFromString(ImFontAtlas* atlas, int x, int y, int w, int h, CString8U in_str, byte in_marker_char, byte in_marker_pixel_value);
 
-    // Function @ cimgui.h:3459:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3459:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImFontAtlasBuildRender32bppRectFromString(ImFontAtlas* atlas, int x, int y, int w, int h, CString8U in_str, byte in_marker_char, uint in_marker_pixel_value);
 
-    // Function @ cimgui.h:3460:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3460:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImFontAtlasBuildMultiplyCalcLookupTable(byte* out_table, float in_multiply_factor);
 
-    // Function @ cimgui.h:3461:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3461:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igImFontAtlasBuildMultiplyRectAlpha8(byte* table, ulong* pixels, int x, int y, int w, int h, int stride);
 
-    // Function @ cimgui.h:3466:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3466:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void igLogText(CString8U fmt);
 
-    // Function @ cimgui.h:3468:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3468:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImGuiTextBuffer_appendf(ImGuiTextBuffer* buffer, CString8U fmt);
 
-    // Function @ cimgui.h:3470:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3470:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGET_FLT_MAX();
 
-    // Function @ cimgui.h:3472:18 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3472:18 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern float igGET_FLT_MIN();
 
-    // Function @ cimgui.h:3475:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3475:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern ImVector_ImWchar* ImVector_ImWchar_create();
 
-    // Function @ cimgui.h:3476:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3476:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImVector_ImWchar_destroy(ImVector_ImWchar* self);
 
-    // Function @ cimgui.h:3477:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3477:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImVector_ImWchar_Init(ImVector_ImWchar* p);
 
-    // Function @ cimgui.h:3478:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Function @ cimgui.h:3478:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [DllImport(LibraryName)]
     public static extern void ImVector_ImWchar_UnInit(ImVector_ImWchar* p);
 
-    // FunctionPointer @ cimgui.h:187:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:187:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct ImGuiSizeCallback
     {
         public delegate* unmanaged<ImGuiSizeCallbackData*, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:2512:77 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:2512:77 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_VoidPtr_Int_CString8UPtr_CBool
     {
         public delegate* unmanaged<void*, int, CString8U*, CBool> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:186:15 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:186:15 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct ImGuiInputTextCallback
     {
         public delegate* unmanaged<ImGuiInputTextCallbackData*, int> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:2583:65 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:2583:65 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_VoidPtr_Int_Float
     {
         public delegate* unmanaged<void*, int, float> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:188:17 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:188:17 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct ImGuiMemAllocFunc
     {
         public delegate* unmanaged<ulong, void*, void*> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:189:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:189:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct ImGuiMemFreeFunc
     {
         public delegate* unmanaged<void*, void*, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:201:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:201:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct ImDrawCallback
     {
         public delegate* unmanaged<ImDrawList*, ImDrawCmd*, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:248:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:248:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct ImGuiErrorLogCallback
     {
         public delegate* unmanaged<void*, CString8U, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:881:19 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:881:19 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_VoidPtr_CString8U
     {
         public delegate* unmanaged<void*, CString8U> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:882:12 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:882:12 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_VoidPtr_CString8U_Void
     {
         public delegate* unmanaged<void*, CString8U, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:884:12 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:884:12 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_Int_Int_Void
     {
         public delegate* unmanaged<int, int, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:1671:12 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:1671:12 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_ImGuiContextPtr_ImGuiSettingsHandlerPtr_Void
     {
         public delegate* unmanaged<ImGuiContext*, ImGuiSettingsHandler*, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:1673:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:1673:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_ImGuiContextPtr_ImGuiSettingsHandlerPtr_CString8U_VoidPtr
     {
         public delegate* unmanaged<ImGuiContext*, ImGuiSettingsHandler*, CString8U, void*> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:1674:12 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:1674:12 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_ImGuiContextPtr_ImGuiSettingsHandlerPtr_VoidPtr_CString8U_Void
     {
         public delegate* unmanaged<ImGuiContext*, ImGuiSettingsHandler*, void*, CString8U, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:1676:12 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:1676:12 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_ImGuiContextPtr_ImGuiSettingsHandlerPtr_ImGuiTextBufferPtr_Void
     {
         public delegate* unmanaged<ImGuiContext*, ImGuiSettingsHandler*, ImGuiTextBuffer*, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:252:16 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:252:16 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct ImGuiContextHookCallback
     {
         public delegate* unmanaged<ImGuiContext*, ImGuiContextHook*, void> Pointer;
     }
 
-    // FunctionPointer @ cimgui.h:2294:12 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // FunctionPointer @ cimgui.h:2294:12 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Sequential)]
     public struct FnPtr_IMGUI_ImFontAtlasPtr_CBool
     {
         public delegate* unmanaged<ImFontAtlas*, CBool> Pointer;
     }
 
-    // Struct @ cimgui.h:105:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:105:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16200, Pack = 8)]
     public struct ImGuiContext
     {
@@ -5295,7 +5295,7 @@ public static unsafe partial class imgui
         }
     }
 
-    // Struct @ cimgui.h:111:28 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:111:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 1168, Pack = 8)]
     public struct ImFontAtlas
     {
@@ -5376,7 +5376,7 @@ public static unsafe partial class imgui
         public int PackIdLines;
     }
 
-    // Struct @ cimgui.h:104:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:104:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 5456, Pack = 8)]
     public struct ImGuiIO
     {
@@ -5871,7 +5871,7 @@ public static unsafe partial class imgui
         public ImVector_ImWchar InputQueueCharacters;
     }
 
-    // Struct @ cimgui.h:97:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:97:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 1048, Pack = 4)]
     public struct ImGuiStyle
     {
@@ -6012,7 +6012,7 @@ public static unsafe partial class imgui
         }
     }
 
-    // Struct @ cimgui.h:117:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:117:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 8)]
     public struct ImDrawData
     {
@@ -6041,7 +6041,7 @@ public static unsafe partial class imgui
         public Vector2 FramebufferScale;
     }
 
-    // Struct @ cimgui.h:116:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:116:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 200, Pack = 8)]
     public struct ImDrawList
     {
@@ -6091,7 +6091,7 @@ public static unsafe partial class imgui
         public float _FringeScale;
     }
 
-    // Struct @ cimgui.h:112:23 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:112:23 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 112, Pack = 8)]
     public struct ImFont
     {
@@ -6163,7 +6163,7 @@ public static unsafe partial class imgui
         }
     }
 
-    // Struct @ cimgui.h:96:36 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:96:36 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImGuiTableSortSpecs
     {
@@ -6177,7 +6177,7 @@ public static unsafe partial class imgui
         public CBool SpecsDirty;
     }
 
-    // Struct @ cimgui.h:100:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:100:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 64, Pack = 8)]
     public struct ImGuiPayload
     {
@@ -6219,7 +6219,7 @@ public static unsafe partial class imgui
         public CBool Delivery;
     }
 
-    // Struct @ cimgui.h:92:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:92:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 36, Pack = 4)]
     public struct ImGuiViewport
     {
@@ -6239,7 +6239,7 @@ public static unsafe partial class imgui
         public Vector2 WorkSize;
     }
 
-    // Struct @ cimgui.h:115:37 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:115:37 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 512, Pack = 8)]
     public struct ImDrawListSharedData
     {
@@ -6303,7 +6303,7 @@ public static unsafe partial class imgui
         public Vector4* TexUvLines;
     }
 
-    // Struct @ cimgui.h:98:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:98:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImGuiStorage
     {
@@ -6311,7 +6311,7 @@ public static unsafe partial class imgui
         public ImVector_ImGuiStoragePair Data;
     }
 
-    // Struct @ cimgui.h:103:43 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:103:43 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 56, Pack = 8)]
     public struct ImGuiInputTextCallbackData
     {
@@ -6352,7 +6352,7 @@ public static unsafe partial class imgui
         public int SelectionEnd;
     }
 
-    // Struct @ cimgui.h:95:42 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:95:42 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 12, Pack = 4)]
     public struct ImGuiTableColumnSortSpecs
     {
@@ -6369,7 +6369,7 @@ public static unsafe partial class imgui
         public ImGuiSortDirection SortDirection;
     }
 
-    // Struct @ cimgui.h:101:36 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:101:36 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiOnceUponAFrame
     {
@@ -6377,7 +6377,7 @@ public static unsafe partial class imgui
         public int RefFrame;
     }
 
-    // Struct @ cimgui.h:93:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:93:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 280, Pack = 8)]
     public struct ImGuiTextFilter
     {
@@ -6404,7 +6404,7 @@ public static unsafe partial class imgui
         public int CountGrep;
     }
 
-    // Struct @ cimgui.h:89:31 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:89:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImGuiTextRange
     {
@@ -6415,7 +6415,7 @@ public static unsafe partial class imgui
         public CString8U e;
     }
 
-    // Struct @ cimgui.h:288:86 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:288:86 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiTextRange
     {
@@ -6429,7 +6429,7 @@ public static unsafe partial class imgui
         public ImGuiTextRange* Data;
     }
 
-    // Struct @ cimgui.h:94:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:94:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImGuiTextBuffer
     {
@@ -6437,7 +6437,7 @@ public static unsafe partial class imgui
         public ImVector_char Buf;
     }
 
-    // Struct @ cimgui.h:88:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:88:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImGuiStoragePair
     {
@@ -6445,7 +6445,7 @@ public static unsafe partial class imgui
         public ImGuiID key;
     }
 
-    // Struct @ cimgui.h:102:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:102:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 28, Pack = 4)]
     public struct ImGuiListClipper
     {
@@ -6471,7 +6471,7 @@ public static unsafe partial class imgui
         public float StartPosY;
     }
 
-    // Struct @ cimgui.h:106:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:106:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
     public struct ImColor
     {
@@ -6479,7 +6479,7 @@ public static unsafe partial class imgui
         public Vector4 Value;
     }
 
-    // Struct @ cimgui.h:118:26 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:118:26 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 56, Pack = 8)]
     public struct ImDrawCmd
     {
@@ -6505,7 +6505,7 @@ public static unsafe partial class imgui
         public void* UserCallbackData;
     }
 
-    // Struct @ cimgui.h:114:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:114:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 24, Pack = 8)]
     public struct ImDrawListSplitter
     {
@@ -6519,7 +6519,7 @@ public static unsafe partial class imgui
         public ImVector_ImDrawChannel _Channels;
     }
 
-    // Struct @ cimgui.h:109:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:109:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 136, Pack = 8)]
     public struct ImFontConfig
     {
@@ -6594,7 +6594,7 @@ public static unsafe partial class imgui
         public ImFont* DstFont;
     }
 
-    // Struct @ cimgui.h:107:41 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:107:41 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImFontGlyphRangesBuilder
     {
@@ -6602,7 +6602,7 @@ public static unsafe partial class imgui
         public ImVector_ImU32 UsedChars;
     }
 
-    // Struct @ cimgui.h:296:72 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:296:72 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImWchar
     {
@@ -6616,7 +6616,7 @@ public static unsafe partial class imgui
         public char* Data;
     }
 
-    // Struct @ cimgui.h:86:38 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:86:38 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
     public struct ImFontAtlasCustomRect
     {
@@ -6645,7 +6645,7 @@ public static unsafe partial class imgui
         public ImFont* Font;
     }
 
-    // Struct @ cimgui.h:108:28 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:108:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 4)]
     public struct ImFontGlyph
     {
@@ -6686,7 +6686,7 @@ public static unsafe partial class imgui
         public float V1;
     }
 
-    // Struct @ cimgui.h:50:25 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:50:25 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 2)]
     public struct ImVec2ih
     {
@@ -6697,7 +6697,7 @@ public static unsafe partial class imgui
         public short y;
     }
 
-    // Struct @ cimgui.h:84:23 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:84:23 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
     public struct ImRect
     {
@@ -6708,7 +6708,7 @@ public static unsafe partial class imgui
         public Vector2 Max;
     }
 
-    // Struct @ cimgui.h:85:28 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:85:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImBitVector
     {
@@ -6716,7 +6716,7 @@ public static unsafe partial class imgui
         public ImVector_ImU32 Storage;
     }
 
-    // Struct @ cimgui.h:83:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:83:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
     public struct ImDrawDataBuilder
     {
@@ -6737,7 +6737,7 @@ public static unsafe partial class imgui
         }
     }
 
-    // Struct @ cimgui.h:66:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:66:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 12, Pack = 4)]
     public struct ImGuiStyleMod
     {
@@ -6745,7 +6745,7 @@ public static unsafe partial class imgui
         public ImGuiStyleVar VarIdx;
     }
 
-    // Struct @ cimgui.h:48:38 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:48:38 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 4)]
     public struct ImGuiComboPreviewData
     {
@@ -6768,7 +6768,7 @@ public static unsafe partial class imgui
         public ImGuiLayoutType BackupLayout;
     }
 
-    // Struct @ cimgui.h:76:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:76:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 28, Pack = 4)]
     public struct ImGuiMenuColumns
     {
@@ -6810,7 +6810,7 @@ public static unsafe partial class imgui
         }
     }
 
-    // Struct @ cimgui.h:78:36 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:78:36 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 3736, Pack = 8)]
     public struct ImGuiInputTextState
     {
@@ -6866,7 +6866,7 @@ public static unsafe partial class imgui
         public void* UserCallbackData;
     }
 
-    // Struct @ cimgui.h:69:31 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:69:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 8)]
     public struct ImGuiPopupData
     {
@@ -6892,7 +6892,7 @@ public static unsafe partial class imgui
         public Vector2 OpenMousePos;
     }
 
-    // Struct @ cimgui.h:75:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:75:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 8)]
     public struct ImGuiNavItemData
     {
@@ -6918,7 +6918,7 @@ public static unsafe partial class imgui
         public float DistAxial;
     }
 
-    // Struct @ cimgui.h:73:36 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:73:36 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 112, Pack = 8)]
     public struct ImGuiNextWindowData
     {
@@ -6968,7 +6968,7 @@ public static unsafe partial class imgui
         public Vector2 MenuBarOffsetMinVal;
     }
 
-    // Struct @ cimgui.h:72:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:72:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 20, Pack = 4)]
     public struct ImGuiNextItemData
     {
@@ -6988,7 +6988,7 @@ public static unsafe partial class imgui
         public CBool OpenVal;
     }
 
-    // Struct @ cimgui.h:77:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:77:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 44, Pack = 4)]
     public struct ImGuiLastItemData
     {
@@ -7008,7 +7008,7 @@ public static unsafe partial class imgui
         public ImRect DisplayRect;
     }
 
-    // Struct @ cimgui.h:45:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:45:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImGuiPtrOrIndex
     {
@@ -7019,7 +7019,7 @@ public static unsafe partial class imgui
         public int Index;
     }
 
-    // Struct @ cimgui.h:71:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:71:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 28, Pack = 4)]
     public struct ImGuiOldColumnData
     {
@@ -7036,7 +7036,7 @@ public static unsafe partial class imgui
         public ImRect ClipRect;
     }
 
-    // Struct @ cimgui.h:70:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:70:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 136, Pack = 8)]
     public struct ImGuiOldColumns
     {
@@ -7092,7 +7092,7 @@ public static unsafe partial class imgui
         public ImDrawListSplitter Splitter;
     }
 
-    // Struct @ cimgui.h:44:31 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:44:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 176, Pack = 8)]
     public struct ImGuiViewportP
     {
@@ -7150,7 +7150,7 @@ public static unsafe partial class imgui
         public Vector2 BuildWorkOffsetMax;
     }
 
-    // Struct @ cimgui.h:56:36 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:56:36 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
     public struct ImGuiWindowSettings
     {
@@ -7170,7 +7170,7 @@ public static unsafe partial class imgui
         public CBool WantApply;
     }
 
-    // Struct @ cimgui.h:68:37 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:68:37 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 72, Pack = 8)]
     public struct ImGuiSettingsHandler
     {
@@ -7202,7 +7202,7 @@ public static unsafe partial class imgui
         public void* UserData;
     }
 
-    // Struct @ cimgui.h:74:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:74:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
     public struct ImGuiMetricsConfig
     {
@@ -7228,7 +7228,7 @@ public static unsafe partial class imgui
         public int ShowTablesRectsType;
     }
 
-    // Struct @ cimgui.h:67:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:67:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 14, Pack = 2)]
     public struct ImGuiStackSizes
     {
@@ -7254,7 +7254,7 @@ public static unsafe partial class imgui
         public short SizeOfBeginPopupStack;
     }
 
-    // Struct @ cimgui.h:81:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:81:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
     public struct ImGuiContextHook
     {
@@ -7274,7 +7274,7 @@ public static unsafe partial class imgui
         public void* UserData;
     }
 
-    // Struct @ cimgui.h:58:28 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:58:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 944, Pack = 8)]
     public struct ImGuiWindow
     {
@@ -7554,7 +7554,7 @@ public static unsafe partial class imgui
         public CBool MemoryCompacted;
     }
 
-    // Struct @ cimgui.h:64:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:64:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 4)]
     public struct ImGuiTabItem
     {
@@ -7592,7 +7592,7 @@ public static unsafe partial class imgui
         public CBool WantClose;
     }
 
-    // Struct @ cimgui.h:65:28 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:65:28 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 152, Pack = 8)]
     public struct ImGuiTabBar
     {
@@ -7690,7 +7690,7 @@ public static unsafe partial class imgui
         public ImGuiTextBuffer TabsNames;
     }
 
-    // Struct @ cimgui.h:62:33 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:62:33 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 104, Pack = 4)]
     public struct ImGuiTableColumn
     {
@@ -7818,7 +7818,7 @@ public static unsafe partial class imgui
         public byte SortDirectionsAvailList;
     }
 
-    // Struct @ cimgui.h:63:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:63:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 520, Pack = 8)]
     public struct ImGuiTable
     {
@@ -8145,7 +8145,7 @@ public static unsafe partial class imgui
         public CBool HostSkipItems;
     }
 
-    // Struct @ cimgui.h:61:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:61:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 112, Pack = 8)]
     public struct ImGuiTableTempData
     {
@@ -8186,7 +8186,7 @@ public static unsafe partial class imgui
         public int HostBackupItemWidthStackSize;
     }
 
-    // Struct @ cimgui.h:42:41 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:42:41 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 12, Pack = 4)]
     public struct ImGuiTableColumnSettings
     {
@@ -8215,7 +8215,7 @@ public static unsafe partial class imgui
         public byte IsStretch;
     }
 
-    // Struct @ cimgui.h:60:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:60:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
     public struct ImGuiTableSettings
     {
@@ -8238,7 +8238,7 @@ public static unsafe partial class imgui
         public CBool WantApply;
     }
 
-    // Struct @ cimgui.h:46:37 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:46:37 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 4)]
     public struct ImGuiShrinkWidthItem
     {
@@ -8249,7 +8249,7 @@ public static unsafe partial class imgui
         public float Width;
     }
 
-    // Struct @ cimgui.h:80:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:80:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
     public struct ImGuiDataTypeInfo
     {
@@ -8266,7 +8266,7 @@ public static unsafe partial class imgui
         public CString8U ScanFmt;
     }
 
-    // Struct @ cimgui.h:290:84 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:290:84 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiWindowPtr
     {
@@ -8280,7 +8280,7 @@ public static unsafe partial class imgui
         public ImGuiWindow** Data;
     }
 
-    // Struct @ cimgui.h:110:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:110:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 8)]
     public struct ImFontBuilderIO
     {
@@ -8288,7 +8288,7 @@ public static unsafe partial class imgui
         public FnPtr_IMGUI_ImFontAtlasPtr_CBool FontBuilder_Build;
     }
 
-    // Struct @ cimgui.h:291:98 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:291:98 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiWindowStackData
     {
@@ -8302,7 +8302,7 @@ public static unsafe partial class imgui
         public ImGuiWindowStackData* Data;
     }
 
-    // Struct @ cimgui.h:272:84 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:272:84 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiColorMod
     {
@@ -8316,7 +8316,7 @@ public static unsafe partial class imgui
         public ImGuiColorMod* Data;
     }
 
-    // Struct @ cimgui.h:284:84 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:284:84 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiStyleMod
     {
@@ -8330,7 +8330,7 @@ public static unsafe partial class imgui
         public ImGuiStyleMod* Data;
     }
 
-    // Struct @ cimgui.h:268:74 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:268:74 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImFontPtr
     {
@@ -8344,7 +8344,7 @@ public static unsafe partial class imgui
         public ImFont** Data;
     }
 
-    // Struct @ cimgui.h:275:72 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:275:72 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiID
     {
@@ -8358,7 +8358,7 @@ public static unsafe partial class imgui
         public ImGuiID* Data;
     }
 
-    // Struct @ cimgui.h:276:86 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:276:86 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiItemFlags
     {
@@ -8372,7 +8372,7 @@ public static unsafe partial class imgui
         public ImGuiItemFlags* Data;
     }
 
-    // Struct @ cimgui.h:274:86 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:274:86 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiGroupData
     {
@@ -8386,7 +8386,7 @@ public static unsafe partial class imgui
         public ImGuiGroupData* Data;
     }
 
-    // Struct @ cimgui.h:279:86 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:279:86 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiPopupData
     {
@@ -8400,7 +8400,7 @@ public static unsafe partial class imgui
         public ImGuiPopupData* Data;
     }
 
-    // Struct @ cimgui.h:289:90 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:289:90 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiViewportPPtr
     {
@@ -8414,7 +8414,7 @@ public static unsafe partial class imgui
         public ImGuiViewportP** Data;
     }
 
-    // Struct @ cimgui.h:299:84 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:299:84 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_unsigned_char
     {
@@ -8428,7 +8428,7 @@ public static unsafe partial class imgui
         public ulong* Data;
     }
 
-    // Struct @ cimgui.h:1009:96 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:1009:96 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 8)]
     public struct ImPool_ImGuiTable
     {
@@ -8442,7 +8442,7 @@ public static unsafe partial class imgui
         public ImPoolIdx FreeIdx;
     }
 
-    // Struct @ cimgui.h:287:94 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:287:94 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiTableTempData
     {
@@ -8456,7 +8456,7 @@ public static unsafe partial class imgui
         public ImGuiTableTempData* Data;
     }
 
-    // Struct @ cimgui.h:298:68 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:298:68 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_float
     {
@@ -8470,7 +8470,7 @@ public static unsafe partial class imgui
         public float* Data;
     }
 
-    // Struct @ cimgui.h:263:84 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:263:84 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImDrawChannel
     {
@@ -8484,7 +8484,7 @@ public static unsafe partial class imgui
         public ImDrawChannel* Data;
     }
 
-    // Struct @ cimgui.h:1007:98 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:1007:98 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 8)]
     public struct ImPool_ImGuiTabBar
     {
@@ -8498,7 +8498,7 @@ public static unsafe partial class imgui
         public ImPoolIdx FreeIdx;
     }
 
-    // Struct @ cimgui.h:280:88 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:280:88 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiPtrOrIndex
     {
@@ -8512,7 +8512,7 @@ public static unsafe partial class imgui
         public ImGuiPtrOrIndex* Data;
     }
 
-    // Struct @ cimgui.h:282:98 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:282:98 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiShrinkWidthItem
     {
@@ -8526,7 +8526,7 @@ public static unsafe partial class imgui
         public ImGuiShrinkWidthItem* Data;
     }
 
-    // Struct @ cimgui.h:297:66 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:297:66 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_char
     {
@@ -8540,7 +8540,7 @@ public static unsafe partial class imgui
         public CString8U Data;
     }
 
-    // Struct @ cimgui.h:281:98 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:281:98 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiSettingsHandler
     {
@@ -8554,7 +8554,7 @@ public static unsafe partial class imgui
         public ImGuiSettingsHandler* Data;
     }
 
-    // Struct @ cimgui.h:259:86 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:259:86 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImChunkStream_ImGuiWindowSettings
     {
@@ -8562,7 +8562,7 @@ public static unsafe partial class imgui
         public ImVector_ImGuiWindowSettings Buf;
     }
 
-    // Struct @ cimgui.h:257:84 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:257:84 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImChunkStream_ImGuiTableSettings
     {
@@ -8570,7 +8570,7 @@ public static unsafe partial class imgui
         public ImVector_ImGuiTableSettings Buf;
     }
 
-    // Struct @ cimgui.h:273:90 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:273:90 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiContextHook
     {
@@ -8584,7 +8584,7 @@ public static unsafe partial class imgui
         public ImGuiContextHook* Data;
     }
 
-    // Struct @ cimgui.h:269:100 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:269:100 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImFontAtlasCustomRect
     {
@@ -8598,7 +8598,7 @@ public static unsafe partial class imgui
         public ImFontAtlasCustomRect* Data;
     }
 
-    // Struct @ cimgui.h:270:82 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:270:82 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImFontConfig
     {
@@ -8612,7 +8612,7 @@ public static unsafe partial class imgui
         public ImFontConfig* Data;
     }
 
-    // Struct @ cimgui.h:264:76 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:264:76 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImDrawCmd
     {
@@ -8626,7 +8626,7 @@ public static unsafe partial class imgui
         public ImDrawCmd* Data;
     }
 
-    // Struct @ cimgui.h:265:76 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:265:76 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImDrawIdx
     {
@@ -8640,7 +8640,7 @@ public static unsafe partial class imgui
         public ImDrawIdx* Data;
     }
 
-    // Struct @ cimgui.h:267:78 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:267:78 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImDrawVert
     {
@@ -8654,7 +8654,7 @@ public static unsafe partial class imgui
         public ImDrawVert* Data;
     }
 
-    // Struct @ cimgui.h:113:27 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:113:27 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 20, Pack = 4)]
     public struct ImDrawVert
     {
@@ -8668,7 +8668,7 @@ public static unsafe partial class imgui
         public uint col;
     }
 
-    // Struct @ cimgui.h:295:70 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:295:70 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImVec4
     {
@@ -8682,7 +8682,7 @@ public static unsafe partial class imgui
         public Vector4* Data;
     }
 
-    // Struct @ cimgui.h:292:80 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:292:80 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImTextureID
     {
@@ -8696,7 +8696,7 @@ public static unsafe partial class imgui
         public ImTextureID* Data;
     }
 
-    // Struct @ cimgui.h:294:70 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:294:70 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImVec2
     {
@@ -8710,7 +8710,7 @@ public static unsafe partial class imgui
         public Vector2* Data;
     }
 
-    // Struct @ cimgui.h:87:32 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:87:32 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
     public struct ImDrawCmdHeader
     {
@@ -8724,7 +8724,7 @@ public static unsafe partial class imgui
         public uint VtxOffset;
     }
 
-    // Struct @ cimgui.h:99:38 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:99:38 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
     public struct ImGuiSizeCallbackData
     {
@@ -8741,7 +8741,7 @@ public static unsafe partial class imgui
         public Vector2 DesiredSize;
     }
 
-    // Struct @ cimgui.h:271:80 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:271:80 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImFontGlyph
     {
@@ -8755,7 +8755,7 @@ public static unsafe partial class imgui
         public ImFontGlyph* Data;
     }
 
-    // Struct @ cimgui.h:283:90 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:283:90 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiStoragePair
     {
@@ -8769,7 +8769,7 @@ public static unsafe partial class imgui
         public ImGuiStoragePair* Data;
     }
 
-    // Struct @ cimgui.h:293:68 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:293:68 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImU32
     {
@@ -8783,7 +8783,7 @@ public static unsafe partial class imgui
         public uint* Data;
     }
 
-    // Struct @ cimgui.h:53:34 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:53:34 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 3628, Pack = 4)]
     public struct STB_TexteditState
     {
@@ -8830,7 +8830,7 @@ public static unsafe partial class imgui
         public StbUndoState undostate;
     }
 
-    // Struct @ cimgui.h:277:94 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:277:94 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiOldColumnData
     {
@@ -8844,7 +8844,7 @@ public static unsafe partial class imgui
         public ImGuiOldColumnData* Data;
     }
 
-    // Struct @ cimgui.h:57:36 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:57:36 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 248, Pack = 8)]
     public struct ImGuiWindowTempData
     {
@@ -8957,7 +8957,7 @@ public static unsafe partial class imgui
         public ImGuiStackSizes StackSizesOnBegin;
     }
 
-    // Struct @ cimgui.h:278:88 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:278:88 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiOldColumns
     {
@@ -8971,7 +8971,7 @@ public static unsafe partial class imgui
         public ImGuiOldColumns* Data;
     }
 
-    // Struct @ cimgui.h:285:82 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:285:82 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiTabItem
     {
@@ -8985,7 +8985,7 @@ public static unsafe partial class imgui
         public ImGuiTabItem* Data;
     }
 
-    // Struct @ cimgui.h:261:92 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:261:92 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImSpan_ImGuiTableColumn
     {
@@ -8996,7 +8996,7 @@ public static unsafe partial class imgui
         public ImGuiTableColumn* DataEnd;
     }
 
-    // Struct @ cimgui.h:262:101 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:262:101 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImSpan_ImGuiTableColumnIdx
     {
@@ -9007,7 +9007,7 @@ public static unsafe partial class imgui
         public ImGuiTableColumnIdx* DataEnd;
     }
 
-    // Struct @ cimgui.h:260:98 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:260:98 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImSpan_ImGuiTableCellData
     {
@@ -9018,7 +9018,7 @@ public static unsafe partial class imgui
         public ImGuiTableCellData* DataEnd;
     }
 
-    // Struct @ cimgui.h:286:108 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:286:108 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiTableColumnSortSpecs
     {
@@ -9032,7 +9032,7 @@ public static unsafe partial class imgui
         public ImGuiTableColumnSortSpecs* Data;
     }
 
-    // Struct @ cimgui.h:47:37 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:47:37 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 56, Pack = 8)]
     public struct ImGuiWindowStackData
     {
@@ -9043,7 +9043,7 @@ public static unsafe partial class imgui
         public ImGuiLastItemData ParentLastItemDataBackup;
     }
 
-    // Struct @ cimgui.h:82:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:82:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 20, Pack = 4)]
     public struct ImGuiColorMod
     {
@@ -9054,7 +9054,7 @@ public static unsafe partial class imgui
         public Vector4 BackupValue;
     }
 
-    // Struct @ cimgui.h:79:31 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:79:31 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 4)]
     public struct ImGuiGroupData
     {
@@ -9092,7 +9092,7 @@ public static unsafe partial class imgui
         public CBool EmitItem;
     }
 
-    // Struct @ cimgui.h:1008:78 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:1008:78 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiTable
     {
@@ -9106,7 +9106,7 @@ public static unsafe partial class imgui
         public ImGuiTable* Data;
     }
 
-    // Struct @ cimgui.h:119:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:119:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
     public struct ImDrawChannel
     {
@@ -9117,7 +9117,7 @@ public static unsafe partial class imgui
         public ImVector_ImDrawIdx _IdxBuffer;
     }
 
-    // Struct @ cimgui.h:1006:80 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:1006:80 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiTabBar
     {
@@ -9131,7 +9131,7 @@ public static unsafe partial class imgui
         public ImGuiTabBar* Data;
     }
 
-    // Struct @ cimgui.h:258:96 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:258:96 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiWindowSettings
     {
@@ -9145,7 +9145,7 @@ public static unsafe partial class imgui
         public ImGuiWindowSettings* Data;
     }
 
-    // Struct @ cimgui.h:256:94 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:256:94 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImGuiTableSettings
     {
@@ -9159,7 +9159,7 @@ public static unsafe partial class imgui
         public ImGuiTableSettings* Data;
     }
 
-    // Struct @ cimgui.h:266:82 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:266:82 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
     public struct ImVector_ImDrawListPtr
     {
@@ -9173,7 +9173,7 @@ public static unsafe partial class imgui
         public ImDrawList** Data;
     }
 
-    // Struct @ cimgui.h:54:29 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:54:29 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 3596, Pack = 4)]
     public struct StbUndoState
     {
@@ -9222,7 +9222,7 @@ public static unsafe partial class imgui
         public int redo_char_point;
     }
 
-    // Struct @ cimgui.h:43:35 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:43:35 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 4)]
     public struct ImGuiTableCellData
     {
@@ -9233,7 +9233,7 @@ public static unsafe partial class imgui
         public ImGuiTableColumnIdx Column;
     }
 
-    // Struct @ cimgui.h:55:30 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Struct @ cimgui.h:55:30 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
     public struct StbUndoRecord
     {
@@ -9250,7 +9250,7 @@ public static unsafe partial class imgui
         public int char_storage;
     }
 
-    // Typedef @ cimgui.h:183:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:183:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiWindowFlags
     {
@@ -9261,7 +9261,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiWindowFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:185:22 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:185:22 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiID
     {
@@ -9272,7 +9272,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiID(uint data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:169:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:169:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiFocusedFlags
     {
@@ -9283,7 +9283,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiFocusedFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:170:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:170:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiHoveredFlags
     {
@@ -9294,7 +9294,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiHoveredFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:150:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:150:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiCond
     {
@@ -9305,7 +9305,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiCond(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:149:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:149:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiCol
     {
@@ -9316,7 +9316,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiCol(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:158:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:158:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiStyleVar
     {
@@ -9327,7 +9327,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiStyleVar(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:164:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:164:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiButtonFlags
     {
@@ -9338,7 +9338,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiButtonFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:152:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:152:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiDir
     {
@@ -9349,7 +9349,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiDir(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:184:15 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:184:15 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 8)]
     public struct ImTextureID
     {
@@ -9360,7 +9360,7 @@ public static unsafe partial class imgui
         public static implicit operator ImTextureID(void* data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:167:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:167:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiComboFlags
     {
@@ -9371,7 +9371,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiComboFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:175:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:175:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiSliderFlags
     {
@@ -9382,7 +9382,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiSliderFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:151:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:151:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiDataType
     {
@@ -9393,7 +9393,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiDataType(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:171:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:171:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiInputTextFlags
     {
@@ -9404,7 +9404,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiInputTextFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:165:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:165:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiColorEditFlags
     {
@@ -9415,7 +9415,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiColorEditFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:181:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:181:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiTreeNodeFlags
     {
@@ -9426,7 +9426,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTreeNodeFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:174:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:174:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiSelectableFlags
     {
@@ -9437,7 +9437,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiSelectableFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:173:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:173:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiPopupFlags
     {
@@ -9448,7 +9448,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiPopupFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:178:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:178:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiTableFlags
     {
@@ -9459,7 +9459,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTableFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:180:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:180:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiTableRowFlags
     {
@@ -9470,7 +9470,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTableRowFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:179:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:179:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiTableColumnFlags
     {
@@ -9481,7 +9481,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTableColumnFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:159:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:159:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiTableBgTarget
     {
@@ -9492,7 +9492,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTableBgTarget(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:176:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:176:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiTabBarFlags
     {
@@ -9503,7 +9503,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTabBarFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:177:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:177:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiTabItemFlags
     {
@@ -9514,7 +9514,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTabItemFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:168:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:168:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiDragDropFlags
     {
@@ -9525,7 +9525,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiDragDropFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:155:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:155:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiMouseButton
     {
@@ -9536,7 +9536,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiMouseButton(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:153:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:153:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiKey
     {
@@ -9547,7 +9547,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiKey(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:156:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:156:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiMouseCursor
     {
@@ -9558,7 +9558,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiMouseCursor(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:160:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:160:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImDrawFlags
     {
@@ -9569,7 +9569,7 @@ public static unsafe partial class imgui
         public static implicit operator ImDrawFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:202:24 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:202:24 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 2, Pack = 2)]
     public struct ImDrawIdx
     {
@@ -9580,7 +9580,7 @@ public static unsafe partial class imgui
         public static implicit operator ImDrawIdx(ushort data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:250:15 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:250:15 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 8)]
     public struct ImFileHandle
     {
@@ -9591,7 +9591,7 @@ public static unsafe partial class imgui
         public static implicit operator ImFileHandle(FILE* data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:238:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:238:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiItemStatusFlags
     {
@@ -9602,7 +9602,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiItemStatusFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:236:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:236:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiItemFlags
     {
@@ -9613,7 +9613,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiItemFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:237:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:237:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiItemAddFlags
     {
@@ -9624,7 +9624,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiItemAddFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:247:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:247:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiTooltipFlags
     {
@@ -9635,7 +9635,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTooltipFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:242:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:242:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiNavMoveFlags
     {
@@ -9646,7 +9646,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiNavMoveFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:154:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:154:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiNavInput
     {
@@ -9657,7 +9657,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiNavInput(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:241:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:241:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiNavDirSourceFlags
     {
@@ -9668,7 +9668,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiNavDirSourceFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:172:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:172:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiKeyModFlags
     {
@@ -9679,7 +9679,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiKeyModFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:239:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:239:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiOldColumnFlags
     {
@@ -9690,7 +9690,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiOldColumnFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:157:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:157:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiSortDirection
     {
@@ -9701,7 +9701,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiSortDirection(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:240:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:240:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiNavHighlightFlags
     {
@@ -9712,7 +9712,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiNavHighlightFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:246:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:246:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiTextFlags
     {
@@ -9723,7 +9723,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTextFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:245:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:245:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiSeparatorFlags
     {
@@ -9734,7 +9734,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiSeparatorFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:162:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:162:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImFontAtlasFlags
     {
@@ -9745,7 +9745,7 @@ public static unsafe partial class imgui
         public static implicit operator ImFontAtlasFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:166:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:166:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiConfigFlags
     {
@@ -9756,7 +9756,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiConfigFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:163:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:163:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiBackendFlags
     {
@@ -9767,7 +9767,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiBackendFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:161:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:161:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImDrawListFlags
     {
@@ -9778,7 +9778,7 @@ public static unsafe partial class imgui
         public static implicit operator ImDrawListFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:182:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:182:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiViewportFlags
     {
@@ -9789,7 +9789,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiViewportFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:235:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:235:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiLayoutType
     {
@@ -9800,7 +9800,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiLayoutType(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:244:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:244:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiNextWindowDataFlags
     {
@@ -9811,7 +9811,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiNextWindowDataFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:243:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:243:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImGuiNextItemDataFlags
     {
@@ -9822,7 +9822,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiNextItemDataFlags(int data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:253:14 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:253:14 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 1, Pack = 1)]
     public struct ImGuiTableColumnIdx
     {
@@ -9833,7 +9833,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTableColumnIdx(sbyte data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:254:14 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:254:14 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 1, Pack = 1)]
     public struct ImGuiTableDrawChannelIdx
     {
@@ -9844,7 +9844,7 @@ public static unsafe partial class imgui
         public static implicit operator ImGuiTableDrawChannelIdx(byte data) => new() { Data = data };
     }
 
-    // Typedef @ cimgui.h:251:13 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Typedef @ cimgui.h:251:13 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
     public struct ImPoolIdx
     {
@@ -9855,7 +9855,7 @@ public static unsafe partial class imgui
         public static implicit operator ImPoolIdx(int data) => new() { Data = data };
     }
 
-    // Enum @ cimgui.h:1699:288 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Enum @ cimgui.h:1699:288 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public enum ImGuiContextHookType : int
     {
         ImGuiContextHookType_NewFramePre = 0,
@@ -9868,7 +9868,7 @@ public static unsafe partial class imgui
         ImGuiContextHookType_PendingRemoval_ = 7
     }
 
-    // Enum @ cimgui.h:1385:2 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Enum @ cimgui.h:1385:2 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public enum ImGuiLogType : int
     {
         ImGuiLogType_None = 0,
@@ -9878,7 +9878,7 @@ public static unsafe partial class imgui
         ImGuiLogType_Clipboard = 4
     }
 
-    // Enum @ cimgui.h:1449:2 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Enum @ cimgui.h:1449:2 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public enum ImGuiPopupPositionPolicy : int
     {
         ImGuiPopupPositionPolicy_Default = 0,
@@ -9886,7 +9886,7 @@ public static unsafe partial class imgui
         ImGuiPopupPositionPolicy_Tooltip = 2
     }
 
-    // Enum @ cimgui.h:1411:2 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Enum @ cimgui.h:1411:2 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public enum ImGuiInputReadMode : int
     {
         ImGuiInputReadMode_Down = 0,
@@ -9897,7 +9897,7 @@ public static unsafe partial class imgui
         ImGuiInputReadMode_RepeatFast = 5
     }
 
-    // Enum @ cimgui.h:1444:2 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Enum @ cimgui.h:1444:2 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public enum ImGuiNavLayer : int
     {
         ImGuiNavLayer_Main = 0,
@@ -9905,7 +9905,7 @@ public static unsafe partial class imgui
         ImGuiNavLayer_COUNT = 2
     }
 
-    // Enum @ cimgui.h:1390:2 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Enum @ cimgui.h:1390:2 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public enum ImGuiAxis : int
     {
         ImGuiAxis_None = -1,
@@ -9913,14 +9913,14 @@ public static unsafe partial class imgui
         ImGuiAxis_Y = 1
     }
 
-    // Enum @ cimgui.h:1394:2 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Enum @ cimgui.h:1394:2 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public enum ImGuiPlotType : int
     {
         ImGuiPlotType_Lines = 0,
         ImGuiPlotType_Histogram = 1
     }
 
-    // Enum @ cimgui.h:1403:2 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Enum @ cimgui.h:1403:2 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public enum ImGuiInputSource : int
     {
         ImGuiInputSource_None = 0,
@@ -9932,7 +9932,7 @@ public static unsafe partial class imgui
         ImGuiInputSource_COUNT = 6
     }
 
-    // Enum @ cimgui.h:1439:2 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Enum @ cimgui.h:1439:2 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public enum ImGuiNavForward : int
     {
         ImGuiNavForward_None = 0,
@@ -9940,7 +9940,7 @@ public static unsafe partial class imgui
         ImGuiNavForward_ForwardActive = 2
     }
 
-    // Pseudo enum 'ImGuiWindowFlags_' @ cimgui.h:309:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiWindowFlags_' @ cimgui.h:309:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiWindowFlags_None = 0;
     public const int ImGuiWindowFlags_NoTitleBar = 1;
     public const int ImGuiWindowFlags_NoResize = 2;
@@ -9972,7 +9972,7 @@ public static unsafe partial class imgui
     public const int ImGuiWindowFlags_Modal = 134217728;
     public const int ImGuiWindowFlags_ChildMenu = 268435456;
 
-    // Pseudo enum 'ImGuiInputTextFlags_' @ cimgui.h:341:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiInputTextFlags_' @ cimgui.h:341:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiInputTextFlags_None = 0;
     public const int ImGuiInputTextFlags_CharsDecimal = 1;
     public const int ImGuiInputTextFlags_CharsHexadecimal = 2;
@@ -9995,7 +9995,7 @@ public static unsafe partial class imgui
     public const int ImGuiInputTextFlags_CallbackResize = 262144;
     public const int ImGuiInputTextFlags_CallbackEdit = 524288;
 
-    // Pseudo enum 'ImGuiTreeNodeFlags_' @ cimgui.h:364:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTreeNodeFlags_' @ cimgui.h:364:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTreeNodeFlags_None = 0;
     public const int ImGuiTreeNodeFlags_Selected = 1;
     public const int ImGuiTreeNodeFlags_Framed = 2;
@@ -10013,7 +10013,7 @@ public static unsafe partial class imgui
     public const int ImGuiTreeNodeFlags_NavLeftJumpsBackHere = 8192;
     public const int ImGuiTreeNodeFlags_CollapsingHeader = 26;
 
-    // Pseudo enum 'ImGuiPopupFlags_' @ cimgui.h:382:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiPopupFlags_' @ cimgui.h:382:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiPopupFlags_None = 0;
     public const int ImGuiPopupFlags_MouseButtonLeft = 0;
     public const int ImGuiPopupFlags_MouseButtonRight = 1;
@@ -10026,7 +10026,7 @@ public static unsafe partial class imgui
     public const int ImGuiPopupFlags_AnyPopupLevel = 256;
     public const int ImGuiPopupFlags_AnyPopup = 384;
 
-    // Pseudo enum 'ImGuiSelectableFlags_' @ cimgui.h:395:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiSelectableFlags_' @ cimgui.h:395:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiSelectableFlags_None = 0;
     public const int ImGuiSelectableFlags_DontClosePopups = 1;
     public const int ImGuiSelectableFlags_SpanAllColumns = 2;
@@ -10034,7 +10034,7 @@ public static unsafe partial class imgui
     public const int ImGuiSelectableFlags_Disabled = 8;
     public const int ImGuiSelectableFlags_AllowItemOverlap = 16;
 
-    // Pseudo enum 'ImGuiComboFlags_' @ cimgui.h:403:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiComboFlags_' @ cimgui.h:403:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiComboFlags_None = 0;
     public const int ImGuiComboFlags_PopupAlignLeft = 1;
     public const int ImGuiComboFlags_HeightSmall = 2;
@@ -10045,7 +10045,7 @@ public static unsafe partial class imgui
     public const int ImGuiComboFlags_NoPreview = 64;
     public const int ImGuiComboFlags_HeightMask_ = 30;
 
-    // Pseudo enum 'ImGuiTabBarFlags_' @ cimgui.h:414:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTabBarFlags_' @ cimgui.h:414:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTabBarFlags_None = 0;
     public const int ImGuiTabBarFlags_Reorderable = 1;
     public const int ImGuiTabBarFlags_AutoSelectNewTabs = 2;
@@ -10058,7 +10058,7 @@ public static unsafe partial class imgui
     public const int ImGuiTabBarFlags_FittingPolicyMask_ = 192;
     public const int ImGuiTabBarFlags_FittingPolicyDefault_ = 64;
 
-    // Pseudo enum 'ImGuiTabItemFlags_' @ cimgui.h:427:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTabItemFlags_' @ cimgui.h:427:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTabItemFlags_None = 0;
     public const int ImGuiTabItemFlags_UnsavedDocument = 1;
     public const int ImGuiTabItemFlags_SetSelected = 2;
@@ -10069,7 +10069,7 @@ public static unsafe partial class imgui
     public const int ImGuiTabItemFlags_Leading = 64;
     public const int ImGuiTabItemFlags_Trailing = 128;
 
-    // Pseudo enum 'ImGuiTableFlags_' @ cimgui.h:438:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTableFlags_' @ cimgui.h:438:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTableFlags_None = 0;
     public const int ImGuiTableFlags_Resizable = 1;
     public const int ImGuiTableFlags_Reorderable = 2;
@@ -10107,7 +10107,7 @@ public static unsafe partial class imgui
     public const int ImGuiTableFlags_SortTristate = 134217728;
     public const int ImGuiTableFlags_SizingMask_ = 57344;
 
-    // Pseudo enum 'ImGuiTableColumnFlags_' @ cimgui.h:476:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTableColumnFlags_' @ cimgui.h:476:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTableColumnFlags_None = 0;
     public const int ImGuiTableColumnFlags_Disabled = 1;
     public const int ImGuiTableColumnFlags_DefaultHide = 2;
@@ -10136,24 +10136,24 @@ public static unsafe partial class imgui
     public const int ImGuiTableColumnFlags_StatusMask_ = 251658240;
     public const int ImGuiTableColumnFlags_NoDirectResize_ = 1073741824;
 
-    // Pseudo enum 'ImGuiTableRowFlags_' @ cimgui.h:505:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTableRowFlags_' @ cimgui.h:505:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTableRowFlags_None = 0;
     public const int ImGuiTableRowFlags_Headers = 1;
 
-    // Pseudo enum 'ImGuiTableBgTarget_' @ cimgui.h:509:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTableBgTarget_' @ cimgui.h:509:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTableBgTarget_None = 0;
     public const int ImGuiTableBgTarget_RowBg0 = 1;
     public const int ImGuiTableBgTarget_RowBg1 = 2;
     public const int ImGuiTableBgTarget_CellBg = 3;
 
-    // Pseudo enum 'ImGuiFocusedFlags_' @ cimgui.h:515:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiFocusedFlags_' @ cimgui.h:515:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiFocusedFlags_None = 0;
     public const int ImGuiFocusedFlags_ChildWindows = 1;
     public const int ImGuiFocusedFlags_RootWindow = 2;
     public const int ImGuiFocusedFlags_AnyWindow = 4;
     public const int ImGuiFocusedFlags_RootAndChildWindows = 3;
 
-    // Pseudo enum 'ImGuiHoveredFlags_' @ cimgui.h:522:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiHoveredFlags_' @ cimgui.h:522:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiHoveredFlags_None = 0;
     public const int ImGuiHoveredFlags_ChildWindows = 1;
     public const int ImGuiHoveredFlags_RootWindow = 2;
@@ -10165,7 +10165,7 @@ public static unsafe partial class imgui
     public const int ImGuiHoveredFlags_RectOnly = 104;
     public const int ImGuiHoveredFlags_RootAndChildWindows = 3;
 
-    // Pseudo enum 'ImGuiDragDropFlags_' @ cimgui.h:534:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiDragDropFlags_' @ cimgui.h:534:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiDragDropFlags_None = 0;
     public const int ImGuiDragDropFlags_SourceNoPreviewTooltip = 1;
     public const int ImGuiDragDropFlags_SourceNoDisableHover = 2;
@@ -10178,7 +10178,7 @@ public static unsafe partial class imgui
     public const int ImGuiDragDropFlags_AcceptNoPreviewTooltip = 4096;
     public const int ImGuiDragDropFlags_AcceptPeekOnly = 3072;
 
-    // Pseudo enum 'ImGuiDataType_' @ cimgui.h:547:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiDataType_' @ cimgui.h:547:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiDataType_S8 = 0;
     public const int ImGuiDataType_U8 = 1;
     public const int ImGuiDataType_S16 = 2;
@@ -10191,7 +10191,7 @@ public static unsafe partial class imgui
     public const int ImGuiDataType_Double = 9;
     public const int ImGuiDataType_COUNT = 10;
 
-    // Pseudo enum 'ImGuiDir_' @ cimgui.h:560:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiDir_' @ cimgui.h:560:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiDir_None = -1;
     public const int ImGuiDir_Left = 0;
     public const int ImGuiDir_Right = 1;
@@ -10199,12 +10199,12 @@ public static unsafe partial class imgui
     public const int ImGuiDir_Down = 3;
     public const int ImGuiDir_COUNT = 4;
 
-    // Pseudo enum 'ImGuiSortDirection_' @ cimgui.h:568:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiSortDirection_' @ cimgui.h:568:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiSortDirection_None = 0;
     public const int ImGuiSortDirection_Ascending = 1;
     public const int ImGuiSortDirection_Descending = 2;
 
-    // Pseudo enum 'ImGuiKey_' @ cimgui.h:573:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiKey_' @ cimgui.h:573:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiKey_Tab = 0;
     public const int ImGuiKey_LeftArrow = 1;
     public const int ImGuiKey_RightArrow = 2;
@@ -10229,14 +10229,14 @@ public static unsafe partial class imgui
     public const int ImGuiKey_Z = 21;
     public const int ImGuiKey_COUNT = 22;
 
-    // Pseudo enum 'ImGuiKeyModFlags_' @ cimgui.h:598:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiKeyModFlags_' @ cimgui.h:598:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiKeyModFlags_None = 0;
     public const int ImGuiKeyModFlags_Ctrl = 1;
     public const int ImGuiKeyModFlags_Shift = 2;
     public const int ImGuiKeyModFlags_Alt = 4;
     public const int ImGuiKeyModFlags_Super = 8;
 
-    // Pseudo enum 'ImGuiNavInput_' @ cimgui.h:605:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiNavInput_' @ cimgui.h:605:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiNavInput_Activate = 0;
     public const int ImGuiNavInput_Cancel = 1;
     public const int ImGuiNavInput_Input = 2;
@@ -10260,7 +10260,7 @@ public static unsafe partial class imgui
     public const int ImGuiNavInput_COUNT = 20;
     public const int ImGuiNavInput_InternalStart_ = 16;
 
-    // Pseudo enum 'ImGuiConfigFlags_' @ cimgui.h:629:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiConfigFlags_' @ cimgui.h:629:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiConfigFlags_None = 0;
     public const int ImGuiConfigFlags_NavEnableKeyboard = 1;
     public const int ImGuiConfigFlags_NavEnableGamepad = 2;
@@ -10271,14 +10271,14 @@ public static unsafe partial class imgui
     public const int ImGuiConfigFlags_IsSRGB = 1048576;
     public const int ImGuiConfigFlags_IsTouchScreen = 2097152;
 
-    // Pseudo enum 'ImGuiBackendFlags_' @ cimgui.h:640:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiBackendFlags_' @ cimgui.h:640:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiBackendFlags_None = 0;
     public const int ImGuiBackendFlags_HasGamepad = 1;
     public const int ImGuiBackendFlags_HasMouseCursors = 2;
     public const int ImGuiBackendFlags_HasSetMousePos = 4;
     public const int ImGuiBackendFlags_RendererHasVtxOffset = 8;
 
-    // Pseudo enum 'ImGuiCol_' @ cimgui.h:647:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiCol_' @ cimgui.h:647:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiCol_Text = 0;
     public const int ImGuiCol_TextDisabled = 1;
     public const int ImGuiCol_WindowBg = 2;
@@ -10334,7 +10334,7 @@ public static unsafe partial class imgui
     public const int ImGuiCol_ModalWindowDimBg = 52;
     public const int ImGuiCol_COUNT = 53;
 
-    // Pseudo enum 'ImGuiStyleVar_' @ cimgui.h:703:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiStyleVar_' @ cimgui.h:703:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiStyleVar_Alpha = 0;
     public const int ImGuiStyleVar_DisabledAlpha = 1;
     public const int ImGuiStyleVar_WindowPadding = 2;
@@ -10362,7 +10362,7 @@ public static unsafe partial class imgui
     public const int ImGuiStyleVar_SelectableTextAlign = 24;
     public const int ImGuiStyleVar_COUNT = 25;
 
-    // Pseudo enum 'ImGuiButtonFlags_' @ cimgui.h:731:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiButtonFlags_' @ cimgui.h:731:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiButtonFlags_None = 0;
     public const int ImGuiButtonFlags_MouseButtonLeft = 1;
     public const int ImGuiButtonFlags_MouseButtonRight = 2;
@@ -10370,7 +10370,7 @@ public static unsafe partial class imgui
     public const int ImGuiButtonFlags_MouseButtonMask_ = 7;
     public const int ImGuiButtonFlags_MouseButtonDefault_ = 1;
 
-    // Pseudo enum 'ImGuiColorEditFlags_' @ cimgui.h:739:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiColorEditFlags_' @ cimgui.h:739:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiColorEditFlags_None = 0;
     public const int ImGuiColorEditFlags_NoAlpha = 2;
     public const int ImGuiColorEditFlags_NoPicker = 4;
@@ -10401,7 +10401,7 @@ public static unsafe partial class imgui
     public const int ImGuiColorEditFlags_PickerMask_ = 100663296;
     public const int ImGuiColorEditFlags_InputMask_ = 402653184;
 
-    // Pseudo enum 'ImGuiSliderFlags_' @ cimgui.h:770:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiSliderFlags_' @ cimgui.h:770:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiSliderFlags_None = 0;
     public const int ImGuiSliderFlags_AlwaysClamp = 16;
     public const int ImGuiSliderFlags_Logarithmic = 32;
@@ -10409,13 +10409,13 @@ public static unsafe partial class imgui
     public const int ImGuiSliderFlags_NoInput = 128;
     public const int ImGuiSliderFlags_InvalidMask_ = 1879048207;
 
-    // Pseudo enum 'ImGuiMouseButton_' @ cimgui.h:778:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiMouseButton_' @ cimgui.h:778:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiMouseButton_Left = 0;
     public const int ImGuiMouseButton_Right = 1;
     public const int ImGuiMouseButton_Middle = 2;
     public const int ImGuiMouseButton_COUNT = 5;
 
-    // Pseudo enum 'ImGuiMouseCursor_' @ cimgui.h:784:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiMouseCursor_' @ cimgui.h:784:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiMouseCursor_None = -1;
     public const int ImGuiMouseCursor_Arrow = 0;
     public const int ImGuiMouseCursor_TextInput = 1;
@@ -10428,14 +10428,14 @@ public static unsafe partial class imgui
     public const int ImGuiMouseCursor_NotAllowed = 8;
     public const int ImGuiMouseCursor_COUNT = 9;
 
-    // Pseudo enum 'ImGuiCond_' @ cimgui.h:797:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiCond_' @ cimgui.h:797:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiCond_None = 0;
     public const int ImGuiCond_Always = 1;
     public const int ImGuiCond_Once = 2;
     public const int ImGuiCond_FirstUseEver = 4;
     public const int ImGuiCond_Appearing = 8;
 
-    // Pseudo enum 'ImDrawFlags_' @ cimgui.h:1057:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImDrawFlags_' @ cimgui.h:1057:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImDrawFlags_None = 0;
     public const int ImDrawFlags_Closed = 1;
     public const int ImDrawFlags_RoundCornersTopLeft = 16;
@@ -10451,26 +10451,26 @@ public static unsafe partial class imgui
     public const int ImDrawFlags_RoundCornersDefault_ = 240;
     public const int ImDrawFlags_RoundCornersMask_ = 496;
 
-    // Pseudo enum 'ImDrawListFlags_' @ cimgui.h:1073:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImDrawListFlags_' @ cimgui.h:1073:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImDrawListFlags_None = 0;
     public const int ImDrawListFlags_AntiAliasedLines = 1;
     public const int ImDrawListFlags_AntiAliasedLinesUseTex = 2;
     public const int ImDrawListFlags_AntiAliasedFill = 4;
     public const int ImDrawListFlags_AllowVtxOffset = 8;
 
-    // Pseudo enum 'ImFontAtlasFlags_' @ cimgui.h:1153:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImFontAtlasFlags_' @ cimgui.h:1153:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImFontAtlasFlags_None = 0;
     public const int ImFontAtlasFlags_NoPowerOfTwoHeight = 1;
     public const int ImFontAtlasFlags_NoMouseCursors = 2;
     public const int ImFontAtlasFlags_NoBakedLines = 4;
 
-    // Pseudo enum 'ImGuiViewportFlags_' @ cimgui.h:1203:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiViewportFlags_' @ cimgui.h:1203:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiViewportFlags_None = 0;
     public const int ImGuiViewportFlags_IsPlatformWindow = 1;
     public const int ImGuiViewportFlags_IsPlatformMonitor = 2;
     public const int ImGuiViewportFlags_OwnedByApp = 4;
 
-    // Pseudo enum 'ImGuiItemFlags_' @ cimgui.h:1288:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiItemFlags_' @ cimgui.h:1288:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiItemFlags_None = 0;
     public const int ImGuiItemFlags_NoTabStop = 1;
     public const int ImGuiItemFlags_ButtonRepeat = 2;
@@ -10481,11 +10481,11 @@ public static unsafe partial class imgui
     public const int ImGuiItemFlags_MixedValue = 64;
     public const int ImGuiItemFlags_ReadOnly = 128;
 
-    // Pseudo enum 'ImGuiItemAddFlags_' @ cimgui.h:1299:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiItemAddFlags_' @ cimgui.h:1299:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiItemAddFlags_None = 0;
     public const int ImGuiItemAddFlags_Focusable = 1;
 
-    // Pseudo enum 'ImGuiItemStatusFlags_' @ cimgui.h:1303:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiItemStatusFlags_' @ cimgui.h:1303:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiItemStatusFlags_None = 0;
     public const int ImGuiItemStatusFlags_HoveredRect = 1;
     public const int ImGuiItemStatusFlags_HasDisplayRect = 2;
@@ -10499,12 +10499,12 @@ public static unsafe partial class imgui
     public const int ImGuiItemStatusFlags_FocusedByTabbing = 512;
     public const int ImGuiItemStatusFlags_Focused = 768;
 
-    // Pseudo enum 'ImGuiInputTextFlagsPrivate_' @ cimgui.h:1317:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiInputTextFlagsPrivate_' @ cimgui.h:1317:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiInputTextFlags_Multiline = 67108864;
     public const int ImGuiInputTextFlags_NoMarkEdited = 134217728;
     public const int ImGuiInputTextFlags_MergedItem = 268435456;
 
-    // Pseudo enum 'ImGuiButtonFlagsPrivate_' @ cimgui.h:1322:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiButtonFlagsPrivate_' @ cimgui.h:1322:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiButtonFlags_PressedOnClick = 16;
     public const int ImGuiButtonFlags_PressedOnClickRelease = 32;
     public const int ImGuiButtonFlags_PressedOnClickReleaseAnywhere = 64;
@@ -10523,14 +10523,14 @@ public static unsafe partial class imgui
     public const int ImGuiButtonFlags_PressedOnMask_ = 1008;
     public const int ImGuiButtonFlags_PressedOnDefault_ = 32;
 
-    // Pseudo enum 'ImGuiComboFlagsPrivate_' @ cimgui.h:1341:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiComboFlagsPrivate_' @ cimgui.h:1341:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiComboFlags_CustomPreview = 1048576;
 
-    // Pseudo enum 'ImGuiSliderFlagsPrivate_' @ cimgui.h:1344:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiSliderFlagsPrivate_' @ cimgui.h:1344:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiSliderFlags_Vertical = 1048576;
     public const int ImGuiSliderFlags_ReadOnly = 2097152;
 
-    // Pseudo enum 'ImGuiSelectableFlagsPrivate_' @ cimgui.h:1348:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiSelectableFlagsPrivate_' @ cimgui.h:1348:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiSelectableFlags_NoHoldingActiveID = 1048576;
     public const int ImGuiSelectableFlags_SelectOnNav = 2097152;
     public const int ImGuiSelectableFlags_SelectOnClick = 4194304;
@@ -10540,41 +10540,41 @@ public static unsafe partial class imgui
     public const int ImGuiSelectableFlags_SetNavIdOnHover = 67108864;
     public const int ImGuiSelectableFlags_NoPadWithHalfSpacing = 134217728;
 
-    // Pseudo enum 'ImGuiTreeNodeFlagsPrivate_' @ cimgui.h:1358:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTreeNodeFlagsPrivate_' @ cimgui.h:1358:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTreeNodeFlags_ClipLabelForTrailingButton = 1048576;
 
-    // Pseudo enum 'ImGuiSeparatorFlags_' @ cimgui.h:1361:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiSeparatorFlags_' @ cimgui.h:1361:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiSeparatorFlags_None = 0;
     public const int ImGuiSeparatorFlags_Horizontal = 1;
     public const int ImGuiSeparatorFlags_Vertical = 2;
     public const int ImGuiSeparatorFlags_SpanAllColumns = 4;
 
-    // Pseudo enum 'ImGuiTextFlags_' @ cimgui.h:1367:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTextFlags_' @ cimgui.h:1367:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTextFlags_None = 0;
     public const int ImGuiTextFlags_NoWidthForLargeClippedText = 1;
 
-    // Pseudo enum 'ImGuiTooltipFlags_' @ cimgui.h:1371:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTooltipFlags_' @ cimgui.h:1371:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTooltipFlags_None = 0;
     public const int ImGuiTooltipFlags_OverridePreviousTooltip = 1;
 
-    // Pseudo enum 'ImGuiLayoutType_' @ cimgui.h:1375:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiLayoutType_' @ cimgui.h:1375:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiLayoutType_Horizontal = 0;
     public const int ImGuiLayoutType_Vertical = 1;
 
-    // Pseudo enum 'ImGuiNavHighlightFlags_' @ cimgui.h:1412:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiNavHighlightFlags_' @ cimgui.h:1412:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiNavHighlightFlags_None = 0;
     public const int ImGuiNavHighlightFlags_TypeDefault = 1;
     public const int ImGuiNavHighlightFlags_TypeThin = 2;
     public const int ImGuiNavHighlightFlags_AlwaysDraw = 4;
     public const int ImGuiNavHighlightFlags_NoRounding = 8;
 
-    // Pseudo enum 'ImGuiNavDirSourceFlags_' @ cimgui.h:1419:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiNavDirSourceFlags_' @ cimgui.h:1419:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiNavDirSourceFlags_None = 0;
     public const int ImGuiNavDirSourceFlags_Keyboard = 1;
     public const int ImGuiNavDirSourceFlags_PadDPad = 2;
     public const int ImGuiNavDirSourceFlags_PadLStick = 4;
 
-    // Pseudo enum 'ImGuiNavMoveFlags_' @ cimgui.h:1425:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiNavMoveFlags_' @ cimgui.h:1425:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiNavMoveFlags_None = 0;
     public const int ImGuiNavMoveFlags_LoopX = 1;
     public const int ImGuiNavMoveFlags_LoopY = 2;
@@ -10584,12 +10584,12 @@ public static unsafe partial class imgui
     public const int ImGuiNavMoveFlags_AlsoScoreVisibleSet = 32;
     public const int ImGuiNavMoveFlags_ScrollToEdge = 64;
 
-    // Pseudo enum 'ImGuiDataTypePrivate_' @ cimgui.h:1461:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiDataTypePrivate_' @ cimgui.h:1461:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiDataType_String = 11;
     public const int ImGuiDataType_Pointer = 12;
     public const int ImGuiDataType_ID = 13;
 
-    // Pseudo enum 'ImGuiNextWindowDataFlags_' @ cimgui.h:1549:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiNextWindowDataFlags_' @ cimgui.h:1549:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiNextWindowDataFlags_None = 0;
     public const int ImGuiNextWindowDataFlags_HasPos = 1;
     public const int ImGuiNextWindowDataFlags_HasSize = 2;
@@ -10600,12 +10600,12 @@ public static unsafe partial class imgui
     public const int ImGuiNextWindowDataFlags_HasBgAlpha = 64;
     public const int ImGuiNextWindowDataFlags_HasScroll = 128;
 
-    // Pseudo enum 'ImGuiNextItemDataFlags_' @ cimgui.h:1578:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiNextItemDataFlags_' @ cimgui.h:1578:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiNextItemDataFlags_None = 0;
     public const int ImGuiNextItemDataFlags_HasWidth = 1;
     public const int ImGuiNextItemDataFlags_HasOpen = 2;
 
-    // Pseudo enum 'ImGuiOldColumnFlags_' @ cimgui.h:1614:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiOldColumnFlags_' @ cimgui.h:1614:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiOldColumnFlags_None = 0;
     public const int ImGuiOldColumnFlags_NoBorder = 1;
     public const int ImGuiOldColumnFlags_NoResize = 2;
@@ -10613,12 +10613,12 @@ public static unsafe partial class imgui
     public const int ImGuiOldColumnFlags_NoForceWithinWindow = 8;
     public const int ImGuiOldColumnFlags_GrowParentContentsSize = 16;
 
-    // Pseudo enum 'ImGuiTabBarFlagsPrivate_' @ cimgui.h:2044:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTabBarFlagsPrivate_' @ cimgui.h:2044:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTabBarFlags_DockNode = 1048576;
     public const int ImGuiTabBarFlags_IsFocused = 2097152;
     public const int ImGuiTabBarFlags_SaveSettings = 4194304;
 
-    // Pseudo enum 'ImGuiTabItemFlagsPrivate_' @ cimgui.h:2049:9 (/Users/lstranks/Programming/katabasis/ext/imgui-cs/ext/cimgui/cimgui.h)
+    // Pseudo enum 'ImGuiTabItemFlagsPrivate_' @ cimgui.h:2049:9 (/home/runner/work/imgui-cs/imgui-cs/ext/cimgui/cimgui.h)
     public const int ImGuiTabItemFlags_SectionMask_ = 192;
     public const int ImGuiTabItemFlags_NoCloseButton = 1048576;
     public const int ImGuiTabItemFlags_Button = 2097152;
