@@ -26,3 +26,6 @@
 # C2CS
 /C2CS
 /C2CS.exe
+
+# C2CS output
+/ast/

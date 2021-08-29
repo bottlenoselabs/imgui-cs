@@ -1,0 +1,9 @@
+ImWchar
+ImWchar16
+ImWchar32
+Vector4
+Vector3
+Vector2
+ImVec1
+CIMGUI_API
+CONST
