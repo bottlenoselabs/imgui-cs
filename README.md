@@ -8,17 +8,17 @@ Automatically updated C# bindings for https://github.com/ocornut/imgui with nati
 
 1. Download and install [.NET 5](https://dotnet.microsoft.com/download).
 2. Fork the repository using GitHub or clone the repository manually with submodules: `git clone --recurse-submodules git@github.com:lithiumtoast/imgui-cs.git`.
-3. Build the native library by running `./library.sh` on macOS or Linux and `.\library.sh` on Windows.
+3. Build the native library by running `bash ./library.sh`. (Windows requires Windows Subsystem for Linux with Ubuntu).
 4. Add the C# project `./src/cs/production/imgui-cs/imgui-cs.csproj` to your solution:
 ```xml
 <ItemGroup>
-    <ProjectReference Include="path/to/sdl-cs/src/cs/production/SDL-cs/SDL-cs.csproj" />
+    <ProjectReference Include="path/to/sdl-cs/src/cs/production/imgui-cs/imgui-cs.csproj" />
 </ItemGroup>
 ```
 
 #### Bindgen
 
-If you wish to re-generate the bindings, simple run `./bindgen.sh` on macOS or Linux and `.\bindgen.cmd` on Windows.
+If you wish to re-generate the bindings, simple run `bash ./bindgen.sh`.
 
 ## Developers: Documentation
 
