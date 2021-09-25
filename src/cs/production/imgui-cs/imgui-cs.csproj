@@ -1,5 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <!-- MSBuild settings -->
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace />
+  </PropertyGroup>
+
   <!-- NuGet -->
   <PropertyGroup>
     <IsPackable>true</IsPackable>
