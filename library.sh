@@ -54,21 +54,24 @@ function set_target_build_arch {
 set_target_build_os
 set_target_build_arch
 
-if [[ "$TARGET_BUILD_OS" == "microsoft" ]]; then
-    CMAKE_TOOLCHAIN_ARGS="-DCMAKE_TOOLCHAIN_FILE=$DIR/mingw-w64-x86_64.cmake"
-elif [[ "$TARGET_BUILD_OS" == "linux" ]]; then
-    CMAKE_TOOLCHAIN_ARGS=""
-elif [[ "$TARGET_BUILD_OS" == "apple" ]]; then
-    CMAKE_TOOLCHAIN_ARGS=""
-else
+if [[ "$TARGET_BUILD_OS" != "microsoft" && "$TARGET_BUILD_OS" != "apple" && "$TARGET_BUILD_OS" != "linux" ]]; then
     echo "Unknown target build operating system: $TARGET_BUILD_OS"
     exit 1
 fi
 
 if [[ "$TARGET_BUILD_ARCH" == "x86_64" ]]; then
-    CMAKE_ARCH_ARGS="-A x64"
+    if [[ "$TARGET_BUILD_OS" == "microsoft" ]]; then
+        CMAKE_TOOLCHAIN_ARGS="-DCMAKE_TOOLCHAIN_FILE=$DIR/mingw-w64-x86_64.cmake"
+    elif [[ "$TARGET_BUILD_OS" == "apple" ]]; then
+        CMAKE_ARCH_ARGS="-DCMAKE_OSX_ARCHITECTURES=x86_64"
+    fi
 elif [[ "$TARGET_BUILD_ARCH" == "arm64" ]]; then
-    CMAKE_ARCH_ARGS="-A arm64"
+    if [[ "$TARGET_BUILD_OS" == "microsoft" ]]; then
+        echo "ARM64 not yet supported for Windows."
+        exit 1
+    elif [[ "$TARGET_BUILD_OS" == "apple" ]]; then
+        CMAKE_ARCH_ARGS="-DCMAKE_OSX_ARCHITECTURES=arm64"
+    fi
 else
     echo "Unknown target build CPU architecture: $TARGET_BUILD_ARCH"
     exit 1
@@ -85,8 +88,8 @@ function exit_if_last_command_failed() {
 function build_imgui() {
     echo "Building cimgui..."
     CIMGUI_BUILD_DIR="$DIR/cmake-build-release"
-    cmake $CMAKE_TOOLCHAIN_ARGS -S $DIR/ext/cimgui -B $CIMGUI_BUILD_DIR
-    cmake --build $CIMGUI_BUILD_DIR --config Release $CMAKE_ARCH_ARGS
+    cmake $CMAKE_TOOLCHAIN_ARGS -S $DIR/ext/cimgui -B $CIMGUI_BUILD_DIR $CMAKE_ARCH_ARGS
+    cmake --build $CIMGUI_BUILD_DIR --config Release
 
     if [[ "$TARGET_BUILD_OS" == "linux" ]]; then
         CIMGUI_LIBRARY_FILENAME="cimgui.so"
