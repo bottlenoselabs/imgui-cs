@@ -67,8 +67,8 @@ jobs:
         name: "native-libraries-${{ matrix.platform.rid }}"
         path: './lib'
 
-  build-job:
-    name: "${{ matrix.platform.rid }}"
+  build-dotnet-job:
+    name: "Build .NET solution ${{ matrix.platform.rid }}"
     needs: [build-native-job]
     runs-on: ${{ matrix.platform.os }}
     strategy:
@@ -82,23 +82,19 @@ jobs:
     - name: "Clone Git repository"
       uses: actions/checkout@master
       with:
-        ref: ${{ github.event.pull_request.head.sha }}
-        submodules: true
-
-    - name: "Build native library: Windows"
-      if: ${{ startsWith(matrix.platform.rid, 'win') }}
-      shell: pwsh
-      run: .\library.cmd
-
-    - name: "Build native lirbary: Unix"
-      if: ${{ !startsWith(matrix.platform.rid, 'win') }}
-      shell: bash
-      run: ./library.sh
+        ref: ${{ env.GITHUB_REF }}
+        submodules: 'true'
 
     - name: "Install .NET"
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '${{ env.DOTNET_SDK_VERSION }}'
+
+    - name: "Download native libraries"
+      uses: actions/download-artifact@v1
+      with:
+        name: "native-libraries-${{ matrix.platform.rid }}"
+        path: './lib'
 
     - name: "Build .NET solution"
       run: dotnet build  --nologo --verbosity minimal --configuration Release
