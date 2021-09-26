@@ -6,9 +6,9 @@ env:
   DOTNET_SDK_VERSION: 6.0.100-rc.1.21463.6
 
 on:
-  pull_request:
+  push:
     branches: [develop]
-    types: [assigned, opened, synchronize, reopened]
+    paths-ignore: ['**/*.md']
 
 jobs:
 
