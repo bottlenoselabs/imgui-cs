@@ -9,20 +9,20 @@ function exitIfLastCommandFailed() {
 }
 
 function download_C2CS_ubuntu() {
-    if [ ! -f "$script_dir/C2CS" ]; then
-        wget https://nightly.link/lithiumtoast/c2cs/workflows/build-test-deploy/develop/ubuntu.20.04-x64.zip -P $script_dir/
-        unzip $script_dir/ubuntu.20.04-x64.zip -d $script_dir/
-        rm $script_dir/ubuntu.20.04-x64.zip
-        chmod +x $script_dir/C2CS
+    if [ ! -f "./C2CS" ]; then
+        wget https://nightly.link/lithiumtoast/c2cs/workflows/build-test-deploy/main/ubuntu.20.04-x64.zip
+        unzip ./ubuntu.20.04-x64.zip
+        rm ./ubuntu.20.04-x64.zip
+        chmod +x ./C2CS
     fi
 }
 
 function download_C2CS_osx() {
-    if [ ! -f "$script_dir/C2CS" ]; then
-        wget https://nightly.link/lithiumtoast/c2cs/workflows/build-test-deploy/develop/osx-x64.zip -P $script_dir/
-        unzip $script_dir/osx-x64.zip -d $script_dir/
-        rm $script_dir/osx-x64.zip
-        chmod +x $script_dir/C2CS
+    if [ ! -f "./C2CS" ]; then
+        wget https://nightly.link/lithiumtoast/c2cs/workflows/build-test-deploy/main/osx-x64.zip
+        unzip ./osx-x64.zip
+        rm ./osx-x64.zip
+        chmod +x ./C2CS
     fi
 }
 
