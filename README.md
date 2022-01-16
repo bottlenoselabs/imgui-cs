@@ -7,18 +7,17 @@ Automatically updated C# bindings for https://github.com/ocornut/imgui with nati
 ### From source
 
 1. Download and install [.NET 6](https://dotnet.microsoft.com/download).
-2. Fork the repository using GitHub or clone the repository manually with submodules: `git clone --recurse-submodules git@github.com:lithiumtoast/imgui-cs.git`.
-3. Build the native library by running `bash ./library.sh`. (Windows requires Windows Subsystem for Linux with Ubuntu).
-4. Add the C# project `./src/cs/production/imgui-cs/imgui-cs.csproj` to your solution:
+2. Fork the repository using GitHub or clone the repository manually with submodules: `git clone --recurse-submodules https://github.com/bottlenoselabs/imgui-cs`.
+3. Build the native library by running `library.sh`. To execute `.sh` scripts on Windows, use Git Bash which can be installed with Git itself: https://git-scm.com/download/win. The `library.sh` script requires that CMake is installed and in your path.
+4. Import the MSBuild `imgui.props` file which is located in the root of this directory to your `.csproj` file to setup everything you need.
 ```xml
-<ItemGroup>
-    <ProjectReference Include="path/to/sdl-cs/src/cs/production/imgui-cs/imgui-cs.csproj" />
-</ItemGroup>
+<!-- imgui: bindings + native library -->
+<Import Project="$([System.IO.Path]::GetFullPath('path/to/imgui.props'))" />
 ```
 
 #### Bindgen
 
-If you wish to re-generate the bindings, simple run `bash ./bindgen.sh`.
+If you wish to re-generate the bindings, run [`c2cs`](https://github.com/lithiumtoast/c2cs) from this directory.
 
 ## Developers: Documentation
 
