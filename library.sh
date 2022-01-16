@@ -97,10 +97,10 @@ function build_cimgui() {
     exit_if_last_command_failed
 
     if [[ "$TARGET_BUILD_OS" == "linux" ]]; then
-        CIMGUI_LIBRARY_FILENAME="libcimgui.so"
+        CIMGUI_LIBRARY_FILENAME="cimgui.so"
         CIMGUI_LIBRARY_FILE_PATH_BUILD="$(readlink -f $CIMGUI_BUILD_DIR/$CIMGUI_LIBRARY_FILENAME)"
     elif [[ "$TARGET_BUILD_OS" == "macos" ]]; then
-        CIMGUI_LIBRARY_FILENAME="libcimgui.dylib"
+        CIMGUI_LIBRARY_FILENAME="cimgui.dylib"
         CIMGUI_LIBRARY_FILE_PATH_BUILD="$(perl -MCwd -e 'print Cwd::abs_path shift' $CIMGUI_BUILD_DIR/$CIMGUI_LIBRARY_FILENAME)"
     elif [[ "$TARGET_BUILD_OS" == "windows" ]]; then
         CIMGUI_LIBRARY_FILENAME="cimgui.dll"
