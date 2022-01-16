@@ -25,4655 +25,4726 @@ namespace bottlenoselabs
     {
         private const string LibraryName = "cimgui";
 
-        // Function @ cimgui.h:2400:20
+        // Function @ cimgui.h:2423:20
         [DllImport(LibraryName)]
         public static extern Vector2* ImVec2_ImVec2_Nil();
 
-        // Function @ cimgui.h:2401:17
+        // Function @ cimgui.h:2424:17
         [DllImport(LibraryName)]
         public static extern void ImVec2_destroy(Vector2* self);
 
-        // Function @ cimgui.h:2402:20
+        // Function @ cimgui.h:2425:20
         [DllImport(LibraryName)]
         public static extern Vector2* ImVec2_ImVec2_Float(float _x, float _y);
 
-        // Function @ cimgui.h:2403:20
+        // Function @ cimgui.h:2426:20
         [DllImport(LibraryName)]
         public static extern Vector4* ImVec4_ImVec4_Nil();
 
-        // Function @ cimgui.h:2404:17
+        // Function @ cimgui.h:2427:17
         [DllImport(LibraryName)]
         public static extern void ImVec4_destroy(Vector4* self);
 
-        // Function @ cimgui.h:2405:20
+        // Function @ cimgui.h:2428:20
         [DllImport(LibraryName)]
         public static extern Vector4* ImVec4_ImVec4_Float(float _x, float _y, float _z, float _w);
 
-        // Function @ cimgui.h:2406:26
+        // Function @ cimgui.h:2429:26
         [DllImport(LibraryName)]
         public static extern ImGuiContext* igCreateContext(ImFontAtlas* shared_font_atlas);
 
-        // Function @ cimgui.h:2407:17
+        // Function @ cimgui.h:2430:17
         [DllImport(LibraryName)]
         public static extern void igDestroyContext(ImGuiContext* ctx);
 
-        // Function @ cimgui.h:2408:26
+        // Function @ cimgui.h:2431:26
         [DllImport(LibraryName)]
         public static extern ImGuiContext* igGetCurrentContext();
 
-        // Function @ cimgui.h:2409:17
+        // Function @ cimgui.h:2432:17
         [DllImport(LibraryName)]
         public static extern void igSetCurrentContext(ImGuiContext* ctx);
 
-        // Function @ cimgui.h:2410:21
+        // Function @ cimgui.h:2433:21
         [DllImport(LibraryName)]
         public static extern ImGuiIO* igGetIO();
 
-        // Function @ cimgui.h:2411:24
+        // Function @ cimgui.h:2434:24
         [DllImport(LibraryName)]
         public static extern ImGuiStyle* igGetStyle();
 
-        // Function @ cimgui.h:2412:17
+        // Function @ cimgui.h:2435:17
         [DllImport(LibraryName)]
         public static extern void igNewFrame();
 
-        // Function @ cimgui.h:2413:17
+        // Function @ cimgui.h:2436:17
         [DllImport(LibraryName)]
         public static extern void igEndFrame();
 
-        // Function @ cimgui.h:2414:17
+        // Function @ cimgui.h:2437:17
         [DllImport(LibraryName)]
         public static extern void igRender();
 
-        // Function @ cimgui.h:2415:24
+        // Function @ cimgui.h:2438:24
         [DllImport(LibraryName)]
         public static extern ImDrawData* igGetDrawData();
 
-        // Function @ cimgui.h:2416:17
+        // Function @ cimgui.h:2439:17
         [DllImport(LibraryName)]
         public static extern void igShowDemoWindow(CBool* p_open);
 
-        // Function @ cimgui.h:2417:17
+        // Function @ cimgui.h:2440:17
         [DllImport(LibraryName)]
         public static extern void igShowMetricsWindow(CBool* p_open);
 
-        // Function @ cimgui.h:2418:17
+        // Function @ cimgui.h:2441:17
         [DllImport(LibraryName)]
         public static extern void igShowStackToolWindow(CBool* p_open);
 
-        // Function @ cimgui.h:2419:17
+        // Function @ cimgui.h:2442:17
         [DllImport(LibraryName)]
         public static extern void igShowAboutWindow(CBool* p_open);
 
-        // Function @ cimgui.h:2420:17
+        // Function @ cimgui.h:2443:17
         [DllImport(LibraryName)]
         public static extern void igShowStyleEditor(ImGuiStyle* @ref);
 
-        // Function @ cimgui.h:2421:17
+        // Function @ cimgui.h:2444:17
         [DllImport(LibraryName)]
         public static extern CBool igShowStyleSelector(CString label);
 
-        // Function @ cimgui.h:2422:17
+        // Function @ cimgui.h:2445:17
         [DllImport(LibraryName)]
         public static extern void igShowFontSelector(CString label);
 
-        // Function @ cimgui.h:2423:17
+        // Function @ cimgui.h:2446:17
         [DllImport(LibraryName)]
         public static extern void igShowUserGuide();
 
-        // Function @ cimgui.h:2424:24
+        // Function @ cimgui.h:2447:24
         [DllImport(LibraryName)]
         public static extern CString igGetVersion();
 
-        // Function @ cimgui.h:2425:17
+        // Function @ cimgui.h:2448:17
         [DllImport(LibraryName)]
         public static extern void igStyleColorsDark(ImGuiStyle* dst);
 
-        // Function @ cimgui.h:2426:17
+        // Function @ cimgui.h:2449:17
         [DllImport(LibraryName)]
         public static extern void igStyleColorsLight(ImGuiStyle* dst);
 
-        // Function @ cimgui.h:2427:17
+        // Function @ cimgui.h:2450:17
         [DllImport(LibraryName)]
         public static extern void igStyleColorsClassic(ImGuiStyle* dst);
 
-        // Function @ cimgui.h:2428:17
+        // Function @ cimgui.h:2451:17
         [DllImport(LibraryName)]
         public static extern CBool igBegin(CString name, CBool* p_open, ImGuiWindowFlags flags);
 
-        // Function @ cimgui.h:2429:17
+        // Function @ cimgui.h:2452:17
         [DllImport(LibraryName)]
         public static extern void igEnd();
 
-        // Function @ cimgui.h:2430:17
+        // Function @ cimgui.h:2453:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginChild_Str(CString str_id, Vector2 size, CBool border, ImGuiWindowFlags flags);
 
-        // Function @ cimgui.h:2431:17
+        // Function @ cimgui.h:2454:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginChild_ID(ImGuiID id, Vector2 size, CBool border, ImGuiWindowFlags flags);
 
-        // Function @ cimgui.h:2432:17
+        // Function @ cimgui.h:2455:17
         [DllImport(LibraryName)]
         public static extern void igEndChild();
 
-        // Function @ cimgui.h:2433:17
+        // Function @ cimgui.h:2456:17
         [DllImport(LibraryName)]
         public static extern CBool igIsWindowAppearing();
 
-        // Function @ cimgui.h:2434:17
+        // Function @ cimgui.h:2457:17
         [DllImport(LibraryName)]
         public static extern CBool igIsWindowCollapsed();
 
-        // Function @ cimgui.h:2435:17
+        // Function @ cimgui.h:2458:17
         [DllImport(LibraryName)]
         public static extern CBool igIsWindowFocused(ImGuiFocusedFlags flags);
 
-        // Function @ cimgui.h:2436:17
+        // Function @ cimgui.h:2459:17
         [DllImport(LibraryName)]
         public static extern CBool igIsWindowHovered(ImGuiHoveredFlags flags);
 
-        // Function @ cimgui.h:2437:24
+        // Function @ cimgui.h:2460:24
         [DllImport(LibraryName)]
         public static extern ImDrawList* igGetWindowDrawList();
 
-        // Function @ cimgui.h:2438:17
+        // Function @ cimgui.h:2461:17
         [DllImport(LibraryName)]
         public static extern void igGetWindowPos(Vector2* pOut);
 
-        // Function @ cimgui.h:2439:17
+        // Function @ cimgui.h:2462:17
         [DllImport(LibraryName)]
         public static extern void igGetWindowSize(Vector2* pOut);
 
-        // Function @ cimgui.h:2440:18
+        // Function @ cimgui.h:2463:18
         [DllImport(LibraryName)]
         public static extern float igGetWindowWidth();
 
-        // Function @ cimgui.h:2441:18
+        // Function @ cimgui.h:2464:18
         [DllImport(LibraryName)]
         public static extern float igGetWindowHeight();
 
-        // Function @ cimgui.h:2442:17
+        // Function @ cimgui.h:2465:17
         [DllImport(LibraryName)]
         public static extern void igSetNextWindowPos(Vector2 pos, ImGuiCond cond, Vector2 pivot);
 
-        // Function @ cimgui.h:2443:17
+        // Function @ cimgui.h:2466:17
         [DllImport(LibraryName)]
         public static extern void igSetNextWindowSize(Vector2 size, ImGuiCond cond);
 
-        // Function @ cimgui.h:2444:17
+        // Function @ cimgui.h:2467:17
         [DllImport(LibraryName)]
         public static extern void igSetNextWindowSizeConstraints(Vector2 size_min, Vector2 size_max, ImGuiSizeCallback custom_callback, void* custom_callback_data);
 
-        // Function @ cimgui.h:2445:17
+        // Function @ cimgui.h:2468:17
         [DllImport(LibraryName)]
         public static extern void igSetNextWindowContentSize(Vector2 size);
 
-        // Function @ cimgui.h:2446:17
+        // Function @ cimgui.h:2469:17
         [DllImport(LibraryName)]
         public static extern void igSetNextWindowCollapsed(CBool collapsed, ImGuiCond cond);
 
-        // Function @ cimgui.h:2447:17
+        // Function @ cimgui.h:2470:17
         [DllImport(LibraryName)]
         public static extern void igSetNextWindowFocus();
 
-        // Function @ cimgui.h:2448:17
+        // Function @ cimgui.h:2471:17
         [DllImport(LibraryName)]
         public static extern void igSetNextWindowBgAlpha(float alpha);
 
-        // Function @ cimgui.h:2449:17
+        // Function @ cimgui.h:2472:17
         [DllImport(LibraryName)]
         public static extern void igSetWindowPos_Vec2(Vector2 pos, ImGuiCond cond);
 
-        // Function @ cimgui.h:2450:17
+        // Function @ cimgui.h:2473:17
         [DllImport(LibraryName)]
         public static extern void igSetWindowSize_Vec2(Vector2 size, ImGuiCond cond);
 
-        // Function @ cimgui.h:2451:17
+        // Function @ cimgui.h:2474:17
         [DllImport(LibraryName)]
         public static extern void igSetWindowCollapsed_Bool(CBool collapsed, ImGuiCond cond);
 
-        // Function @ cimgui.h:2452:17
+        // Function @ cimgui.h:2475:17
         [DllImport(LibraryName)]
         public static extern void igSetWindowFocus_Nil();
 
-        // Function @ cimgui.h:2453:17
+        // Function @ cimgui.h:2476:17
         [DllImport(LibraryName)]
         public static extern void igSetWindowFontScale(float scale);
 
-        // Function @ cimgui.h:2454:17
+        // Function @ cimgui.h:2477:17
         [DllImport(LibraryName)]
         public static extern void igSetWindowPos_Str(CString name, Vector2 pos, ImGuiCond cond);
 
-        // Function @ cimgui.h:2455:17
+        // Function @ cimgui.h:2478:17
         [DllImport(LibraryName)]
         public static extern void igSetWindowSize_Str(CString name, Vector2 size, ImGuiCond cond);
 
-        // Function @ cimgui.h:2456:17
+        // Function @ cimgui.h:2479:17
         [DllImport(LibraryName)]
         public static extern void igSetWindowCollapsed_Str(CString name, CBool collapsed, ImGuiCond cond);
 
-        // Function @ cimgui.h:2457:17
+        // Function @ cimgui.h:2480:17
         [DllImport(LibraryName)]
         public static extern void igSetWindowFocus_Str(CString name);
 
-        // Function @ cimgui.h:2458:17
+        // Function @ cimgui.h:2481:17
         [DllImport(LibraryName)]
         public static extern void igGetContentRegionAvail(Vector2* pOut);
 
-        // Function @ cimgui.h:2459:17
+        // Function @ cimgui.h:2482:17
         [DllImport(LibraryName)]
         public static extern void igGetContentRegionMax(Vector2* pOut);
 
-        // Function @ cimgui.h:2460:17
+        // Function @ cimgui.h:2483:17
         [DllImport(LibraryName)]
         public static extern void igGetWindowContentRegionMin(Vector2* pOut);
 
-        // Function @ cimgui.h:2461:17
+        // Function @ cimgui.h:2484:17
         [DllImport(LibraryName)]
         public static extern void igGetWindowContentRegionMax(Vector2* pOut);
 
-        // Function @ cimgui.h:2462:18
+        // Function @ cimgui.h:2485:18
         [DllImport(LibraryName)]
         public static extern float igGetScrollX();
 
-        // Function @ cimgui.h:2463:18
+        // Function @ cimgui.h:2486:18
         [DllImport(LibraryName)]
         public static extern float igGetScrollY();
 
-        // Function @ cimgui.h:2464:17
+        // Function @ cimgui.h:2487:17
         [DllImport(LibraryName)]
         public static extern void igSetScrollX_Float(float scroll_x);
 
-        // Function @ cimgui.h:2465:17
+        // Function @ cimgui.h:2488:17
         [DllImport(LibraryName)]
         public static extern void igSetScrollY_Float(float scroll_y);
 
-        // Function @ cimgui.h:2466:18
+        // Function @ cimgui.h:2489:18
         [DllImport(LibraryName)]
         public static extern float igGetScrollMaxX();
 
-        // Function @ cimgui.h:2467:18
+        // Function @ cimgui.h:2490:18
         [DllImport(LibraryName)]
         public static extern float igGetScrollMaxY();
 
-        // Function @ cimgui.h:2468:17
+        // Function @ cimgui.h:2491:17
         [DllImport(LibraryName)]
         public static extern void igSetScrollHereX(float center_x_ratio);
 
-        // Function @ cimgui.h:2469:17
+        // Function @ cimgui.h:2492:17
         [DllImport(LibraryName)]
         public static extern void igSetScrollHereY(float center_y_ratio);
 
-        // Function @ cimgui.h:2470:17
+        // Function @ cimgui.h:2493:17
         [DllImport(LibraryName)]
         public static extern void igSetScrollFromPosX_Float(float local_x, float center_x_ratio);
 
-        // Function @ cimgui.h:2471:17
+        // Function @ cimgui.h:2494:17
         [DllImport(LibraryName)]
         public static extern void igSetScrollFromPosY_Float(float local_y, float center_y_ratio);
 
-        // Function @ cimgui.h:2472:17
+        // Function @ cimgui.h:2495:17
         [DllImport(LibraryName)]
         public static extern void igPushFont(ImFont* font);
 
-        // Function @ cimgui.h:2473:17
+        // Function @ cimgui.h:2496:17
         [DllImport(LibraryName)]
         public static extern void igPopFont();
 
-        // Function @ cimgui.h:2474:17
+        // Function @ cimgui.h:2497:17
         [DllImport(LibraryName)]
         public static extern void igPushStyleColor_U32(ImGuiCol idx, uint col);
 
-        // Function @ cimgui.h:2475:17
+        // Function @ cimgui.h:2498:17
         [DllImport(LibraryName)]
         public static extern void igPushStyleColor_Vec4(ImGuiCol idx, Vector4 col);
 
-        // Function @ cimgui.h:2476:17
+        // Function @ cimgui.h:2499:17
         [DllImport(LibraryName)]
         public static extern void igPopStyleColor(int count);
 
-        // Function @ cimgui.h:2477:17
+        // Function @ cimgui.h:2500:17
         [DllImport(LibraryName)]
         public static extern void igPushStyleVar_Float(ImGuiStyleVar idx, float val);
 
-        // Function @ cimgui.h:2478:17
+        // Function @ cimgui.h:2501:17
         [DllImport(LibraryName)]
         public static extern void igPushStyleVar_Vec2(ImGuiStyleVar idx, Vector2 val);
 
-        // Function @ cimgui.h:2479:17
+        // Function @ cimgui.h:2502:17
         [DllImport(LibraryName)]
         public static extern void igPopStyleVar(int count);
 
-        // Function @ cimgui.h:2480:17
+        // Function @ cimgui.h:2503:17
         [DllImport(LibraryName)]
         public static extern void igPushAllowKeyboardFocus(CBool allow_keyboard_focus);
 
-        // Function @ cimgui.h:2481:17
+        // Function @ cimgui.h:2504:17
         [DllImport(LibraryName)]
         public static extern void igPopAllowKeyboardFocus();
 
-        // Function @ cimgui.h:2482:17
+        // Function @ cimgui.h:2505:17
         [DllImport(LibraryName)]
         public static extern void igPushButtonRepeat(CBool repeat);
 
-        // Function @ cimgui.h:2483:17
+        // Function @ cimgui.h:2506:17
         [DllImport(LibraryName)]
         public static extern void igPopButtonRepeat();
 
-        // Function @ cimgui.h:2484:17
+        // Function @ cimgui.h:2507:17
         [DllImport(LibraryName)]
         public static extern void igPushItemWidth(float item_width);
 
-        // Function @ cimgui.h:2485:17
+        // Function @ cimgui.h:2508:17
         [DllImport(LibraryName)]
         public static extern void igPopItemWidth();
 
-        // Function @ cimgui.h:2486:17
+        // Function @ cimgui.h:2509:17
         [DllImport(LibraryName)]
         public static extern void igSetNextItemWidth(float item_width);
 
-        // Function @ cimgui.h:2487:18
+        // Function @ cimgui.h:2510:18
         [DllImport(LibraryName)]
         public static extern float igCalcItemWidth();
 
-        // Function @ cimgui.h:2488:17
+        // Function @ cimgui.h:2511:17
         [DllImport(LibraryName)]
         public static extern void igPushTextWrapPos(float wrap_local_pos_x);
 
-        // Function @ cimgui.h:2489:17
+        // Function @ cimgui.h:2512:17
         [DllImport(LibraryName)]
         public static extern void igPopTextWrapPos();
 
-        // Function @ cimgui.h:2490:20
+        // Function @ cimgui.h:2513:20
         [DllImport(LibraryName)]
         public static extern ImFont* igGetFont();
 
-        // Function @ cimgui.h:2491:18
+        // Function @ cimgui.h:2514:18
         [DllImport(LibraryName)]
         public static extern float igGetFontSize();
 
-        // Function @ cimgui.h:2492:17
+        // Function @ cimgui.h:2515:17
         [DllImport(LibraryName)]
         public static extern void igGetFontTexUvWhitePixel(Vector2* pOut);
 
-        // Function @ cimgui.h:2493:18
+        // Function @ cimgui.h:2516:18
         [DllImport(LibraryName)]
         public static extern uint igGetColorU32_Col(ImGuiCol idx, float alpha_mul);
 
-        // Function @ cimgui.h:2494:18
+        // Function @ cimgui.h:2517:18
         [DllImport(LibraryName)]
         public static extern uint igGetColorU32_Vec4(Vector4 col);
 
-        // Function @ cimgui.h:2495:18
+        // Function @ cimgui.h:2518:18
         [DllImport(LibraryName)]
         public static extern uint igGetColorU32_U32(uint col);
 
-        // Function @ cimgui.h:2496:26
+        // Function @ cimgui.h:2519:26
         [DllImport(LibraryName)]
         public static extern Vector4* igGetStyleColorVec4(ImGuiCol idx);
 
-        // Function @ cimgui.h:2497:17
+        // Function @ cimgui.h:2520:17
         [DllImport(LibraryName)]
         public static extern void igSeparator();
 
-        // Function @ cimgui.h:2498:17
+        // Function @ cimgui.h:2521:17
         [DllImport(LibraryName)]
         public static extern void igSameLine(float offset_from_start_x, float spacing);
 
-        // Function @ cimgui.h:2499:17
+        // Function @ cimgui.h:2522:17
         [DllImport(LibraryName)]
         public static extern void igNewLine();
 
-        // Function @ cimgui.h:2500:17
+        // Function @ cimgui.h:2523:17
         [DllImport(LibraryName)]
         public static extern void igSpacing();
 
-        // Function @ cimgui.h:2501:17
+        // Function @ cimgui.h:2524:17
         [DllImport(LibraryName)]
         public static extern void igDummy(Vector2 size);
 
-        // Function @ cimgui.h:2502:17
+        // Function @ cimgui.h:2525:17
         [DllImport(LibraryName)]
         public static extern void igIndent(float indent_w);
 
-        // Function @ cimgui.h:2503:17
+        // Function @ cimgui.h:2526:17
         [DllImport(LibraryName)]
         public static extern void igUnindent(float indent_w);
 
-        // Function @ cimgui.h:2504:17
+        // Function @ cimgui.h:2527:17
         [DllImport(LibraryName)]
         public static extern void igBeginGroup();
 
-        // Function @ cimgui.h:2505:17
+        // Function @ cimgui.h:2528:17
         [DllImport(LibraryName)]
         public static extern void igEndGroup();
 
-        // Function @ cimgui.h:2506:17
+        // Function @ cimgui.h:2529:17
         [DllImport(LibraryName)]
         public static extern void igGetCursorPos(Vector2* pOut);
 
-        // Function @ cimgui.h:2507:18
+        // Function @ cimgui.h:2530:18
         [DllImport(LibraryName)]
         public static extern float igGetCursorPosX();
 
-        // Function @ cimgui.h:2508:18
+        // Function @ cimgui.h:2531:18
         [DllImport(LibraryName)]
         public static extern float igGetCursorPosY();
 
-        // Function @ cimgui.h:2509:17
+        // Function @ cimgui.h:2532:17
         [DllImport(LibraryName)]
         public static extern void igSetCursorPos(Vector2 local_pos);
 
-        // Function @ cimgui.h:2510:17
+        // Function @ cimgui.h:2533:17
         [DllImport(LibraryName)]
         public static extern void igSetCursorPosX(float local_x);
 
-        // Function @ cimgui.h:2511:17
+        // Function @ cimgui.h:2534:17
         [DllImport(LibraryName)]
         public static extern void igSetCursorPosY(float local_y);
 
-        // Function @ cimgui.h:2512:17
+        // Function @ cimgui.h:2535:17
         [DllImport(LibraryName)]
         public static extern void igGetCursorStartPos(Vector2* pOut);
 
-        // Function @ cimgui.h:2513:17
+        // Function @ cimgui.h:2536:17
         [DllImport(LibraryName)]
         public static extern void igGetCursorScreenPos(Vector2* pOut);
 
-        // Function @ cimgui.h:2514:17
+        // Function @ cimgui.h:2537:17
         [DllImport(LibraryName)]
         public static extern void igSetCursorScreenPos(Vector2 pos);
 
-        // Function @ cimgui.h:2515:17
+        // Function @ cimgui.h:2538:17
         [DllImport(LibraryName)]
         public static extern void igAlignTextToFramePadding();
 
-        // Function @ cimgui.h:2516:18
+        // Function @ cimgui.h:2539:18
         [DllImport(LibraryName)]
         public static extern float igGetTextLineHeight();
 
-        // Function @ cimgui.h:2517:18
+        // Function @ cimgui.h:2540:18
         [DllImport(LibraryName)]
         public static extern float igGetTextLineHeightWithSpacing();
 
-        // Function @ cimgui.h:2518:18
+        // Function @ cimgui.h:2541:18
         [DllImport(LibraryName)]
         public static extern float igGetFrameHeight();
 
-        // Function @ cimgui.h:2519:18
+        // Function @ cimgui.h:2542:18
         [DllImport(LibraryName)]
         public static extern float igGetFrameHeightWithSpacing();
 
-        // Function @ cimgui.h:2520:17
+        // Function @ cimgui.h:2543:17
         [DllImport(LibraryName)]
         public static extern void igPushID_Str(CString str_id);
 
-        // Function @ cimgui.h:2521:17
+        // Function @ cimgui.h:2544:17
         [DllImport(LibraryName)]
         public static extern void igPushID_StrStr(CString str_id_begin, CString str_id_end);
 
-        // Function @ cimgui.h:2522:17
+        // Function @ cimgui.h:2545:17
         [DllImport(LibraryName)]
         public static extern void igPushID_Ptr(void* ptr_id);
 
-        // Function @ cimgui.h:2523:17
+        // Function @ cimgui.h:2546:17
         [DllImport(LibraryName)]
         public static extern void igPushID_Int(int int_id);
 
-        // Function @ cimgui.h:2524:17
+        // Function @ cimgui.h:2547:17
         [DllImport(LibraryName)]
         public static extern void igPopID();
 
-        // Function @ cimgui.h:2525:20
+        // Function @ cimgui.h:2548:20
         [DllImport(LibraryName)]
         public static extern ImGuiID igGetID_Str(CString str_id);
 
-        // Function @ cimgui.h:2526:20
+        // Function @ cimgui.h:2549:20
         [DllImport(LibraryName)]
         public static extern ImGuiID igGetID_StrStr(CString str_id_begin, CString str_id_end);
 
-        // Function @ cimgui.h:2527:20
+        // Function @ cimgui.h:2550:20
         [DllImport(LibraryName)]
         public static extern ImGuiID igGetID_Ptr(void* ptr_id);
 
-        // Function @ cimgui.h:2528:17
+        // Function @ cimgui.h:2551:17
         [DllImport(LibraryName)]
         public static extern void igTextUnformatted(CString text, CString text_end);
 
-        // Function @ cimgui.h:2529:17
+        // Function @ cimgui.h:2552:17
         [DllImport(LibraryName)]
         public static extern void igText(CString fmt);
 
-        // Function @ cimgui.h:2530:17
+        // Function @ cimgui.h:2553:17
         [DllImport(LibraryName)]
         public static extern void igTextV(CString fmt, nint args);
 
-        // Function @ cimgui.h:2531:17
+        // Function @ cimgui.h:2554:17
         [DllImport(LibraryName)]
         public static extern void igTextColored(Vector4 col, CString fmt);
 
-        // Function @ cimgui.h:2532:17
+        // Function @ cimgui.h:2555:17
         [DllImport(LibraryName)]
         public static extern void igTextColoredV(Vector4 col, CString fmt, nint args);
 
-        // Function @ cimgui.h:2533:17
+        // Function @ cimgui.h:2556:17
         [DllImport(LibraryName)]
         public static extern void igTextDisabled(CString fmt);
 
-        // Function @ cimgui.h:2534:17
+        // Function @ cimgui.h:2557:17
         [DllImport(LibraryName)]
         public static extern void igTextDisabledV(CString fmt, nint args);
 
-        // Function @ cimgui.h:2535:17
+        // Function @ cimgui.h:2558:17
         [DllImport(LibraryName)]
         public static extern void igTextWrapped(CString fmt);
 
-        // Function @ cimgui.h:2536:17
+        // Function @ cimgui.h:2559:17
         [DllImport(LibraryName)]
         public static extern void igTextWrappedV(CString fmt, nint args);
 
-        // Function @ cimgui.h:2537:17
+        // Function @ cimgui.h:2560:17
         [DllImport(LibraryName)]
         public static extern void igLabelText(CString label, CString fmt);
 
-        // Function @ cimgui.h:2538:17
+        // Function @ cimgui.h:2561:17
         [DllImport(LibraryName)]
         public static extern void igLabelTextV(CString label, CString fmt, nint args);
 
-        // Function @ cimgui.h:2539:17
+        // Function @ cimgui.h:2562:17
         [DllImport(LibraryName)]
         public static extern void igBulletText(CString fmt);
 
-        // Function @ cimgui.h:2540:17
+        // Function @ cimgui.h:2563:17
         [DllImport(LibraryName)]
         public static extern void igBulletTextV(CString fmt, nint args);
 
-        // Function @ cimgui.h:2541:17
+        // Function @ cimgui.h:2564:17
         [DllImport(LibraryName)]
         public static extern CBool igButton(CString label, Vector2 size);
 
-        // Function @ cimgui.h:2542:17
+        // Function @ cimgui.h:2565:17
         [DllImport(LibraryName)]
         public static extern CBool igSmallButton(CString label);
 
-        // Function @ cimgui.h:2543:17
+        // Function @ cimgui.h:2566:17
         [DllImport(LibraryName)]
         public static extern CBool igInvisibleButton(CString str_id, Vector2 size, ImGuiButtonFlags flags);
 
-        // Function @ cimgui.h:2544:17
+        // Function @ cimgui.h:2567:17
         [DllImport(LibraryName)]
         public static extern CBool igArrowButton(CString str_id, ImGuiDir dir);
 
-        // Function @ cimgui.h:2545:17
+        // Function @ cimgui.h:2568:17
         [DllImport(LibraryName)]
         public static extern void igImage(ImTextureID user_texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, Vector4 tint_col, Vector4 border_col);
 
-        // Function @ cimgui.h:2546:17
+        // Function @ cimgui.h:2569:17
         [DllImport(LibraryName)]
         public static extern CBool igImageButton(ImTextureID user_texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, int frame_padding, Vector4 bg_col, Vector4 tint_col);
 
-        // Function @ cimgui.h:2547:17
+        // Function @ cimgui.h:2570:17
         [DllImport(LibraryName)]
         public static extern CBool igCheckbox(CString label, CBool* v);
 
-        // Function @ cimgui.h:2548:17
+        // Function @ cimgui.h:2571:17
         [DllImport(LibraryName)]
         public static extern CBool igCheckboxFlags_IntPtr(CString label, long* flags, int flags_value);
 
-        // Function @ cimgui.h:2549:17
+        // Function @ cimgui.h:2572:17
         [DllImport(LibraryName)]
         public static extern CBool igCheckboxFlags_UintPtr(CString label, ulong* flags, uint flags_value);
 
-        // Function @ cimgui.h:2550:17
+        // Function @ cimgui.h:2573:17
         [DllImport(LibraryName)]
         public static extern CBool igRadioButton_Bool(CString label, CBool active);
 
-        // Function @ cimgui.h:2551:17
+        // Function @ cimgui.h:2574:17
         [DllImport(LibraryName)]
         public static extern CBool igRadioButton_IntPtr(CString label, long* v, int v_button);
 
-        // Function @ cimgui.h:2552:17
+        // Function @ cimgui.h:2575:17
         [DllImport(LibraryName)]
         public static extern void igProgressBar(float fraction, Vector2 size_arg, CString overlay);
 
-        // Function @ cimgui.h:2553:17
+        // Function @ cimgui.h:2576:17
         [DllImport(LibraryName)]
         public static extern void igBullet();
 
-        // Function @ cimgui.h:2554:17
+        // Function @ cimgui.h:2577:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginCombo(CString label, CString preview_value, ImGuiComboFlags flags);
 
-        // Function @ cimgui.h:2555:17
+        // Function @ cimgui.h:2578:17
         [DllImport(LibraryName)]
         public static extern void igEndCombo();
 
-        // Function @ cimgui.h:2556:17
+        // Function @ cimgui.h:2579:17
         [DllImport(LibraryName)]
         public static extern CBool igCombo_Str_arr(CString label, long* current_item, CString* items, int items_count, int popup_max_height_in_items);
 
-        // Function @ cimgui.h:2557:17
+        // Function @ cimgui.h:2580:17
         [DllImport(LibraryName)]
         public static extern CBool igCombo_Str(CString label, long* current_item, CString items_separated_by_zeros, int popup_max_height_in_items);
 
-        // Function @ cimgui.h:2558:17
+        // Function @ cimgui.h:2581:17
         [DllImport(LibraryName)]
         public static extern CBool igCombo_FnBoolPtr(CString label, long* current_item, FnPtr_IMGUI_VoidPtr_Int_CStringPtr_CBool items_getter, void* data, int items_count, int popup_max_height_in_items);
 
-        // Function @ cimgui.h:2559:17
+        // Function @ cimgui.h:2582:17
         [DllImport(LibraryName)]
         public static extern CBool igDragFloat(CString label, float* v, float v_speed, float v_min, float v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2560:17
+        // Function @ cimgui.h:2583:17
         [DllImport(LibraryName)]
         public static extern CBool igDragFloat2(CString label, float* v, float v_speed, float v_min, float v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2561:17
+        // Function @ cimgui.h:2584:17
         [DllImport(LibraryName)]
         public static extern CBool igDragFloat3(CString label, float* v, float v_speed, float v_min, float v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2562:17
+        // Function @ cimgui.h:2585:17
         [DllImport(LibraryName)]
         public static extern CBool igDragFloat4(CString label, float* v, float v_speed, float v_min, float v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2563:17
+        // Function @ cimgui.h:2586:17
         [DllImport(LibraryName)]
         public static extern CBool igDragFloatRange2(CString label, float* v_current_min, float* v_current_max, float v_speed, float v_min, float v_max, CString format, CString format_max, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2564:17
+        // Function @ cimgui.h:2587:17
         [DllImport(LibraryName)]
         public static extern CBool igDragInt(CString label, long* v, float v_speed, int v_min, int v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2565:17
+        // Function @ cimgui.h:2588:17
         [DllImport(LibraryName)]
         public static extern CBool igDragInt2(CString label, int* v, float v_speed, int v_min, int v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2566:17
+        // Function @ cimgui.h:2589:17
         [DllImport(LibraryName)]
         public static extern CBool igDragInt3(CString label, int* v, float v_speed, int v_min, int v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2567:17
+        // Function @ cimgui.h:2590:17
         [DllImport(LibraryName)]
         public static extern CBool igDragInt4(CString label, int* v, float v_speed, int v_min, int v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2568:17
+        // Function @ cimgui.h:2591:17
         [DllImport(LibraryName)]
         public static extern CBool igDragIntRange2(CString label, long* v_current_min, long* v_current_max, float v_speed, int v_min, int v_max, CString format, CString format_max, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2569:17
+        // Function @ cimgui.h:2592:17
         [DllImport(LibraryName)]
         public static extern CBool igDragScalar(CString label, ImGuiDataType data_type, void* p_data, float v_speed, void* p_min, void* p_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2570:17
+        // Function @ cimgui.h:2593:17
         [DllImport(LibraryName)]
         public static extern CBool igDragScalarN(CString label, ImGuiDataType data_type, void* p_data, int components, float v_speed, void* p_min, void* p_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2571:17
+        // Function @ cimgui.h:2594:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderFloat(CString label, float* v, float v_min, float v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2572:17
+        // Function @ cimgui.h:2595:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderFloat2(CString label, float* v, float v_min, float v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2573:17
+        // Function @ cimgui.h:2596:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderFloat3(CString label, float* v, float v_min, float v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2574:17
+        // Function @ cimgui.h:2597:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderFloat4(CString label, float* v, float v_min, float v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2575:17
+        // Function @ cimgui.h:2598:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderAngle(CString label, float* v_rad, float v_degrees_min, float v_degrees_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2576:17
+        // Function @ cimgui.h:2599:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderInt(CString label, long* v, int v_min, int v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2577:17
+        // Function @ cimgui.h:2600:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderInt2(CString label, int* v, int v_min, int v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2578:17
+        // Function @ cimgui.h:2601:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderInt3(CString label, int* v, int v_min, int v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2579:17
+        // Function @ cimgui.h:2602:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderInt4(CString label, int* v, int v_min, int v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2580:17
+        // Function @ cimgui.h:2603:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderScalar(CString label, ImGuiDataType data_type, void* p_data, void* p_min, void* p_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2581:17
+        // Function @ cimgui.h:2604:17
         [DllImport(LibraryName)]
         public static extern CBool igSliderScalarN(CString label, ImGuiDataType data_type, void* p_data, int components, void* p_min, void* p_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2582:17
+        // Function @ cimgui.h:2605:17
         [DllImport(LibraryName)]
         public static extern CBool igVSliderFloat(CString label, Vector2 size, float* v, float v_min, float v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2583:17
+        // Function @ cimgui.h:2606:17
         [DllImport(LibraryName)]
         public static extern CBool igVSliderInt(CString label, Vector2 size, long* v, int v_min, int v_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2584:17
+        // Function @ cimgui.h:2607:17
         [DllImport(LibraryName)]
         public static extern CBool igVSliderScalar(CString label, Vector2 size, ImGuiDataType data_type, void* p_data, void* p_min, void* p_max, CString format, ImGuiSliderFlags flags);
 
-        // Function @ cimgui.h:2585:17
+        // Function @ cimgui.h:2608:17
         [DllImport(LibraryName)]
         public static extern CBool igInputText(CString label, CString buf, ulong buf_size, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
-        // Function @ cimgui.h:2586:17
+        // Function @ cimgui.h:2609:17
         [DllImport(LibraryName)]
         public static extern CBool igInputTextMultiline(CString label, CString buf, ulong buf_size, Vector2 size, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
-        // Function @ cimgui.h:2587:17
+        // Function @ cimgui.h:2610:17
         [DllImport(LibraryName)]
         public static extern CBool igInputTextWithHint(CString label, CString hint, CString buf, ulong buf_size, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
-        // Function @ cimgui.h:2588:17
+        // Function @ cimgui.h:2611:17
         [DllImport(LibraryName)]
         public static extern CBool igInputFloat(CString label, float* v, float step, float step_fast, CString format, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2589:17
+        // Function @ cimgui.h:2612:17
         [DllImport(LibraryName)]
         public static extern CBool igInputFloat2(CString label, float* v, CString format, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2590:17
+        // Function @ cimgui.h:2613:17
         [DllImport(LibraryName)]
         public static extern CBool igInputFloat3(CString label, float* v, CString format, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2591:17
+        // Function @ cimgui.h:2614:17
         [DllImport(LibraryName)]
         public static extern CBool igInputFloat4(CString label, float* v, CString format, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2592:17
+        // Function @ cimgui.h:2615:17
         [DllImport(LibraryName)]
         public static extern CBool igInputInt(CString label, long* v, int step, int step_fast, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2593:17
+        // Function @ cimgui.h:2616:17
         [DllImport(LibraryName)]
         public static extern CBool igInputInt2(CString label, int* v, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2594:17
+        // Function @ cimgui.h:2617:17
         [DllImport(LibraryName)]
         public static extern CBool igInputInt3(CString label, int* v, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2595:17
+        // Function @ cimgui.h:2618:17
         [DllImport(LibraryName)]
         public static extern CBool igInputInt4(CString label, int* v, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2596:17
+        // Function @ cimgui.h:2619:17
         [DllImport(LibraryName)]
         public static extern CBool igInputDouble(CString label, double* v, double step, double step_fast, CString format, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2597:17
+        // Function @ cimgui.h:2620:17
         [DllImport(LibraryName)]
         public static extern CBool igInputScalar(CString label, ImGuiDataType data_type, void* p_data, void* p_step, void* p_step_fast, CString format, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2598:17
+        // Function @ cimgui.h:2621:17
         [DllImport(LibraryName)]
         public static extern CBool igInputScalarN(CString label, ImGuiDataType data_type, void* p_data, int components, void* p_step, void* p_step_fast, CString format, ImGuiInputTextFlags flags);
 
-        // Function @ cimgui.h:2599:17
+        // Function @ cimgui.h:2622:17
         [DllImport(LibraryName)]
         public static extern CBool igColorEdit3(CString label, float* col, ImGuiColorEditFlags flags);
 
-        // Function @ cimgui.h:2600:17
+        // Function @ cimgui.h:2623:17
         [DllImport(LibraryName)]
         public static extern CBool igColorEdit4(CString label, float* col, ImGuiColorEditFlags flags);
 
-        // Function @ cimgui.h:2601:17
+        // Function @ cimgui.h:2624:17
         [DllImport(LibraryName)]
         public static extern CBool igColorPicker3(CString label, float* col, ImGuiColorEditFlags flags);
 
-        // Function @ cimgui.h:2602:17
+        // Function @ cimgui.h:2625:17
         [DllImport(LibraryName)]
         public static extern CBool igColorPicker4(CString label, float* col, ImGuiColorEditFlags flags, float* ref_col);
 
-        // Function @ cimgui.h:2603:17
+        // Function @ cimgui.h:2626:17
         [DllImport(LibraryName)]
         public static extern CBool igColorButton(CString desc_id, Vector4 col, ImGuiColorEditFlags flags, Vector2 size);
 
-        // Function @ cimgui.h:2604:17
+        // Function @ cimgui.h:2627:17
         [DllImport(LibraryName)]
         public static extern void igSetColorEditOptions(ImGuiColorEditFlags flags);
 
-        // Function @ cimgui.h:2605:17
+        // Function @ cimgui.h:2628:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNode_Str(CString label);
 
-        // Function @ cimgui.h:2606:17
+        // Function @ cimgui.h:2629:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNode_StrStr(CString str_id, CString fmt);
 
-        // Function @ cimgui.h:2607:17
+        // Function @ cimgui.h:2630:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNode_Ptr(void* ptr_id, CString fmt);
 
-        // Function @ cimgui.h:2608:17
+        // Function @ cimgui.h:2631:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNodeV_Str(CString str_id, CString fmt, nint args);
 
-        // Function @ cimgui.h:2609:17
+        // Function @ cimgui.h:2632:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNodeV_Ptr(void* ptr_id, CString fmt, nint args);
 
-        // Function @ cimgui.h:2610:17
+        // Function @ cimgui.h:2633:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNodeEx_Str(CString label, ImGuiTreeNodeFlags flags);
 
-        // Function @ cimgui.h:2611:17
+        // Function @ cimgui.h:2634:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNodeEx_StrStr(CString str_id, ImGuiTreeNodeFlags flags, CString fmt);
 
-        // Function @ cimgui.h:2612:17
+        // Function @ cimgui.h:2635:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNodeEx_Ptr(void* ptr_id, ImGuiTreeNodeFlags flags, CString fmt);
 
-        // Function @ cimgui.h:2613:17
+        // Function @ cimgui.h:2636:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNodeExV_Str(CString str_id, ImGuiTreeNodeFlags flags, CString fmt, nint args);
 
-        // Function @ cimgui.h:2614:17
+        // Function @ cimgui.h:2637:17
         [DllImport(LibraryName)]
         public static extern CBool igTreeNodeExV_Ptr(void* ptr_id, ImGuiTreeNodeFlags flags, CString fmt, nint args);
 
-        // Function @ cimgui.h:2615:17
+        // Function @ cimgui.h:2638:17
         [DllImport(LibraryName)]
         public static extern void igTreePush_Str(CString str_id);
 
-        // Function @ cimgui.h:2616:17
+        // Function @ cimgui.h:2639:17
         [DllImport(LibraryName)]
         public static extern void igTreePush_Ptr(void* ptr_id);
 
-        // Function @ cimgui.h:2617:17
+        // Function @ cimgui.h:2640:17
         [DllImport(LibraryName)]
         public static extern void igTreePop();
 
-        // Function @ cimgui.h:2618:18
+        // Function @ cimgui.h:2641:18
         [DllImport(LibraryName)]
         public static extern float igGetTreeNodeToLabelSpacing();
 
-        // Function @ cimgui.h:2619:17
+        // Function @ cimgui.h:2642:17
         [DllImport(LibraryName)]
         public static extern CBool igCollapsingHeader_TreeNodeFlags(CString label, ImGuiTreeNodeFlags flags);
 
-        // Function @ cimgui.h:2620:17
+        // Function @ cimgui.h:2643:17
         [DllImport(LibraryName)]
         public static extern CBool igCollapsingHeader_BoolPtr(CString label, CBool* p_visible, ImGuiTreeNodeFlags flags);
 
-        // Function @ cimgui.h:2621:17
+        // Function @ cimgui.h:2644:17
         [DllImport(LibraryName)]
         public static extern void igSetNextItemOpen(CBool is_open, ImGuiCond cond);
 
-        // Function @ cimgui.h:2622:17
+        // Function @ cimgui.h:2645:17
         [DllImport(LibraryName)]
         public static extern CBool igSelectable_Bool(CString label, CBool selected, ImGuiSelectableFlags flags, Vector2 size);
 
-        // Function @ cimgui.h:2623:17
+        // Function @ cimgui.h:2646:17
         [DllImport(LibraryName)]
         public static extern CBool igSelectable_BoolPtr(CString label, CBool* p_selected, ImGuiSelectableFlags flags, Vector2 size);
 
-        // Function @ cimgui.h:2624:17
+        // Function @ cimgui.h:2647:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginListBox(CString label, Vector2 size);
 
-        // Function @ cimgui.h:2625:17
+        // Function @ cimgui.h:2648:17
         [DllImport(LibraryName)]
         public static extern void igEndListBox();
 
-        // Function @ cimgui.h:2626:17
+        // Function @ cimgui.h:2649:17
         [DllImport(LibraryName)]
         public static extern CBool igListBox_Str_arr(CString label, long* current_item, CString* items, int items_count, int height_in_items);
 
-        // Function @ cimgui.h:2627:17
+        // Function @ cimgui.h:2650:17
         [DllImport(LibraryName)]
         public static extern CBool igListBox_FnBoolPtr(CString label, long* current_item, FnPtr_IMGUI_VoidPtr_Int_CStringPtr_CBool items_getter, void* data, int items_count, int height_in_items);
 
-        // Function @ cimgui.h:2628:17
+        // Function @ cimgui.h:2651:17
         [DllImport(LibraryName)]
         public static extern void igPlotLines_FloatPtr(CString label, float* values, int values_count, int values_offset, CString overlay_text, float scale_min, float scale_max, Vector2 graph_size, int stride);
 
-        // Function @ cimgui.h:2629:17
+        // Function @ cimgui.h:2652:17
         [DllImport(LibraryName)]
         public static extern void igPlotLines_FnFloatPtr(CString label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString overlay_text, float scale_min, float scale_max, Vector2 graph_size);
 
-        // Function @ cimgui.h:2630:17
+        // Function @ cimgui.h:2653:17
         [DllImport(LibraryName)]
         public static extern void igPlotHistogram_FloatPtr(CString label, float* values, int values_count, int values_offset, CString overlay_text, float scale_min, float scale_max, Vector2 graph_size, int stride);
 
-        // Function @ cimgui.h:2631:17
+        // Function @ cimgui.h:2654:17
         [DllImport(LibraryName)]
         public static extern void igPlotHistogram_FnFloatPtr(CString label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString overlay_text, float scale_min, float scale_max, Vector2 graph_size);
 
-        // Function @ cimgui.h:2632:17
+        // Function @ cimgui.h:2655:17
         [DllImport(LibraryName)]
         public static extern void igValue_Bool(CString prefix, CBool b);
 
-        // Function @ cimgui.h:2633:17
+        // Function @ cimgui.h:2656:17
         [DllImport(LibraryName)]
         public static extern void igValue_Int(CString prefix, int v);
 
-        // Function @ cimgui.h:2634:17
+        // Function @ cimgui.h:2657:17
         [DllImport(LibraryName)]
         public static extern void igValue_Uint(CString prefix, uint v);
 
-        // Function @ cimgui.h:2635:17
+        // Function @ cimgui.h:2658:17
         [DllImport(LibraryName)]
         public static extern void igValue_Float(CString prefix, float v, CString float_format);
 
-        // Function @ cimgui.h:2636:17
+        // Function @ cimgui.h:2659:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginMenuBar();
 
-        // Function @ cimgui.h:2637:17
+        // Function @ cimgui.h:2660:17
         [DllImport(LibraryName)]
         public static extern void igEndMenuBar();
 
-        // Function @ cimgui.h:2638:17
+        // Function @ cimgui.h:2661:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginMainMenuBar();
 
-        // Function @ cimgui.h:2639:17
+        // Function @ cimgui.h:2662:17
         [DllImport(LibraryName)]
         public static extern void igEndMainMenuBar();
 
-        // Function @ cimgui.h:2640:17
+        // Function @ cimgui.h:2663:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginMenu(CString label, CBool enabled);
 
-        // Function @ cimgui.h:2641:17
+        // Function @ cimgui.h:2664:17
         [DllImport(LibraryName)]
         public static extern void igEndMenu();
 
-        // Function @ cimgui.h:2642:17
+        // Function @ cimgui.h:2665:17
         [DllImport(LibraryName)]
         public static extern CBool igMenuItem_Bool(CString label, CString shortcut, CBool selected, CBool enabled);
 
-        // Function @ cimgui.h:2643:17
+        // Function @ cimgui.h:2666:17
         [DllImport(LibraryName)]
         public static extern CBool igMenuItem_BoolPtr(CString label, CString shortcut, CBool* p_selected, CBool enabled);
 
-        // Function @ cimgui.h:2644:17
+        // Function @ cimgui.h:2667:17
         [DllImport(LibraryName)]
         public static extern void igBeginTooltip();
 
-        // Function @ cimgui.h:2645:17
+        // Function @ cimgui.h:2668:17
         [DllImport(LibraryName)]
         public static extern void igEndTooltip();
 
-        // Function @ cimgui.h:2646:17
+        // Function @ cimgui.h:2669:17
         [DllImport(LibraryName)]
         public static extern void igSetTooltip(CString fmt);
 
-        // Function @ cimgui.h:2647:17
+        // Function @ cimgui.h:2670:17
         [DllImport(LibraryName)]
         public static extern void igSetTooltipV(CString fmt, nint args);
 
-        // Function @ cimgui.h:2648:17
+        // Function @ cimgui.h:2671:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginPopup(CString str_id, ImGuiWindowFlags flags);
 
-        // Function @ cimgui.h:2649:17
+        // Function @ cimgui.h:2672:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginPopupModal(CString name, CBool* p_open, ImGuiWindowFlags flags);
 
-        // Function @ cimgui.h:2650:17
+        // Function @ cimgui.h:2673:17
         [DllImport(LibraryName)]
         public static extern void igEndPopup();
 
-        // Function @ cimgui.h:2651:17
+        // Function @ cimgui.h:2674:17
         [DllImport(LibraryName)]
         public static extern void igOpenPopup_Str(CString str_id, ImGuiPopupFlags popup_flags);
 
-        // Function @ cimgui.h:2652:17
+        // Function @ cimgui.h:2675:17
         [DllImport(LibraryName)]
         public static extern void igOpenPopup_ID(ImGuiID id, ImGuiPopupFlags popup_flags);
 
-        // Function @ cimgui.h:2653:17
+        // Function @ cimgui.h:2676:17
         [DllImport(LibraryName)]
         public static extern void igOpenPopupOnItemClick(CString str_id, ImGuiPopupFlags popup_flags);
 
-        // Function @ cimgui.h:2654:17
+        // Function @ cimgui.h:2677:17
         [DllImport(LibraryName)]
         public static extern void igCloseCurrentPopup();
 
-        // Function @ cimgui.h:2655:17
+        // Function @ cimgui.h:2678:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginPopupContextItem(CString str_id, ImGuiPopupFlags popup_flags);
 
-        // Function @ cimgui.h:2656:17
+        // Function @ cimgui.h:2679:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginPopupContextWindow(CString str_id, ImGuiPopupFlags popup_flags);
 
-        // Function @ cimgui.h:2657:17
+        // Function @ cimgui.h:2680:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginPopupContextVoid(CString str_id, ImGuiPopupFlags popup_flags);
 
-        // Function @ cimgui.h:2658:17
+        // Function @ cimgui.h:2681:17
         [DllImport(LibraryName)]
         public static extern CBool igIsPopupOpen_Str(CString str_id, ImGuiPopupFlags flags);
 
-        // Function @ cimgui.h:2659:17
+        // Function @ cimgui.h:2682:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginTable(CString str_id, int column, ImGuiTableFlags flags, Vector2 outer_size, float inner_width);
 
-        // Function @ cimgui.h:2660:17
+        // Function @ cimgui.h:2683:17
         [DllImport(LibraryName)]
         public static extern void igEndTable();
 
-        // Function @ cimgui.h:2661:17
+        // Function @ cimgui.h:2684:17
         [DllImport(LibraryName)]
         public static extern void igTableNextRow(ImGuiTableRowFlags row_flags, float min_row_height);
 
-        // Function @ cimgui.h:2662:17
+        // Function @ cimgui.h:2685:17
         [DllImport(LibraryName)]
         public static extern CBool igTableNextColumn();
 
-        // Function @ cimgui.h:2663:17
+        // Function @ cimgui.h:2686:17
         [DllImport(LibraryName)]
         public static extern CBool igTableSetColumnIndex(int column_n);
 
-        // Function @ cimgui.h:2664:17
+        // Function @ cimgui.h:2687:17
         [DllImport(LibraryName)]
         public static extern void igTableSetupColumn(CString label, ImGuiTableColumnFlags flags, float init_width_or_weight, ImGuiID user_id);
 
-        // Function @ cimgui.h:2665:17
+        // Function @ cimgui.h:2688:17
         [DllImport(LibraryName)]
         public static extern void igTableSetupScrollFreeze(int cols, int rows);
 
-        // Function @ cimgui.h:2666:17
+        // Function @ cimgui.h:2689:17
         [DllImport(LibraryName)]
         public static extern void igTableHeadersRow();
 
-        // Function @ cimgui.h:2667:17
+        // Function @ cimgui.h:2690:17
         [DllImport(LibraryName)]
         public static extern void igTableHeader(CString label);
 
-        // Function @ cimgui.h:2668:33
+        // Function @ cimgui.h:2691:33
         [DllImport(LibraryName)]
         public static extern ImGuiTableSortSpecs* igTableGetSortSpecs();
 
-        // Function @ cimgui.h:2669:16
+        // Function @ cimgui.h:2692:16
         [DllImport(LibraryName)]
         public static extern int igTableGetColumnCount();
 
-        // Function @ cimgui.h:2670:16
+        // Function @ cimgui.h:2693:16
         [DllImport(LibraryName)]
         public static extern int igTableGetColumnIndex();
 
-        // Function @ cimgui.h:2671:16
+        // Function @ cimgui.h:2694:16
         [DllImport(LibraryName)]
         public static extern int igTableGetRowIndex();
 
-        // Function @ cimgui.h:2672:24
+        // Function @ cimgui.h:2695:24
         [DllImport(LibraryName)]
         public static extern CString igTableGetColumnName_Int(int column_n);
 
-        // Function @ cimgui.h:2673:34
+        // Function @ cimgui.h:2696:34
         [DllImport(LibraryName)]
         public static extern ImGuiTableColumnFlags igTableGetColumnFlags(int column_n);
 
-        // Function @ cimgui.h:2674:17
+        // Function @ cimgui.h:2697:17
         [DllImport(LibraryName)]
         public static extern void igTableSetColumnEnabled(int column_n, CBool v);
 
-        // Function @ cimgui.h:2675:17
+        // Function @ cimgui.h:2698:17
         [DllImport(LibraryName)]
         public static extern void igTableSetBgColor(ImGuiTableBgTarget target, uint color, int column_n);
 
-        // Function @ cimgui.h:2676:17
+        // Function @ cimgui.h:2699:17
         [DllImport(LibraryName)]
         public static extern void igColumns(int count, CString id, CBool border);
 
-        // Function @ cimgui.h:2677:17
+        // Function @ cimgui.h:2700:17
         [DllImport(LibraryName)]
         public static extern void igNextColumn();
 
-        // Function @ cimgui.h:2678:16
+        // Function @ cimgui.h:2701:16
         [DllImport(LibraryName)]
         public static extern int igGetColumnIndex();
 
-        // Function @ cimgui.h:2679:18
+        // Function @ cimgui.h:2702:18
         [DllImport(LibraryName)]
         public static extern float igGetColumnWidth(int column_index);
 
-        // Function @ cimgui.h:2680:17
+        // Function @ cimgui.h:2703:17
         [DllImport(LibraryName)]
         public static extern void igSetColumnWidth(int column_index, float width);
 
-        // Function @ cimgui.h:2681:18
+        // Function @ cimgui.h:2704:18
         [DllImport(LibraryName)]
         public static extern float igGetColumnOffset(int column_index);
 
-        // Function @ cimgui.h:2682:17
+        // Function @ cimgui.h:2705:17
         [DllImport(LibraryName)]
         public static extern void igSetColumnOffset(int column_index, float offset_x);
 
-        // Function @ cimgui.h:2683:16
+        // Function @ cimgui.h:2706:16
         [DllImport(LibraryName)]
         public static extern int igGetColumnsCount();
 
-        // Function @ cimgui.h:2684:17
+        // Function @ cimgui.h:2707:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginTabBar(CString str_id, ImGuiTabBarFlags flags);
 
-        // Function @ cimgui.h:2685:17
+        // Function @ cimgui.h:2708:17
         [DllImport(LibraryName)]
         public static extern void igEndTabBar();
 
-        // Function @ cimgui.h:2686:17
+        // Function @ cimgui.h:2709:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginTabItem(CString label, CBool* p_open, ImGuiTabItemFlags flags);
 
-        // Function @ cimgui.h:2687:17
+        // Function @ cimgui.h:2710:17
         [DllImport(LibraryName)]
         public static extern void igEndTabItem();
 
-        // Function @ cimgui.h:2688:17
+        // Function @ cimgui.h:2711:17
         [DllImport(LibraryName)]
         public static extern CBool igTabItemButton(CString label, ImGuiTabItemFlags flags);
 
-        // Function @ cimgui.h:2689:17
+        // Function @ cimgui.h:2712:17
         [DllImport(LibraryName)]
         public static extern void igSetTabItemClosed(CString tab_or_docked_window_label);
 
-        // Function @ cimgui.h:2690:17
+        // Function @ cimgui.h:2713:17
         [DllImport(LibraryName)]
         public static extern void igLogToTTY(int auto_open_depth);
 
-        // Function @ cimgui.h:2691:17
+        // Function @ cimgui.h:2714:17
         [DllImport(LibraryName)]
         public static extern void igLogToFile(int auto_open_depth, CString filename);
 
-        // Function @ cimgui.h:2692:17
+        // Function @ cimgui.h:2715:17
         [DllImport(LibraryName)]
         public static extern void igLogToClipboard(int auto_open_depth);
 
-        // Function @ cimgui.h:2693:17
+        // Function @ cimgui.h:2716:17
         [DllImport(LibraryName)]
         public static extern void igLogFinish();
 
-        // Function @ cimgui.h:2694:17
+        // Function @ cimgui.h:2717:17
         [DllImport(LibraryName)]
         public static extern void igLogButtons();
 
-        // Function @ cimgui.h:2695:17
+        // Function @ cimgui.h:2718:17
         [DllImport(LibraryName)]
         public static extern void igLogTextV(CString fmt, nint args);
 
-        // Function @ cimgui.h:2696:17
+        // Function @ cimgui.h:2719:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginDragDropSource(ImGuiDragDropFlags flags);
 
-        // Function @ cimgui.h:2697:17
+        // Function @ cimgui.h:2720:17
         [DllImport(LibraryName)]
         public static extern CBool igSetDragDropPayload(CString type, void* data, ulong sz, ImGuiCond cond);
 
-        // Function @ cimgui.h:2698:17
+        // Function @ cimgui.h:2721:17
         [DllImport(LibraryName)]
         public static extern void igEndDragDropSource();
 
-        // Function @ cimgui.h:2699:17
+        // Function @ cimgui.h:2722:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginDragDropTarget();
 
-        // Function @ cimgui.h:2700:32
+        // Function @ cimgui.h:2723:32
         [DllImport(LibraryName)]
         public static extern ImGuiPayload* igAcceptDragDropPayload(CString type, ImGuiDragDropFlags flags);
 
-        // Function @ cimgui.h:2701:17
+        // Function @ cimgui.h:2724:17
         [DllImport(LibraryName)]
         public static extern void igEndDragDropTarget();
 
-        // Function @ cimgui.h:2702:32
+        // Function @ cimgui.h:2725:32
         [DllImport(LibraryName)]
         public static extern ImGuiPayload* igGetDragDropPayload();
 
-        // Function @ cimgui.h:2703:17
+        // Function @ cimgui.h:2726:17
         [DllImport(LibraryName)]
         public static extern void igBeginDisabled(CBool disabled);
 
-        // Function @ cimgui.h:2704:17
+        // Function @ cimgui.h:2727:17
         [DllImport(LibraryName)]
         public static extern void igEndDisabled();
 
-        // Function @ cimgui.h:2705:17
+        // Function @ cimgui.h:2728:17
         [DllImport(LibraryName)]
         public static extern void igPushClipRect(Vector2 clip_rect_min, Vector2 clip_rect_max, CBool intersect_with_current_clip_rect);
 
-        // Function @ cimgui.h:2706:17
+        // Function @ cimgui.h:2729:17
         [DllImport(LibraryName)]
         public static extern void igPopClipRect();
 
-        // Function @ cimgui.h:2707:17
+        // Function @ cimgui.h:2730:17
         [DllImport(LibraryName)]
         public static extern void igSetItemDefaultFocus();
 
-        // Function @ cimgui.h:2708:17
+        // Function @ cimgui.h:2731:17
         [DllImport(LibraryName)]
         public static extern void igSetKeyboardFocusHere(int offset);
 
-        // Function @ cimgui.h:2709:17
+        // Function @ cimgui.h:2732:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemHovered(ImGuiHoveredFlags flags);
 
-        // Function @ cimgui.h:2710:17
+        // Function @ cimgui.h:2733:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemActive();
 
-        // Function @ cimgui.h:2711:17
+        // Function @ cimgui.h:2734:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemFocused();
 
-        // Function @ cimgui.h:2712:17
+        // Function @ cimgui.h:2735:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemClicked(ImGuiMouseButton mouse_button);
 
-        // Function @ cimgui.h:2713:17
+        // Function @ cimgui.h:2736:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemVisible();
 
-        // Function @ cimgui.h:2714:17
+        // Function @ cimgui.h:2737:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemEdited();
 
-        // Function @ cimgui.h:2715:17
+        // Function @ cimgui.h:2738:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemActivated();
 
-        // Function @ cimgui.h:2716:17
+        // Function @ cimgui.h:2739:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemDeactivated();
 
-        // Function @ cimgui.h:2717:17
+        // Function @ cimgui.h:2740:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemDeactivatedAfterEdit();
 
-        // Function @ cimgui.h:2718:17
+        // Function @ cimgui.h:2741:17
         [DllImport(LibraryName)]
         public static extern CBool igIsItemToggledOpen();
 
-        // Function @ cimgui.h:2719:17
+        // Function @ cimgui.h:2742:17
         [DllImport(LibraryName)]
         public static extern CBool igIsAnyItemHovered();
 
-        // Function @ cimgui.h:2720:17
+        // Function @ cimgui.h:2743:17
         [DllImport(LibraryName)]
         public static extern CBool igIsAnyItemActive();
 
-        // Function @ cimgui.h:2721:17
+        // Function @ cimgui.h:2744:17
         [DllImport(LibraryName)]
         public static extern CBool igIsAnyItemFocused();
 
-        // Function @ cimgui.h:2722:17
+        // Function @ cimgui.h:2745:17
         [DllImport(LibraryName)]
         public static extern void igGetItemRectMin(Vector2* pOut);
 
-        // Function @ cimgui.h:2723:17
+        // Function @ cimgui.h:2746:17
         [DllImport(LibraryName)]
         public static extern void igGetItemRectMax(Vector2* pOut);
 
-        // Function @ cimgui.h:2724:17
+        // Function @ cimgui.h:2747:17
         [DllImport(LibraryName)]
         public static extern void igGetItemRectSize(Vector2* pOut);
 
-        // Function @ cimgui.h:2725:17
+        // Function @ cimgui.h:2748:17
         [DllImport(LibraryName)]
         public static extern void igSetItemAllowOverlap();
 
-        // Function @ cimgui.h:2726:27
+        // Function @ cimgui.h:2749:27
         [DllImport(LibraryName)]
         public static extern ImGuiViewport* igGetMainViewport();
 
-        // Function @ cimgui.h:2727:17
+        // Function @ cimgui.h:2750:17
         [DllImport(LibraryName)]
         public static extern CBool igIsRectVisible_Nil(Vector2 size);
 
-        // Function @ cimgui.h:2728:17
+        // Function @ cimgui.h:2751:17
         [DllImport(LibraryName)]
         public static extern CBool igIsRectVisible_Vec2(Vector2 rect_min, Vector2 rect_max);
 
-        // Function @ cimgui.h:2729:19
+        // Function @ cimgui.h:2752:19
         [DllImport(LibraryName)]
         public static extern double igGetTime();
 
-        // Function @ cimgui.h:2730:16
+        // Function @ cimgui.h:2753:16
         [DllImport(LibraryName)]
         public static extern int igGetFrameCount();
 
-        // Function @ cimgui.h:2731:24
+        // Function @ cimgui.h:2754:24
         [DllImport(LibraryName)]
         public static extern ImDrawList* igGetBackgroundDrawList_Nil();
 
-        // Function @ cimgui.h:2732:24
+        // Function @ cimgui.h:2755:24
         [DllImport(LibraryName)]
         public static extern ImDrawList* igGetForegroundDrawList_Nil();
 
-        // Function @ cimgui.h:2733:34
+        // Function @ cimgui.h:2756:34
         [DllImport(LibraryName)]
         public static extern ImDrawListSharedData* igGetDrawListSharedData();
 
-        // Function @ cimgui.h:2734:24
+        // Function @ cimgui.h:2757:24
         [DllImport(LibraryName)]
         public static extern CString igGetStyleColorName(ImGuiCol idx);
 
-        // Function @ cimgui.h:2735:17
+        // Function @ cimgui.h:2758:17
         [DllImport(LibraryName)]
         public static extern void igSetStateStorage(ImGuiStorage* storage);
 
-        // Function @ cimgui.h:2736:26
+        // Function @ cimgui.h:2759:26
         [DllImport(LibraryName)]
         public static extern ImGuiStorage* igGetStateStorage();
 
-        // Function @ cimgui.h:2737:17
-        [DllImport(LibraryName)]
-        public static extern void igCalcListClipping(int items_count, float items_height, long* out_items_display_start, long* out_items_display_end);
-
-        // Function @ cimgui.h:2738:17
+        // Function @ cimgui.h:2760:17
         [DllImport(LibraryName)]
         public static extern CBool igBeginChildFrame(ImGuiID id, Vector2 size, ImGuiWindowFlags flags);
 
-        // Function @ cimgui.h:2739:17
+        // Function @ cimgui.h:2761:17
         [DllImport(LibraryName)]
         public static extern void igEndChildFrame();
 
-        // Function @ cimgui.h:2740:17
+        // Function @ cimgui.h:2762:17
         [DllImport(LibraryName)]
         public static extern void igCalcTextSize(Vector2* pOut, CString text, CString text_end, CBool hide_text_after_double_hash, float wrap_width);
 
-        // Function @ cimgui.h:2741:17
+        // Function @ cimgui.h:2763:17
         [DllImport(LibraryName)]
         public static extern void igColorConvertU32ToFloat4(Vector4* pOut, uint @in);
 
-        // Function @ cimgui.h:2742:18
+        // Function @ cimgui.h:2764:18
         [DllImport(LibraryName)]
         public static extern uint igColorConvertFloat4ToU32(Vector4 @in);
 
-        // Function @ cimgui.h:2743:17
+        // Function @ cimgui.h:2765:17
         [DllImport(LibraryName)]
         public static extern void igColorConvertRGBtoHSV(float r, float g, float b, float* out_h, float* out_s, float* out_v);
 
-        // Function @ cimgui.h:2744:17
+        // Function @ cimgui.h:2766:17
         [DllImport(LibraryName)]
         public static extern void igColorConvertHSVtoRGB(float h, float s, float v, float* out_r, float* out_g, float* out_b);
 
-        // Function @ cimgui.h:2745:16
+        // Function @ cimgui.h:2767:16
         [DllImport(LibraryName)]
         public static extern int igGetKeyIndex(ImGuiKey imgui_key);
 
-        // Function @ cimgui.h:2746:17
+        // Function @ cimgui.h:2768:17
         [DllImport(LibraryName)]
         public static extern CBool igIsKeyDown(int user_key_index);
 
-        // Function @ cimgui.h:2747:17
+        // Function @ cimgui.h:2769:17
         [DllImport(LibraryName)]
         public static extern CBool igIsKeyPressed(int user_key_index, CBool repeat);
 
-        // Function @ cimgui.h:2748:17
+        // Function @ cimgui.h:2770:17
         [DllImport(LibraryName)]
         public static extern CBool igIsKeyReleased(int user_key_index);
 
-        // Function @ cimgui.h:2749:16
+        // Function @ cimgui.h:2771:16
         [DllImport(LibraryName)]
         public static extern int igGetKeyPressedAmount(int key_index, float repeat_delay, float rate);
 
-        // Function @ cimgui.h:2750:17
+        // Function @ cimgui.h:2772:17
         [DllImport(LibraryName)]
         public static extern void igCaptureKeyboardFromApp(CBool want_capture_keyboard_value);
 
-        // Function @ cimgui.h:2751:17
+        // Function @ cimgui.h:2773:17
         [DllImport(LibraryName)]
         public static extern CBool igIsMouseDown(ImGuiMouseButton button);
 
-        // Function @ cimgui.h:2752:17
+        // Function @ cimgui.h:2774:17
         [DllImport(LibraryName)]
         public static extern CBool igIsMouseClicked(ImGuiMouseButton button, CBool repeat);
 
-        // Function @ cimgui.h:2753:17
+        // Function @ cimgui.h:2775:17
         [DllImport(LibraryName)]
         public static extern CBool igIsMouseReleased(ImGuiMouseButton button);
 
-        // Function @ cimgui.h:2754:17
+        // Function @ cimgui.h:2776:17
         [DllImport(LibraryName)]
         public static extern CBool igIsMouseDoubleClicked(ImGuiMouseButton button);
 
-        // Function @ cimgui.h:2755:17
+        // Function @ cimgui.h:2777:16
         [DllImport(LibraryName)]
-        public static extern CBool igIsMouseHoveringRect(Vector2 r_min, Vector2 r_max, CBool clip);
-
-        // Function @ cimgui.h:2756:17
-        [DllImport(LibraryName)]
-        public static extern CBool igIsMousePosValid(Vector2* mouse_pos);
-
-        // Function @ cimgui.h:2757:17
-        [DllImport(LibraryName)]
-        public static extern CBool igIsAnyMouseDown();
-
-        // Function @ cimgui.h:2758:17
-        [DllImport(LibraryName)]
-        public static extern void igGetMousePos(Vector2* pOut);
-
-        // Function @ cimgui.h:2759:17
-        [DllImport(LibraryName)]
-        public static extern void igGetMousePosOnOpeningCurrentPopup(Vector2* pOut);
-
-        // Function @ cimgui.h:2760:17
-        [DllImport(LibraryName)]
-        public static extern CBool igIsMouseDragging(ImGuiMouseButton button, float lock_threshold);
-
-        // Function @ cimgui.h:2761:17
-        [DllImport(LibraryName)]
-        public static extern void igGetMouseDragDelta(Vector2* pOut, ImGuiMouseButton button, float lock_threshold);
-
-        // Function @ cimgui.h:2762:17
-        [DllImport(LibraryName)]
-        public static extern void igResetMouseDragDelta(ImGuiMouseButton button);
-
-        // Function @ cimgui.h:2763:29
-        [DllImport(LibraryName)]
-        public static extern ImGuiMouseCursor igGetMouseCursor();
-
-        // Function @ cimgui.h:2764:17
-        [DllImport(LibraryName)]
-        public static extern void igSetMouseCursor(ImGuiMouseCursor cursor_type);
-
-        // Function @ cimgui.h:2765:17
-        [DllImport(LibraryName)]
-        public static extern void igCaptureMouseFromApp(CBool want_capture_mouse_value);
-
-        // Function @ cimgui.h:2766:24
-        [DllImport(LibraryName)]
-        public static extern CString igGetClipboardText();
-
-        // Function @ cimgui.h:2767:17
-        [DllImport(LibraryName)]
-        public static extern void igSetClipboardText(CString text);
-
-        // Function @ cimgui.h:2768:17
-        [DllImport(LibraryName)]
-        public static extern void igLoadIniSettingsFromDisk(CString ini_filename);
-
-        // Function @ cimgui.h:2769:17
-        [DllImport(LibraryName)]
-        public static extern void igLoadIniSettingsFromMemory(CString ini_data, ulong ini_size);
-
-        // Function @ cimgui.h:2770:17
-        [DllImport(LibraryName)]
-        public static extern void igSaveIniSettingsToDisk(CString ini_filename);
-
-        // Function @ cimgui.h:2771:24
-        [DllImport(LibraryName)]
-        public static extern CString igSaveIniSettingsToMemory(ulong* out_ini_size);
-
-        // Function @ cimgui.h:2772:17
-        [DllImport(LibraryName)]
-        public static extern CBool igDebugCheckVersionAndDataLayout(CString version_str, ulong sz_io, ulong sz_style, ulong sz_vec2, ulong sz_vec4, ulong sz_drawvert, ulong sz_drawidx);
-
-        // Function @ cimgui.h:2773:17
-        [DllImport(LibraryName)]
-        public static extern void igSetAllocatorFunctions(ImGuiMemAllocFunc alloc_func, ImGuiMemFreeFunc free_func, void* user_data);
-
-        // Function @ cimgui.h:2774:17
-        [DllImport(LibraryName)]
-        public static extern void igGetAllocatorFunctions(ImGuiMemAllocFunc* p_alloc_func, ImGuiMemFreeFunc* p_free_func, void** p_user_data);
-
-        // Function @ cimgui.h:2775:18
-        [DllImport(LibraryName)]
-        public static extern void* igMemAlloc(ulong size);
-
-        // Function @ cimgui.h:2776:17
-        [DllImport(LibraryName)]
-        public static extern void igMemFree(void* ptr);
-
-        // Function @ cimgui.h:2777:24
-        [DllImport(LibraryName)]
-        public static extern ImGuiStyle* ImGuiStyle_ImGuiStyle();
+        public static extern int igGetMouseClickedCount(ImGuiMouseButton button);
 
         // Function @ cimgui.h:2778:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStyle_destroy(ImGuiStyle* self);
+        public static extern CBool igIsMouseHoveringRect(Vector2 r_min, Vector2 r_max, CBool clip);
 
         // Function @ cimgui.h:2779:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStyle_ScaleAllSizes(ImGuiStyle* self, float scale_factor);
+        public static extern CBool igIsMousePosValid(Vector2* mouse_pos);
 
         // Function @ cimgui.h:2780:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiIO_AddInputCharacter(ImGuiIO* self, uint c);
+        public static extern CBool igIsAnyMouseDown();
 
         // Function @ cimgui.h:2781:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiIO_AddInputCharacterUTF16(ImGuiIO* self, ushort c);
+        public static extern void igGetMousePos(Vector2* pOut);
 
         // Function @ cimgui.h:2782:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiIO_AddInputCharactersUTF8(ImGuiIO* self, CString str);
+        public static extern void igGetMousePosOnOpeningCurrentPopup(Vector2* pOut);
 
         // Function @ cimgui.h:2783:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiIO_AddFocusEvent(ImGuiIO* self, CBool focused);
+        public static extern CBool igIsMouseDragging(ImGuiMouseButton button, float lock_threshold);
 
         // Function @ cimgui.h:2784:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiIO_ClearInputCharacters(ImGuiIO* self);
+        public static extern void igGetMouseDragDelta(Vector2* pOut, ImGuiMouseButton button, float lock_threshold);
 
         // Function @ cimgui.h:2785:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiIO_ClearInputKeys(ImGuiIO* self);
+        public static extern void igResetMouseDragDelta(ImGuiMouseButton button);
 
-        // Function @ cimgui.h:2786:21
+        // Function @ cimgui.h:2786:29
         [DllImport(LibraryName)]
-        public static extern ImGuiIO* ImGuiIO_ImGuiIO();
+        public static extern ImGuiMouseCursor igGetMouseCursor();
 
         // Function @ cimgui.h:2787:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiIO_destroy(ImGuiIO* self);
+        public static extern void igSetMouseCursor(ImGuiMouseCursor cursor_type);
 
-        // Function @ cimgui.h:2788:40
+        // Function @ cimgui.h:2788:17
         [DllImport(LibraryName)]
-        public static extern ImGuiInputTextCallbackData* ImGuiInputTextCallbackData_ImGuiInputTextCallbackData();
+        public static extern void igCaptureMouseFromApp(CBool want_capture_mouse_value);
 
-        // Function @ cimgui.h:2789:17
+        // Function @ cimgui.h:2789:24
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextCallbackData_destroy(ImGuiInputTextCallbackData* self);
+        public static extern CString igGetClipboardText();
 
         // Function @ cimgui.h:2790:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextCallbackData_DeleteChars(ImGuiInputTextCallbackData* self, int pos, int bytes_count);
+        public static extern void igSetClipboardText(CString text);
 
         // Function @ cimgui.h:2791:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextCallbackData_InsertChars(ImGuiInputTextCallbackData* self, int pos, CString text, CString text_end);
+        public static extern void igLoadIniSettingsFromDisk(CString ini_filename);
 
         // Function @ cimgui.h:2792:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextCallbackData_SelectAll(ImGuiInputTextCallbackData* self);
+        public static extern void igLoadIniSettingsFromMemory(CString ini_data, ulong ini_size);
 
         // Function @ cimgui.h:2793:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextCallbackData_ClearSelection(ImGuiInputTextCallbackData* self);
+        public static extern void igSaveIniSettingsToDisk(CString ini_filename);
 
-        // Function @ cimgui.h:2794:17
+        // Function @ cimgui.h:2794:24
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiInputTextCallbackData_HasSelection(ImGuiInputTextCallbackData* self);
+        public static extern CString igSaveIniSettingsToMemory(ulong* out_ini_size);
 
-        // Function @ cimgui.h:2795:26
+        // Function @ cimgui.h:2795:17
         [DllImport(LibraryName)]
-        public static extern ImGuiPayload* ImGuiPayload_ImGuiPayload();
+        public static extern CBool igDebugCheckVersionAndDataLayout(CString version_str, ulong sz_io, ulong sz_style, ulong sz_vec2, ulong sz_vec4, ulong sz_drawvert, ulong sz_drawidx);
 
         // Function @ cimgui.h:2796:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiPayload_destroy(ImGuiPayload* self);
+        public static extern void igSetAllocatorFunctions(ImGuiMemAllocFunc alloc_func, ImGuiMemFreeFunc free_func, void* user_data);
 
         // Function @ cimgui.h:2797:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiPayload_Clear(ImGuiPayload* self);
+        public static extern void igGetAllocatorFunctions(ImGuiMemAllocFunc* p_alloc_func, ImGuiMemFreeFunc* p_free_func, void** p_user_data);
 
-        // Function @ cimgui.h:2798:17
+        // Function @ cimgui.h:2798:18
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiPayload_IsDataType(ImGuiPayload* self, CString type);
+        public static extern void* igMemAlloc(ulong size);
 
         // Function @ cimgui.h:2799:17
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiPayload_IsPreview(ImGuiPayload* self);
+        public static extern void igMemFree(void* ptr);
 
-        // Function @ cimgui.h:2800:17
+        // Function @ cimgui.h:2800:24
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiPayload_IsDelivery(ImGuiPayload* self);
+        public static extern ImGuiStyle* ImGuiStyle_ImGuiStyle();
 
-        // Function @ cimgui.h:2801:39
+        // Function @ cimgui.h:2801:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTableColumnSortSpecs* ImGuiTableColumnSortSpecs_ImGuiTableColumnSortSpecs();
+        public static extern void ImGuiStyle_destroy(ImGuiStyle* self);
 
         // Function @ cimgui.h:2802:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTableColumnSortSpecs_destroy(ImGuiTableColumnSortSpecs* self);
+        public static extern void ImGuiStyle_ScaleAllSizes(ImGuiStyle* self, float scale_factor);
 
-        // Function @ cimgui.h:2803:33
+        // Function @ cimgui.h:2803:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTableSortSpecs* ImGuiTableSortSpecs_ImGuiTableSortSpecs();
+        public static extern void ImGuiIO_AddInputCharacter(ImGuiIO* self, uint c);
 
         // Function @ cimgui.h:2804:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTableSortSpecs_destroy(ImGuiTableSortSpecs* self);
+        public static extern void ImGuiIO_AddInputCharacterUTF16(ImGuiIO* self, ushort c);
 
-        // Function @ cimgui.h:2805:33
+        // Function @ cimgui.h:2805:17
         [DllImport(LibraryName)]
-        public static extern ImGuiOnceUponAFrame* ImGuiOnceUponAFrame_ImGuiOnceUponAFrame();
+        public static extern void ImGuiIO_AddInputCharactersUTF8(ImGuiIO* self, CString str);
 
         // Function @ cimgui.h:2806:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiOnceUponAFrame_destroy(ImGuiOnceUponAFrame* self);
+        public static extern void ImGuiIO_AddFocusEvent(ImGuiIO* self, CBool focused);
 
-        // Function @ cimgui.h:2807:29
+        // Function @ cimgui.h:2807:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTextFilter* ImGuiTextFilter_ImGuiTextFilter(CString default_filter);
+        public static extern void ImGuiIO_ClearInputCharacters(ImGuiIO* self);
 
         // Function @ cimgui.h:2808:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextFilter_destroy(ImGuiTextFilter* self);
+        public static extern void ImGuiIO_ClearInputKeys(ImGuiIO* self);
 
-        // Function @ cimgui.h:2809:17
+        // Function @ cimgui.h:2809:21
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiTextFilter_Draw(ImGuiTextFilter* self, CString label, float width);
+        public static extern ImGuiIO* ImGuiIO_ImGuiIO();
 
         // Function @ cimgui.h:2810:17
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiTextFilter_PassFilter(ImGuiTextFilter* self, CString text, CString text_end);
+        public static extern void ImGuiIO_destroy(ImGuiIO* self);
 
-        // Function @ cimgui.h:2811:17
+        // Function @ cimgui.h:2811:40
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextFilter_Build(ImGuiTextFilter* self);
+        public static extern ImGuiInputTextCallbackData* ImGuiInputTextCallbackData_ImGuiInputTextCallbackData();
 
         // Function @ cimgui.h:2812:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextFilter_Clear(ImGuiTextFilter* self);
+        public static extern void ImGuiInputTextCallbackData_destroy(ImGuiInputTextCallbackData* self);
 
         // Function @ cimgui.h:2813:17
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiTextFilter_IsActive(ImGuiTextFilter* self);
+        public static extern void ImGuiInputTextCallbackData_DeleteChars(ImGuiInputTextCallbackData* self, int pos, int bytes_count);
 
-        // Function @ cimgui.h:2814:28
+        // Function @ cimgui.h:2814:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTextRange* ImGuiTextRange_ImGuiTextRange_Nil();
+        public static extern void ImGuiInputTextCallbackData_InsertChars(ImGuiInputTextCallbackData* self, int pos, CString text, CString text_end);
 
         // Function @ cimgui.h:2815:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextRange_destroy(ImGuiTextRange* self);
+        public static extern void ImGuiInputTextCallbackData_SelectAll(ImGuiInputTextCallbackData* self);
 
-        // Function @ cimgui.h:2816:28
+        // Function @ cimgui.h:2816:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTextRange* ImGuiTextRange_ImGuiTextRange_Str(CString _b, CString _e);
+        public static extern void ImGuiInputTextCallbackData_ClearSelection(ImGuiInputTextCallbackData* self);
 
         // Function @ cimgui.h:2817:17
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiTextRange_empty(ImGuiTextRange* self);
+        public static extern CBool ImGuiInputTextCallbackData_HasSelection(ImGuiInputTextCallbackData* self);
 
-        // Function @ cimgui.h:2818:17
+        // Function @ cimgui.h:2818:26
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextRange_split(ImGuiTextRange* self, CChar separator, ImVector_ImGuiTextRange* @out);
+        public static extern ImGuiPayload* ImGuiPayload_ImGuiPayload();
 
-        // Function @ cimgui.h:2819:29
+        // Function @ cimgui.h:2819:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTextBuffer* ImGuiTextBuffer_ImGuiTextBuffer();
+        public static extern void ImGuiPayload_destroy(ImGuiPayload* self);
 
         // Function @ cimgui.h:2820:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextBuffer_destroy(ImGuiTextBuffer* self);
+        public static extern void ImGuiPayload_Clear(ImGuiPayload* self);
 
-        // Function @ cimgui.h:2821:24
+        // Function @ cimgui.h:2821:17
         [DllImport(LibraryName)]
-        public static extern CString ImGuiTextBuffer_begin(ImGuiTextBuffer* self);
+        public static extern CBool ImGuiPayload_IsDataType(ImGuiPayload* self, CString type);
 
-        // Function @ cimgui.h:2822:24
+        // Function @ cimgui.h:2822:17
         [DllImport(LibraryName)]
-        public static extern CString ImGuiTextBuffer_end(ImGuiTextBuffer* self);
+        public static extern CBool ImGuiPayload_IsPreview(ImGuiPayload* self);
 
-        // Function @ cimgui.h:2823:16
+        // Function @ cimgui.h:2823:17
         [DllImport(LibraryName)]
-        public static extern int ImGuiTextBuffer_size(ImGuiTextBuffer* self);
+        public static extern CBool ImGuiPayload_IsDelivery(ImGuiPayload* self);
 
-        // Function @ cimgui.h:2824:17
+        // Function @ cimgui.h:2824:39
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiTextBuffer_empty(ImGuiTextBuffer* self);
+        public static extern ImGuiTableColumnSortSpecs* ImGuiTableColumnSortSpecs_ImGuiTableColumnSortSpecs();
 
         // Function @ cimgui.h:2825:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextBuffer_clear(ImGuiTextBuffer* self);
+        public static extern void ImGuiTableColumnSortSpecs_destroy(ImGuiTableColumnSortSpecs* self);
 
-        // Function @ cimgui.h:2826:17
+        // Function @ cimgui.h:2826:33
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextBuffer_reserve(ImGuiTextBuffer* self, int capacity);
+        public static extern ImGuiTableSortSpecs* ImGuiTableSortSpecs_ImGuiTableSortSpecs();
 
-        // Function @ cimgui.h:2827:24
+        // Function @ cimgui.h:2827:17
         [DllImport(LibraryName)]
-        public static extern CString ImGuiTextBuffer_c_str(ImGuiTextBuffer* self);
+        public static extern void ImGuiTableSortSpecs_destroy(ImGuiTableSortSpecs* self);
 
-        // Function @ cimgui.h:2828:17
+        // Function @ cimgui.h:2828:33
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextBuffer_append(ImGuiTextBuffer* self, CString str, CString str_end);
+        public static extern ImGuiOnceUponAFrame* ImGuiOnceUponAFrame_ImGuiOnceUponAFrame();
 
         // Function @ cimgui.h:2829:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextBuffer_appendfv(ImGuiTextBuffer* self, CString fmt, nint args);
+        public static extern void ImGuiOnceUponAFrame_destroy(ImGuiOnceUponAFrame* self);
 
-        // Function @ cimgui.h:2830:30
+        // Function @ cimgui.h:2830:29
         [DllImport(LibraryName)]
-        public static extern ImGuiStoragePair* ImGuiStoragePair_ImGuiStoragePair_Int(ImGuiID _key, int _val_i);
+        public static extern ImGuiTextFilter* ImGuiTextFilter_ImGuiTextFilter(CString default_filter);
 
         // Function @ cimgui.h:2831:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStoragePair_destroy(ImGuiStoragePair* self);
+        public static extern void ImGuiTextFilter_destroy(ImGuiTextFilter* self);
 
-        // Function @ cimgui.h:2832:30
+        // Function @ cimgui.h:2832:17
         [DllImport(LibraryName)]
-        public static extern ImGuiStoragePair* ImGuiStoragePair_ImGuiStoragePair_Float(ImGuiID _key, float _val_f);
+        public static extern CBool ImGuiTextFilter_Draw(ImGuiTextFilter* self, CString label, float width);
 
-        // Function @ cimgui.h:2833:30
+        // Function @ cimgui.h:2833:17
         [DllImport(LibraryName)]
-        public static extern ImGuiStoragePair* ImGuiStoragePair_ImGuiStoragePair_Ptr(ImGuiID _key, void* _val_p);
+        public static extern CBool ImGuiTextFilter_PassFilter(ImGuiTextFilter* self, CString text, CString text_end);
 
         // Function @ cimgui.h:2834:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStorage_Clear(ImGuiStorage* self);
+        public static extern void ImGuiTextFilter_Build(ImGuiTextFilter* self);
 
-        // Function @ cimgui.h:2835:16
+        // Function @ cimgui.h:2835:17
         [DllImport(LibraryName)]
-        public static extern int ImGuiStorage_GetInt(ImGuiStorage* self, ImGuiID key, int default_val);
+        public static extern void ImGuiTextFilter_Clear(ImGuiTextFilter* self);
 
         // Function @ cimgui.h:2836:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStorage_SetInt(ImGuiStorage* self, ImGuiID key, int val);
+        public static extern CBool ImGuiTextFilter_IsActive(ImGuiTextFilter* self);
 
-        // Function @ cimgui.h:2837:17
+        // Function @ cimgui.h:2837:28
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiStorage_GetBool(ImGuiStorage* self, ImGuiID key, CBool default_val);
+        public static extern ImGuiTextRange* ImGuiTextRange_ImGuiTextRange_Nil();
 
         // Function @ cimgui.h:2838:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStorage_SetBool(ImGuiStorage* self, ImGuiID key, CBool val);
+        public static extern void ImGuiTextRange_destroy(ImGuiTextRange* self);
 
-        // Function @ cimgui.h:2839:18
+        // Function @ cimgui.h:2839:28
         [DllImport(LibraryName)]
-        public static extern float ImGuiStorage_GetFloat(ImGuiStorage* self, ImGuiID key, float default_val);
+        public static extern ImGuiTextRange* ImGuiTextRange_ImGuiTextRange_Str(CString _b, CString _e);
 
         // Function @ cimgui.h:2840:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStorage_SetFloat(ImGuiStorage* self, ImGuiID key, float val);
+        public static extern CBool ImGuiTextRange_empty(ImGuiTextRange* self);
 
-        // Function @ cimgui.h:2841:18
+        // Function @ cimgui.h:2841:17
         [DllImport(LibraryName)]
-        public static extern void* ImGuiStorage_GetVoidPtr(ImGuiStorage* self, ImGuiID key);
+        public static extern void ImGuiTextRange_split(ImGuiTextRange* self, CChar separator, ImVector_ImGuiTextRange* @out);
 
-        // Function @ cimgui.h:2842:17
+        // Function @ cimgui.h:2842:29
         [DllImport(LibraryName)]
-        public static extern void ImGuiStorage_SetVoidPtr(ImGuiStorage* self, ImGuiID key, void* val);
+        public static extern ImGuiTextBuffer* ImGuiTextBuffer_ImGuiTextBuffer();
 
         // Function @ cimgui.h:2843:17
         [DllImport(LibraryName)]
-        public static extern long* ImGuiStorage_GetIntRef(ImGuiStorage* self, ImGuiID key, int default_val);
+        public static extern void ImGuiTextBuffer_destroy(ImGuiTextBuffer* self);
 
-        // Function @ cimgui.h:2844:18
+        // Function @ cimgui.h:2844:24
         [DllImport(LibraryName)]
-        public static extern CBool* ImGuiStorage_GetBoolRef(ImGuiStorage* self, ImGuiID key, CBool default_val);
+        public static extern CString ImGuiTextBuffer_begin(ImGuiTextBuffer* self);
 
-        // Function @ cimgui.h:2845:19
+        // Function @ cimgui.h:2845:24
         [DllImport(LibraryName)]
-        public static extern float* ImGuiStorage_GetFloatRef(ImGuiStorage* self, ImGuiID key, float default_val);
+        public static extern CString ImGuiTextBuffer_end(ImGuiTextBuffer* self);
 
-        // Function @ cimgui.h:2846:19
+        // Function @ cimgui.h:2846:16
         [DllImport(LibraryName)]
-        public static extern void** ImGuiStorage_GetVoidPtrRef(ImGuiStorage* self, ImGuiID key, void* default_val);
+        public static extern int ImGuiTextBuffer_size(ImGuiTextBuffer* self);
 
         // Function @ cimgui.h:2847:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStorage_SetAllInt(ImGuiStorage* self, int val);
+        public static extern CBool ImGuiTextBuffer_empty(ImGuiTextBuffer* self);
 
         // Function @ cimgui.h:2848:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStorage_BuildSortByKey(ImGuiStorage* self);
+        public static extern void ImGuiTextBuffer_clear(ImGuiTextBuffer* self);
 
-        // Function @ cimgui.h:2849:30
+        // Function @ cimgui.h:2849:17
         [DllImport(LibraryName)]
-        public static extern ImGuiListClipper* ImGuiListClipper_ImGuiListClipper();
+        public static extern void ImGuiTextBuffer_reserve(ImGuiTextBuffer* self, int capacity);
 
-        // Function @ cimgui.h:2850:17
+        // Function @ cimgui.h:2850:24
         [DllImport(LibraryName)]
-        public static extern void ImGuiListClipper_destroy(ImGuiListClipper* self);
+        public static extern CString ImGuiTextBuffer_c_str(ImGuiTextBuffer* self);
 
         // Function @ cimgui.h:2851:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiListClipper_Begin(ImGuiListClipper* self, int items_count, float items_height);
+        public static extern void ImGuiTextBuffer_append(ImGuiTextBuffer* self, CString str, CString str_end);
 
         // Function @ cimgui.h:2852:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiListClipper_End(ImGuiListClipper* self);
+        public static extern void ImGuiTextBuffer_appendfv(ImGuiTextBuffer* self, CString fmt, nint args);
 
-        // Function @ cimgui.h:2853:17
+        // Function @ cimgui.h:2853:30
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiListClipper_Step(ImGuiListClipper* self);
+        public static extern ImGuiStoragePair* ImGuiStoragePair_ImGuiStoragePair_Int(ImGuiID _key, int _val_i);
 
-        // Function @ cimgui.h:2854:21
+        // Function @ cimgui.h:2854:17
         [DllImport(LibraryName)]
-        public static extern ImColor* ImColor_ImColor_Nil();
+        public static extern void ImGuiStoragePair_destroy(ImGuiStoragePair* self);
 
-        // Function @ cimgui.h:2855:17
+        // Function @ cimgui.h:2855:30
         [DllImport(LibraryName)]
-        public static extern void ImColor_destroy(ImColor* self);
+        public static extern ImGuiStoragePair* ImGuiStoragePair_ImGuiStoragePair_Float(ImGuiID _key, float _val_f);
 
-        // Function @ cimgui.h:2856:21
+        // Function @ cimgui.h:2856:30
         [DllImport(LibraryName)]
-        public static extern ImColor* ImColor_ImColor_Int(int r, int g, int b, int a);
+        public static extern ImGuiStoragePair* ImGuiStoragePair_ImGuiStoragePair_Ptr(ImGuiID _key, void* _val_p);
 
-        // Function @ cimgui.h:2857:21
+        // Function @ cimgui.h:2857:17
         [DllImport(LibraryName)]
-        public static extern ImColor* ImColor_ImColor_U32(uint rgba);
+        public static extern void ImGuiStorage_Clear(ImGuiStorage* self);
 
-        // Function @ cimgui.h:2858:21
+        // Function @ cimgui.h:2858:16
         [DllImport(LibraryName)]
-        public static extern ImColor* ImColor_ImColor_Float(float r, float g, float b, float a);
+        public static extern int ImGuiStorage_GetInt(ImGuiStorage* self, ImGuiID key, int default_val);
 
-        // Function @ cimgui.h:2859:21
+        // Function @ cimgui.h:2859:17
         [DllImport(LibraryName)]
-        public static extern ImColor* ImColor_ImColor_Vec4(Vector4 col);
+        public static extern void ImGuiStorage_SetInt(ImGuiStorage* self, ImGuiID key, int val);
 
         // Function @ cimgui.h:2860:17
         [DllImport(LibraryName)]
-        public static extern void ImColor_SetHSV(ImColor* self, float h, float s, float v, float a);
+        public static extern CBool ImGuiStorage_GetBool(ImGuiStorage* self, ImGuiID key, CBool default_val);
 
         // Function @ cimgui.h:2861:17
         [DllImport(LibraryName)]
-        public static extern void ImColor_HSV(ImColor* pOut, float h, float s, float v, float a);
+        public static extern void ImGuiStorage_SetBool(ImGuiStorage* self, ImGuiID key, CBool val);
 
-        // Function @ cimgui.h:2862:23
+        // Function @ cimgui.h:2862:18
         [DllImport(LibraryName)]
-        public static extern ImDrawCmd* ImDrawCmd_ImDrawCmd();
+        public static extern float ImGuiStorage_GetFloat(ImGuiStorage* self, ImGuiID key, float default_val);
 
         // Function @ cimgui.h:2863:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawCmd_destroy(ImDrawCmd* self);
+        public static extern void ImGuiStorage_SetFloat(ImGuiStorage* self, ImGuiID key, float val);
 
-        // Function @ cimgui.h:2864:24
+        // Function @ cimgui.h:2864:18
         [DllImport(LibraryName)]
-        public static extern ImTextureID ImDrawCmd_GetTexID(ImDrawCmd* self);
+        public static extern void* ImGuiStorage_GetVoidPtr(ImGuiStorage* self, ImGuiID key);
 
-        // Function @ cimgui.h:2865:32
+        // Function @ cimgui.h:2865:17
         [DllImport(LibraryName)]
-        public static extern ImDrawListSplitter* ImDrawListSplitter_ImDrawListSplitter();
+        public static extern void ImGuiStorage_SetVoidPtr(ImGuiStorage* self, ImGuiID key, void* val);
 
         // Function @ cimgui.h:2866:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawListSplitter_destroy(ImDrawListSplitter* self);
+        public static extern long* ImGuiStorage_GetIntRef(ImGuiStorage* self, ImGuiID key, int default_val);
 
-        // Function @ cimgui.h:2867:17
+        // Function @ cimgui.h:2867:18
         [DllImport(LibraryName)]
-        public static extern void ImDrawListSplitter_Clear(ImDrawListSplitter* self);
+        public static extern CBool* ImGuiStorage_GetBoolRef(ImGuiStorage* self, ImGuiID key, CBool default_val);
 
-        // Function @ cimgui.h:2868:17
+        // Function @ cimgui.h:2868:19
         [DllImport(LibraryName)]
-        public static extern void ImDrawListSplitter_ClearFreeMemory(ImDrawListSplitter* self);
+        public static extern float* ImGuiStorage_GetFloatRef(ImGuiStorage* self, ImGuiID key, float default_val);
 
-        // Function @ cimgui.h:2869:17
+        // Function @ cimgui.h:2869:19
         [DllImport(LibraryName)]
-        public static extern void ImDrawListSplitter_Split(ImDrawListSplitter* self, ImDrawList* draw_list, int count);
+        public static extern void** ImGuiStorage_GetVoidPtrRef(ImGuiStorage* self, ImGuiID key, void* default_val);
 
         // Function @ cimgui.h:2870:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawListSplitter_Merge(ImDrawListSplitter* self, ImDrawList* draw_list);
+        public static extern void ImGuiStorage_SetAllInt(ImGuiStorage* self, int val);
 
         // Function @ cimgui.h:2871:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawListSplitter_SetCurrentChannel(ImDrawListSplitter* self, ImDrawList* draw_list, int channel_idx);
+        public static extern void ImGuiStorage_BuildSortByKey(ImGuiStorage* self);
 
-        // Function @ cimgui.h:2872:24
+        // Function @ cimgui.h:2872:30
         [DllImport(LibraryName)]
-        public static extern ImDrawList* ImDrawList_ImDrawList(ImDrawListSharedData* shared_data);
+        public static extern ImGuiListClipper* ImGuiListClipper_ImGuiListClipper();
 
         // Function @ cimgui.h:2873:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_destroy(ImDrawList* self);
+        public static extern void ImGuiListClipper_destroy(ImGuiListClipper* self);
 
         // Function @ cimgui.h:2874:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PushClipRect(ImDrawList* self, Vector2 clip_rect_min, Vector2 clip_rect_max, CBool intersect_with_current_clip_rect);
+        public static extern void ImGuiListClipper_Begin(ImGuiListClipper* self, int items_count, float items_height);
 
         // Function @ cimgui.h:2875:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PushClipRectFullScreen(ImDrawList* self);
+        public static extern void ImGuiListClipper_End(ImGuiListClipper* self);
 
         // Function @ cimgui.h:2876:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PopClipRect(ImDrawList* self);
+        public static extern CBool ImGuiListClipper_Step(ImGuiListClipper* self);
 
         // Function @ cimgui.h:2877:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PushTextureID(ImDrawList* self, ImTextureID texture_id);
+        public static extern void ImGuiListClipper_ForceDisplayRangeByIndices(ImGuiListClipper* self, int item_min, int item_max);
 
-        // Function @ cimgui.h:2878:17
+        // Function @ cimgui.h:2878:21
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PopTextureID(ImDrawList* self);
+        public static extern ImColor* ImColor_ImColor_Nil();
 
         // Function @ cimgui.h:2879:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_GetClipRectMin(Vector2* pOut, ImDrawList* self);
+        public static extern void ImColor_destroy(ImColor* self);
 
-        // Function @ cimgui.h:2880:17
+        // Function @ cimgui.h:2880:21
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_GetClipRectMax(Vector2* pOut, ImDrawList* self);
+        public static extern ImColor* ImColor_ImColor_Int(int r, int g, int b, int a);
 
-        // Function @ cimgui.h:2881:17
+        // Function @ cimgui.h:2881:21
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddLine(ImDrawList* self, Vector2 p1, Vector2 p2, uint col, float thickness);
+        public static extern ImColor* ImColor_ImColor_U32(uint rgba);
 
-        // Function @ cimgui.h:2882:17
+        // Function @ cimgui.h:2882:21
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddRect(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col, float rounding, ImDrawFlags flags, float thickness);
+        public static extern ImColor* ImColor_ImColor_Float(float r, float g, float b, float a);
 
-        // Function @ cimgui.h:2883:17
+        // Function @ cimgui.h:2883:21
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddRectFilled(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col, float rounding, ImDrawFlags flags);
+        public static extern ImColor* ImColor_ImColor_Vec4(Vector4 col);
 
         // Function @ cimgui.h:2884:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddRectFilledMultiColor(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col_upr_left, uint col_upr_right, uint col_bot_right, uint col_bot_left);
+        public static extern void ImColor_SetHSV(ImColor* self, float h, float s, float v, float a);
 
         // Function @ cimgui.h:2885:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddQuad(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col, float thickness);
+        public static extern void ImColor_HSV(ImColor* pOut, float h, float s, float v, float a);
 
-        // Function @ cimgui.h:2886:17
+        // Function @ cimgui.h:2886:23
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddQuadFilled(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col);
+        public static extern ImDrawCmd* ImDrawCmd_ImDrawCmd();
 
         // Function @ cimgui.h:2887:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddTriangle(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col, float thickness);
+        public static extern void ImDrawCmd_destroy(ImDrawCmd* self);
 
-        // Function @ cimgui.h:2888:17
+        // Function @ cimgui.h:2888:24
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddTriangleFilled(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col);
+        public static extern ImTextureID ImDrawCmd_GetTexID(ImDrawCmd* self);
 
-        // Function @ cimgui.h:2889:17
+        // Function @ cimgui.h:2889:32
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddCircle(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments, float thickness);
+        public static extern ImDrawListSplitter* ImDrawListSplitter_ImDrawListSplitter();
 
         // Function @ cimgui.h:2890:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddCircleFilled(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments);
+        public static extern void ImDrawListSplitter_destroy(ImDrawListSplitter* self);
 
         // Function @ cimgui.h:2891:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddNgon(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments, float thickness);
+        public static extern void ImDrawListSplitter_Clear(ImDrawListSplitter* self);
 
         // Function @ cimgui.h:2892:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddNgonFilled(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments);
+        public static extern void ImDrawListSplitter_ClearFreeMemory(ImDrawListSplitter* self);
 
         // Function @ cimgui.h:2893:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddText_Vec2(ImDrawList* self, Vector2 pos, uint col, CString text_begin, CString text_end);
+        public static extern void ImDrawListSplitter_Split(ImDrawListSplitter* self, ImDrawList* draw_list, int count);
 
         // Function @ cimgui.h:2894:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddText_FontPtr(ImDrawList* self, ImFont* font, float font_size, Vector2 pos, uint col, CString text_begin, CString text_end, float wrap_width, Vector4* cpu_fine_clip_rect);
+        public static extern void ImDrawListSplitter_Merge(ImDrawListSplitter* self, ImDrawList* draw_list);
 
         // Function @ cimgui.h:2895:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddPolyline(ImDrawList* self, Vector2* points, int num_points, uint col, ImDrawFlags flags, float thickness);
+        public static extern void ImDrawListSplitter_SetCurrentChannel(ImDrawListSplitter* self, ImDrawList* draw_list, int channel_idx);
 
-        // Function @ cimgui.h:2896:17
+        // Function @ cimgui.h:2896:24
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddConvexPolyFilled(ImDrawList* self, Vector2* points, int num_points, uint col);
+        public static extern ImDrawList* ImDrawList_ImDrawList(ImDrawListSharedData* shared_data);
 
         // Function @ cimgui.h:2897:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddBezierCubic(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col, float thickness, int num_segments);
+        public static extern void ImDrawList_destroy(ImDrawList* self);
 
         // Function @ cimgui.h:2898:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddBezierQuadratic(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col, float thickness, int num_segments);
+        public static extern void ImDrawList_PushClipRect(ImDrawList* self, Vector2 clip_rect_min, Vector2 clip_rect_max, CBool intersect_with_current_clip_rect);
 
         // Function @ cimgui.h:2899:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddImage(ImDrawList* self, ImTextureID user_texture_id, Vector2 p_min, Vector2 p_max, Vector2 uv_min, Vector2 uv_max, uint col);
+        public static extern void ImDrawList_PushClipRectFullScreen(ImDrawList* self);
 
         // Function @ cimgui.h:2900:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddImageQuad(ImDrawList* self, ImTextureID user_texture_id, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 uv1, Vector2 uv2, Vector2 uv3, Vector2 uv4, uint col);
+        public static extern void ImDrawList_PopClipRect(ImDrawList* self);
 
         // Function @ cimgui.h:2901:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddImageRounded(ImDrawList* self, ImTextureID user_texture_id, Vector2 p_min, Vector2 p_max, Vector2 uv_min, Vector2 uv_max, uint col, float rounding, ImDrawFlags flags);
+        public static extern void ImDrawList_PushTextureID(ImDrawList* self, ImTextureID texture_id);
 
         // Function @ cimgui.h:2902:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathClear(ImDrawList* self);
+        public static extern void ImDrawList_PopTextureID(ImDrawList* self);
 
         // Function @ cimgui.h:2903:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathLineTo(ImDrawList* self, Vector2 pos);
+        public static extern void ImDrawList_GetClipRectMin(Vector2* pOut, ImDrawList* self);
 
         // Function @ cimgui.h:2904:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathLineToMergeDuplicate(ImDrawList* self, Vector2 pos);
+        public static extern void ImDrawList_GetClipRectMax(Vector2* pOut, ImDrawList* self);
 
         // Function @ cimgui.h:2905:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathFillConvex(ImDrawList* self, uint col);
+        public static extern void ImDrawList_AddLine(ImDrawList* self, Vector2 p1, Vector2 p2, uint col, float thickness);
 
         // Function @ cimgui.h:2906:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathStroke(ImDrawList* self, uint col, ImDrawFlags flags, float thickness);
+        public static extern void ImDrawList_AddRect(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col, float rounding, ImDrawFlags flags, float thickness);
 
         // Function @ cimgui.h:2907:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathArcTo(ImDrawList* self, Vector2 center, float radius, float a_min, float a_max, int num_segments);
+        public static extern void ImDrawList_AddRectFilled(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col, float rounding, ImDrawFlags flags);
 
         // Function @ cimgui.h:2908:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathArcToFast(ImDrawList* self, Vector2 center, float radius, int a_min_of_12, int a_max_of_12);
+        public static extern void ImDrawList_AddRectFilledMultiColor(ImDrawList* self, Vector2 p_min, Vector2 p_max, uint col_upr_left, uint col_upr_right, uint col_bot_right, uint col_bot_left);
 
         // Function @ cimgui.h:2909:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathBezierCubicCurveTo(ImDrawList* self, Vector2 p2, Vector2 p3, Vector2 p4, int num_segments);
+        public static extern void ImDrawList_AddQuad(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col, float thickness);
 
         // Function @ cimgui.h:2910:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathBezierQuadraticCurveTo(ImDrawList* self, Vector2 p2, Vector2 p3, int num_segments);
+        public static extern void ImDrawList_AddQuadFilled(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col);
 
         // Function @ cimgui.h:2911:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PathRect(ImDrawList* self, Vector2 rect_min, Vector2 rect_max, float rounding, ImDrawFlags flags);
+        public static extern void ImDrawList_AddTriangle(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col, float thickness);
 
         // Function @ cimgui.h:2912:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddCallback(ImDrawList* self, ImDrawCallback callback, void* callback_data);
+        public static extern void ImDrawList_AddTriangleFilled(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col);
 
         // Function @ cimgui.h:2913:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_AddDrawCmd(ImDrawList* self);
+        public static extern void ImDrawList_AddCircle(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments, float thickness);
 
-        // Function @ cimgui.h:2914:24
+        // Function @ cimgui.h:2914:17
         [DllImport(LibraryName)]
-        public static extern ImDrawList* ImDrawList_CloneOutput(ImDrawList* self);
+        public static extern void ImDrawList_AddCircleFilled(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments);
 
         // Function @ cimgui.h:2915:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_ChannelsSplit(ImDrawList* self, int count);
+        public static extern void ImDrawList_AddNgon(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments, float thickness);
 
         // Function @ cimgui.h:2916:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_ChannelsMerge(ImDrawList* self);
+        public static extern void ImDrawList_AddNgonFilled(ImDrawList* self, Vector2 center, float radius, uint col, int num_segments);
 
         // Function @ cimgui.h:2917:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_ChannelsSetCurrent(ImDrawList* self, int n);
+        public static extern void ImDrawList_AddText_Vec2(ImDrawList* self, Vector2 pos, uint col, CString text_begin, CString text_end);
 
         // Function @ cimgui.h:2918:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PrimReserve(ImDrawList* self, int idx_count, int vtx_count);
+        public static extern void ImDrawList_AddText_FontPtr(ImDrawList* self, ImFont* font, float font_size, Vector2 pos, uint col, CString text_begin, CString text_end, float wrap_width, Vector4* cpu_fine_clip_rect);
 
         // Function @ cimgui.h:2919:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PrimUnreserve(ImDrawList* self, int idx_count, int vtx_count);
+        public static extern void ImDrawList_AddPolyline(ImDrawList* self, Vector2* points, int num_points, uint col, ImDrawFlags flags, float thickness);
 
         // Function @ cimgui.h:2920:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PrimRect(ImDrawList* self, Vector2 a, Vector2 b, uint col);
+        public static extern void ImDrawList_AddConvexPolyFilled(ImDrawList* self, Vector2* points, int num_points, uint col);
 
         // Function @ cimgui.h:2921:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PrimRectUV(ImDrawList* self, Vector2 a, Vector2 b, Vector2 uv_a, Vector2 uv_b, uint col);
+        public static extern void ImDrawList_AddBezierCubic(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, uint col, float thickness, int num_segments);
 
         // Function @ cimgui.h:2922:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PrimQuadUV(ImDrawList* self, Vector2 a, Vector2 b, Vector2 c, Vector2 d, Vector2 uv_a, Vector2 uv_b, Vector2 uv_c, Vector2 uv_d, uint col);
+        public static extern void ImDrawList_AddBezierQuadratic(ImDrawList* self, Vector2 p1, Vector2 p2, Vector2 p3, uint col, float thickness, int num_segments);
 
         // Function @ cimgui.h:2923:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PrimWriteVtx(ImDrawList* self, Vector2 pos, Vector2 uv, uint col);
+        public static extern void ImDrawList_AddImage(ImDrawList* self, ImTextureID user_texture_id, Vector2 p_min, Vector2 p_max, Vector2 uv_min, Vector2 uv_max, uint col);
 
         // Function @ cimgui.h:2924:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PrimWriteIdx(ImDrawList* self, ImDrawIdx idx);
+        public static extern void ImDrawList_AddImageQuad(ImDrawList* self, ImTextureID user_texture_id, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 uv1, Vector2 uv2, Vector2 uv3, Vector2 uv4, uint col);
 
         // Function @ cimgui.h:2925:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList_PrimVtx(ImDrawList* self, Vector2 pos, Vector2 uv, uint col);
+        public static extern void ImDrawList_AddImageRounded(ImDrawList* self, ImTextureID user_texture_id, Vector2 p_min, Vector2 p_max, Vector2 uv_min, Vector2 uv_max, uint col, float rounding, ImDrawFlags flags);
 
         // Function @ cimgui.h:2926:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList__ResetForNewFrame(ImDrawList* self);
+        public static extern void ImDrawList_PathClear(ImDrawList* self);
 
         // Function @ cimgui.h:2927:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList__ClearFreeMemory(ImDrawList* self);
+        public static extern void ImDrawList_PathLineTo(ImDrawList* self, Vector2 pos);
 
         // Function @ cimgui.h:2928:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList__PopUnusedDrawCmd(ImDrawList* self);
+        public static extern void ImDrawList_PathLineToMergeDuplicate(ImDrawList* self, Vector2 pos);
 
         // Function @ cimgui.h:2929:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList__TryMergeDrawCmds(ImDrawList* self);
+        public static extern void ImDrawList_PathFillConvex(ImDrawList* self, uint col);
 
         // Function @ cimgui.h:2930:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList__OnChangedClipRect(ImDrawList* self);
+        public static extern void ImDrawList_PathStroke(ImDrawList* self, uint col, ImDrawFlags flags, float thickness);
 
         // Function @ cimgui.h:2931:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList__OnChangedTextureID(ImDrawList* self);
+        public static extern void ImDrawList_PathArcTo(ImDrawList* self, Vector2 center, float radius, float a_min, float a_max, int num_segments);
 
         // Function @ cimgui.h:2932:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList__OnChangedVtxOffset(ImDrawList* self);
+        public static extern void ImDrawList_PathArcToFast(ImDrawList* self, Vector2 center, float radius, int a_min_of_12, int a_max_of_12);
 
-        // Function @ cimgui.h:2933:16
+        // Function @ cimgui.h:2933:17
         [DllImport(LibraryName)]
-        public static extern int ImDrawList__CalcCircleAutoSegmentCount(ImDrawList* self, float radius);
+        public static extern void ImDrawList_PathBezierCubicCurveTo(ImDrawList* self, Vector2 p2, Vector2 p3, Vector2 p4, int num_segments);
 
         // Function @ cimgui.h:2934:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList__PathArcToFastEx(ImDrawList* self, Vector2 center, float radius, int a_min_sample, int a_max_sample, int a_step);
+        public static extern void ImDrawList_PathBezierQuadraticCurveTo(ImDrawList* self, Vector2 p2, Vector2 p3, int num_segments);
 
         // Function @ cimgui.h:2935:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawList__PathArcToN(ImDrawList* self, Vector2 center, float radius, float a_min, float a_max, int num_segments);
+        public static extern void ImDrawList_PathRect(ImDrawList* self, Vector2 rect_min, Vector2 rect_max, float rounding, ImDrawFlags flags);
 
-        // Function @ cimgui.h:2936:24
+        // Function @ cimgui.h:2936:17
         [DllImport(LibraryName)]
-        public static extern ImDrawData* ImDrawData_ImDrawData();
+        public static extern void ImDrawList_AddCallback(ImDrawList* self, ImDrawCallback callback, void* callback_data);
 
         // Function @ cimgui.h:2937:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawData_destroy(ImDrawData* self);
+        public static extern void ImDrawList_AddDrawCmd(ImDrawList* self);
 
-        // Function @ cimgui.h:2938:17
+        // Function @ cimgui.h:2938:24
         [DllImport(LibraryName)]
-        public static extern void ImDrawData_Clear(ImDrawData* self);
+        public static extern ImDrawList* ImDrawList_CloneOutput(ImDrawList* self);
 
         // Function @ cimgui.h:2939:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawData_DeIndexAllBuffers(ImDrawData* self);
+        public static extern void ImDrawList_ChannelsSplit(ImDrawList* self, int count);
 
         // Function @ cimgui.h:2940:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawData_ScaleClipRects(ImDrawData* self, Vector2 fb_scale);
+        public static extern void ImDrawList_ChannelsMerge(ImDrawList* self);
 
-        // Function @ cimgui.h:2941:26
+        // Function @ cimgui.h:2941:17
         [DllImport(LibraryName)]
-        public static extern ImFontConfig* ImFontConfig_ImFontConfig();
+        public static extern void ImDrawList_ChannelsSetCurrent(ImDrawList* self, int n);
 
         // Function @ cimgui.h:2942:17
         [DllImport(LibraryName)]
-        public static extern void ImFontConfig_destroy(ImFontConfig* self);
+        public static extern void ImDrawList_PrimReserve(ImDrawList* self, int idx_count, int vtx_count);
 
-        // Function @ cimgui.h:2943:38
+        // Function @ cimgui.h:2943:17
         [DllImport(LibraryName)]
-        public static extern ImFontGlyphRangesBuilder* ImFontGlyphRangesBuilder_ImFontGlyphRangesBuilder();
+        public static extern void ImDrawList_PrimUnreserve(ImDrawList* self, int idx_count, int vtx_count);
 
         // Function @ cimgui.h:2944:17
         [DllImport(LibraryName)]
-        public static extern void ImFontGlyphRangesBuilder_destroy(ImFontGlyphRangesBuilder* self);
+        public static extern void ImDrawList_PrimRect(ImDrawList* self, Vector2 a, Vector2 b, uint col);
 
         // Function @ cimgui.h:2945:17
         [DllImport(LibraryName)]
-        public static extern void ImFontGlyphRangesBuilder_Clear(ImFontGlyphRangesBuilder* self);
+        public static extern void ImDrawList_PrimRectUV(ImDrawList* self, Vector2 a, Vector2 b, Vector2 uv_a, Vector2 uv_b, uint col);
 
         // Function @ cimgui.h:2946:17
         [DllImport(LibraryName)]
-        public static extern CBool ImFontGlyphRangesBuilder_GetBit(ImFontGlyphRangesBuilder* self, ulong n);
+        public static extern void ImDrawList_PrimQuadUV(ImDrawList* self, Vector2 a, Vector2 b, Vector2 c, Vector2 d, Vector2 uv_a, Vector2 uv_b, Vector2 uv_c, Vector2 uv_d, uint col);
 
         // Function @ cimgui.h:2947:17
         [DllImport(LibraryName)]
-        public static extern void ImFontGlyphRangesBuilder_SetBit(ImFontGlyphRangesBuilder* self, ulong n);
+        public static extern void ImDrawList_PrimWriteVtx(ImDrawList* self, Vector2 pos, Vector2 uv, uint col);
 
         // Function @ cimgui.h:2948:17
         [DllImport(LibraryName)]
-        public static extern void ImFontGlyphRangesBuilder_AddChar(ImFontGlyphRangesBuilder* self, byte c);
+        public static extern void ImDrawList_PrimWriteIdx(ImDrawList* self, ImDrawIdx idx);
 
         // Function @ cimgui.h:2949:17
         [DllImport(LibraryName)]
-        public static extern void ImFontGlyphRangesBuilder_AddText(ImFontGlyphRangesBuilder* self, CString text, CString text_end);
+        public static extern void ImDrawList_PrimVtx(ImDrawList* self, Vector2 pos, Vector2 uv, uint col);
 
         // Function @ cimgui.h:2950:17
         [DllImport(LibraryName)]
-        public static extern void ImFontGlyphRangesBuilder_AddRanges(ImFontGlyphRangesBuilder* self, byte* ranges);
+        public static extern void ImDrawList__ResetForNewFrame(ImDrawList* self);
 
         // Function @ cimgui.h:2951:17
         [DllImport(LibraryName)]
-        public static extern void ImFontGlyphRangesBuilder_BuildRanges(ImFontGlyphRangesBuilder* self, ImVector_ImWchar* out_ranges);
+        public static extern void ImDrawList__ClearFreeMemory(ImDrawList* self);
 
-        // Function @ cimgui.h:2952:35
+        // Function @ cimgui.h:2952:17
         [DllImport(LibraryName)]
-        public static extern ImFontAtlasCustomRect* ImFontAtlasCustomRect_ImFontAtlasCustomRect();
+        public static extern void ImDrawList__PopUnusedDrawCmd(ImDrawList* self);
 
         // Function @ cimgui.h:2953:17
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlasCustomRect_destroy(ImFontAtlasCustomRect* self);
+        public static extern void ImDrawList__TryMergeDrawCmds(ImDrawList* self);
 
         // Function @ cimgui.h:2954:17
         [DllImport(LibraryName)]
-        public static extern CBool ImFontAtlasCustomRect_IsPacked(ImFontAtlasCustomRect* self);
+        public static extern void ImDrawList__OnChangedClipRect(ImDrawList* self);
 
-        // Function @ cimgui.h:2955:25
+        // Function @ cimgui.h:2955:17
         [DllImport(LibraryName)]
-        public static extern ImFontAtlas* ImFontAtlas_ImFontAtlas();
+        public static extern void ImDrawList__OnChangedTextureID(ImDrawList* self);
 
         // Function @ cimgui.h:2956:17
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlas_destroy(ImFontAtlas* self);
+        public static extern void ImDrawList__OnChangedVtxOffset(ImDrawList* self);
 
-        // Function @ cimgui.h:2957:20
+        // Function @ cimgui.h:2957:16
         [DllImport(LibraryName)]
-        public static extern ImFont* ImFontAtlas_AddFont(ImFontAtlas* self, ImFontConfig* font_cfg);
+        public static extern int ImDrawList__CalcCircleAutoSegmentCount(ImDrawList* self, float radius);
 
-        // Function @ cimgui.h:2958:20
+        // Function @ cimgui.h:2958:17
         [DllImport(LibraryName)]
-        public static extern ImFont* ImFontAtlas_AddFontDefault(ImFontAtlas* self, ImFontConfig* font_cfg);
+        public static extern void ImDrawList__PathArcToFastEx(ImDrawList* self, Vector2 center, float radius, int a_min_sample, int a_max_sample, int a_step);
 
-        // Function @ cimgui.h:2959:20
+        // Function @ cimgui.h:2959:17
         [DllImport(LibraryName)]
-        public static extern ImFont* ImFontAtlas_AddFontFromFileTTF(ImFontAtlas* self, CString filename, float size_pixels, ImFontConfig* font_cfg, byte* glyph_ranges);
+        public static extern void ImDrawList__PathArcToN(ImDrawList* self, Vector2 center, float radius, float a_min, float a_max, int num_segments);
 
-        // Function @ cimgui.h:2960:20
+        // Function @ cimgui.h:2960:24
         [DllImport(LibraryName)]
-        public static extern ImFont* ImFontAtlas_AddFontFromMemoryTTF(ImFontAtlas* self, void* font_data, int font_size, float size_pixels, ImFontConfig* font_cfg, byte* glyph_ranges);
+        public static extern ImDrawData* ImDrawData_ImDrawData();
 
-        // Function @ cimgui.h:2961:20
+        // Function @ cimgui.h:2961:17
         [DllImport(LibraryName)]
-        public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedTTF(ImFontAtlas* self, void* compressed_font_data, int compressed_font_size, float size_pixels, ImFontConfig* font_cfg, byte* glyph_ranges);
+        public static extern void ImDrawData_destroy(ImDrawData* self);
 
-        // Function @ cimgui.h:2962:20
+        // Function @ cimgui.h:2962:17
         [DllImport(LibraryName)]
-        public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedBase85TTF(ImFontAtlas* self, CString compressed_font_data_base85, float size_pixels, ImFontConfig* font_cfg, byte* glyph_ranges);
+        public static extern void ImDrawData_Clear(ImDrawData* self);
 
         // Function @ cimgui.h:2963:17
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlas_ClearInputData(ImFontAtlas* self);
+        public static extern void ImDrawData_DeIndexAllBuffers(ImDrawData* self);
 
         // Function @ cimgui.h:2964:17
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlas_ClearTexData(ImFontAtlas* self);
+        public static extern void ImDrawData_ScaleClipRects(ImDrawData* self, Vector2 fb_scale);
 
-        // Function @ cimgui.h:2965:17
+        // Function @ cimgui.h:2965:26
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlas_ClearFonts(ImFontAtlas* self);
+        public static extern ImFontConfig* ImFontConfig_ImFontConfig();
 
         // Function @ cimgui.h:2966:17
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlas_Clear(ImFontAtlas* self);
+        public static extern void ImFontConfig_destroy(ImFontConfig* self);
 
-        // Function @ cimgui.h:2967:17
+        // Function @ cimgui.h:2967:38
         [DllImport(LibraryName)]
-        public static extern CBool ImFontAtlas_Build(ImFontAtlas* self);
+        public static extern ImFontGlyphRangesBuilder* ImFontGlyphRangesBuilder_ImFontGlyphRangesBuilder();
 
         // Function @ cimgui.h:2968:17
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlas_GetTexDataAsAlpha8(ImFontAtlas* self, ulong** out_pixels, long* out_width, long* out_height, long* out_bytes_per_pixel);
+        public static extern void ImFontGlyphRangesBuilder_destroy(ImFontGlyphRangesBuilder* self);
 
         // Function @ cimgui.h:2969:17
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlas_GetTexDataAsRGBA32(ImFontAtlas* self, ulong** out_pixels, long* out_width, long* out_height, long* out_bytes_per_pixel);
+        public static extern void ImFontGlyphRangesBuilder_Clear(ImFontGlyphRangesBuilder* self);
 
         // Function @ cimgui.h:2970:17
         [DllImport(LibraryName)]
-        public static extern CBool ImFontAtlas_IsBuilt(ImFontAtlas* self);
+        public static extern CBool ImFontGlyphRangesBuilder_GetBit(ImFontGlyphRangesBuilder* self, ulong n);
 
         // Function @ cimgui.h:2971:17
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlas_SetTexID(ImFontAtlas* self, ImTextureID id);
+        public static extern void ImFontGlyphRangesBuilder_SetBit(ImFontGlyphRangesBuilder* self, ulong n);
 
-        // Function @ cimgui.h:2972:27
+        // Function @ cimgui.h:2972:17
         [DllImport(LibraryName)]
-        public static extern byte* ImFontAtlas_GetGlyphRangesDefault(ImFontAtlas* self);
+        public static extern void ImFontGlyphRangesBuilder_AddChar(ImFontGlyphRangesBuilder* self, byte c);
 
-        // Function @ cimgui.h:2973:27
+        // Function @ cimgui.h:2973:17
         [DllImport(LibraryName)]
-        public static extern byte* ImFontAtlas_GetGlyphRangesKorean(ImFontAtlas* self);
+        public static extern void ImFontGlyphRangesBuilder_AddText(ImFontGlyphRangesBuilder* self, CString text, CString text_end);
 
-        // Function @ cimgui.h:2974:27
+        // Function @ cimgui.h:2974:17
         [DllImport(LibraryName)]
-        public static extern byte* ImFontAtlas_GetGlyphRangesJapanese(ImFontAtlas* self);
+        public static extern void ImFontGlyphRangesBuilder_AddRanges(ImFontGlyphRangesBuilder* self, byte* ranges);
 
-        // Function @ cimgui.h:2975:27
+        // Function @ cimgui.h:2975:17
         [DllImport(LibraryName)]
-        public static extern byte* ImFontAtlas_GetGlyphRangesChineseFull(ImFontAtlas* self);
+        public static extern void ImFontGlyphRangesBuilder_BuildRanges(ImFontGlyphRangesBuilder* self, ImVector_ImWchar* out_ranges);
 
-        // Function @ cimgui.h:2976:27
+        // Function @ cimgui.h:2976:35
         [DllImport(LibraryName)]
-        public static extern byte* ImFontAtlas_GetGlyphRangesChineseSimplifiedCommon(ImFontAtlas* self);
+        public static extern ImFontAtlasCustomRect* ImFontAtlasCustomRect_ImFontAtlasCustomRect();
 
-        // Function @ cimgui.h:2977:27
+        // Function @ cimgui.h:2977:17
         [DllImport(LibraryName)]
-        public static extern byte* ImFontAtlas_GetGlyphRangesCyrillic(ImFontAtlas* self);
+        public static extern void ImFontAtlasCustomRect_destroy(ImFontAtlasCustomRect* self);
 
-        // Function @ cimgui.h:2978:27
+        // Function @ cimgui.h:2978:17
         [DllImport(LibraryName)]
-        public static extern byte* ImFontAtlas_GetGlyphRangesThai(ImFontAtlas* self);
+        public static extern CBool ImFontAtlasCustomRect_IsPacked(ImFontAtlasCustomRect* self);
 
-        // Function @ cimgui.h:2979:27
+        // Function @ cimgui.h:2979:25
         [DllImport(LibraryName)]
-        public static extern byte* ImFontAtlas_GetGlyphRangesVietnamese(ImFontAtlas* self);
+        public static extern ImFontAtlas* ImFontAtlas_ImFontAtlas();
 
-        // Function @ cimgui.h:2980:16
+        // Function @ cimgui.h:2980:17
         [DllImport(LibraryName)]
-        public static extern int ImFontAtlas_AddCustomRectRegular(ImFontAtlas* self, int width, int height);
+        public static extern void ImFontAtlas_destroy(ImFontAtlas* self);
 
-        // Function @ cimgui.h:2981:16
+        // Function @ cimgui.h:2981:20
         [DllImport(LibraryName)]
-        public static extern int ImFontAtlas_AddCustomRectFontGlyph(ImFontAtlas* self, ImFont* font, byte id, int width, int height, float advance_x, Vector2 offset);
+        public static extern ImFont* ImFontAtlas_AddFont(ImFontAtlas* self, ImFontConfig* font_cfg);
 
-        // Function @ cimgui.h:2982:35
+        // Function @ cimgui.h:2982:20
         [DllImport(LibraryName)]
-        public static extern ImFontAtlasCustomRect* ImFontAtlas_GetCustomRectByIndex(ImFontAtlas* self, int index);
+        public static extern ImFont* ImFontAtlas_AddFontDefault(ImFontAtlas* self, ImFontConfig* font_cfg);
 
-        // Function @ cimgui.h:2983:17
+        // Function @ cimgui.h:2983:20
         [DllImport(LibraryName)]
-        public static extern void ImFontAtlas_CalcCustomRectUV(ImFontAtlas* self, ImFontAtlasCustomRect* rect, Vector2* out_uv_min, Vector2* out_uv_max);
+        public static extern ImFont* ImFontAtlas_AddFontFromFileTTF(ImFontAtlas* self, CString filename, float size_pixels, ImFontConfig* font_cfg, byte* glyph_ranges);
 
-        // Function @ cimgui.h:2984:17
+        // Function @ cimgui.h:2984:20
         [DllImport(LibraryName)]
-        public static extern CBool ImFontAtlas_GetMouseCursorTexData(ImFontAtlas* self, ImGuiMouseCursor cursor, Vector2* out_offset, Vector2* out_size, Vector2* out_uv_border, Vector2* out_uv_fill);
+        public static extern ImFont* ImFontAtlas_AddFontFromMemoryTTF(ImFontAtlas* self, void* font_data, int font_size, float size_pixels, ImFontConfig* font_cfg, byte* glyph_ranges);
 
         // Function @ cimgui.h:2985:20
         [DllImport(LibraryName)]
-        public static extern ImFont* ImFont_ImFont();
+        public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedTTF(ImFontAtlas* self, void* compressed_font_data, int compressed_font_size, float size_pixels, ImFontConfig* font_cfg, byte* glyph_ranges);
 
-        // Function @ cimgui.h:2986:17
+        // Function @ cimgui.h:2986:20
         [DllImport(LibraryName)]
-        public static extern void ImFont_destroy(ImFont* self);
+        public static extern ImFont* ImFontAtlas_AddFontFromMemoryCompressedBase85TTF(ImFontAtlas* self, CString compressed_font_data_base85, float size_pixels, ImFontConfig* font_cfg, byte* glyph_ranges);
 
-        // Function @ cimgui.h:2987:31
+        // Function @ cimgui.h:2987:17
         [DllImport(LibraryName)]
-        public static extern ImFontGlyph* ImFont_FindGlyph(ImFont* self, byte c);
+        public static extern void ImFontAtlas_ClearInputData(ImFontAtlas* self);
 
-        // Function @ cimgui.h:2988:31
+        // Function @ cimgui.h:2988:17
         [DllImport(LibraryName)]
-        public static extern ImFontGlyph* ImFont_FindGlyphNoFallback(ImFont* self, byte c);
+        public static extern void ImFontAtlas_ClearTexData(ImFontAtlas* self);
 
-        // Function @ cimgui.h:2989:18
+        // Function @ cimgui.h:2989:17
         [DllImport(LibraryName)]
-        public static extern float ImFont_GetCharAdvance(ImFont* self, byte c);
+        public static extern void ImFontAtlas_ClearFonts(ImFontAtlas* self);
 
         // Function @ cimgui.h:2990:17
         [DllImport(LibraryName)]
-        public static extern CBool ImFont_IsLoaded(ImFont* self);
+        public static extern void ImFontAtlas_Clear(ImFontAtlas* self);
 
-        // Function @ cimgui.h:2991:24
+        // Function @ cimgui.h:2991:17
         [DllImport(LibraryName)]
-        public static extern CString ImFont_GetDebugName(ImFont* self);
+        public static extern CBool ImFontAtlas_Build(ImFontAtlas* self);
 
         // Function @ cimgui.h:2992:17
         [DllImport(LibraryName)]
-        public static extern void ImFont_CalcTextSizeA(Vector2* pOut, ImFont* self, float size, float max_width, float wrap_width, CString text_begin, CString text_end, CString* remaining);
+        public static extern void ImFontAtlas_GetTexDataAsAlpha8(ImFontAtlas* self, ulong** out_pixels, long* out_width, long* out_height, long* out_bytes_per_pixel);
 
-        // Function @ cimgui.h:2993:24
+        // Function @ cimgui.h:2993:17
         [DllImport(LibraryName)]
-        public static extern CString ImFont_CalcWordWrapPositionA(ImFont* self, float scale, CString text, CString text_end, float wrap_width);
+        public static extern void ImFontAtlas_GetTexDataAsRGBA32(ImFontAtlas* self, ulong** out_pixels, long* out_width, long* out_height, long* out_bytes_per_pixel);
 
         // Function @ cimgui.h:2994:17
         [DllImport(LibraryName)]
-        public static extern void ImFont_RenderChar(ImFont* self, ImDrawList* draw_list, float size, Vector2 pos, uint col, byte c);
+        public static extern CBool ImFontAtlas_IsBuilt(ImFontAtlas* self);
 
         // Function @ cimgui.h:2995:17
         [DllImport(LibraryName)]
-        public static extern void ImFont_RenderText(ImFont* self, ImDrawList* draw_list, float size, Vector2 pos, uint col, Vector4 clip_rect, CString text_begin, CString text_end, float wrap_width, CBool cpu_fine_clip);
+        public static extern void ImFontAtlas_SetTexID(ImFontAtlas* self, ImTextureID id);
 
-        // Function @ cimgui.h:2996:17
+        // Function @ cimgui.h:2996:27
         [DllImport(LibraryName)]
-        public static extern void ImFont_BuildLookupTable(ImFont* self);
+        public static extern byte* ImFontAtlas_GetGlyphRangesDefault(ImFontAtlas* self);
 
-        // Function @ cimgui.h:2997:17
+        // Function @ cimgui.h:2997:27
         [DllImport(LibraryName)]
-        public static extern void ImFont_ClearOutputData(ImFont* self);
+        public static extern byte* ImFontAtlas_GetGlyphRangesKorean(ImFontAtlas* self);
 
-        // Function @ cimgui.h:2998:17
+        // Function @ cimgui.h:2998:27
         [DllImport(LibraryName)]
-        public static extern void ImFont_GrowIndex(ImFont* self, int new_size);
+        public static extern byte* ImFontAtlas_GetGlyphRangesJapanese(ImFontAtlas* self);
 
-        // Function @ cimgui.h:2999:17
+        // Function @ cimgui.h:2999:27
         [DllImport(LibraryName)]
-        public static extern void ImFont_AddGlyph(ImFont* self, ImFontConfig* src_cfg, byte c, float x0, float y0, float x1, float y1, float u0, float v0, float u1, float v1, float advance_x);
+        public static extern byte* ImFontAtlas_GetGlyphRangesChineseFull(ImFontAtlas* self);
 
-        // Function @ cimgui.h:3000:17
+        // Function @ cimgui.h:3000:27
         [DllImport(LibraryName)]
-        public static extern void ImFont_AddRemapChar(ImFont* self, byte dst, byte src, CBool overwrite_dst);
+        public static extern byte* ImFontAtlas_GetGlyphRangesChineseSimplifiedCommon(ImFontAtlas* self);
 
-        // Function @ cimgui.h:3001:17
+        // Function @ cimgui.h:3001:27
         [DllImport(LibraryName)]
-        public static extern void ImFont_SetGlyphVisible(ImFont* self, byte c, CBool visible);
+        public static extern byte* ImFontAtlas_GetGlyphRangesCyrillic(ImFontAtlas* self);
 
-        // Function @ cimgui.h:3002:17
+        // Function @ cimgui.h:3002:27
         [DllImport(LibraryName)]
-        public static extern CBool ImFont_IsGlyphRangeUnused(ImFont* self, uint c_begin, uint c_last);
+        public static extern byte* ImFontAtlas_GetGlyphRangesThai(ImFontAtlas* self);
 
         // Function @ cimgui.h:3003:27
         [DllImport(LibraryName)]
-        public static extern ImGuiViewport* ImGuiViewport_ImGuiViewport();
+        public static extern byte* ImFontAtlas_GetGlyphRangesVietnamese(ImFontAtlas* self);
 
-        // Function @ cimgui.h:3004:17
+        // Function @ cimgui.h:3004:16
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewport_destroy(ImGuiViewport* self);
+        public static extern int ImFontAtlas_AddCustomRectRegular(ImFontAtlas* self, int width, int height);
 
-        // Function @ cimgui.h:3005:17
+        // Function @ cimgui.h:3005:16
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewport_GetCenter(Vector2* pOut, ImGuiViewport* self);
+        public static extern int ImFontAtlas_AddCustomRectFontGlyph(ImFontAtlas* self, ImFont* font, byte id, int width, int height, float advance_x, Vector2 offset);
 
-        // Function @ cimgui.h:3006:17
+        // Function @ cimgui.h:3006:35
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewport_GetWorkCenter(Vector2* pOut, ImGuiViewport* self);
+        public static extern ImFontAtlasCustomRect* ImFontAtlas_GetCustomRectByIndex(ImFontAtlas* self, int index);
 
-        // Function @ cimgui.h:3007:20
+        // Function @ cimgui.h:3007:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igImHashData(void* data, ulong data_size, uint seed);
+        public static extern void ImFontAtlas_CalcCustomRectUV(ImFontAtlas* self, ImFontAtlasCustomRect* rect, Vector2* out_uv_min, Vector2* out_uv_max);
 
-        // Function @ cimgui.h:3008:20
+        // Function @ cimgui.h:3008:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igImHashStr(CString data, ulong data_size, uint seed);
+        public static extern CBool ImFontAtlas_GetMouseCursorTexData(ImFontAtlas* self, ImGuiMouseCursor cursor, Vector2* out_offset, Vector2* out_size, Vector2* out_uv_border, Vector2* out_uv_fill);
 
-        // Function @ cimgui.h:3009:18
+        // Function @ cimgui.h:3009:20
         [DllImport(LibraryName)]
-        public static extern uint igImAlphaBlendColors(uint col_a, uint col_b);
+        public static extern ImFont* ImFont_ImFont();
 
         // Function @ cimgui.h:3010:17
         [DllImport(LibraryName)]
-        public static extern CBool igImIsPowerOfTwo_Int(int v);
+        public static extern void ImFont_destroy(ImFont* self);
 
-        // Function @ cimgui.h:3011:17
+        // Function @ cimgui.h:3011:31
         [DllImport(LibraryName)]
-        public static extern CBool igImIsPowerOfTwo_U64(ulong v);
+        public static extern ImFontGlyph* ImFont_FindGlyph(ImFont* self, byte c);
 
-        // Function @ cimgui.h:3012:16
+        // Function @ cimgui.h:3012:31
         [DllImport(LibraryName)]
-        public static extern int igImUpperPowerOfTwo(int v);
+        public static extern ImFontGlyph* ImFont_FindGlyphNoFallback(ImFont* self, byte c);
 
-        // Function @ cimgui.h:3013:16
+        // Function @ cimgui.h:3013:18
         [DllImport(LibraryName)]
-        public static extern int igImStricmp(CString str1, CString str2);
+        public static extern float ImFont_GetCharAdvance(ImFont* self, byte c);
 
-        // Function @ cimgui.h:3014:16
+        // Function @ cimgui.h:3014:17
         [DllImport(LibraryName)]
-        public static extern int igImStrnicmp(CString str1, CString str2, ulong count);
+        public static extern CBool ImFont_IsLoaded(ImFont* self);
 
-        // Function @ cimgui.h:3015:17
+        // Function @ cimgui.h:3015:24
         [DllImport(LibraryName)]
-        public static extern void igImStrncpy(CString dst, CString src, ulong count);
+        public static extern CString ImFont_GetDebugName(ImFont* self);
 
-        // Function @ cimgui.h:3016:18
+        // Function @ cimgui.h:3016:17
         [DllImport(LibraryName)]
-        public static extern CString igImStrdup(CString str);
+        public static extern void ImFont_CalcTextSizeA(Vector2* pOut, ImFont* self, float size, float max_width, float wrap_width, CString text_begin, CString text_end, CString* remaining);
 
-        // Function @ cimgui.h:3017:18
+        // Function @ cimgui.h:3017:24
         [DllImport(LibraryName)]
-        public static extern CString igImStrdupcpy(CString dst, ulong* p_dst_size, CString str);
+        public static extern CString ImFont_CalcWordWrapPositionA(ImFont* self, float scale, CString text, CString text_end, float wrap_width);
 
-        // Function @ cimgui.h:3018:24
+        // Function @ cimgui.h:3018:17
         [DllImport(LibraryName)]
-        public static extern CString igImStrchrRange(CString str_begin, CString str_end, CChar c);
+        public static extern void ImFont_RenderChar(ImFont* self, ImDrawList* draw_list, float size, Vector2 pos, uint col, byte c);
 
-        // Function @ cimgui.h:3019:16
+        // Function @ cimgui.h:3019:17
         [DllImport(LibraryName)]
-        public static extern int igImStrlenW(byte* str);
+        public static extern void ImFont_RenderText(ImFont* self, ImDrawList* draw_list, float size, Vector2 pos, uint col, Vector4 clip_rect, CString text_begin, CString text_end, float wrap_width, CBool cpu_fine_clip);
 
-        // Function @ cimgui.h:3020:24
+        // Function @ cimgui.h:3020:17
         [DllImport(LibraryName)]
-        public static extern CString igImStreolRange(CString str, CString str_end);
+        public static extern void ImFont_BuildLookupTable(ImFont* self);
 
-        // Function @ cimgui.h:3021:27
+        // Function @ cimgui.h:3021:17
         [DllImport(LibraryName)]
-        public static extern byte* igImStrbolW(byte* buf_mid_line, byte* buf_begin);
+        public static extern void ImFont_ClearOutputData(ImFont* self);
 
-        // Function @ cimgui.h:3022:24
+        // Function @ cimgui.h:3022:17
         [DllImport(LibraryName)]
-        public static extern CString igImStristr(CString haystack, CString haystack_end, CString needle, CString needle_end);
+        public static extern void ImFont_GrowIndex(ImFont* self, int new_size);
 
         // Function @ cimgui.h:3023:17
         [DllImport(LibraryName)]
-        public static extern void igImStrTrimBlanks(CString str);
+        public static extern void ImFont_AddGlyph(ImFont* self, ImFontConfig* src_cfg, byte c, float x0, float y0, float x1, float y1, float u0, float v0, float u1, float v1, float advance_x);
 
-        // Function @ cimgui.h:3024:24
+        // Function @ cimgui.h:3024:17
         [DllImport(LibraryName)]
-        public static extern CString igImStrSkipBlank(CString str);
+        public static extern void ImFont_AddRemapChar(ImFont* self, byte dst, byte src, CBool overwrite_dst);
 
-        // Function @ cimgui.h:3025:16
+        // Function @ cimgui.h:3025:17
         [DllImport(LibraryName)]
-        public static extern int igImFormatString(CString buf, ulong buf_size, CString fmt);
+        public static extern void ImFont_SetGlyphVisible(ImFont* self, byte c, CBool visible);
 
-        // Function @ cimgui.h:3026:16
+        // Function @ cimgui.h:3026:17
         [DllImport(LibraryName)]
-        public static extern int igImFormatStringV(CString buf, ulong buf_size, CString fmt, nint args);
+        public static extern CBool ImFont_IsGlyphRangeUnused(ImFont* self, uint c_begin, uint c_last);
 
-        // Function @ cimgui.h:3027:24
+        // Function @ cimgui.h:3027:27
         [DllImport(LibraryName)]
-        public static extern CString igImParseFormatFindStart(CString format);
+        public static extern ImGuiViewport* ImGuiViewport_ImGuiViewport();
 
-        // Function @ cimgui.h:3028:24
+        // Function @ cimgui.h:3028:17
         [DllImport(LibraryName)]
-        public static extern CString igImParseFormatFindEnd(CString format);
+        public static extern void ImGuiViewport_destroy(ImGuiViewport* self);
 
-        // Function @ cimgui.h:3029:24
+        // Function @ cimgui.h:3029:17
         [DllImport(LibraryName)]
-        public static extern CString igImParseFormatTrimDecorations(CString format, CString buf, ulong buf_size);
+        public static extern void ImGuiViewport_GetCenter(Vector2* pOut, ImGuiViewport* self);
 
-        // Function @ cimgui.h:3030:16
+        // Function @ cimgui.h:3030:17
         [DllImport(LibraryName)]
-        public static extern int igImParseFormatPrecision(CString format, int default_value);
+        public static extern void ImGuiViewport_GetWorkCenter(Vector2* pOut, ImGuiViewport* self);
 
-        // Function @ cimgui.h:3031:17
+        // Function @ cimgui.h:3031:20
         [DllImport(LibraryName)]
-        public static extern CBool igImCharIsBlankA(CChar c);
+        public static extern ImGuiID igImHashData(void* data, ulong data_size, uint seed);
 
-        // Function @ cimgui.h:3032:17
+        // Function @ cimgui.h:3032:20
         [DllImport(LibraryName)]
-        public static extern CBool igImCharIsBlankW(uint c);
+        public static extern ImGuiID igImHashStr(CString data, ulong data_size, uint seed);
 
-        // Function @ cimgui.h:3033:24
+        // Function @ cimgui.h:3033:17
         [DllImport(LibraryName)]
-        public static extern CString igImTextCharToUtf8(CString out_buf, uint c);
+        public static extern void igImQsort(void* @base, ulong count, ulong size_of_element, FnPtr_IMGUI_VoidPtr_VoidPtr_Int compare_func);
 
-        // Function @ cimgui.h:3034:16
+        // Function @ cimgui.h:3034:18
         [DllImport(LibraryName)]
-        public static extern int igImTextStrToUtf8(CString out_buf, int out_buf_size, byte* in_text, byte* in_text_end);
+        public static extern uint igImAlphaBlendColors(uint col_a, uint col_b);
 
-        // Function @ cimgui.h:3035:16
+        // Function @ cimgui.h:3035:17
         [DllImport(LibraryName)]
-        public static extern int igImTextCharFromUtf8(ulong* out_char, CString in_text, CString in_text_end);
+        public static extern CBool igImIsPowerOfTwo_Int(int v);
 
-        // Function @ cimgui.h:3036:16
+        // Function @ cimgui.h:3036:17
         [DllImport(LibraryName)]
-        public static extern int igImTextStrFromUtf8(byte* out_buf, int out_buf_size, CString in_text, CString in_text_end, CString* in_remaining);
+        public static extern CBool igImIsPowerOfTwo_U64(ulong v);
 
         // Function @ cimgui.h:3037:16
         [DllImport(LibraryName)]
-        public static extern int igImTextCountCharsFromUtf8(CString in_text, CString in_text_end);
+        public static extern int igImUpperPowerOfTwo(int v);
 
         // Function @ cimgui.h:3038:16
         [DllImport(LibraryName)]
-        public static extern int igImTextCountUtf8BytesFromChar(CString in_text, CString in_text_end);
+        public static extern int igImStricmp(CString str1, CString str2);
 
         // Function @ cimgui.h:3039:16
         [DllImport(LibraryName)]
-        public static extern int igImTextCountUtf8BytesFromStr(byte* in_text, byte* in_text_end);
+        public static extern int igImStrnicmp(CString str1, CString str2, ulong count);
 
-        // Function @ cimgui.h:3040:25
+        // Function @ cimgui.h:3040:17
         [DllImport(LibraryName)]
-        public static extern ImFileHandle igImFileOpen(CString filename, CString mode);
+        public static extern void igImStrncpy(CString dst, CString src, ulong count);
 
-        // Function @ cimgui.h:3041:17
+        // Function @ cimgui.h:3041:18
         [DllImport(LibraryName)]
-        public static extern CBool igImFileClose(ImFileHandle file);
+        public static extern CString igImStrdup(CString str);
 
         // Function @ cimgui.h:3042:18
         [DllImport(LibraryName)]
-        public static extern ulong igImFileGetSize(ImFileHandle file);
+        public static extern CString igImStrdupcpy(CString dst, ulong* p_dst_size, CString str);
 
-        // Function @ cimgui.h:3043:18
+        // Function @ cimgui.h:3043:24
         [DllImport(LibraryName)]
-        public static extern ulong igImFileRead(void* data, ulong size, ulong count, ImFileHandle file);
+        public static extern CString igImStrchrRange(CString str_begin, CString str_end, CChar c);
 
-        // Function @ cimgui.h:3044:18
+        // Function @ cimgui.h:3044:16
         [DllImport(LibraryName)]
-        public static extern ulong igImFileWrite(void* data, ulong size, ulong count, ImFileHandle file);
+        public static extern int igImStrlenW(byte* str);
 
-        // Function @ cimgui.h:3045:18
+        // Function @ cimgui.h:3045:24
         [DllImport(LibraryName)]
-        public static extern void* igImFileLoadToMemory(CString filename, CString mode, ulong* out_file_size, int padding_bytes);
+        public static extern CString igImStreolRange(CString str, CString str_end);
 
-        // Function @ cimgui.h:3046:18
+        // Function @ cimgui.h:3046:27
         [DllImport(LibraryName)]
-        public static extern float igImPow_Float(float x, float y);
+        public static extern byte* igImStrbolW(byte* buf_mid_line, byte* buf_begin);
 
-        // Function @ cimgui.h:3047:19
+        // Function @ cimgui.h:3047:24
         [DllImport(LibraryName)]
-        public static extern double igImPow_double(double x, double y);
+        public static extern CString igImStristr(CString haystack, CString haystack_end, CString needle, CString needle_end);
 
-        // Function @ cimgui.h:3048:18
+        // Function @ cimgui.h:3048:17
         [DllImport(LibraryName)]
-        public static extern float igImLog_Float(float x);
+        public static extern void igImStrTrimBlanks(CString str);
 
-        // Function @ cimgui.h:3049:19
+        // Function @ cimgui.h:3049:24
         [DllImport(LibraryName)]
-        public static extern double igImLog_double(double x);
+        public static extern CString igImStrSkipBlank(CString str);
 
         // Function @ cimgui.h:3050:16
         [DllImport(LibraryName)]
-        public static extern int igImAbs_Int(int x);
+        public static extern int igImFormatString(CString buf, ulong buf_size, CString fmt);
 
-        // Function @ cimgui.h:3051:18
+        // Function @ cimgui.h:3051:16
         [DllImport(LibraryName)]
-        public static extern float igImAbs_Float(float x);
+        public static extern int igImFormatStringV(CString buf, ulong buf_size, CString fmt, nint args);
 
-        // Function @ cimgui.h:3052:19
+        // Function @ cimgui.h:3052:24
         [DllImport(LibraryName)]
-        public static extern double igImAbs_double(double x);
+        public static extern CString igImParseFormatFindStart(CString format);
 
-        // Function @ cimgui.h:3053:18
+        // Function @ cimgui.h:3053:24
         [DllImport(LibraryName)]
-        public static extern float igImSign_Float(float x);
+        public static extern CString igImParseFormatFindEnd(CString format);
 
-        // Function @ cimgui.h:3054:19
+        // Function @ cimgui.h:3054:24
         [DllImport(LibraryName)]
-        public static extern double igImSign_double(double x);
+        public static extern CString igImParseFormatTrimDecorations(CString format, CString buf, ulong buf_size);
 
-        // Function @ cimgui.h:3055:18
+        // Function @ cimgui.h:3055:16
         [DllImport(LibraryName)]
-        public static extern float igImRsqrt_Float(float x);
+        public static extern int igImParseFormatPrecision(CString format, int default_value);
 
-        // Function @ cimgui.h:3056:19
+        // Function @ cimgui.h:3056:17
         [DllImport(LibraryName)]
-        public static extern double igImRsqrt_double(double x);
+        public static extern CBool igImCharIsBlankA(CChar c);
 
         // Function @ cimgui.h:3057:17
         [DllImport(LibraryName)]
-        public static extern void igImMin(Vector2* pOut, Vector2 lhs, Vector2 rhs);
+        public static extern CBool igImCharIsBlankW(uint c);
 
-        // Function @ cimgui.h:3058:17
+        // Function @ cimgui.h:3058:24
         [DllImport(LibraryName)]
-        public static extern void igImMax(Vector2* pOut, Vector2 lhs, Vector2 rhs);
+        public static extern CString igImTextCharToUtf8(CString out_buf, uint c);
 
-        // Function @ cimgui.h:3059:17
+        // Function @ cimgui.h:3059:16
         [DllImport(LibraryName)]
-        public static extern void igImClamp(Vector2* pOut, Vector2 v, Vector2 mn, Vector2 mx);
+        public static extern int igImTextStrToUtf8(CString out_buf, int out_buf_size, byte* in_text, byte* in_text_end);
 
-        // Function @ cimgui.h:3060:17
+        // Function @ cimgui.h:3060:16
         [DllImport(LibraryName)]
-        public static extern void igImLerp_Vec2Float(Vector2* pOut, Vector2 a, Vector2 b, float t);
+        public static extern int igImTextCharFromUtf8(ulong* out_char, CString in_text, CString in_text_end);
 
-        // Function @ cimgui.h:3061:17
+        // Function @ cimgui.h:3061:16
         [DllImport(LibraryName)]
-        public static extern void igImLerp_Vec2Vec2(Vector2* pOut, Vector2 a, Vector2 b, Vector2 t);
+        public static extern int igImTextStrFromUtf8(byte* out_buf, int out_buf_size, CString in_text, CString in_text_end, CString* in_remaining);
 
-        // Function @ cimgui.h:3062:17
+        // Function @ cimgui.h:3062:16
         [DllImport(LibraryName)]
-        public static extern void igImLerp_Vec4(Vector4* pOut, Vector4 a, Vector4 b, float t);
+        public static extern int igImTextCountCharsFromUtf8(CString in_text, CString in_text_end);
 
-        // Function @ cimgui.h:3063:18
+        // Function @ cimgui.h:3063:16
         [DllImport(LibraryName)]
-        public static extern float igImSaturate(float f);
+        public static extern int igImTextCountUtf8BytesFromChar(CString in_text, CString in_text_end);
 
-        // Function @ cimgui.h:3064:18
+        // Function @ cimgui.h:3064:16
         [DllImport(LibraryName)]
-        public static extern float igImLengthSqr_Vec2(Vector2 lhs);
+        public static extern int igImTextCountUtf8BytesFromStr(byte* in_text, byte* in_text_end);
 
-        // Function @ cimgui.h:3065:18
+        // Function @ cimgui.h:3065:25
         [DllImport(LibraryName)]
-        public static extern float igImLengthSqr_Vec4(Vector4 lhs);
+        public static extern ImFileHandle igImFileOpen(CString filename, CString mode);
 
-        // Function @ cimgui.h:3066:18
+        // Function @ cimgui.h:3066:17
         [DllImport(LibraryName)]
-        public static extern float igImInvLength(Vector2 lhs, float fail_value);
+        public static extern CBool igImFileClose(ImFileHandle file);
 
         // Function @ cimgui.h:3067:18
         [DllImport(LibraryName)]
-        public static extern float igImFloor_Float(float f);
+        public static extern ulong igImFileGetSize(ImFileHandle file);
 
         // Function @ cimgui.h:3068:18
         [DllImport(LibraryName)]
-        public static extern float igImFloorSigned(float f);
+        public static extern ulong igImFileRead(void* data, ulong size, ulong count, ImFileHandle file);
 
-        // Function @ cimgui.h:3069:17
+        // Function @ cimgui.h:3069:18
         [DllImport(LibraryName)]
-        public static extern void igImFloor_Vec2(Vector2* pOut, Vector2 v);
+        public static extern ulong igImFileWrite(void* data, ulong size, ulong count, ImFileHandle file);
 
-        // Function @ cimgui.h:3070:16
+        // Function @ cimgui.h:3070:18
         [DllImport(LibraryName)]
-        public static extern int igImModPositive(int a, int b);
+        public static extern void* igImFileLoadToMemory(CString filename, CString mode, ulong* out_file_size, int padding_bytes);
 
         // Function @ cimgui.h:3071:18
         [DllImport(LibraryName)]
-        public static extern float igImDot(Vector2 a, Vector2 b);
+        public static extern float igImPow_Float(float x, float y);
 
-        // Function @ cimgui.h:3072:17
+        // Function @ cimgui.h:3072:19
         [DllImport(LibraryName)]
-        public static extern void igImRotate(Vector2* pOut, Vector2 v, float cos_a, float sin_a);
+        public static extern double igImPow_double(double x, double y);
 
         // Function @ cimgui.h:3073:18
         [DllImport(LibraryName)]
-        public static extern float igImLinearSweep(float current, float target, float speed);
+        public static extern float igImLog_Float(float x);
 
-        // Function @ cimgui.h:3074:17
+        // Function @ cimgui.h:3074:19
         [DllImport(LibraryName)]
-        public static extern void igImMul(Vector2* pOut, Vector2 lhs, Vector2 rhs);
+        public static extern double igImLog_double(double x);
 
-        // Function @ cimgui.h:3075:17
+        // Function @ cimgui.h:3075:16
         [DllImport(LibraryName)]
-        public static extern void igImBezierCubicCalc(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, float t);
+        public static extern int igImAbs_Int(int x);
 
-        // Function @ cimgui.h:3076:17
+        // Function @ cimgui.h:3076:18
         [DllImport(LibraryName)]
-        public static extern void igImBezierCubicClosestPoint(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 p, int num_segments);
+        public static extern float igImAbs_Float(float x);
 
-        // Function @ cimgui.h:3077:17
+        // Function @ cimgui.h:3077:19
         [DllImport(LibraryName)]
-        public static extern void igImBezierCubicClosestPointCasteljau(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 p, float tess_tol);
+        public static extern double igImAbs_double(double x);
 
-        // Function @ cimgui.h:3078:17
+        // Function @ cimgui.h:3078:18
         [DllImport(LibraryName)]
-        public static extern void igImBezierQuadraticCalc(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, float t);
+        public static extern float igImSign_Float(float x);
 
-        // Function @ cimgui.h:3079:17
+        // Function @ cimgui.h:3079:19
         [DllImport(LibraryName)]
-        public static extern void igImLineClosestPoint(Vector2* pOut, Vector2 a, Vector2 b, Vector2 p);
+        public static extern double igImSign_double(double x);
 
-        // Function @ cimgui.h:3080:17
+        // Function @ cimgui.h:3080:18
         [DllImport(LibraryName)]
-        public static extern CBool igImTriangleContainsPoint(Vector2 a, Vector2 b, Vector2 c, Vector2 p);
+        public static extern float igImRsqrt_Float(float x);
 
-        // Function @ cimgui.h:3081:17
+        // Function @ cimgui.h:3081:19
         [DllImport(LibraryName)]
-        public static extern void igImTriangleClosestPoint(Vector2* pOut, Vector2 a, Vector2 b, Vector2 c, Vector2 p);
+        public static extern double igImRsqrt_double(double x);
 
         // Function @ cimgui.h:3082:17
         [DllImport(LibraryName)]
-        public static extern void igImTriangleBarycentricCoords(Vector2 a, Vector2 b, Vector2 c, Vector2 p, float* out_u, float* out_v, float* out_w);
+        public static extern void igImMin(Vector2* pOut, Vector2 lhs, Vector2 rhs);
 
-        // Function @ cimgui.h:3083:18
+        // Function @ cimgui.h:3083:17
         [DllImport(LibraryName)]
-        public static extern float igImTriangleArea(Vector2 a, Vector2 b, Vector2 c);
+        public static extern void igImMax(Vector2* pOut, Vector2 lhs, Vector2 rhs);
 
-        // Function @ cimgui.h:3084:21
+        // Function @ cimgui.h:3084:17
         [DllImport(LibraryName)]
-        public static extern ImGuiDir igImGetDirQuadrantFromDelta(float dx, float dy);
+        public static extern void igImClamp(Vector2* pOut, Vector2 v, Vector2 mn, Vector2 mx);
 
-        // Function @ cimgui.h:3085:20
+        // Function @ cimgui.h:3085:17
         [DllImport(LibraryName)]
-        public static extern float* ImVec1_ImVec1_Nil();
+        public static extern void igImLerp_Vec2Float(Vector2* pOut, Vector2 a, Vector2 b, float t);
 
         // Function @ cimgui.h:3086:17
         [DllImport(LibraryName)]
-        public static extern void ImVec1_destroy(float* self);
+        public static extern void igImLerp_Vec2Vec2(Vector2* pOut, Vector2 a, Vector2 b, Vector2 t);
 
-        // Function @ cimgui.h:3087:20
+        // Function @ cimgui.h:3087:17
         [DllImport(LibraryName)]
-        public static extern float* ImVec1_ImVec1_Float(float _x);
+        public static extern void igImLerp_Vec4(Vector4* pOut, Vector4 a, Vector4 b, float t);
 
-        // Function @ cimgui.h:3088:22
+        // Function @ cimgui.h:3088:18
         [DllImport(LibraryName)]
-        public static extern ImVec2ih* ImVec2ih_ImVec2ih_Nil();
+        public static extern float igImSaturate(float f);
 
-        // Function @ cimgui.h:3089:17
+        // Function @ cimgui.h:3089:18
         [DllImport(LibraryName)]
-        public static extern void ImVec2ih_destroy(ImVec2ih* self);
+        public static extern float igImLengthSqr_Vec2(Vector2 lhs);
 
-        // Function @ cimgui.h:3090:22
+        // Function @ cimgui.h:3090:18
         [DllImport(LibraryName)]
-        public static extern ImVec2ih* ImVec2ih_ImVec2ih_short(short _x, short _y);
+        public static extern float igImLengthSqr_Vec4(Vector4 lhs);
 
-        // Function @ cimgui.h:3091:22
+        // Function @ cimgui.h:3091:18
         [DllImport(LibraryName)]
-        public static extern ImVec2ih* ImVec2ih_ImVec2ih_Vec2(Vector2 rhs);
+        public static extern float igImInvLength(Vector2 lhs, float fail_value);
 
-        // Function @ cimgui.h:3092:20
+        // Function @ cimgui.h:3092:18
         [DllImport(LibraryName)]
-        public static extern ImRect* ImRect_ImRect_Nil();
+        public static extern float igImFloor_Float(float f);
 
-        // Function @ cimgui.h:3093:17
+        // Function @ cimgui.h:3093:18
         [DllImport(LibraryName)]
-        public static extern void ImRect_destroy(ImRect* self);
+        public static extern float igImFloorSigned(float f);
 
-        // Function @ cimgui.h:3094:20
+        // Function @ cimgui.h:3094:17
         [DllImport(LibraryName)]
-        public static extern ImRect* ImRect_ImRect_Vec2(Vector2 min, Vector2 max);
+        public static extern void igImFloor_Vec2(Vector2* pOut, Vector2 v);
 
-        // Function @ cimgui.h:3095:20
+        // Function @ cimgui.h:3095:16
         [DllImport(LibraryName)]
-        public static extern ImRect* ImRect_ImRect_Vec4(Vector4 v);
+        public static extern int igImModPositive(int a, int b);
 
-        // Function @ cimgui.h:3096:20
+        // Function @ cimgui.h:3096:18
         [DllImport(LibraryName)]
-        public static extern ImRect* ImRect_ImRect_Float(float x1, float y1, float x2, float y2);
+        public static extern float igImDot(Vector2 a, Vector2 b);
 
         // Function @ cimgui.h:3097:17
         [DllImport(LibraryName)]
-        public static extern void ImRect_GetCenter(Vector2* pOut, ImRect* self);
+        public static extern void igImRotate(Vector2* pOut, Vector2 v, float cos_a, float sin_a);
 
-        // Function @ cimgui.h:3098:17
+        // Function @ cimgui.h:3098:18
         [DllImport(LibraryName)]
-        public static extern void ImRect_GetSize(Vector2* pOut, ImRect* self);
+        public static extern float igImLinearSweep(float current, float target, float speed);
 
-        // Function @ cimgui.h:3099:18
+        // Function @ cimgui.h:3099:17
         [DllImport(LibraryName)]
-        public static extern float ImRect_GetWidth(ImRect* self);
+        public static extern void igImMul(Vector2* pOut, Vector2 lhs, Vector2 rhs);
 
-        // Function @ cimgui.h:3100:18
+        // Function @ cimgui.h:3100:17
         [DllImport(LibraryName)]
-        public static extern float ImRect_GetHeight(ImRect* self);
+        public static extern CBool igImIsFloatAboveGuaranteedIntegerPrecision(float f);
 
-        // Function @ cimgui.h:3101:18
+        // Function @ cimgui.h:3101:17
         [DllImport(LibraryName)]
-        public static extern float ImRect_GetArea(ImRect* self);
+        public static extern void igImBezierCubicCalc(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, float t);
 
         // Function @ cimgui.h:3102:17
         [DllImport(LibraryName)]
-        public static extern void ImRect_GetTL(Vector2* pOut, ImRect* self);
+        public static extern void igImBezierCubicClosestPoint(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 p, int num_segments);
 
         // Function @ cimgui.h:3103:17
         [DllImport(LibraryName)]
-        public static extern void ImRect_GetTR(Vector2* pOut, ImRect* self);
+        public static extern void igImBezierCubicClosestPointCasteljau(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 p, float tess_tol);
 
         // Function @ cimgui.h:3104:17
         [DllImport(LibraryName)]
-        public static extern void ImRect_GetBL(Vector2* pOut, ImRect* self);
+        public static extern void igImBezierQuadraticCalc(Vector2* pOut, Vector2 p1, Vector2 p2, Vector2 p3, float t);
 
         // Function @ cimgui.h:3105:17
         [DllImport(LibraryName)]
-        public static extern void ImRect_GetBR(Vector2* pOut, ImRect* self);
+        public static extern void igImLineClosestPoint(Vector2* pOut, Vector2 a, Vector2 b, Vector2 p);
 
         // Function @ cimgui.h:3106:17
         [DllImport(LibraryName)]
-        public static extern CBool ImRect_Contains_Vec2(ImRect* self, Vector2 p);
+        public static extern CBool igImTriangleContainsPoint(Vector2 a, Vector2 b, Vector2 c, Vector2 p);
 
         // Function @ cimgui.h:3107:17
         [DllImport(LibraryName)]
-        public static extern CBool ImRect_Contains_Rect(ImRect* self, ImRect r);
+        public static extern void igImTriangleClosestPoint(Vector2* pOut, Vector2 a, Vector2 b, Vector2 c, Vector2 p);
 
         // Function @ cimgui.h:3108:17
         [DllImport(LibraryName)]
-        public static extern CBool ImRect_Overlaps(ImRect* self, ImRect r);
+        public static extern void igImTriangleBarycentricCoords(Vector2 a, Vector2 b, Vector2 c, Vector2 p, float* out_u, float* out_v, float* out_w);
 
-        // Function @ cimgui.h:3109:17
+        // Function @ cimgui.h:3109:18
         [DllImport(LibraryName)]
-        public static extern void ImRect_Add_Vec2(ImRect* self, Vector2 p);
+        public static extern float igImTriangleArea(Vector2 a, Vector2 b, Vector2 c);
 
-        // Function @ cimgui.h:3110:17
+        // Function @ cimgui.h:3110:21
         [DllImport(LibraryName)]
-        public static extern void ImRect_Add_Rect(ImRect* self, ImRect r);
+        public static extern ImGuiDir igImGetDirQuadrantFromDelta(float dx, float dy);
 
-        // Function @ cimgui.h:3111:17
+        // Function @ cimgui.h:3111:20
         [DllImport(LibraryName)]
-        public static extern void ImRect_Expand_Float(ImRect* self, float amount);
+        public static extern float* ImVec1_ImVec1_Nil();
 
         // Function @ cimgui.h:3112:17
         [DllImport(LibraryName)]
-        public static extern void ImRect_Expand_Vec2(ImRect* self, Vector2 amount);
+        public static extern void ImVec1_destroy(float* self);
 
-        // Function @ cimgui.h:3113:17
+        // Function @ cimgui.h:3113:20
         [DllImport(LibraryName)]
-        public static extern void ImRect_Translate(ImRect* self, Vector2 d);
+        public static extern float* ImVec1_ImVec1_Float(float _x);
 
-        // Function @ cimgui.h:3114:17
+        // Function @ cimgui.h:3114:22
         [DllImport(LibraryName)]
-        public static extern void ImRect_TranslateX(ImRect* self, float dx);
+        public static extern ImVec2ih* ImVec2ih_ImVec2ih_Nil();
 
         // Function @ cimgui.h:3115:17
         [DllImport(LibraryName)]
-        public static extern void ImRect_TranslateY(ImRect* self, float dy);
+        public static extern void ImVec2ih_destroy(ImVec2ih* self);
 
-        // Function @ cimgui.h:3116:17
+        // Function @ cimgui.h:3116:22
         [DllImport(LibraryName)]
-        public static extern void ImRect_ClipWith(ImRect* self, ImRect r);
+        public static extern ImVec2ih* ImVec2ih_ImVec2ih_short(short _x, short _y);
 
-        // Function @ cimgui.h:3117:17
+        // Function @ cimgui.h:3117:22
         [DllImport(LibraryName)]
-        public static extern void ImRect_ClipWithFull(ImRect* self, ImRect r);
+        public static extern ImVec2ih* ImVec2ih_ImVec2ih_Vec2(Vector2 rhs);
 
-        // Function @ cimgui.h:3118:17
+        // Function @ cimgui.h:3118:20
         [DllImport(LibraryName)]
-        public static extern void ImRect_Floor(ImRect* self);
+        public static extern ImRect* ImRect_ImRect_Nil();
 
         // Function @ cimgui.h:3119:17
         [DllImport(LibraryName)]
-        public static extern CBool ImRect_IsInverted(ImRect* self);
+        public static extern void ImRect_destroy(ImRect* self);
 
-        // Function @ cimgui.h:3120:17
+        // Function @ cimgui.h:3120:20
         [DllImport(LibraryName)]
-        public static extern void ImRect_ToVec4(Vector4* pOut, ImRect* self);
+        public static extern ImRect* ImRect_ImRect_Vec2(Vector2 min, Vector2 max);
 
-        // Function @ cimgui.h:3121:17
+        // Function @ cimgui.h:3121:20
         [DllImport(LibraryName)]
-        public static extern CBool igImBitArrayTestBit(uint* arr, int n);
+        public static extern ImRect* ImRect_ImRect_Vec4(Vector4 v);
 
-        // Function @ cimgui.h:3122:17
+        // Function @ cimgui.h:3122:20
         [DllImport(LibraryName)]
-        public static extern void igImBitArrayClearBit(uint* arr, int n);
+        public static extern ImRect* ImRect_ImRect_Float(float x1, float y1, float x2, float y2);
 
         // Function @ cimgui.h:3123:17
         [DllImport(LibraryName)]
-        public static extern void igImBitArraySetBit(uint* arr, int n);
+        public static extern void ImRect_GetCenter(Vector2* pOut, ImRect* self);
 
         // Function @ cimgui.h:3124:17
         [DllImport(LibraryName)]
-        public static extern void igImBitArraySetBitRange(uint* arr, int n, int n2);
+        public static extern void ImRect_GetSize(Vector2* pOut, ImRect* self);
 
-        // Function @ cimgui.h:3125:17
+        // Function @ cimgui.h:3125:18
         [DllImport(LibraryName)]
-        public static extern void ImBitVector_Create(ImBitVector* self, int sz);
+        public static extern float ImRect_GetWidth(ImRect* self);
 
-        // Function @ cimgui.h:3126:17
+        // Function @ cimgui.h:3126:18
         [DllImport(LibraryName)]
-        public static extern void ImBitVector_Clear(ImBitVector* self);
+        public static extern float ImRect_GetHeight(ImRect* self);
 
-        // Function @ cimgui.h:3127:17
+        // Function @ cimgui.h:3127:18
         [DllImport(LibraryName)]
-        public static extern CBool ImBitVector_TestBit(ImBitVector* self, int n);
+        public static extern float ImRect_GetArea(ImRect* self);
 
         // Function @ cimgui.h:3128:17
         [DllImport(LibraryName)]
-        public static extern void ImBitVector_SetBit(ImBitVector* self, int n);
+        public static extern void ImRect_GetTL(Vector2* pOut, ImRect* self);
 
         // Function @ cimgui.h:3129:17
         [DllImport(LibraryName)]
-        public static extern void ImBitVector_ClearBit(ImBitVector* self, int n);
+        public static extern void ImRect_GetTR(Vector2* pOut, ImRect* self);
 
-        // Function @ cimgui.h:3130:34
+        // Function @ cimgui.h:3130:17
         [DllImport(LibraryName)]
-        public static extern ImDrawListSharedData* ImDrawListSharedData_ImDrawListSharedData();
+        public static extern void ImRect_GetBL(Vector2* pOut, ImRect* self);
 
         // Function @ cimgui.h:3131:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawListSharedData_destroy(ImDrawListSharedData* self);
+        public static extern void ImRect_GetBR(Vector2* pOut, ImRect* self);
 
         // Function @ cimgui.h:3132:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawListSharedData_SetCircleTessellationMaxError(ImDrawListSharedData* self, float max_error);
+        public static extern CBool ImRect_Contains_Vec2(ImRect* self, Vector2 p);
 
         // Function @ cimgui.h:3133:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawDataBuilder_Clear(ImDrawDataBuilder* self);
+        public static extern CBool ImRect_Contains_Rect(ImRect* self, ImRect r);
 
         // Function @ cimgui.h:3134:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawDataBuilder_ClearFreeMemory(ImDrawDataBuilder* self);
+        public static extern CBool ImRect_Overlaps(ImRect* self, ImRect r);
 
-        // Function @ cimgui.h:3135:16
+        // Function @ cimgui.h:3135:17
         [DllImport(LibraryName)]
-        public static extern int ImDrawDataBuilder_GetDrawListCount(ImDrawDataBuilder* self);
+        public static extern void ImRect_Add_Vec2(ImRect* self, Vector2 p);
 
         // Function @ cimgui.h:3136:17
         [DllImport(LibraryName)]
-        public static extern void ImDrawDataBuilder_FlattenIntoSingleLayer(ImDrawDataBuilder* self);
+        public static extern void ImRect_Add_Rect(ImRect* self, ImRect r);
 
-        // Function @ cimgui.h:3137:27
+        // Function @ cimgui.h:3137:17
         [DllImport(LibraryName)]
-        public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Int(ImGuiStyleVar idx, int v);
+        public static extern void ImRect_Expand_Float(ImRect* self, float amount);
 
         // Function @ cimgui.h:3138:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStyleMod_destroy(ImGuiStyleMod* self);
+        public static extern void ImRect_Expand_Vec2(ImRect* self, Vector2 amount);
 
-        // Function @ cimgui.h:3139:27
+        // Function @ cimgui.h:3139:17
         [DllImport(LibraryName)]
-        public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Float(ImGuiStyleVar idx, float v);
+        public static extern void ImRect_Translate(ImRect* self, Vector2 d);
 
-        // Function @ cimgui.h:3140:27
+        // Function @ cimgui.h:3140:17
         [DllImport(LibraryName)]
-        public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Vec2(ImGuiStyleVar idx, Vector2 v);
+        public static extern void ImRect_TranslateX(ImRect* self, float dx);
 
-        // Function @ cimgui.h:3141:35
+        // Function @ cimgui.h:3141:17
         [DllImport(LibraryName)]
-        public static extern ImGuiComboPreviewData* ImGuiComboPreviewData_ImGuiComboPreviewData();
+        public static extern void ImRect_TranslateY(ImRect* self, float dy);
 
         // Function @ cimgui.h:3142:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiComboPreviewData_destroy(ImGuiComboPreviewData* self);
+        public static extern void ImRect_ClipWith(ImRect* self, ImRect r);
 
-        // Function @ cimgui.h:3143:30
+        // Function @ cimgui.h:3143:17
         [DllImport(LibraryName)]
-        public static extern ImGuiMenuColumns* ImGuiMenuColumns_ImGuiMenuColumns();
+        public static extern void ImRect_ClipWithFull(ImRect* self, ImRect r);
 
         // Function @ cimgui.h:3144:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiMenuColumns_destroy(ImGuiMenuColumns* self);
+        public static extern void ImRect_Floor(ImRect* self);
 
         // Function @ cimgui.h:3145:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiMenuColumns_Update(ImGuiMenuColumns* self, float spacing, CBool window_reappearing);
+        public static extern CBool ImRect_IsInverted(ImRect* self);
 
-        // Function @ cimgui.h:3146:18
+        // Function @ cimgui.h:3146:17
         [DllImport(LibraryName)]
-        public static extern float ImGuiMenuColumns_DeclColumns(ImGuiMenuColumns* self, float w_icon, float w_label, float w_shortcut, float w_mark);
+        public static extern void ImRect_ToVec4(Vector4* pOut, ImRect* self);
 
         // Function @ cimgui.h:3147:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiMenuColumns_CalcNextTotalWidth(ImGuiMenuColumns* self, CBool update_offsets);
+        public static extern CBool igImBitArrayTestBit(uint* arr, int n);
 
-        // Function @ cimgui.h:3148:33
+        // Function @ cimgui.h:3148:17
         [DllImport(LibraryName)]
-        public static extern ImGuiInputTextState* ImGuiInputTextState_ImGuiInputTextState();
+        public static extern void igImBitArrayClearBit(uint* arr, int n);
 
         // Function @ cimgui.h:3149:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextState_destroy(ImGuiInputTextState* self);
+        public static extern void igImBitArraySetBit(uint* arr, int n);
 
         // Function @ cimgui.h:3150:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextState_ClearText(ImGuiInputTextState* self);
+        public static extern void igImBitArraySetBitRange(uint* arr, int n, int n2);
 
         // Function @ cimgui.h:3151:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextState_ClearFreeMemory(ImGuiInputTextState* self);
+        public static extern void ImBitVector_Create(ImBitVector* self, int sz);
 
-        // Function @ cimgui.h:3152:16
+        // Function @ cimgui.h:3152:17
         [DllImport(LibraryName)]
-        public static extern int ImGuiInputTextState_GetUndoAvailCount(ImGuiInputTextState* self);
+        public static extern void ImBitVector_Clear(ImBitVector* self);
 
-        // Function @ cimgui.h:3153:16
+        // Function @ cimgui.h:3153:17
         [DllImport(LibraryName)]
-        public static extern int ImGuiInputTextState_GetRedoAvailCount(ImGuiInputTextState* self);
+        public static extern CBool ImBitVector_TestBit(ImBitVector* self, int n);
 
         // Function @ cimgui.h:3154:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextState_OnKeyPressed(ImGuiInputTextState* self, int key);
+        public static extern void ImBitVector_SetBit(ImBitVector* self, int n);
 
         // Function @ cimgui.h:3155:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextState_CursorAnimReset(ImGuiInputTextState* self);
+        public static extern void ImBitVector_ClearBit(ImBitVector* self, int n);
 
-        // Function @ cimgui.h:3156:17
+        // Function @ cimgui.h:3156:34
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextState_CursorClamp(ImGuiInputTextState* self);
+        public static extern ImDrawListSharedData* ImDrawListSharedData_ImDrawListSharedData();
 
         // Function @ cimgui.h:3157:17
         [DllImport(LibraryName)]
-        public static extern CBool ImGuiInputTextState_HasSelection(ImGuiInputTextState* self);
+        public static extern void ImDrawListSharedData_destroy(ImDrawListSharedData* self);
 
         // Function @ cimgui.h:3158:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextState_ClearSelection(ImGuiInputTextState* self);
+        public static extern void ImDrawListSharedData_SetCircleTessellationMaxError(ImDrawListSharedData* self, float max_error);
 
-        // Function @ cimgui.h:3159:16
+        // Function @ cimgui.h:3159:17
         [DllImport(LibraryName)]
-        public static extern int ImGuiInputTextState_GetCursorPos(ImGuiInputTextState* self);
+        public static extern void ImDrawDataBuilder_Clear(ImDrawDataBuilder* self);
 
-        // Function @ cimgui.h:3160:16
+        // Function @ cimgui.h:3160:17
         [DllImport(LibraryName)]
-        public static extern int ImGuiInputTextState_GetSelectionStart(ImGuiInputTextState* self);
+        public static extern void ImDrawDataBuilder_ClearFreeMemory(ImDrawDataBuilder* self);
 
         // Function @ cimgui.h:3161:16
         [DllImport(LibraryName)]
-        public static extern int ImGuiInputTextState_GetSelectionEnd(ImGuiInputTextState* self);
+        public static extern int ImDrawDataBuilder_GetDrawListCount(ImDrawDataBuilder* self);
 
         // Function @ cimgui.h:3162:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiInputTextState_SelectAll(ImGuiInputTextState* self);
+        public static extern void ImDrawDataBuilder_FlattenIntoSingleLayer(ImDrawDataBuilder* self);
 
-        // Function @ cimgui.h:3163:28
+        // Function @ cimgui.h:3163:27
         [DllImport(LibraryName)]
-        public static extern ImGuiPopupData* ImGuiPopupData_ImGuiPopupData();
+        public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Int(ImGuiStyleVar idx, int v);
 
         // Function @ cimgui.h:3164:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiPopupData_destroy(ImGuiPopupData* self);
+        public static extern void ImGuiStyleMod_destroy(ImGuiStyleMod* self);
 
-        // Function @ cimgui.h:3165:33
+        // Function @ cimgui.h:3165:27
         [DllImport(LibraryName)]
-        public static extern ImGuiNextWindowData* ImGuiNextWindowData_ImGuiNextWindowData();
+        public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Float(ImGuiStyleVar idx, float v);
 
-        // Function @ cimgui.h:3166:17
+        // Function @ cimgui.h:3166:27
         [DllImport(LibraryName)]
-        public static extern void ImGuiNextWindowData_destroy(ImGuiNextWindowData* self);
+        public static extern ImGuiStyleMod* ImGuiStyleMod_ImGuiStyleMod_Vec2(ImGuiStyleVar idx, Vector2 v);
 
-        // Function @ cimgui.h:3167:17
+        // Function @ cimgui.h:3167:35
         [DllImport(LibraryName)]
-        public static extern void ImGuiNextWindowData_ClearFlags(ImGuiNextWindowData* self);
+        public static extern ImGuiComboPreviewData* ImGuiComboPreviewData_ImGuiComboPreviewData();
 
-        // Function @ cimgui.h:3168:31
+        // Function @ cimgui.h:3168:17
         [DllImport(LibraryName)]
-        public static extern ImGuiNextItemData* ImGuiNextItemData_ImGuiNextItemData();
+        public static extern void ImGuiComboPreviewData_destroy(ImGuiComboPreviewData* self);
 
-        // Function @ cimgui.h:3169:17
+        // Function @ cimgui.h:3169:30
         [DllImport(LibraryName)]
-        public static extern void ImGuiNextItemData_destroy(ImGuiNextItemData* self);
+        public static extern ImGuiMenuColumns* ImGuiMenuColumns_ImGuiMenuColumns();
 
         // Function @ cimgui.h:3170:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiNextItemData_ClearFlags(ImGuiNextItemData* self);
+        public static extern void ImGuiMenuColumns_destroy(ImGuiMenuColumns* self);
 
-        // Function @ cimgui.h:3171:31
+        // Function @ cimgui.h:3171:17
         [DllImport(LibraryName)]
-        public static extern ImGuiLastItemData* ImGuiLastItemData_ImGuiLastItemData();
+        public static extern void ImGuiMenuColumns_Update(ImGuiMenuColumns* self, float spacing, CBool window_reappearing);
 
-        // Function @ cimgui.h:3172:17
+        // Function @ cimgui.h:3172:18
         [DllImport(LibraryName)]
-        public static extern void ImGuiLastItemData_destroy(ImGuiLastItemData* self);
+        public static extern float ImGuiMenuColumns_DeclColumns(ImGuiMenuColumns* self, float w_icon, float w_label, float w_shortcut, float w_mark);
 
-        // Function @ cimgui.h:3173:29
+        // Function @ cimgui.h:3173:17
         [DllImport(LibraryName)]
-        public static extern ImGuiStackSizes* ImGuiStackSizes_ImGuiStackSizes();
+        public static extern void ImGuiMenuColumns_CalcNextTotalWidth(ImGuiMenuColumns* self, CBool update_offsets);
 
-        // Function @ cimgui.h:3174:17
+        // Function @ cimgui.h:3174:33
         [DllImport(LibraryName)]
-        public static extern void ImGuiStackSizes_destroy(ImGuiStackSizes* self);
+        public static extern ImGuiInputTextState* ImGuiInputTextState_ImGuiInputTextState();
 
         // Function @ cimgui.h:3175:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStackSizes_SetToCurrentState(ImGuiStackSizes* self);
+        public static extern void ImGuiInputTextState_destroy(ImGuiInputTextState* self);
 
         // Function @ cimgui.h:3176:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiStackSizes_CompareWithCurrentState(ImGuiStackSizes* self);
+        public static extern void ImGuiInputTextState_ClearText(ImGuiInputTextState* self);
 
-        // Function @ cimgui.h:3177:29
+        // Function @ cimgui.h:3177:17
         [DllImport(LibraryName)]
-        public static extern ImGuiPtrOrIndex* ImGuiPtrOrIndex_ImGuiPtrOrIndex_Ptr(void* ptr);
+        public static extern void ImGuiInputTextState_ClearFreeMemory(ImGuiInputTextState* self);
 
-        // Function @ cimgui.h:3178:17
+        // Function @ cimgui.h:3178:16
         [DllImport(LibraryName)]
-        public static extern void ImGuiPtrOrIndex_destroy(ImGuiPtrOrIndex* self);
+        public static extern int ImGuiInputTextState_GetUndoAvailCount(ImGuiInputTextState* self);
 
-        // Function @ cimgui.h:3179:29
+        // Function @ cimgui.h:3179:16
         [DllImport(LibraryName)]
-        public static extern ImGuiPtrOrIndex* ImGuiPtrOrIndex_ImGuiPtrOrIndex_Int(int index);
+        public static extern int ImGuiInputTextState_GetRedoAvailCount(ImGuiInputTextState* self);
 
-        // Function @ cimgui.h:3180:30
+        // Function @ cimgui.h:3180:17
         [DllImport(LibraryName)]
-        public static extern ImGuiNavItemData* ImGuiNavItemData_ImGuiNavItemData();
+        public static extern void ImGuiInputTextState_OnKeyPressed(ImGuiInputTextState* self, int key);
 
         // Function @ cimgui.h:3181:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiNavItemData_destroy(ImGuiNavItemData* self);
+        public static extern void ImGuiInputTextState_CursorAnimReset(ImGuiInputTextState* self);
 
         // Function @ cimgui.h:3182:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiNavItemData_Clear(ImGuiNavItemData* self);
+        public static extern void ImGuiInputTextState_CursorClamp(ImGuiInputTextState* self);
 
-        // Function @ cimgui.h:3183:32
+        // Function @ cimgui.h:3183:17
         [DllImport(LibraryName)]
-        public static extern ImGuiOldColumnData* ImGuiOldColumnData_ImGuiOldColumnData();
+        public static extern CBool ImGuiInputTextState_HasSelection(ImGuiInputTextState* self);
 
         // Function @ cimgui.h:3184:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiOldColumnData_destroy(ImGuiOldColumnData* self);
+        public static extern void ImGuiInputTextState_ClearSelection(ImGuiInputTextState* self);
 
-        // Function @ cimgui.h:3185:29
+        // Function @ cimgui.h:3185:16
         [DllImport(LibraryName)]
-        public static extern ImGuiOldColumns* ImGuiOldColumns_ImGuiOldColumns();
+        public static extern int ImGuiInputTextState_GetCursorPos(ImGuiInputTextState* self);
 
-        // Function @ cimgui.h:3186:17
+        // Function @ cimgui.h:3186:16
         [DllImport(LibraryName)]
-        public static extern void ImGuiOldColumns_destroy(ImGuiOldColumns* self);
+        public static extern int ImGuiInputTextState_GetSelectionStart(ImGuiInputTextState* self);
 
-        // Function @ cimgui.h:3187:28
+        // Function @ cimgui.h:3187:16
         [DllImport(LibraryName)]
-        public static extern ImGuiViewportP* ImGuiViewportP_ImGuiViewportP();
+        public static extern int ImGuiInputTextState_GetSelectionEnd(ImGuiInputTextState* self);
 
         // Function @ cimgui.h:3188:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewportP_destroy(ImGuiViewportP* self);
+        public static extern void ImGuiInputTextState_SelectAll(ImGuiInputTextState* self);
 
-        // Function @ cimgui.h:3189:17
+        // Function @ cimgui.h:3189:28
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewportP_CalcWorkRectPos(Vector2* pOut, ImGuiViewportP* self, Vector2 off_min);
+        public static extern ImGuiPopupData* ImGuiPopupData_ImGuiPopupData();
 
         // Function @ cimgui.h:3190:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewportP_CalcWorkRectSize(Vector2* pOut, ImGuiViewportP* self, Vector2 off_min, Vector2 off_max);
+        public static extern void ImGuiPopupData_destroy(ImGuiPopupData* self);
 
-        // Function @ cimgui.h:3191:17
+        // Function @ cimgui.h:3191:33
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewportP_UpdateWorkRect(ImGuiViewportP* self);
+        public static extern ImGuiNextWindowData* ImGuiNextWindowData_ImGuiNextWindowData();
 
         // Function @ cimgui.h:3192:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewportP_GetMainRect(ImRect* pOut, ImGuiViewportP* self);
+        public static extern void ImGuiNextWindowData_destroy(ImGuiNextWindowData* self);
 
         // Function @ cimgui.h:3193:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewportP_GetWorkRect(ImRect* pOut, ImGuiViewportP* self);
+        public static extern void ImGuiNextWindowData_ClearFlags(ImGuiNextWindowData* self);
 
-        // Function @ cimgui.h:3194:17
+        // Function @ cimgui.h:3194:31
         [DllImport(LibraryName)]
-        public static extern void ImGuiViewportP_GetBuildWorkRect(ImRect* pOut, ImGuiViewportP* self);
+        public static extern ImGuiNextItemData* ImGuiNextItemData_ImGuiNextItemData();
 
-        // Function @ cimgui.h:3195:33
+        // Function @ cimgui.h:3195:17
         [DllImport(LibraryName)]
-        public static extern ImGuiWindowSettings* ImGuiWindowSettings_ImGuiWindowSettings();
+        public static extern void ImGuiNextItemData_destroy(ImGuiNextItemData* self);
 
         // Function @ cimgui.h:3196:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiWindowSettings_destroy(ImGuiWindowSettings* self);
+        public static extern void ImGuiNextItemData_ClearFlags(ImGuiNextItemData* self);
 
-        // Function @ cimgui.h:3197:18
+        // Function @ cimgui.h:3197:31
         [DllImport(LibraryName)]
-        public static extern CString ImGuiWindowSettings_GetName(ImGuiWindowSettings* self);
+        public static extern ImGuiLastItemData* ImGuiLastItemData_ImGuiLastItemData();
 
-        // Function @ cimgui.h:3198:34
+        // Function @ cimgui.h:3198:17
         [DllImport(LibraryName)]
-        public static extern ImGuiSettingsHandler* ImGuiSettingsHandler_ImGuiSettingsHandler();
+        public static extern void ImGuiLastItemData_destroy(ImGuiLastItemData* self);
 
-        // Function @ cimgui.h:3199:17
+        // Function @ cimgui.h:3199:29
         [DllImport(LibraryName)]
-        public static extern void ImGuiSettingsHandler_destroy(ImGuiSettingsHandler* self);
+        public static extern ImGuiStackSizes* ImGuiStackSizes_ImGuiStackSizes();
 
-        // Function @ cimgui.h:3200:32
+        // Function @ cimgui.h:3200:17
         [DllImport(LibraryName)]
-        public static extern ImGuiMetricsConfig* ImGuiMetricsConfig_ImGuiMetricsConfig();
+        public static extern void ImGuiStackSizes_destroy(ImGuiStackSizes* self);
 
         // Function @ cimgui.h:3201:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiMetricsConfig_destroy(ImGuiMetricsConfig* self);
+        public static extern void ImGuiStackSizes_SetToCurrentState(ImGuiStackSizes* self);
 
-        // Function @ cimgui.h:3202:33
+        // Function @ cimgui.h:3202:17
         [DllImport(LibraryName)]
-        public static extern ImGuiStackLevelInfo* ImGuiStackLevelInfo_ImGuiStackLevelInfo();
+        public static extern void ImGuiStackSizes_CompareWithCurrentState(ImGuiStackSizes* self);
 
-        // Function @ cimgui.h:3203:17
+        // Function @ cimgui.h:3203:29
         [DllImport(LibraryName)]
-        public static extern void ImGuiStackLevelInfo_destroy(ImGuiStackLevelInfo* self);
+        public static extern ImGuiPtrOrIndex* ImGuiPtrOrIndex_ImGuiPtrOrIndex_Ptr(void* ptr);
 
-        // Function @ cimgui.h:3204:28
+        // Function @ cimgui.h:3204:17
         [DllImport(LibraryName)]
-        public static extern ImGuiStackTool* ImGuiStackTool_ImGuiStackTool();
+        public static extern void ImGuiPtrOrIndex_destroy(ImGuiPtrOrIndex* self);
 
-        // Function @ cimgui.h:3205:17
+        // Function @ cimgui.h:3205:29
         [DllImport(LibraryName)]
-        public static extern void ImGuiStackTool_destroy(ImGuiStackTool* self);
+        public static extern ImGuiPtrOrIndex* ImGuiPtrOrIndex_ImGuiPtrOrIndex_Int(int index);
 
-        // Function @ cimgui.h:3206:30
+        // Function @ cimgui.h:3206:34
         [DllImport(LibraryName)]
-        public static extern ImGuiContextHook* ImGuiContextHook_ImGuiContextHook();
+        public static extern ImGuiListClipperRange ImGuiListClipperRange_FromIndices(int min, int max);
 
-        // Function @ cimgui.h:3207:17
+        // Function @ cimgui.h:3207:34
         [DllImport(LibraryName)]
-        public static extern void ImGuiContextHook_destroy(ImGuiContextHook* self);
+        public static extern ImGuiListClipperRange ImGuiListClipperRange_FromPositions(float y1, float y2, int off_min, int off_max);
 
-        // Function @ cimgui.h:3208:26
+        // Function @ cimgui.h:3208:34
         [DllImport(LibraryName)]
-        public static extern ImGuiContext* ImGuiContext_ImGuiContext(ImFontAtlas* shared_font_atlas);
+        public static extern ImGuiListClipperData* ImGuiListClipperData_ImGuiListClipperData();
 
         // Function @ cimgui.h:3209:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiContext_destroy(ImGuiContext* self);
+        public static extern void ImGuiListClipperData_destroy(ImGuiListClipperData* self);
 
-        // Function @ cimgui.h:3210:25
+        // Function @ cimgui.h:3210:17
         [DllImport(LibraryName)]
-        public static extern ImGuiWindow* ImGuiWindow_ImGuiWindow(ImGuiContext* context, CString name);
+        public static extern void ImGuiListClipperData_Reset(ImGuiListClipperData* self, ImGuiListClipper* clipper);
 
-        // Function @ cimgui.h:3211:17
+        // Function @ cimgui.h:3211:30
         [DllImport(LibraryName)]
-        public static extern void ImGuiWindow_destroy(ImGuiWindow* self);
+        public static extern ImGuiNavItemData* ImGuiNavItemData_ImGuiNavItemData();
 
-        // Function @ cimgui.h:3212:20
+        // Function @ cimgui.h:3212:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID ImGuiWindow_GetID_Str(ImGuiWindow* self, CString str, CString str_end);
+        public static extern void ImGuiNavItemData_destroy(ImGuiNavItemData* self);
 
-        // Function @ cimgui.h:3213:20
+        // Function @ cimgui.h:3213:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID ImGuiWindow_GetID_Ptr(ImGuiWindow* self, void* ptr);
+        public static extern void ImGuiNavItemData_Clear(ImGuiNavItemData* self);
 
-        // Function @ cimgui.h:3214:20
+        // Function @ cimgui.h:3214:32
         [DllImport(LibraryName)]
-        public static extern ImGuiID ImGuiWindow_GetID_Int(ImGuiWindow* self, int n);
+        public static extern ImGuiOldColumnData* ImGuiOldColumnData_ImGuiOldColumnData();
 
-        // Function @ cimgui.h:3215:20
+        // Function @ cimgui.h:3215:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID ImGuiWindow_GetIDNoKeepAlive_Str(ImGuiWindow* self, CString str, CString str_end);
+        public static extern void ImGuiOldColumnData_destroy(ImGuiOldColumnData* self);
 
-        // Function @ cimgui.h:3216:20
+        // Function @ cimgui.h:3216:29
         [DllImport(LibraryName)]
-        public static extern ImGuiID ImGuiWindow_GetIDNoKeepAlive_Ptr(ImGuiWindow* self, void* ptr);
+        public static extern ImGuiOldColumns* ImGuiOldColumns_ImGuiOldColumns();
 
-        // Function @ cimgui.h:3217:20
+        // Function @ cimgui.h:3217:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID ImGuiWindow_GetIDNoKeepAlive_Int(ImGuiWindow* self, int n);
+        public static extern void ImGuiOldColumns_destroy(ImGuiOldColumns* self);
 
-        // Function @ cimgui.h:3218:20
+        // Function @ cimgui.h:3218:28
         [DllImport(LibraryName)]
-        public static extern ImGuiID ImGuiWindow_GetIDFromRectangle(ImGuiWindow* self, ImRect r_abs);
+        public static extern ImGuiViewportP* ImGuiViewportP_ImGuiViewportP();
 
         // Function @ cimgui.h:3219:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiWindow_Rect(ImRect* pOut, ImGuiWindow* self);
+        public static extern void ImGuiViewportP_destroy(ImGuiViewportP* self);
 
-        // Function @ cimgui.h:3220:18
+        // Function @ cimgui.h:3220:17
         [DllImport(LibraryName)]
-        public static extern float ImGuiWindow_CalcFontSize(ImGuiWindow* self);
+        public static extern void ImGuiViewportP_CalcWorkRectPos(Vector2* pOut, ImGuiViewportP* self, Vector2 off_min);
 
-        // Function @ cimgui.h:3221:18
+        // Function @ cimgui.h:3221:17
         [DllImport(LibraryName)]
-        public static extern float ImGuiWindow_TitleBarHeight(ImGuiWindow* self);
+        public static extern void ImGuiViewportP_CalcWorkRectSize(Vector2* pOut, ImGuiViewportP* self, Vector2 off_min, Vector2 off_max);
 
         // Function @ cimgui.h:3222:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiWindow_TitleBarRect(ImRect* pOut, ImGuiWindow* self);
+        public static extern void ImGuiViewportP_UpdateWorkRect(ImGuiViewportP* self);
 
-        // Function @ cimgui.h:3223:18
+        // Function @ cimgui.h:3223:17
         [DllImport(LibraryName)]
-        public static extern float ImGuiWindow_MenuBarHeight(ImGuiWindow* self);
+        public static extern void ImGuiViewportP_GetMainRect(ImRect* pOut, ImGuiViewportP* self);
 
         // Function @ cimgui.h:3224:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiWindow_MenuBarRect(ImRect* pOut, ImGuiWindow* self);
+        public static extern void ImGuiViewportP_GetWorkRect(ImRect* pOut, ImGuiViewportP* self);
 
-        // Function @ cimgui.h:3225:26
+        // Function @ cimgui.h:3225:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTabItem* ImGuiTabItem_ImGuiTabItem();
+        public static extern void ImGuiViewportP_GetBuildWorkRect(ImRect* pOut, ImGuiViewportP* self);
 
-        // Function @ cimgui.h:3226:17
+        // Function @ cimgui.h:3226:33
         [DllImport(LibraryName)]
-        public static extern void ImGuiTabItem_destroy(ImGuiTabItem* self);
+        public static extern ImGuiWindowSettings* ImGuiWindowSettings_ImGuiWindowSettings();
 
-        // Function @ cimgui.h:3227:25
+        // Function @ cimgui.h:3227:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTabBar* ImGuiTabBar_ImGuiTabBar();
+        public static extern void ImGuiWindowSettings_destroy(ImGuiWindowSettings* self);
 
-        // Function @ cimgui.h:3228:17
+        // Function @ cimgui.h:3228:18
         [DllImport(LibraryName)]
-        public static extern void ImGuiTabBar_destroy(ImGuiTabBar* self);
+        public static extern CString ImGuiWindowSettings_GetName(ImGuiWindowSettings* self);
 
-        // Function @ cimgui.h:3229:16
+        // Function @ cimgui.h:3229:34
         [DllImport(LibraryName)]
-        public static extern int ImGuiTabBar_GetTabOrder(ImGuiTabBar* self, ImGuiTabItem* tab);
+        public static extern ImGuiSettingsHandler* ImGuiSettingsHandler_ImGuiSettingsHandler();
 
-        // Function @ cimgui.h:3230:24
+        // Function @ cimgui.h:3230:17
         [DllImport(LibraryName)]
-        public static extern CString ImGuiTabBar_GetTabName(ImGuiTabBar* self, ImGuiTabItem* tab);
+        public static extern void ImGuiSettingsHandler_destroy(ImGuiSettingsHandler* self);
 
-        // Function @ cimgui.h:3231:30
+        // Function @ cimgui.h:3231:32
         [DllImport(LibraryName)]
-        public static extern ImGuiTableColumn* ImGuiTableColumn_ImGuiTableColumn();
+        public static extern ImGuiMetricsConfig* ImGuiMetricsConfig_ImGuiMetricsConfig();
 
         // Function @ cimgui.h:3232:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTableColumn_destroy(ImGuiTableColumn* self);
+        public static extern void ImGuiMetricsConfig_destroy(ImGuiMetricsConfig* self);
 
-        // Function @ cimgui.h:3233:24
+        // Function @ cimgui.h:3233:33
         [DllImport(LibraryName)]
-        public static extern ImGuiTable* ImGuiTable_ImGuiTable();
+        public static extern ImGuiStackLevelInfo* ImGuiStackLevelInfo_ImGuiStackLevelInfo();
 
         // Function @ cimgui.h:3234:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTable_destroy(ImGuiTable* self);
+        public static extern void ImGuiStackLevelInfo_destroy(ImGuiStackLevelInfo* self);
 
-        // Function @ cimgui.h:3235:32
+        // Function @ cimgui.h:3235:28
         [DllImport(LibraryName)]
-        public static extern ImGuiTableTempData* ImGuiTableTempData_ImGuiTableTempData();
+        public static extern ImGuiStackTool* ImGuiStackTool_ImGuiStackTool();
 
         // Function @ cimgui.h:3236:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTableTempData_destroy(ImGuiTableTempData* self);
+        public static extern void ImGuiStackTool_destroy(ImGuiStackTool* self);
 
-        // Function @ cimgui.h:3237:38
+        // Function @ cimgui.h:3237:30
         [DllImport(LibraryName)]
-        public static extern ImGuiTableColumnSettings* ImGuiTableColumnSettings_ImGuiTableColumnSettings();
+        public static extern ImGuiContextHook* ImGuiContextHook_ImGuiContextHook();
 
         // Function @ cimgui.h:3238:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTableColumnSettings_destroy(ImGuiTableColumnSettings* self);
+        public static extern void ImGuiContextHook_destroy(ImGuiContextHook* self);
 
-        // Function @ cimgui.h:3239:32
+        // Function @ cimgui.h:3239:26
         [DllImport(LibraryName)]
-        public static extern ImGuiTableSettings* ImGuiTableSettings_ImGuiTableSettings();
+        public static extern ImGuiContext* ImGuiContext_ImGuiContext(ImFontAtlas* shared_font_atlas);
 
         // Function @ cimgui.h:3240:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTableSettings_destroy(ImGuiTableSettings* self);
+        public static extern void ImGuiContext_destroy(ImGuiContext* self);
 
-        // Function @ cimgui.h:3241:38
+        // Function @ cimgui.h:3241:25
         [DllImport(LibraryName)]
-        public static extern ImGuiTableColumnSettings* ImGuiTableSettings_GetColumnSettings(ImGuiTableSettings* self);
+        public static extern ImGuiWindow* ImGuiWindow_ImGuiWindow(ImGuiContext* context, CString name);
 
-        // Function @ cimgui.h:3242:25
+        // Function @ cimgui.h:3242:17
         [DllImport(LibraryName)]
-        public static extern ImGuiWindow* igGetCurrentWindowRead();
+        public static extern void ImGuiWindow_destroy(ImGuiWindow* self);
 
-        // Function @ cimgui.h:3243:25
+        // Function @ cimgui.h:3243:20
         [DllImport(LibraryName)]
-        public static extern ImGuiWindow* igGetCurrentWindow();
+        public static extern ImGuiID ImGuiWindow_GetID_Str(ImGuiWindow* self, CString str, CString str_end);
 
-        // Function @ cimgui.h:3244:25
+        // Function @ cimgui.h:3244:20
         [DllImport(LibraryName)]
-        public static extern ImGuiWindow* igFindWindowByID(ImGuiID id);
+        public static extern ImGuiID ImGuiWindow_GetID_Ptr(ImGuiWindow* self, void* ptr);
 
-        // Function @ cimgui.h:3245:25
+        // Function @ cimgui.h:3245:20
         [DllImport(LibraryName)]
-        public static extern ImGuiWindow* igFindWindowByName(CString name);
+        public static extern ImGuiID ImGuiWindow_GetID_Int(ImGuiWindow* self, int n);
 
-        // Function @ cimgui.h:3246:17
+        // Function @ cimgui.h:3246:20
         [DllImport(LibraryName)]
-        public static extern void igUpdateWindowParentAndRootLinks(ImGuiWindow* window, ImGuiWindowFlags flags, ImGuiWindow* parent_window);
+        public static extern ImGuiID ImGuiWindow_GetIDNoKeepAlive_Str(ImGuiWindow* self, CString str, CString str_end);
 
-        // Function @ cimgui.h:3247:17
+        // Function @ cimgui.h:3247:20
         [DllImport(LibraryName)]
-        public static extern void igCalcWindowNextAutoFitSize(Vector2* pOut, ImGuiWindow* window);
+        public static extern ImGuiID ImGuiWindow_GetIDNoKeepAlive_Ptr(ImGuiWindow* self, void* ptr);
 
-        // Function @ cimgui.h:3248:17
+        // Function @ cimgui.h:3248:20
         [DllImport(LibraryName)]
-        public static extern CBool igIsWindowChildOf(ImGuiWindow* window, ImGuiWindow* potential_parent, CBool popup_hierarchy);
+        public static extern ImGuiID ImGuiWindow_GetIDNoKeepAlive_Int(ImGuiWindow* self, int n);
 
-        // Function @ cimgui.h:3249:17
+        // Function @ cimgui.h:3249:20
         [DllImport(LibraryName)]
-        public static extern CBool igIsWindowAbove(ImGuiWindow* potential_above, ImGuiWindow* potential_below);
+        public static extern ImGuiID ImGuiWindow_GetIDFromRectangle(ImGuiWindow* self, ImRect r_abs);
 
         // Function @ cimgui.h:3250:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsWindowNavFocusable(ImGuiWindow* window);
+        public static extern void ImGuiWindow_Rect(ImRect* pOut, ImGuiWindow* self);
 
-        // Function @ cimgui.h:3251:17
+        // Function @ cimgui.h:3251:18
         [DllImport(LibraryName)]
-        public static extern void igSetWindowPos_WindowPtr(ImGuiWindow* window, Vector2 pos, ImGuiCond cond);
+        public static extern float ImGuiWindow_CalcFontSize(ImGuiWindow* self);
 
-        // Function @ cimgui.h:3252:17
+        // Function @ cimgui.h:3252:18
         [DllImport(LibraryName)]
-        public static extern void igSetWindowSize_WindowPtr(ImGuiWindow* window, Vector2 size, ImGuiCond cond);
+        public static extern float ImGuiWindow_TitleBarHeight(ImGuiWindow* self);
 
         // Function @ cimgui.h:3253:17
         [DllImport(LibraryName)]
-        public static extern void igSetWindowCollapsed_WindowPtr(ImGuiWindow* window, CBool collapsed, ImGuiCond cond);
+        public static extern void ImGuiWindow_TitleBarRect(ImRect* pOut, ImGuiWindow* self);
 
-        // Function @ cimgui.h:3254:17
+        // Function @ cimgui.h:3254:18
         [DllImport(LibraryName)]
-        public static extern void igSetWindowHitTestHole(ImGuiWindow* window, Vector2 pos, Vector2 size);
+        public static extern float ImGuiWindow_MenuBarHeight(ImGuiWindow* self);
 
         // Function @ cimgui.h:3255:17
         [DllImport(LibraryName)]
-        public static extern void igFocusWindow(ImGuiWindow* window);
+        public static extern void ImGuiWindow_MenuBarRect(ImRect* pOut, ImGuiWindow* self);
 
-        // Function @ cimgui.h:3256:17
+        // Function @ cimgui.h:3256:26
         [DllImport(LibraryName)]
-        public static extern void igFocusTopMostWindowUnderOne(ImGuiWindow* under_this_window, ImGuiWindow* ignore_window);
+        public static extern ImGuiTabItem* ImGuiTabItem_ImGuiTabItem();
 
         // Function @ cimgui.h:3257:17
         [DllImport(LibraryName)]
-        public static extern void igBringWindowToFocusFront(ImGuiWindow* window);
+        public static extern void ImGuiTabItem_destroy(ImGuiTabItem* self);
 
-        // Function @ cimgui.h:3258:17
+        // Function @ cimgui.h:3258:25
         [DllImport(LibraryName)]
-        public static extern void igBringWindowToDisplayFront(ImGuiWindow* window);
+        public static extern ImGuiTabBar* ImGuiTabBar_ImGuiTabBar();
 
         // Function @ cimgui.h:3259:17
         [DllImport(LibraryName)]
-        public static extern void igBringWindowToDisplayBack(ImGuiWindow* window);
+        public static extern void ImGuiTabBar_destroy(ImGuiTabBar* self);
 
-        // Function @ cimgui.h:3260:17
+        // Function @ cimgui.h:3260:16
         [DllImport(LibraryName)]
-        public static extern void igSetCurrentFont(ImFont* font);
+        public static extern int ImGuiTabBar_GetTabOrder(ImGuiTabBar* self, ImGuiTabItem* tab);
 
-        // Function @ cimgui.h:3261:20
+        // Function @ cimgui.h:3261:24
         [DllImport(LibraryName)]
-        public static extern ImFont* igGetDefaultFont();
+        public static extern CString ImGuiTabBar_GetTabName(ImGuiTabBar* self, ImGuiTabItem* tab);
 
-        // Function @ cimgui.h:3262:24
+        // Function @ cimgui.h:3262:30
         [DllImport(LibraryName)]
-        public static extern ImDrawList* igGetForegroundDrawList_WindowPtr(ImGuiWindow* window);
+        public static extern ImGuiTableColumn* ImGuiTableColumn_ImGuiTableColumn();
 
-        // Function @ cimgui.h:3263:24
+        // Function @ cimgui.h:3263:17
         [DllImport(LibraryName)]
-        public static extern ImDrawList* igGetBackgroundDrawList_ViewportPtr(ImGuiViewport* viewport);
+        public static extern void ImGuiTableColumn_destroy(ImGuiTableColumn* self);
 
         // Function @ cimgui.h:3264:24
         [DllImport(LibraryName)]
-        public static extern ImDrawList* igGetForegroundDrawList_ViewportPtr(ImGuiViewport* viewport);
+        public static extern ImGuiTable* ImGuiTable_ImGuiTable();
 
         // Function @ cimgui.h:3265:17
         [DllImport(LibraryName)]
-        public static extern void igInitialize(ImGuiContext* context);
+        public static extern void ImGuiTable_destroy(ImGuiTable* self);
 
-        // Function @ cimgui.h:3266:17
+        // Function @ cimgui.h:3266:32
         [DllImport(LibraryName)]
-        public static extern void igShutdown(ImGuiContext* context);
+        public static extern ImGuiTableTempData* ImGuiTableTempData_ImGuiTableTempData();
 
         // Function @ cimgui.h:3267:17
         [DllImport(LibraryName)]
-        public static extern void igUpdateHoveredWindowAndCaptureFlags();
+        public static extern void ImGuiTableTempData_destroy(ImGuiTableTempData* self);
 
-        // Function @ cimgui.h:3268:17
+        // Function @ cimgui.h:3268:38
         [DllImport(LibraryName)]
-        public static extern void igStartMouseMovingWindow(ImGuiWindow* window);
+        public static extern ImGuiTableColumnSettings* ImGuiTableColumnSettings_ImGuiTableColumnSettings();
 
         // Function @ cimgui.h:3269:17
         [DllImport(LibraryName)]
-        public static extern void igUpdateMouseMovingWindowNewFrame();
+        public static extern void ImGuiTableColumnSettings_destroy(ImGuiTableColumnSettings* self);
 
-        // Function @ cimgui.h:3270:17
+        // Function @ cimgui.h:3270:32
         [DllImport(LibraryName)]
-        public static extern void igUpdateMouseMovingWindowEndFrame();
+        public static extern ImGuiTableSettings* ImGuiTableSettings_ImGuiTableSettings();
 
-        // Function @ cimgui.h:3271:20
+        // Function @ cimgui.h:3271:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igAddContextHook(ImGuiContext* context, ImGuiContextHook* hook);
+        public static extern void ImGuiTableSettings_destroy(ImGuiTableSettings* self);
 
-        // Function @ cimgui.h:3272:17
+        // Function @ cimgui.h:3272:38
         [DllImport(LibraryName)]
-        public static extern void igRemoveContextHook(ImGuiContext* context, ImGuiID hook_to_remove);
+        public static extern ImGuiTableColumnSettings* ImGuiTableSettings_GetColumnSettings(ImGuiTableSettings* self);
 
-        // Function @ cimgui.h:3273:17
+        // Function @ cimgui.h:3273:25
         [DllImport(LibraryName)]
-        public static extern void igCallContextHooks(ImGuiContext* context, ImGuiContextHookType type);
+        public static extern ImGuiWindow* igGetCurrentWindowRead();
 
-        // Function @ cimgui.h:3274:17
+        // Function @ cimgui.h:3274:25
         [DllImport(LibraryName)]
-        public static extern void igMarkIniSettingsDirty_Nil();
+        public static extern ImGuiWindow* igGetCurrentWindow();
 
-        // Function @ cimgui.h:3275:17
+        // Function @ cimgui.h:3275:25
         [DllImport(LibraryName)]
-        public static extern void igMarkIniSettingsDirty_WindowPtr(ImGuiWindow* window);
+        public static extern ImGuiWindow* igFindWindowByID(ImGuiID id);
 
-        // Function @ cimgui.h:3276:17
+        // Function @ cimgui.h:3276:25
         [DllImport(LibraryName)]
-        public static extern void igClearIniSettings();
+        public static extern ImGuiWindow* igFindWindowByName(CString name);
 
-        // Function @ cimgui.h:3277:33
+        // Function @ cimgui.h:3277:17
         [DllImport(LibraryName)]
-        public static extern ImGuiWindowSettings* igCreateNewWindowSettings(CString name);
+        public static extern void igUpdateWindowParentAndRootLinks(ImGuiWindow* window, ImGuiWindowFlags flags, ImGuiWindow* parent_window);
 
-        // Function @ cimgui.h:3278:33
+        // Function @ cimgui.h:3278:17
         [DllImport(LibraryName)]
-        public static extern ImGuiWindowSettings* igFindWindowSettings(ImGuiID id);
+        public static extern void igCalcWindowNextAutoFitSize(Vector2* pOut, ImGuiWindow* window);
 
-        // Function @ cimgui.h:3279:33
+        // Function @ cimgui.h:3279:17
         [DllImport(LibraryName)]
-        public static extern ImGuiWindowSettings* igFindOrCreateWindowSettings(CString name);
+        public static extern CBool igIsWindowChildOf(ImGuiWindow* window, ImGuiWindow* potential_parent, CBool popup_hierarchy);
 
-        // Function @ cimgui.h:3280:34
+        // Function @ cimgui.h:3280:17
         [DllImport(LibraryName)]
-        public static extern ImGuiSettingsHandler* igFindSettingsHandler(CString type_name);
+        public static extern CBool igIsWindowWithinBeginStackOf(ImGuiWindow* window, ImGuiWindow* potential_parent);
 
         // Function @ cimgui.h:3281:17
         [DllImport(LibraryName)]
-        public static extern void igSetNextWindowScroll(Vector2 scroll);
+        public static extern CBool igIsWindowAbove(ImGuiWindow* potential_above, ImGuiWindow* potential_below);
 
         // Function @ cimgui.h:3282:17
         [DllImport(LibraryName)]
-        public static extern void igSetScrollX_WindowPtr(ImGuiWindow* window, float scroll_x);
+        public static extern CBool igIsWindowNavFocusable(ImGuiWindow* window);
 
         // Function @ cimgui.h:3283:17
         [DllImport(LibraryName)]
-        public static extern void igSetScrollY_WindowPtr(ImGuiWindow* window, float scroll_y);
+        public static extern void igSetWindowPos_WindowPtr(ImGuiWindow* window, Vector2 pos, ImGuiCond cond);
 
         // Function @ cimgui.h:3284:17
         [DllImport(LibraryName)]
-        public static extern void igSetScrollFromPosX_WindowPtr(ImGuiWindow* window, float local_x, float center_x_ratio);
+        public static extern void igSetWindowSize_WindowPtr(ImGuiWindow* window, Vector2 size, ImGuiCond cond);
 
         // Function @ cimgui.h:3285:17
         [DllImport(LibraryName)]
-        public static extern void igSetScrollFromPosY_WindowPtr(ImGuiWindow* window, float local_y, float center_y_ratio);
+        public static extern void igSetWindowCollapsed_WindowPtr(ImGuiWindow* window, CBool collapsed, ImGuiCond cond);
 
         // Function @ cimgui.h:3286:17
         [DllImport(LibraryName)]
-        public static extern void igScrollToItem(ImGuiScrollFlags flags);
+        public static extern void igSetWindowHitTestHole(ImGuiWindow* window, Vector2 pos, Vector2 size);
 
         // Function @ cimgui.h:3287:17
         [DllImport(LibraryName)]
-        public static extern void igScrollToRect(ImGuiWindow* window, ImRect rect, ImGuiScrollFlags flags);
+        public static extern void igWindowRectAbsToRel(ImRect* pOut, ImGuiWindow* window, ImRect r);
 
         // Function @ cimgui.h:3288:17
         [DllImport(LibraryName)]
-        public static extern void igScrollToRectEx(Vector2* pOut, ImGuiWindow* window, ImRect rect, ImGuiScrollFlags flags);
+        public static extern void igWindowRectRelToAbs(ImRect* pOut, ImGuiWindow* window, ImRect r);
 
         // Function @ cimgui.h:3289:17
         [DllImport(LibraryName)]
-        public static extern void igScrollToBringRectIntoView(ImGuiWindow* window, ImRect rect);
+        public static extern void igFocusWindow(ImGuiWindow* window);
 
-        // Function @ cimgui.h:3290:20
+        // Function @ cimgui.h:3290:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetItemID();
+        public static extern void igFocusTopMostWindowUnderOne(ImGuiWindow* under_this_window, ImGuiWindow* ignore_window);
 
-        // Function @ cimgui.h:3291:33
+        // Function @ cimgui.h:3291:17
         [DllImport(LibraryName)]
-        public static extern ImGuiItemStatusFlags igGetItemStatusFlags();
+        public static extern void igBringWindowToFocusFront(ImGuiWindow* window);
 
-        // Function @ cimgui.h:3292:27
+        // Function @ cimgui.h:3292:17
         [DllImport(LibraryName)]
-        public static extern ImGuiItemFlags igGetItemFlags();
+        public static extern void igBringWindowToDisplayFront(ImGuiWindow* window);
 
-        // Function @ cimgui.h:3293:20
+        // Function @ cimgui.h:3293:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetActiveID();
+        public static extern void igBringWindowToDisplayBack(ImGuiWindow* window);
 
-        // Function @ cimgui.h:3294:20
+        // Function @ cimgui.h:3294:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetFocusID();
+        public static extern void igBringWindowToDisplayBehind(ImGuiWindow* window, ImGuiWindow* above_window);
 
-        // Function @ cimgui.h:3295:17
+        // Function @ cimgui.h:3295:16
         [DllImport(LibraryName)]
-        public static extern void igSetActiveID(ImGuiID id, ImGuiWindow* window);
+        public static extern int igFindWindowDisplayIndex(ImGuiWindow* window);
 
-        // Function @ cimgui.h:3296:17
+        // Function @ cimgui.h:3296:25
         [DllImport(LibraryName)]
-        public static extern void igSetFocusID(ImGuiID id, ImGuiWindow* window);
+        public static extern ImGuiWindow* igFindBottomMostVisibleWindowWithinBeginStack(ImGuiWindow* window);
 
         // Function @ cimgui.h:3297:17
         [DllImport(LibraryName)]
-        public static extern void igClearActiveID();
+        public static extern void igSetCurrentFont(ImFont* font);
 
         // Function @ cimgui.h:3298:20
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetHoveredID();
+        public static extern ImFont* igGetDefaultFont();
 
-        // Function @ cimgui.h:3299:17
+        // Function @ cimgui.h:3299:24
         [DllImport(LibraryName)]
-        public static extern void igSetHoveredID(ImGuiID id);
+        public static extern ImDrawList* igGetForegroundDrawList_WindowPtr(ImGuiWindow* window);
 
-        // Function @ cimgui.h:3300:17
+        // Function @ cimgui.h:3300:24
         [DllImport(LibraryName)]
-        public static extern void igKeepAliveID(ImGuiID id);
+        public static extern ImDrawList* igGetBackgroundDrawList_ViewportPtr(ImGuiViewport* viewport);
 
-        // Function @ cimgui.h:3301:17
+        // Function @ cimgui.h:3301:24
         [DllImport(LibraryName)]
-        public static extern void igMarkItemEdited(ImGuiID id);
+        public static extern ImDrawList* igGetForegroundDrawList_ViewportPtr(ImGuiViewport* viewport);
 
         // Function @ cimgui.h:3302:17
         [DllImport(LibraryName)]
-        public static extern void igPushOverrideID(ImGuiID id);
+        public static extern void igInitialize(ImGuiContext* context);
 
-        // Function @ cimgui.h:3303:20
+        // Function @ cimgui.h:3303:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetIDWithSeed(CString str_id_begin, CString str_id_end, ImGuiID seed);
+        public static extern void igShutdown(ImGuiContext* context);
 
         // Function @ cimgui.h:3304:17
         [DllImport(LibraryName)]
-        public static extern void igItemSize_Vec2(Vector2 size, float text_baseline_y);
+        public static extern void igUpdateHoveredWindowAndCaptureFlags();
 
         // Function @ cimgui.h:3305:17
         [DllImport(LibraryName)]
-        public static extern void igItemSize_Rect(ImRect bb, float text_baseline_y);
+        public static extern void igStartMouseMovingWindow(ImGuiWindow* window);
 
         // Function @ cimgui.h:3306:17
         [DllImport(LibraryName)]
-        public static extern CBool igItemAdd(ImRect bb, ImGuiID id, ImRect* nav_bb, ImGuiItemFlags extra_flags);
+        public static extern void igUpdateMouseMovingWindowNewFrame();
 
         // Function @ cimgui.h:3307:17
         [DllImport(LibraryName)]
-        public static extern CBool igItemHoverable(ImRect bb, ImGuiID id);
+        public static extern void igUpdateMouseMovingWindowEndFrame();
 
-        // Function @ cimgui.h:3308:17
+        // Function @ cimgui.h:3308:20
         [DllImport(LibraryName)]
-        public static extern void igItemInputable(ImGuiWindow* window, ImGuiID id);
+        public static extern ImGuiID igAddContextHook(ImGuiContext* context, ImGuiContextHook* hook);
 
         // Function @ cimgui.h:3309:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsClippedEx(ImRect bb, ImGuiID id);
+        public static extern void igRemoveContextHook(ImGuiContext* context, ImGuiID hook_to_remove);
 
         // Function @ cimgui.h:3310:17
         [DllImport(LibraryName)]
-        public static extern void igCalcItemSize(Vector2* pOut, Vector2 size, float default_w, float default_h);
+        public static extern void igCallContextHooks(ImGuiContext* context, ImGuiContextHookType type);
 
-        // Function @ cimgui.h:3311:18
+        // Function @ cimgui.h:3311:17
         [DllImport(LibraryName)]
-        public static extern float igCalcWrapWidthForPos(Vector2 pos, float wrap_pos_x);
+        public static extern void igMarkIniSettingsDirty_Nil();
 
         // Function @ cimgui.h:3312:17
         [DllImport(LibraryName)]
-        public static extern void igPushMultiItemsWidths(int components, float width_full);
+        public static extern void igMarkIniSettingsDirty_WindowPtr(ImGuiWindow* window);
 
         // Function @ cimgui.h:3313:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsItemToggledSelection();
+        public static extern void igClearIniSettings();
 
-        // Function @ cimgui.h:3314:17
+        // Function @ cimgui.h:3314:33
         [DllImport(LibraryName)]
-        public static extern void igGetContentRegionMaxAbs(Vector2* pOut);
+        public static extern ImGuiWindowSettings* igCreateNewWindowSettings(CString name);
 
-        // Function @ cimgui.h:3315:17
+        // Function @ cimgui.h:3315:33
         [DllImport(LibraryName)]
-        public static extern void igShrinkWidths(ImGuiShrinkWidthItem* items, int count, float width_excess);
+        public static extern ImGuiWindowSettings* igFindWindowSettings(ImGuiID id);
 
-        // Function @ cimgui.h:3316:17
+        // Function @ cimgui.h:3316:33
         [DllImport(LibraryName)]
-        public static extern void igPushItemFlag(ImGuiItemFlags option, CBool enabled);
+        public static extern ImGuiWindowSettings* igFindOrCreateWindowSettings(CString name);
 
-        // Function @ cimgui.h:3317:17
+        // Function @ cimgui.h:3317:34
         [DllImport(LibraryName)]
-        public static extern void igPopItemFlag();
+        public static extern ImGuiSettingsHandler* igFindSettingsHandler(CString type_name);
 
         // Function @ cimgui.h:3318:17
         [DllImport(LibraryName)]
-        public static extern void igLogBegin(ImGuiLogType type, int auto_open_depth);
+        public static extern void igSetNextWindowScroll(Vector2 scroll);
 
         // Function @ cimgui.h:3319:17
         [DllImport(LibraryName)]
-        public static extern void igLogToBuffer(int auto_open_depth);
+        public static extern void igSetScrollX_WindowPtr(ImGuiWindow* window, float scroll_x);
 
         // Function @ cimgui.h:3320:17
         [DllImport(LibraryName)]
-        public static extern void igLogRenderedText(Vector2* ref_pos, CString text, CString text_end);
+        public static extern void igSetScrollY_WindowPtr(ImGuiWindow* window, float scroll_y);
 
         // Function @ cimgui.h:3321:17
         [DllImport(LibraryName)]
-        public static extern void igLogSetNextTextDecoration(CString prefix, CString suffix);
+        public static extern void igSetScrollFromPosX_WindowPtr(ImGuiWindow* window, float local_x, float center_x_ratio);
 
         // Function @ cimgui.h:3322:17
         [DllImport(LibraryName)]
-        public static extern CBool igBeginChildEx(CString name, ImGuiID id, Vector2 size_arg, CBool border, ImGuiWindowFlags flags);
+        public static extern void igSetScrollFromPosY_WindowPtr(ImGuiWindow* window, float local_y, float center_y_ratio);
 
         // Function @ cimgui.h:3323:17
         [DllImport(LibraryName)]
-        public static extern void igOpenPopupEx(ImGuiID id, ImGuiPopupFlags popup_flags);
+        public static extern void igScrollToItem(ImGuiScrollFlags flags);
 
         // Function @ cimgui.h:3324:17
         [DllImport(LibraryName)]
-        public static extern void igClosePopupToLevel(int remaining, CBool restore_focus_to_window_under_popup);
+        public static extern void igScrollToRect(ImGuiWindow* window, ImRect rect, ImGuiScrollFlags flags);
 
         // Function @ cimgui.h:3325:17
         [DllImport(LibraryName)]
-        public static extern void igClosePopupsOverWindow(ImGuiWindow* ref_window, CBool restore_focus_to_window_under_popup);
+        public static extern void igScrollToRectEx(Vector2* pOut, ImGuiWindow* window, ImRect rect, ImGuiScrollFlags flags);
 
         // Function @ cimgui.h:3326:17
         [DllImport(LibraryName)]
-        public static extern void igClosePopupsExceptModals();
+        public static extern void igScrollToBringRectIntoView(ImGuiWindow* window, ImRect rect);
 
-        // Function @ cimgui.h:3327:17
+        // Function @ cimgui.h:3327:20
         [DllImport(LibraryName)]
-        public static extern CBool igIsPopupOpen_ID(ImGuiID id, ImGuiPopupFlags popup_flags);
+        public static extern ImGuiID igGetItemID();
 
-        // Function @ cimgui.h:3328:17
+        // Function @ cimgui.h:3328:33
         [DllImport(LibraryName)]
-        public static extern CBool igBeginPopupEx(ImGuiID id, ImGuiWindowFlags extra_flags);
+        public static extern ImGuiItemStatusFlags igGetItemStatusFlags();
 
-        // Function @ cimgui.h:3329:17
+        // Function @ cimgui.h:3329:27
         [DllImport(LibraryName)]
-        public static extern void igBeginTooltipEx(ImGuiWindowFlags extra_flags, ImGuiTooltipFlags tooltip_flags);
+        public static extern ImGuiItemFlags igGetItemFlags();
 
-        // Function @ cimgui.h:3330:17
+        // Function @ cimgui.h:3330:20
         [DllImport(LibraryName)]
-        public static extern void igGetPopupAllowedExtentRect(ImRect* pOut, ImGuiWindow* window);
+        public static extern ImGuiID igGetActiveID();
 
-        // Function @ cimgui.h:3331:25
+        // Function @ cimgui.h:3331:20
         [DllImport(LibraryName)]
-        public static extern ImGuiWindow* igGetTopMostPopupModal();
+        public static extern ImGuiID igGetFocusID();
 
         // Function @ cimgui.h:3332:17
         [DllImport(LibraryName)]
-        public static extern void igFindBestWindowPosForPopup(Vector2* pOut, ImGuiWindow* window);
+        public static extern void igSetActiveID(ImGuiID id, ImGuiWindow* window);
 
         // Function @ cimgui.h:3333:17
         [DllImport(LibraryName)]
-        public static extern void igFindBestWindowPosForPopupEx(Vector2* pOut, Vector2 ref_pos, Vector2 size, ImGuiDir* last_dir, ImRect r_outer, ImRect r_avoid, ImGuiPopupPositionPolicy policy);
+        public static extern void igSetFocusID(ImGuiID id, ImGuiWindow* window);
 
         // Function @ cimgui.h:3334:17
         [DllImport(LibraryName)]
-        public static extern CBool igBeginViewportSideBar(CString name, ImGuiViewport* viewport, ImGuiDir dir, float size, ImGuiWindowFlags window_flags);
+        public static extern void igClearActiveID();
 
-        // Function @ cimgui.h:3335:17
+        // Function @ cimgui.h:3335:20
         [DllImport(LibraryName)]
-        public static extern CBool igBeginMenuEx(CString label, CString icon, CBool enabled);
+        public static extern ImGuiID igGetHoveredID();
 
         // Function @ cimgui.h:3336:17
         [DllImport(LibraryName)]
-        public static extern CBool igMenuItemEx(CString label, CString icon, CString shortcut, CBool selected, CBool enabled);
+        public static extern void igSetHoveredID(ImGuiID id);
 
         // Function @ cimgui.h:3337:17
         [DllImport(LibraryName)]
-        public static extern CBool igBeginComboPopup(ImGuiID popup_id, ImRect bb, ImGuiComboFlags flags);
+        public static extern void igKeepAliveID(ImGuiID id);
 
         // Function @ cimgui.h:3338:17
         [DllImport(LibraryName)]
-        public static extern CBool igBeginComboPreview();
+        public static extern void igMarkItemEdited(ImGuiID id);
 
         // Function @ cimgui.h:3339:17
         [DllImport(LibraryName)]
-        public static extern void igEndComboPreview();
+        public static extern void igPushOverrideID(ImGuiID id);
 
-        // Function @ cimgui.h:3340:17
+        // Function @ cimgui.h:3340:20
         [DllImport(LibraryName)]
-        public static extern void igNavInitWindow(ImGuiWindow* window, CBool force_reinit);
+        public static extern ImGuiID igGetIDWithSeed(CString str_id_begin, CString str_id_end, ImGuiID seed);
 
         // Function @ cimgui.h:3341:17
         [DllImport(LibraryName)]
-        public static extern void igNavInitRequestApplyResult();
+        public static extern void igItemSize_Vec2(Vector2 size, float text_baseline_y);
 
         // Function @ cimgui.h:3342:17
         [DllImport(LibraryName)]
-        public static extern CBool igNavMoveRequestButNoResultYet();
+        public static extern void igItemSize_Rect(ImRect bb, float text_baseline_y);
 
         // Function @ cimgui.h:3343:17
         [DllImport(LibraryName)]
-        public static extern void igNavMoveRequestSubmit(ImGuiDir move_dir, ImGuiDir clip_dir, ImGuiNavMoveFlags move_flags, ImGuiScrollFlags scroll_flags);
+        public static extern CBool igItemAdd(ImRect bb, ImGuiID id, ImRect* nav_bb, ImGuiItemFlags extra_flags);
 
         // Function @ cimgui.h:3344:17
         [DllImport(LibraryName)]
-        public static extern void igNavMoveRequestForward(ImGuiDir move_dir, ImGuiDir clip_dir, ImGuiNavMoveFlags move_flags, ImGuiScrollFlags scroll_flags);
+        public static extern CBool igItemHoverable(ImRect bb, ImGuiID id);
 
         // Function @ cimgui.h:3345:17
         [DllImport(LibraryName)]
-        public static extern void igNavMoveRequestResolveWithLastItem();
+        public static extern CBool igIsClippedEx(ImRect bb, ImGuiID id);
 
         // Function @ cimgui.h:3346:17
         [DllImport(LibraryName)]
-        public static extern void igNavMoveRequestCancel();
+        public static extern void igSetLastItemData(ImGuiID item_id, ImGuiItemFlags in_flags, ImGuiItemStatusFlags status_flags, ImRect item_rect);
 
         // Function @ cimgui.h:3347:17
         [DllImport(LibraryName)]
-        public static extern void igNavMoveRequestApplyResult();
+        public static extern void igCalcItemSize(Vector2* pOut, Vector2 size, float default_w, float default_h);
 
-        // Function @ cimgui.h:3348:17
+        // Function @ cimgui.h:3348:18
         [DllImport(LibraryName)]
-        public static extern void igNavMoveRequestTryWrapping(ImGuiWindow* window, ImGuiNavMoveFlags move_flags);
+        public static extern float igCalcWrapWidthForPos(Vector2 pos, float wrap_pos_x);
 
-        // Function @ cimgui.h:3349:18
+        // Function @ cimgui.h:3349:17
         [DllImport(LibraryName)]
-        public static extern float igGetNavInputAmount(ImGuiNavInput n, ImGuiInputReadMode mode);
+        public static extern void igPushMultiItemsWidths(int components, float width_full);
 
         // Function @ cimgui.h:3350:17
         [DllImport(LibraryName)]
-        public static extern void igGetNavInputAmount2d(Vector2* pOut, ImGuiNavDirSourceFlags dir_sources, ImGuiInputReadMode mode, float slow_factor, float fast_factor);
+        public static extern CBool igIsItemToggledSelection();
 
-        // Function @ cimgui.h:3351:16
+        // Function @ cimgui.h:3351:17
         [DllImport(LibraryName)]
-        public static extern int igCalcTypematicRepeatAmount(float t0, float t1, float repeat_delay, float repeat_rate);
+        public static extern void igGetContentRegionMaxAbs(Vector2* pOut);
 
         // Function @ cimgui.h:3352:17
         [DllImport(LibraryName)]
-        public static extern void igActivateItem(ImGuiID id);
+        public static extern void igShrinkWidths(ImGuiShrinkWidthItem* items, int count, float width_excess);
 
         // Function @ cimgui.h:3353:17
         [DllImport(LibraryName)]
-        public static extern void igSetNavID(ImGuiID id, ImGuiNavLayer nav_layer, ImGuiID focus_scope_id, ImRect rect_rel);
+        public static extern void igPushItemFlag(ImGuiItemFlags option, CBool enabled);
 
         // Function @ cimgui.h:3354:17
         [DllImport(LibraryName)]
-        public static extern void igPushFocusScope(ImGuiID id);
+        public static extern void igPopItemFlag();
 
         // Function @ cimgui.h:3355:17
         [DllImport(LibraryName)]
-        public static extern void igPopFocusScope();
+        public static extern void igLogBegin(ImGuiLogType type, int auto_open_depth);
 
-        // Function @ cimgui.h:3356:20
+        // Function @ cimgui.h:3356:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetFocusedFocusScope();
+        public static extern void igLogToBuffer(int auto_open_depth);
 
-        // Function @ cimgui.h:3357:20
+        // Function @ cimgui.h:3357:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetFocusScope();
+        public static extern void igLogRenderedText(Vector2* ref_pos, CString text, CString text_end);
 
         // Function @ cimgui.h:3358:17
         [DllImport(LibraryName)]
-        public static extern void igSetItemUsingMouseWheel();
+        public static extern void igLogSetNextTextDecoration(CString prefix, CString suffix);
 
         // Function @ cimgui.h:3359:17
         [DllImport(LibraryName)]
-        public static extern void igSetActiveIdUsingNavAndKeys();
+        public static extern CBool igBeginChildEx(CString name, ImGuiID id, Vector2 size_arg, CBool border, ImGuiWindowFlags flags);
 
         // Function @ cimgui.h:3360:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsActiveIdUsingNavDir(ImGuiDir dir);
+        public static extern void igOpenPopupEx(ImGuiID id, ImGuiPopupFlags popup_flags);
 
         // Function @ cimgui.h:3361:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsActiveIdUsingNavInput(ImGuiNavInput input);
+        public static extern void igClosePopupToLevel(int remaining, CBool restore_focus_to_window_under_popup);
 
         // Function @ cimgui.h:3362:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsActiveIdUsingKey(ImGuiKey key);
+        public static extern void igClosePopupsOverWindow(ImGuiWindow* ref_window, CBool restore_focus_to_window_under_popup);
 
         // Function @ cimgui.h:3363:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsMouseDragPastThreshold(ImGuiMouseButton button, float lock_threshold);
+        public static extern void igClosePopupsExceptModals();
 
         // Function @ cimgui.h:3364:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsKeyPressedMap(ImGuiKey key, CBool repeat);
+        public static extern CBool igIsPopupOpen_ID(ImGuiID id, ImGuiPopupFlags popup_flags);
 
         // Function @ cimgui.h:3365:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsNavInputDown(ImGuiNavInput n);
+        public static extern CBool igBeginPopupEx(ImGuiID id, ImGuiWindowFlags extra_flags);
 
         // Function @ cimgui.h:3366:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsNavInputTest(ImGuiNavInput n, ImGuiInputReadMode rm);
+        public static extern void igBeginTooltipEx(ImGuiTooltipFlags tooltip_flags, ImGuiWindowFlags extra_window_flags);
 
-        // Function @ cimgui.h:3367:29
+        // Function @ cimgui.h:3367:17
         [DllImport(LibraryName)]
-        public static extern ImGuiKeyModFlags igGetMergedKeyModFlags();
+        public static extern void igGetPopupAllowedExtentRect(ImRect* pOut, ImGuiWindow* window);
 
-        // Function @ cimgui.h:3368:17
+        // Function @ cimgui.h:3368:25
         [DllImport(LibraryName)]
-        public static extern CBool igBeginDragDropTargetCustom(ImRect bb, ImGuiID id);
+        public static extern ImGuiWindow* igGetTopMostPopupModal();
 
-        // Function @ cimgui.h:3369:17
+        // Function @ cimgui.h:3369:25
         [DllImport(LibraryName)]
-        public static extern void igClearDragDrop();
+        public static extern ImGuiWindow* igGetTopMostAndVisiblePopupModal();
 
         // Function @ cimgui.h:3370:17
         [DllImport(LibraryName)]
-        public static extern CBool igIsDragDropPayloadBeingAccepted();
+        public static extern void igFindBestWindowPosForPopup(Vector2* pOut, ImGuiWindow* window);
 
         // Function @ cimgui.h:3371:17
         [DllImport(LibraryName)]
-        public static extern void igSetWindowClipRectBeforeSetChannel(ImGuiWindow* window, ImRect clip_rect);
+        public static extern void igFindBestWindowPosForPopupEx(Vector2* pOut, Vector2 ref_pos, Vector2 size, ImGuiDir* last_dir, ImRect r_outer, ImRect r_avoid, ImGuiPopupPositionPolicy policy);
 
         // Function @ cimgui.h:3372:17
         [DllImport(LibraryName)]
-        public static extern void igBeginColumns(CString str_id, int count, ImGuiOldColumnFlags flags);
+        public static extern CBool igBeginViewportSideBar(CString name, ImGuiViewport* viewport, ImGuiDir dir, float size, ImGuiWindowFlags window_flags);
 
         // Function @ cimgui.h:3373:17
         [DllImport(LibraryName)]
-        public static extern void igEndColumns();
+        public static extern CBool igBeginMenuEx(CString label, CString icon, CBool enabled);
 
         // Function @ cimgui.h:3374:17
         [DllImport(LibraryName)]
-        public static extern void igPushColumnClipRect(int column_index);
+        public static extern CBool igMenuItemEx(CString label, CString icon, CString shortcut, CBool selected, CBool enabled);
 
         // Function @ cimgui.h:3375:17
         [DllImport(LibraryName)]
-        public static extern void igPushColumnsBackground();
+        public static extern CBool igBeginComboPopup(ImGuiID popup_id, ImRect bb, ImGuiComboFlags flags);
 
         // Function @ cimgui.h:3376:17
         [DllImport(LibraryName)]
-        public static extern void igPopColumnsBackground();
+        public static extern CBool igBeginComboPreview();
 
-        // Function @ cimgui.h:3377:20
+        // Function @ cimgui.h:3377:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetColumnsID(CString str_id, int count);
+        public static extern void igEndComboPreview();
 
-        // Function @ cimgui.h:3378:29
+        // Function @ cimgui.h:3378:17
         [DllImport(LibraryName)]
-        public static extern ImGuiOldColumns* igFindOrCreateColumns(ImGuiWindow* window, ImGuiID id);
+        public static extern void igNavInitWindow(ImGuiWindow* window, CBool force_reinit);
 
-        // Function @ cimgui.h:3379:18
+        // Function @ cimgui.h:3379:17
         [DllImport(LibraryName)]
-        public static extern float igGetColumnOffsetFromNorm(ImGuiOldColumns* columns, float offset_norm);
+        public static extern void igNavInitRequestApplyResult();
 
-        // Function @ cimgui.h:3380:18
+        // Function @ cimgui.h:3380:17
         [DllImport(LibraryName)]
-        public static extern float igGetColumnNormFromOffset(ImGuiOldColumns* columns, float offset);
+        public static extern CBool igNavMoveRequestButNoResultYet();
 
         // Function @ cimgui.h:3381:17
         [DllImport(LibraryName)]
-        public static extern void igTableOpenContextMenu(int column_n);
+        public static extern void igNavMoveRequestSubmit(ImGuiDir move_dir, ImGuiDir clip_dir, ImGuiNavMoveFlags move_flags, ImGuiScrollFlags scroll_flags);
 
         // Function @ cimgui.h:3382:17
         [DllImport(LibraryName)]
-        public static extern void igTableSetColumnWidth(int column_n, float width);
+        public static extern void igNavMoveRequestForward(ImGuiDir move_dir, ImGuiDir clip_dir, ImGuiNavMoveFlags move_flags, ImGuiScrollFlags scroll_flags);
 
         // Function @ cimgui.h:3383:17
         [DllImport(LibraryName)]
-        public static extern void igTableSetColumnSortDirection(int column_n, ImGuiSortDirection sort_direction, CBool append_to_sort_specs);
+        public static extern void igNavMoveRequestResolveWithLastItem(ImGuiNavItemData* result);
 
-        // Function @ cimgui.h:3384:16
+        // Function @ cimgui.h:3384:17
         [DllImport(LibraryName)]
-        public static extern int igTableGetHoveredColumn();
+        public static extern void igNavMoveRequestCancel();
 
-        // Function @ cimgui.h:3385:18
+        // Function @ cimgui.h:3385:17
         [DllImport(LibraryName)]
-        public static extern float igTableGetHeaderRowHeight();
+        public static extern void igNavMoveRequestApplyResult();
 
         // Function @ cimgui.h:3386:17
         [DllImport(LibraryName)]
-        public static extern void igTablePushBackgroundChannel();
+        public static extern void igNavMoveRequestTryWrapping(ImGuiWindow* window, ImGuiNavMoveFlags move_flags);
 
-        // Function @ cimgui.h:3387:17
+        // Function @ cimgui.h:3387:18
         [DllImport(LibraryName)]
-        public static extern void igTablePopBackgroundChannel();
+        public static extern float igGetNavInputAmount(ImGuiNavInput n, ImGuiInputReadMode mode);
 
-        // Function @ cimgui.h:3388:24
+        // Function @ cimgui.h:3388:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTable* igGetCurrentTable();
+        public static extern void igGetNavInputAmount2d(Vector2* pOut, ImGuiNavDirSourceFlags dir_sources, ImGuiInputReadMode mode, float slow_factor, float fast_factor);
 
-        // Function @ cimgui.h:3389:24
+        // Function @ cimgui.h:3389:16
         [DllImport(LibraryName)]
-        public static extern ImGuiTable* igTableFindByID(ImGuiID id);
+        public static extern int igCalcTypematicRepeatAmount(float t0, float t1, float repeat_delay, float repeat_rate);
 
         // Function @ cimgui.h:3390:17
         [DllImport(LibraryName)]
-        public static extern CBool igBeginTableEx(CString name, ImGuiID id, int columns_count, ImGuiTableFlags flags, Vector2 outer_size, float inner_width);
+        public static extern void igActivateItem(ImGuiID id);
 
         // Function @ cimgui.h:3391:17
         [DllImport(LibraryName)]
-        public static extern void igTableBeginInitMemory(ImGuiTable* table, int columns_count);
+        public static extern void igSetNavID(ImGuiID id, ImGuiNavLayer nav_layer, ImGuiID focus_scope_id, ImRect rect_rel);
 
         // Function @ cimgui.h:3392:17
         [DllImport(LibraryName)]
-        public static extern void igTableBeginApplyRequests(ImGuiTable* table);
+        public static extern void igPushFocusScope(ImGuiID id);
 
         // Function @ cimgui.h:3393:17
         [DllImport(LibraryName)]
-        public static extern void igTableSetupDrawChannels(ImGuiTable* table);
+        public static extern void igPopFocusScope();
 
-        // Function @ cimgui.h:3394:17
+        // Function @ cimgui.h:3394:20
         [DllImport(LibraryName)]
-        public static extern void igTableUpdateLayout(ImGuiTable* table);
+        public static extern ImGuiID igGetFocusedFocusScope();
 
-        // Function @ cimgui.h:3395:17
+        // Function @ cimgui.h:3395:20
         [DllImport(LibraryName)]
-        public static extern void igTableUpdateBorders(ImGuiTable* table);
+        public static extern ImGuiID igGetFocusScope();
 
         // Function @ cimgui.h:3396:17
         [DllImport(LibraryName)]
-        public static extern void igTableUpdateColumnsWeightFromWidth(ImGuiTable* table);
+        public static extern void igSetItemUsingMouseWheel();
 
         // Function @ cimgui.h:3397:17
         [DllImport(LibraryName)]
-        public static extern void igTableDrawBorders(ImGuiTable* table);
+        public static extern void igSetActiveIdUsingNavAndKeys();
 
         // Function @ cimgui.h:3398:17
         [DllImport(LibraryName)]
-        public static extern void igTableDrawContextMenu(ImGuiTable* table);
+        public static extern CBool igIsActiveIdUsingNavDir(ImGuiDir dir);
 
         // Function @ cimgui.h:3399:17
         [DllImport(LibraryName)]
-        public static extern void igTableMergeDrawChannels(ImGuiTable* table);
+        public static extern CBool igIsActiveIdUsingNavInput(ImGuiNavInput input);
 
         // Function @ cimgui.h:3400:17
         [DllImport(LibraryName)]
-        public static extern void igTableSortSpecsSanitize(ImGuiTable* table);
+        public static extern CBool igIsActiveIdUsingKey(ImGuiKey key);
 
         // Function @ cimgui.h:3401:17
         [DllImport(LibraryName)]
-        public static extern void igTableSortSpecsBuild(ImGuiTable* table);
+        public static extern CBool igIsMouseDragPastThreshold(ImGuiMouseButton button, float lock_threshold);
 
-        // Function @ cimgui.h:3402:31
+        // Function @ cimgui.h:3402:17
         [DllImport(LibraryName)]
-        public static extern ImGuiSortDirection igTableGetColumnNextSortDirection(ImGuiTableColumn* column);
+        public static extern CBool igIsKeyPressedMap(ImGuiKey key, CBool repeat);
 
         // Function @ cimgui.h:3403:17
         [DllImport(LibraryName)]
-        public static extern void igTableFixColumnSortDirection(ImGuiTable* table, ImGuiTableColumn* column);
+        public static extern CBool igIsNavInputDown(ImGuiNavInput n);
 
-        // Function @ cimgui.h:3404:18
+        // Function @ cimgui.h:3404:17
         [DllImport(LibraryName)]
-        public static extern float igTableGetColumnWidthAuto(ImGuiTable* table, ImGuiTableColumn* column);
+        public static extern CBool igIsNavInputTest(ImGuiNavInput n, ImGuiInputReadMode rm);
 
-        // Function @ cimgui.h:3405:17
+        // Function @ cimgui.h:3405:29
         [DllImport(LibraryName)]
-        public static extern void igTableBeginRow(ImGuiTable* table);
+        public static extern ImGuiKeyModFlags igGetMergedKeyModFlags();
 
         // Function @ cimgui.h:3406:17
         [DllImport(LibraryName)]
-        public static extern void igTableEndRow(ImGuiTable* table);
+        public static extern CBool igBeginDragDropTargetCustom(ImRect bb, ImGuiID id);
 
         // Function @ cimgui.h:3407:17
         [DllImport(LibraryName)]
-        public static extern void igTableBeginCell(ImGuiTable* table, int column_n);
+        public static extern void igClearDragDrop();
 
         // Function @ cimgui.h:3408:17
         [DllImport(LibraryName)]
-        public static extern void igTableEndCell(ImGuiTable* table);
+        public static extern CBool igIsDragDropPayloadBeingAccepted();
 
         // Function @ cimgui.h:3409:17
         [DllImport(LibraryName)]
-        public static extern void igTableGetCellBgRect(ImRect* pOut, ImGuiTable* table, int column_n);
+        public static extern void igSetWindowClipRectBeforeSetChannel(ImGuiWindow* window, ImRect clip_rect);
 
-        // Function @ cimgui.h:3410:24
+        // Function @ cimgui.h:3410:17
         [DllImport(LibraryName)]
-        public static extern CString igTableGetColumnName_TablePtr(ImGuiTable* table, int column_n);
+        public static extern void igBeginColumns(CString str_id, int count, ImGuiOldColumnFlags flags);
 
-        // Function @ cimgui.h:3411:20
+        // Function @ cimgui.h:3411:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igTableGetColumnResizeID(ImGuiTable* table, int column_n, int instance_no);
+        public static extern void igEndColumns();
 
-        // Function @ cimgui.h:3412:18
+        // Function @ cimgui.h:3412:17
         [DllImport(LibraryName)]
-        public static extern float igTableGetMaxColumnWidth(ImGuiTable* table, int column_n);
+        public static extern void igPushColumnClipRect(int column_index);
 
         // Function @ cimgui.h:3413:17
         [DllImport(LibraryName)]
-        public static extern void igTableSetColumnWidthAutoSingle(ImGuiTable* table, int column_n);
+        public static extern void igPushColumnsBackground();
 
         // Function @ cimgui.h:3414:17
         [DllImport(LibraryName)]
-        public static extern void igTableSetColumnWidthAutoAll(ImGuiTable* table);
+        public static extern void igPopColumnsBackground();
 
-        // Function @ cimgui.h:3415:17
+        // Function @ cimgui.h:3415:20
         [DllImport(LibraryName)]
-        public static extern void igTableRemove(ImGuiTable* table);
+        public static extern ImGuiID igGetColumnsID(CString str_id, int count);
 
-        // Function @ cimgui.h:3416:17
+        // Function @ cimgui.h:3416:29
         [DllImport(LibraryName)]
-        public static extern void igTableGcCompactTransientBuffers_TablePtr(ImGuiTable* table);
+        public static extern ImGuiOldColumns* igFindOrCreateColumns(ImGuiWindow* window, ImGuiID id);
 
-        // Function @ cimgui.h:3417:17
+        // Function @ cimgui.h:3417:18
         [DllImport(LibraryName)]
-        public static extern void igTableGcCompactTransientBuffers_TableTempDataPtr(ImGuiTableTempData* table);
+        public static extern float igGetColumnOffsetFromNorm(ImGuiOldColumns* columns, float offset_norm);
 
-        // Function @ cimgui.h:3418:17
+        // Function @ cimgui.h:3418:18
         [DllImport(LibraryName)]
-        public static extern void igTableGcCompactSettings();
+        public static extern float igGetColumnNormFromOffset(ImGuiOldColumns* columns, float offset);
 
         // Function @ cimgui.h:3419:17
         [DllImport(LibraryName)]
-        public static extern void igTableLoadSettings(ImGuiTable* table);
+        public static extern void igTableOpenContextMenu(int column_n);
 
         // Function @ cimgui.h:3420:17
         [DllImport(LibraryName)]
-        public static extern void igTableSaveSettings(ImGuiTable* table);
+        public static extern void igTableSetColumnWidth(int column_n, float width);
 
         // Function @ cimgui.h:3421:17
         [DllImport(LibraryName)]
-        public static extern void igTableResetSettings(ImGuiTable* table);
+        public static extern void igTableSetColumnSortDirection(int column_n, ImGuiSortDirection sort_direction, CBool append_to_sort_specs);
 
-        // Function @ cimgui.h:3422:32
+        // Function @ cimgui.h:3422:16
         [DllImport(LibraryName)]
-        public static extern ImGuiTableSettings* igTableGetBoundSettings(ImGuiTable* table);
+        public static extern int igTableGetHoveredColumn();
 
-        // Function @ cimgui.h:3423:17
+        // Function @ cimgui.h:3423:18
         [DllImport(LibraryName)]
-        public static extern void igTableSettingsInstallHandler(ImGuiContext* context);
+        public static extern float igTableGetHeaderRowHeight();
 
-        // Function @ cimgui.h:3424:32
+        // Function @ cimgui.h:3424:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTableSettings* igTableSettingsCreate(ImGuiID id, int columns_count);
+        public static extern void igTablePushBackgroundChannel();
 
-        // Function @ cimgui.h:3425:32
+        // Function @ cimgui.h:3425:17
         [DllImport(LibraryName)]
-        public static extern ImGuiTableSettings* igTableSettingsFindByID(ImGuiID id);
+        public static extern void igTablePopBackgroundChannel();
 
-        // Function @ cimgui.h:3426:17
+        // Function @ cimgui.h:3426:24
         [DllImport(LibraryName)]
-        public static extern CBool igBeginTabBarEx(ImGuiTabBar* tab_bar, ImRect bb, ImGuiTabBarFlags flags);
+        public static extern ImGuiTable* igGetCurrentTable();
 
-        // Function @ cimgui.h:3427:26
+        // Function @ cimgui.h:3427:24
         [DllImport(LibraryName)]
-        public static extern ImGuiTabItem* igTabBarFindTabByID(ImGuiTabBar* tab_bar, ImGuiID tab_id);
+        public static extern ImGuiTable* igTableFindByID(ImGuiID id);
 
         // Function @ cimgui.h:3428:17
         [DllImport(LibraryName)]
-        public static extern void igTabBarRemoveTab(ImGuiTabBar* tab_bar, ImGuiID tab_id);
+        public static extern CBool igBeginTableEx(CString name, ImGuiID id, int columns_count, ImGuiTableFlags flags, Vector2 outer_size, float inner_width);
 
         // Function @ cimgui.h:3429:17
         [DllImport(LibraryName)]
-        public static extern void igTabBarCloseTab(ImGuiTabBar* tab_bar, ImGuiTabItem* tab);
+        public static extern void igTableBeginInitMemory(ImGuiTable* table, int columns_count);
 
         // Function @ cimgui.h:3430:17
         [DllImport(LibraryName)]
-        public static extern void igTabBarQueueReorder(ImGuiTabBar* tab_bar, ImGuiTabItem* tab, int offset);
+        public static extern void igTableBeginApplyRequests(ImGuiTable* table);
 
         // Function @ cimgui.h:3431:17
         [DllImport(LibraryName)]
-        public static extern void igTabBarQueueReorderFromMousePos(ImGuiTabBar* tab_bar, ImGuiTabItem* tab, Vector2 mouse_pos);
+        public static extern void igTableSetupDrawChannels(ImGuiTable* table);
 
         // Function @ cimgui.h:3432:17
         [DllImport(LibraryName)]
-        public static extern CBool igTabBarProcessReorder(ImGuiTabBar* tab_bar);
+        public static extern void igTableUpdateLayout(ImGuiTable* table);
 
         // Function @ cimgui.h:3433:17
         [DllImport(LibraryName)]
-        public static extern CBool igTabItemEx(ImGuiTabBar* tab_bar, CString label, CBool* p_open, ImGuiTabItemFlags flags);
+        public static extern void igTableUpdateBorders(ImGuiTable* table);
 
         // Function @ cimgui.h:3434:17
         [DllImport(LibraryName)]
-        public static extern void igTabItemCalcSize(Vector2* pOut, CString label, CBool has_close_button);
+        public static extern void igTableUpdateColumnsWeightFromWidth(ImGuiTable* table);
 
         // Function @ cimgui.h:3435:17
         [DllImport(LibraryName)]
-        public static extern void igTabItemBackground(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, uint col);
+        public static extern void igTableDrawBorders(ImGuiTable* table);
 
         // Function @ cimgui.h:3436:17
         [DllImport(LibraryName)]
-        public static extern void igTabItemLabelAndCloseButton(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, Vector2 frame_padding, CString label, ImGuiID tab_id, ImGuiID close_button_id, CBool is_contents_visible, CBool* out_just_closed, CBool* out_text_clipped);
+        public static extern void igTableDrawContextMenu(ImGuiTable* table);
 
         // Function @ cimgui.h:3437:17
         [DllImport(LibraryName)]
-        public static extern void igRenderText(Vector2 pos, CString text, CString text_end, CBool hide_text_after_hash);
+        public static extern void igTableMergeDrawChannels(ImGuiTable* table);
 
         // Function @ cimgui.h:3438:17
         [DllImport(LibraryName)]
-        public static extern void igRenderTextWrapped(Vector2 pos, CString text, CString text_end, float wrap_width);
+        public static extern void igTableSortSpecsSanitize(ImGuiTable* table);
 
         // Function @ cimgui.h:3439:17
         [DllImport(LibraryName)]
-        public static extern void igRenderTextClipped(Vector2 pos_min, Vector2 pos_max, CString text, CString text_end, Vector2* text_size_if_known, Vector2 align, ImRect* clip_rect);
+        public static extern void igTableSortSpecsBuild(ImGuiTable* table);
 
-        // Function @ cimgui.h:3440:17
+        // Function @ cimgui.h:3440:31
         [DllImport(LibraryName)]
-        public static extern void igRenderTextClippedEx(ImDrawList* draw_list, Vector2 pos_min, Vector2 pos_max, CString text, CString text_end, Vector2* text_size_if_known, Vector2 align, ImRect* clip_rect);
+        public static extern ImGuiSortDirection igTableGetColumnNextSortDirection(ImGuiTableColumn* column);
 
         // Function @ cimgui.h:3441:17
         [DllImport(LibraryName)]
-        public static extern void igRenderTextEllipsis(ImDrawList* draw_list, Vector2 pos_min, Vector2 pos_max, float clip_max_x, float ellipsis_max_x, CString text, CString text_end, Vector2* text_size_if_known);
+        public static extern void igTableFixColumnSortDirection(ImGuiTable* table, ImGuiTableColumn* column);
 
-        // Function @ cimgui.h:3442:17
+        // Function @ cimgui.h:3442:18
         [DllImport(LibraryName)]
-        public static extern void igRenderFrame(Vector2 p_min, Vector2 p_max, uint fill_col, CBool border, float rounding);
+        public static extern float igTableGetColumnWidthAuto(ImGuiTable* table, ImGuiTableColumn* column);
 
         // Function @ cimgui.h:3443:17
         [DllImport(LibraryName)]
-        public static extern void igRenderFrameBorder(Vector2 p_min, Vector2 p_max, float rounding);
+        public static extern void igTableBeginRow(ImGuiTable* table);
 
         // Function @ cimgui.h:3444:17
         [DllImport(LibraryName)]
-        public static extern void igRenderColorRectWithAlphaCheckerboard(ImDrawList* draw_list, Vector2 p_min, Vector2 p_max, uint fill_col, float grid_step, Vector2 grid_off, float rounding, ImDrawFlags flags);
+        public static extern void igTableEndRow(ImGuiTable* table);
 
         // Function @ cimgui.h:3445:17
         [DllImport(LibraryName)]
-        public static extern void igRenderNavHighlight(ImRect bb, ImGuiID id, ImGuiNavHighlightFlags flags);
+        public static extern void igTableBeginCell(ImGuiTable* table, int column_n);
 
-        // Function @ cimgui.h:3446:24
+        // Function @ cimgui.h:3446:17
         [DllImport(LibraryName)]
-        public static extern CString igFindRenderedTextEnd(CString text, CString text_end);
+        public static extern void igTableEndCell(ImGuiTable* table);
 
         // Function @ cimgui.h:3447:17
         [DllImport(LibraryName)]
-        public static extern void igRenderArrow(ImDrawList* draw_list, Vector2 pos, uint col, ImGuiDir dir, float scale);
+        public static extern void igTableGetCellBgRect(ImRect* pOut, ImGuiTable* table, int column_n);
 
-        // Function @ cimgui.h:3448:17
+        // Function @ cimgui.h:3448:24
         [DllImport(LibraryName)]
-        public static extern void igRenderBullet(ImDrawList* draw_list, Vector2 pos, uint col);
+        public static extern CString igTableGetColumnName_TablePtr(ImGuiTable* table, int column_n);
 
-        // Function @ cimgui.h:3449:17
+        // Function @ cimgui.h:3449:20
         [DllImport(LibraryName)]
-        public static extern void igRenderCheckMark(ImDrawList* draw_list, Vector2 pos, uint col, float sz);
+        public static extern ImGuiID igTableGetColumnResizeID(ImGuiTable* table, int column_n, int instance_no);
 
-        // Function @ cimgui.h:3450:17
+        // Function @ cimgui.h:3450:18
         [DllImport(LibraryName)]
-        public static extern void igRenderMouseCursor(ImDrawList* draw_list, Vector2 pos, float scale, ImGuiMouseCursor mouse_cursor, uint col_fill, uint col_border, uint col_shadow);
+        public static extern float igTableGetMaxColumnWidth(ImGuiTable* table, int column_n);
 
         // Function @ cimgui.h:3451:17
         [DllImport(LibraryName)]
-        public static extern void igRenderArrowPointingAt(ImDrawList* draw_list, Vector2 pos, Vector2 half_sz, ImGuiDir direction, uint col);
+        public static extern void igTableSetColumnWidthAutoSingle(ImGuiTable* table, int column_n);
 
         // Function @ cimgui.h:3452:17
         [DllImport(LibraryName)]
-        public static extern void igRenderRectFilledRangeH(ImDrawList* draw_list, ImRect rect, uint col, float x_start_norm, float x_end_norm, float rounding);
+        public static extern void igTableSetColumnWidthAutoAll(ImGuiTable* table);
 
         // Function @ cimgui.h:3453:17
         [DllImport(LibraryName)]
-        public static extern void igRenderRectFilledWithHole(ImDrawList* draw_list, ImRect outer, ImRect inner, uint col, float rounding);
+        public static extern void igTableRemove(ImGuiTable* table);
 
         // Function @ cimgui.h:3454:17
         [DllImport(LibraryName)]
-        public static extern void igTextEx(CString text, CString text_end, ImGuiTextFlags flags);
+        public static extern void igTableGcCompactTransientBuffers_TablePtr(ImGuiTable* table);
 
         // Function @ cimgui.h:3455:17
         [DllImport(LibraryName)]
-        public static extern CBool igButtonEx(CString label, Vector2 size_arg, ImGuiButtonFlags flags);
+        public static extern void igTableGcCompactTransientBuffers_TableTempDataPtr(ImGuiTableTempData* table);
 
         // Function @ cimgui.h:3456:17
         [DllImport(LibraryName)]
-        public static extern CBool igCloseButton(ImGuiID id, Vector2 pos);
+        public static extern void igTableGcCompactSettings();
 
         // Function @ cimgui.h:3457:17
         [DllImport(LibraryName)]
-        public static extern CBool igCollapseButton(ImGuiID id, Vector2 pos);
+        public static extern void igTableLoadSettings(ImGuiTable* table);
 
         // Function @ cimgui.h:3458:17
         [DllImport(LibraryName)]
-        public static extern CBool igArrowButtonEx(CString str_id, ImGuiDir dir, Vector2 size_arg, ImGuiButtonFlags flags);
+        public static extern void igTableSaveSettings(ImGuiTable* table);
 
         // Function @ cimgui.h:3459:17
         [DllImport(LibraryName)]
-        public static extern void igScrollbar(ImGuiAxis axis);
+        public static extern void igTableResetSettings(ImGuiTable* table);
 
-        // Function @ cimgui.h:3460:17
+        // Function @ cimgui.h:3460:32
         [DllImport(LibraryName)]
-        public static extern CBool igScrollbarEx(ImRect bb, ImGuiID id, ImGuiAxis axis, float* p_scroll_v, float avail_v, float contents_v, ImDrawFlags flags);
+        public static extern ImGuiTableSettings* igTableGetBoundSettings(ImGuiTable* table);
 
         // Function @ cimgui.h:3461:17
         [DllImport(LibraryName)]
-        public static extern CBool igImageButtonEx(ImGuiID id, ImTextureID texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, Vector2 padding, Vector4 bg_col, Vector4 tint_col);
+        public static extern void igTableSettingsInstallHandler(ImGuiContext* context);
 
-        // Function @ cimgui.h:3462:17
+        // Function @ cimgui.h:3462:32
         [DllImport(LibraryName)]
-        public static extern void igGetWindowScrollbarRect(ImRect* pOut, ImGuiWindow* window, ImGuiAxis axis);
+        public static extern ImGuiTableSettings* igTableSettingsCreate(ImGuiID id, int columns_count);
 
-        // Function @ cimgui.h:3463:20
+        // Function @ cimgui.h:3463:32
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetWindowScrollbarID(ImGuiWindow* window, ImGuiAxis axis);
+        public static extern ImGuiTableSettings* igTableSettingsFindByID(ImGuiID id);
 
-        // Function @ cimgui.h:3464:20
+        // Function @ cimgui.h:3464:17
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetWindowResizeCornerID(ImGuiWindow* window, int n);
+        public static extern CBool igBeginTabBarEx(ImGuiTabBar* tab_bar, ImRect bb, ImGuiTabBarFlags flags);
 
-        // Function @ cimgui.h:3465:20
+        // Function @ cimgui.h:3465:26
         [DllImport(LibraryName)]
-        public static extern ImGuiID igGetWindowResizeBorderID(ImGuiWindow* window, ImGuiDir dir);
+        public static extern ImGuiTabItem* igTabBarFindTabByID(ImGuiTabBar* tab_bar, ImGuiID tab_id);
 
         // Function @ cimgui.h:3466:17
         [DllImport(LibraryName)]
-        public static extern void igSeparatorEx(ImGuiSeparatorFlags flags);
+        public static extern void igTabBarRemoveTab(ImGuiTabBar* tab_bar, ImGuiID tab_id);
 
         // Function @ cimgui.h:3467:17
         [DllImport(LibraryName)]
-        public static extern CBool igCheckboxFlags_S64Ptr(CString label, long* flags, long flags_value);
+        public static extern void igTabBarCloseTab(ImGuiTabBar* tab_bar, ImGuiTabItem* tab);
 
         // Function @ cimgui.h:3468:17
         [DllImport(LibraryName)]
-        public static extern CBool igCheckboxFlags_U64Ptr(CString label, ulong* flags, ulong flags_value);
+        public static extern void igTabBarQueueReorder(ImGuiTabBar* tab_bar, ImGuiTabItem* tab, int offset);
 
         // Function @ cimgui.h:3469:17
         [DllImport(LibraryName)]
-        public static extern CBool igButtonBehavior(ImRect bb, ImGuiID id, CBool* out_hovered, CBool* out_held, ImGuiButtonFlags flags);
+        public static extern void igTabBarQueueReorderFromMousePos(ImGuiTabBar* tab_bar, ImGuiTabItem* tab, Vector2 mouse_pos);
 
         // Function @ cimgui.h:3470:17
         [DllImport(LibraryName)]
-        public static extern CBool igDragBehavior(ImGuiID id, ImGuiDataType data_type, void* p_v, float v_speed, void* p_min, void* p_max, CString format, ImGuiSliderFlags flags);
+        public static extern CBool igTabBarProcessReorder(ImGuiTabBar* tab_bar);
 
         // Function @ cimgui.h:3471:17
         [DllImport(LibraryName)]
-        public static extern CBool igSliderBehavior(ImRect bb, ImGuiID id, ImGuiDataType data_type, void* p_v, void* p_min, void* p_max, CString format, ImGuiSliderFlags flags, ImRect* out_grab_bb);
+        public static extern CBool igTabItemEx(ImGuiTabBar* tab_bar, CString label, CBool* p_open, ImGuiTabItemFlags flags);
 
         // Function @ cimgui.h:3472:17
         [DllImport(LibraryName)]
-        public static extern CBool igSplitterBehavior(ImRect bb, ImGuiID id, ImGuiAxis axis, float* size1, float* size2, float min_size1, float min_size2, float hover_extend, float hover_visibility_delay);
+        public static extern void igTabItemCalcSize(Vector2* pOut, CString label, CBool has_close_button);
 
         // Function @ cimgui.h:3473:17
         [DllImport(LibraryName)]
-        public static extern CBool igTreeNodeBehavior(ImGuiID id, ImGuiTreeNodeFlags flags, CString label, CString label_end);
+        public static extern void igTabItemBackground(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, uint col);
 
         // Function @ cimgui.h:3474:17
         [DllImport(LibraryName)]
-        public static extern CBool igTreeNodeBehaviorIsOpen(ImGuiID id, ImGuiTreeNodeFlags flags);
+        public static extern void igTabItemLabelAndCloseButton(ImDrawList* draw_list, ImRect bb, ImGuiTabItemFlags flags, Vector2 frame_padding, CString label, ImGuiID tab_id, ImGuiID close_button_id, CBool is_contents_visible, CBool* out_just_closed, CBool* out_text_clipped);
 
         // Function @ cimgui.h:3475:17
         [DllImport(LibraryName)]
-        public static extern void igTreePushOverrideID(ImGuiID id);
+        public static extern void igRenderText(Vector2 pos, CString text, CString text_end, CBool hide_text_after_hash);
 
-        // Function @ cimgui.h:3476:37
+        // Function @ cimgui.h:3476:17
         [DllImport(LibraryName)]
-        public static extern ImGuiDataTypeInfo* igDataTypeGetInfo(ImGuiDataType data_type);
+        public static extern void igRenderTextWrapped(Vector2 pos, CString text, CString text_end, float wrap_width);
 
-        // Function @ cimgui.h:3477:16
+        // Function @ cimgui.h:3477:17
         [DllImport(LibraryName)]
-        public static extern int igDataTypeFormatString(CString buf, int buf_size, ImGuiDataType data_type, void* p_data, CString format);
+        public static extern void igRenderTextClipped(Vector2 pos_min, Vector2 pos_max, CString text, CString text_end, Vector2* text_size_if_known, Vector2 align, ImRect* clip_rect);
 
         // Function @ cimgui.h:3478:17
         [DllImport(LibraryName)]
-        public static extern void igDataTypeApplyOp(ImGuiDataType data_type, int op, void* output, void* arg_1, void* arg_2);
+        public static extern void igRenderTextClippedEx(ImDrawList* draw_list, Vector2 pos_min, Vector2 pos_max, CString text, CString text_end, Vector2* text_size_if_known, Vector2 align, ImRect* clip_rect);
 
         // Function @ cimgui.h:3479:17
         [DllImport(LibraryName)]
-        public static extern CBool igDataTypeApplyOpFromText(CString buf, CString initial_value_buf, ImGuiDataType data_type, void* p_data, CString format);
+        public static extern void igRenderTextEllipsis(ImDrawList* draw_list, Vector2 pos_min, Vector2 pos_max, float clip_max_x, float ellipsis_max_x, CString text, CString text_end, Vector2* text_size_if_known);
 
-        // Function @ cimgui.h:3480:16
+        // Function @ cimgui.h:3480:17
         [DllImport(LibraryName)]
-        public static extern int igDataTypeCompare(ImGuiDataType data_type, void* arg_1, void* arg_2);
+        public static extern void igRenderFrame(Vector2 p_min, Vector2 p_max, uint fill_col, CBool border, float rounding);
 
         // Function @ cimgui.h:3481:17
         [DllImport(LibraryName)]
-        public static extern CBool igDataTypeClamp(ImGuiDataType data_type, void* p_data, void* p_min, void* p_max);
+        public static extern void igRenderFrameBorder(Vector2 p_min, Vector2 p_max, float rounding);
 
         // Function @ cimgui.h:3482:17
         [DllImport(LibraryName)]
-        public static extern CBool igInputTextEx(CString label, CString hint, CString buf, int buf_size, Vector2 size_arg, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
+        public static extern void igRenderColorRectWithAlphaCheckerboard(ImDrawList* draw_list, Vector2 p_min, Vector2 p_max, uint fill_col, float grid_step, Vector2 grid_off, float rounding, ImDrawFlags flags);
 
         // Function @ cimgui.h:3483:17
         [DllImport(LibraryName)]
-        public static extern CBool igTempInputText(ImRect bb, ImGuiID id, CString label, CString buf, int buf_size, ImGuiInputTextFlags flags);
+        public static extern void igRenderNavHighlight(ImRect bb, ImGuiID id, ImGuiNavHighlightFlags flags);
 
-        // Function @ cimgui.h:3484:17
+        // Function @ cimgui.h:3484:24
         [DllImport(LibraryName)]
-        public static extern CBool igTempInputScalar(ImRect bb, ImGuiID id, CString label, ImGuiDataType data_type, void* p_data, CString format, void* p_clamp_min, void* p_clamp_max);
+        public static extern CString igFindRenderedTextEnd(CString text, CString text_end);
 
         // Function @ cimgui.h:3485:17
         [DllImport(LibraryName)]
-        public static extern CBool igTempInputIsActive(ImGuiID id);
+        public static extern void igRenderArrow(ImDrawList* draw_list, Vector2 pos, uint col, ImGuiDir dir, float scale);
 
-        // Function @ cimgui.h:3486:33
+        // Function @ cimgui.h:3486:17
         [DllImport(LibraryName)]
-        public static extern ImGuiInputTextState* igGetInputTextState(ImGuiID id);
+        public static extern void igRenderBullet(ImDrawList* draw_list, Vector2 pos, uint col);
 
         // Function @ cimgui.h:3487:17
         [DllImport(LibraryName)]
-        public static extern void igColorTooltip(CString text, float* col, ImGuiColorEditFlags flags);
+        public static extern void igRenderCheckMark(ImDrawList* draw_list, Vector2 pos, uint col, float sz);
 
         // Function @ cimgui.h:3488:17
         [DllImport(LibraryName)]
-        public static extern void igColorEditOptionsPopup(float* col, ImGuiColorEditFlags flags);
+        public static extern void igRenderMouseCursor(ImDrawList* draw_list, Vector2 pos, float scale, ImGuiMouseCursor mouse_cursor, uint col_fill, uint col_border, uint col_shadow);
 
         // Function @ cimgui.h:3489:17
         [DllImport(LibraryName)]
-        public static extern void igColorPickerOptionsPopup(float* ref_col, ImGuiColorEditFlags flags);
+        public static extern void igRenderArrowPointingAt(ImDrawList* draw_list, Vector2 pos, Vector2 half_sz, ImGuiDir direction, uint col);
 
-        // Function @ cimgui.h:3490:16
+        // Function @ cimgui.h:3490:17
         [DllImport(LibraryName)]
-        public static extern int igPlotEx(ImGuiPlotType plot_type, CString label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString overlay_text, float scale_min, float scale_max, Vector2 frame_size);
+        public static extern void igRenderRectFilledRangeH(ImDrawList* draw_list, ImRect rect, uint col, float x_start_norm, float x_end_norm, float rounding);
 
         // Function @ cimgui.h:3491:17
         [DllImport(LibraryName)]
-        public static extern void igShadeVertsLinearColorGradientKeepAlpha(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, Vector2 gradient_p0, Vector2 gradient_p1, uint col0, uint col1);
+        public static extern void igRenderRectFilledWithHole(ImDrawList* draw_list, ImRect outer, ImRect inner, uint col, float rounding);
 
         // Function @ cimgui.h:3492:17
         [DllImport(LibraryName)]
-        public static extern void igShadeVertsLinearUV(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, Vector2 a, Vector2 b, Vector2 uv_a, Vector2 uv_b, CBool clamp);
+        public static extern void igTextEx(CString text, CString text_end, ImGuiTextFlags flags);
 
         // Function @ cimgui.h:3493:17
         [DllImport(LibraryName)]
-        public static extern void igGcCompactTransientMiscBuffers();
+        public static extern CBool igButtonEx(CString label, Vector2 size_arg, ImGuiButtonFlags flags);
 
         // Function @ cimgui.h:3494:17
         [DllImport(LibraryName)]
-        public static extern void igGcCompactTransientWindowBuffers(ImGuiWindow* window);
+        public static extern CBool igCloseButton(ImGuiID id, Vector2 pos);
 
         // Function @ cimgui.h:3495:17
         [DllImport(LibraryName)]
-        public static extern void igGcAwakeTransientWindowBuffers(ImGuiWindow* window);
+        public static extern CBool igCollapseButton(ImGuiID id, Vector2 pos);
 
         // Function @ cimgui.h:3496:17
         [DllImport(LibraryName)]
-        public static extern void igErrorCheckEndFrameRecover(ImGuiErrorLogCallback log_callback, void* user_data);
+        public static extern CBool igArrowButtonEx(CString str_id, ImGuiDir dir, Vector2 size_arg, ImGuiButtonFlags flags);
 
         // Function @ cimgui.h:3497:17
         [DllImport(LibraryName)]
-        public static extern void igErrorCheckEndWindowRecover(ImGuiErrorLogCallback log_callback, void* user_data);
+        public static extern void igScrollbar(ImGuiAxis axis);
 
         // Function @ cimgui.h:3498:17
         [DllImport(LibraryName)]
-        public static extern void igDebugDrawItemRect(uint col);
+        public static extern CBool igScrollbarEx(ImRect bb, ImGuiID id, ImGuiAxis axis, long* p_scroll_v, long avail_v, long contents_v, ImDrawFlags flags);
 
         // Function @ cimgui.h:3499:17
         [DllImport(LibraryName)]
-        public static extern void igDebugStartItemPicker();
+        public static extern CBool igImageButtonEx(ImGuiID id, ImTextureID texture_id, Vector2 size, Vector2 uv0, Vector2 uv1, Vector2 padding, Vector4 bg_col, Vector4 tint_col);
 
         // Function @ cimgui.h:3500:17
         [DllImport(LibraryName)]
-        public static extern void igShowFontAtlas(ImFontAtlas* atlas);
+        public static extern void igGetWindowScrollbarRect(ImRect* pOut, ImGuiWindow* window, ImGuiAxis axis);
 
-        // Function @ cimgui.h:3501:17
+        // Function @ cimgui.h:3501:20
         [DllImport(LibraryName)]
-        public static extern void igDebugHookIdInfo(ImGuiID id, ImGuiDataType data_type, void* data_id, void* data_id_end);
+        public static extern ImGuiID igGetWindowScrollbarID(ImGuiWindow* window, ImGuiAxis axis);
 
-        // Function @ cimgui.h:3502:17
+        // Function @ cimgui.h:3502:20
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeColumns(ImGuiOldColumns* columns);
+        public static extern ImGuiID igGetWindowResizeCornerID(ImGuiWindow* window, int n);
 
-        // Function @ cimgui.h:3503:17
+        // Function @ cimgui.h:3503:20
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeDrawList(ImGuiWindow* window, ImDrawList* draw_list, CString label);
+        public static extern ImGuiID igGetWindowResizeBorderID(ImGuiWindow* window, ImGuiDir dir);
 
         // Function @ cimgui.h:3504:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeDrawCmdShowMeshAndBoundingBox(ImDrawList* out_draw_list, ImDrawList* draw_list, ImDrawCmd* draw_cmd, CBool show_mesh, CBool show_aabb);
+        public static extern void igSeparatorEx(ImGuiSeparatorFlags flags);
 
         // Function @ cimgui.h:3505:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeFont(ImFont* font);
+        public static extern CBool igCheckboxFlags_S64Ptr(CString label, long* flags, long flags_value);
 
         // Function @ cimgui.h:3506:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeStorage(ImGuiStorage* storage, CString label);
+        public static extern CBool igCheckboxFlags_U64Ptr(CString label, ulong* flags, ulong flags_value);
 
         // Function @ cimgui.h:3507:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeTabBar(ImGuiTabBar* tab_bar, CString label);
+        public static extern CBool igButtonBehavior(ImRect bb, ImGuiID id, CBool* out_hovered, CBool* out_held, ImGuiButtonFlags flags);
 
         // Function @ cimgui.h:3508:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeTable(ImGuiTable* table);
+        public static extern CBool igDragBehavior(ImGuiID id, ImGuiDataType data_type, void* p_v, float v_speed, void* p_min, void* p_max, CString format, ImGuiSliderFlags flags);
 
         // Function @ cimgui.h:3509:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeTableSettings(ImGuiTableSettings* settings);
+        public static extern CBool igSliderBehavior(ImRect bb, ImGuiID id, ImGuiDataType data_type, void* p_v, void* p_min, void* p_max, CString format, ImGuiSliderFlags flags, ImRect* out_grab_bb);
 
         // Function @ cimgui.h:3510:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeWindow(ImGuiWindow* window, CString label);
+        public static extern CBool igSplitterBehavior(ImRect bb, ImGuiID id, ImGuiAxis axis, float* size1, float* size2, float min_size1, float min_size2, float hover_extend, float hover_visibility_delay);
 
         // Function @ cimgui.h:3511:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeWindowSettings(ImGuiWindowSettings* settings);
+        public static extern CBool igTreeNodeBehavior(ImGuiID id, ImGuiTreeNodeFlags flags, CString label, CString label_end);
 
         // Function @ cimgui.h:3512:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeWindowsList(ImVector_ImGuiWindowPtr* windows, CString label);
+        public static extern CBool igTreeNodeBehaviorIsOpen(ImGuiID id, ImGuiTreeNodeFlags flags);
 
         // Function @ cimgui.h:3513:17
         [DllImport(LibraryName)]
-        public static extern void igDebugNodeViewport(ImGuiViewportP* viewport);
+        public static extern void igTreePushOverrideID(ImGuiID id);
 
-        // Function @ cimgui.h:3514:17
+        // Function @ cimgui.h:3514:37
         [DllImport(LibraryName)]
-        public static extern void igDebugRenderViewportThumbnail(ImDrawList* draw_list, ImGuiViewportP* viewport, ImRect bb);
+        public static extern ImGuiDataTypeInfo* igDataTypeGetInfo(ImGuiDataType data_type);
 
-        // Function @ cimgui.h:3515:35
+        // Function @ cimgui.h:3515:16
         [DllImport(LibraryName)]
-        public static extern ImFontBuilderIO* igImFontAtlasGetBuilderForStbTruetype();
+        public static extern int igDataTypeFormatString(CString buf, int buf_size, ImGuiDataType data_type, void* p_data, CString format);
 
         // Function @ cimgui.h:3516:17
         [DllImport(LibraryName)]
-        public static extern void igImFontAtlasBuildInit(ImFontAtlas* atlas);
+        public static extern void igDataTypeApplyOp(ImGuiDataType data_type, int op, void* output, void* arg_1, void* arg_2);
 
         // Function @ cimgui.h:3517:17
         [DllImport(LibraryName)]
-        public static extern void igImFontAtlasBuildSetupFont(ImFontAtlas* atlas, ImFont* font, ImFontConfig* font_config, float ascent, float descent);
+        public static extern CBool igDataTypeApplyOpFromText(CString buf, CString initial_value_buf, ImGuiDataType data_type, void* p_data, CString format);
 
-        // Function @ cimgui.h:3518:17
+        // Function @ cimgui.h:3518:16
         [DllImport(LibraryName)]
-        public static extern void igImFontAtlasBuildPackCustomRects(ImFontAtlas* atlas, void* stbrp_context_opaque);
+        public static extern int igDataTypeCompare(ImGuiDataType data_type, void* arg_1, void* arg_2);
 
         // Function @ cimgui.h:3519:17
         [DllImport(LibraryName)]
-        public static extern void igImFontAtlasBuildFinish(ImFontAtlas* atlas);
+        public static extern CBool igDataTypeClamp(ImGuiDataType data_type, void* p_data, void* p_min, void* p_max);
 
         // Function @ cimgui.h:3520:17
         [DllImport(LibraryName)]
-        public static extern void igImFontAtlasBuildRender8bppRectFromString(ImFontAtlas* atlas, int x, int y, int w, int h, CString in_str, CChar in_marker_char, byte in_marker_pixel_value);
+        public static extern CBool igInputTextEx(CString label, CString hint, CString buf, int buf_size, Vector2 size_arg, ImGuiInputTextFlags flags, ImGuiInputTextCallback callback, void* user_data);
 
         // Function @ cimgui.h:3521:17
         [DllImport(LibraryName)]
-        public static extern void igImFontAtlasBuildRender32bppRectFromString(ImFontAtlas* atlas, int x, int y, int w, int h, CString in_str, CChar in_marker_char, uint in_marker_pixel_value);
+        public static extern CBool igTempInputText(ImRect bb, ImGuiID id, CString label, CString buf, int buf_size, ImGuiInputTextFlags flags);
 
         // Function @ cimgui.h:3522:17
         [DllImport(LibraryName)]
-        public static extern void igImFontAtlasBuildMultiplyCalcLookupTable(byte* out_table, float in_multiply_factor);
+        public static extern CBool igTempInputScalar(ImRect bb, ImGuiID id, CString label, ImGuiDataType data_type, void* p_data, CString format, void* p_clamp_min, void* p_clamp_max);
 
         // Function @ cimgui.h:3523:17
         [DllImport(LibraryName)]
-        public static extern void igImFontAtlasBuildMultiplyRectAlpha8(byte* table, ulong* pixels, int x, int y, int w, int h, int stride);
+        public static extern CBool igTempInputIsActive(ImGuiID id);
 
-        // Function @ cimgui.h:3528:17
+        // Function @ cimgui.h:3524:33
         [DllImport(LibraryName)]
-        public static extern void igLogText(CString fmt);
+        public static extern ImGuiInputTextState* igGetInputTextState(ImGuiID id);
+
+        // Function @ cimgui.h:3525:17
+        [DllImport(LibraryName)]
+        public static extern void igColorTooltip(CString text, float* col, ImGuiColorEditFlags flags);
+
+        // Function @ cimgui.h:3526:17
+        [DllImport(LibraryName)]
+        public static extern void igColorEditOptionsPopup(float* col, ImGuiColorEditFlags flags);
+
+        // Function @ cimgui.h:3527:17
+        [DllImport(LibraryName)]
+        public static extern void igColorPickerOptionsPopup(float* ref_col, ImGuiColorEditFlags flags);
+
+        // Function @ cimgui.h:3528:16
+        [DllImport(LibraryName)]
+        public static extern int igPlotEx(ImGuiPlotType plot_type, CString label, FnPtr_IMGUI_VoidPtr_Int_Float values_getter, void* data, int values_count, int values_offset, CString overlay_text, float scale_min, float scale_max, Vector2 frame_size);
+
+        // Function @ cimgui.h:3529:17
+        [DllImport(LibraryName)]
+        public static extern void igShadeVertsLinearColorGradientKeepAlpha(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, Vector2 gradient_p0, Vector2 gradient_p1, uint col0, uint col1);
 
         // Function @ cimgui.h:3530:17
         [DllImport(LibraryName)]
-        public static extern void ImGuiTextBuffer_appendf(ImGuiTextBuffer* buffer, CString fmt);
+        public static extern void igShadeVertsLinearUV(ImDrawList* draw_list, int vert_start_idx, int vert_end_idx, Vector2 a, Vector2 b, Vector2 uv_a, Vector2 uv_b, CBool clamp);
 
-        // Function @ cimgui.h:3532:18
+        // Function @ cimgui.h:3531:17
         [DllImport(LibraryName)]
-        public static extern float igGET_FLT_MAX();
+        public static extern void igGcCompactTransientMiscBuffers();
 
-        // Function @ cimgui.h:3534:18
+        // Function @ cimgui.h:3532:17
         [DllImport(LibraryName)]
-        public static extern float igGET_FLT_MIN();
+        public static extern void igGcCompactTransientWindowBuffers(ImGuiWindow* window);
 
-        // Function @ cimgui.h:3537:30
+        // Function @ cimgui.h:3533:17
         [DllImport(LibraryName)]
-        public static extern ImVector_ImWchar* ImVector_ImWchar_create();
+        public static extern void igGcAwakeTransientWindowBuffers(ImGuiWindow* window);
+
+        // Function @ cimgui.h:3534:17
+        [DllImport(LibraryName)]
+        public static extern void igErrorCheckEndFrameRecover(ImGuiErrorLogCallback log_callback, void* user_data);
+
+        // Function @ cimgui.h:3535:17
+        [DllImport(LibraryName)]
+        public static extern void igErrorCheckEndWindowRecover(ImGuiErrorLogCallback log_callback, void* user_data);
+
+        // Function @ cimgui.h:3536:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugDrawItemRect(uint col);
+
+        // Function @ cimgui.h:3537:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugStartItemPicker();
 
         // Function @ cimgui.h:3538:17
         [DllImport(LibraryName)]
-        public static extern void ImVector_ImWchar_destroy(ImVector_ImWchar* self);
+        public static extern void igShowFontAtlas(ImFontAtlas* atlas);
 
         // Function @ cimgui.h:3539:17
         [DllImport(LibraryName)]
-        public static extern void ImVector_ImWchar_Init(ImVector_ImWchar* p);
+        public static extern void igDebugHookIdInfo(ImGuiID id, ImGuiDataType data_type, void* data_id, void* data_id_end);
 
         // Function @ cimgui.h:3540:17
         [DllImport(LibraryName)]
+        public static extern void igDebugNodeColumns(ImGuiOldColumns* columns);
+
+        // Function @ cimgui.h:3541:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeDrawList(ImGuiWindow* window, ImDrawList* draw_list, CString label);
+
+        // Function @ cimgui.h:3542:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeDrawCmdShowMeshAndBoundingBox(ImDrawList* out_draw_list, ImDrawList* draw_list, ImDrawCmd* draw_cmd, CBool show_mesh, CBool show_aabb);
+
+        // Function @ cimgui.h:3543:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeFont(ImFont* font);
+
+        // Function @ cimgui.h:3544:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeStorage(ImGuiStorage* storage, CString label);
+
+        // Function @ cimgui.h:3545:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeTabBar(ImGuiTabBar* tab_bar, CString label);
+
+        // Function @ cimgui.h:3546:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeTable(ImGuiTable* table);
+
+        // Function @ cimgui.h:3547:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeTableSettings(ImGuiTableSettings* settings);
+
+        // Function @ cimgui.h:3548:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeWindow(ImGuiWindow* window, CString label);
+
+        // Function @ cimgui.h:3549:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeWindowSettings(ImGuiWindowSettings* settings);
+
+        // Function @ cimgui.h:3550:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeWindowsList(ImVector_ImGuiWindowPtr* windows, CString label);
+
+        // Function @ cimgui.h:3551:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeWindowsListByBeginStackParent(ImGuiWindow** windows, int windows_size, ImGuiWindow* parent_in_begin_stack);
+
+        // Function @ cimgui.h:3552:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugNodeViewport(ImGuiViewportP* viewport);
+
+        // Function @ cimgui.h:3553:17
+        [DllImport(LibraryName)]
+        public static extern void igDebugRenderViewportThumbnail(ImDrawList* draw_list, ImGuiViewportP* viewport, ImRect bb);
+
+        // Function @ cimgui.h:3554:35
+        [DllImport(LibraryName)]
+        public static extern ImFontBuilderIO* igImFontAtlasGetBuilderForStbTruetype();
+
+        // Function @ cimgui.h:3555:17
+        [DllImport(LibraryName)]
+        public static extern void igImFontAtlasBuildInit(ImFontAtlas* atlas);
+
+        // Function @ cimgui.h:3556:17
+        [DllImport(LibraryName)]
+        public static extern void igImFontAtlasBuildSetupFont(ImFontAtlas* atlas, ImFont* font, ImFontConfig* font_config, float ascent, float descent);
+
+        // Function @ cimgui.h:3557:17
+        [DllImport(LibraryName)]
+        public static extern void igImFontAtlasBuildPackCustomRects(ImFontAtlas* atlas, void* stbrp_context_opaque);
+
+        // Function @ cimgui.h:3558:17
+        [DllImport(LibraryName)]
+        public static extern void igImFontAtlasBuildFinish(ImFontAtlas* atlas);
+
+        // Function @ cimgui.h:3559:17
+        [DllImport(LibraryName)]
+        public static extern void igImFontAtlasBuildRender8bppRectFromString(ImFontAtlas* atlas, int x, int y, int w, int h, CString in_str, CChar in_marker_char, byte in_marker_pixel_value);
+
+        // Function @ cimgui.h:3560:17
+        [DllImport(LibraryName)]
+        public static extern void igImFontAtlasBuildRender32bppRectFromString(ImFontAtlas* atlas, int x, int y, int w, int h, CString in_str, CChar in_marker_char, uint in_marker_pixel_value);
+
+        // Function @ cimgui.h:3561:17
+        [DllImport(LibraryName)]
+        public static extern void igImFontAtlasBuildMultiplyCalcLookupTable(byte* out_table, float in_multiply_factor);
+
+        // Function @ cimgui.h:3562:17
+        [DllImport(LibraryName)]
+        public static extern void igImFontAtlasBuildMultiplyRectAlpha8(byte* table, ulong* pixels, int x, int y, int w, int h, int stride);
+
+        // Function @ cimgui.h:3567:17
+        [DllImport(LibraryName)]
+        public static extern void igLogText(CString fmt);
+
+        // Function @ cimgui.h:3569:17
+        [DllImport(LibraryName)]
+        public static extern void ImGuiTextBuffer_appendf(ImGuiTextBuffer* buffer, CString fmt);
+
+        // Function @ cimgui.h:3571:18
+        [DllImport(LibraryName)]
+        public static extern float igGET_FLT_MAX();
+
+        // Function @ cimgui.h:3573:18
+        [DllImport(LibraryName)]
+        public static extern float igGET_FLT_MIN();
+
+        // Function @ cimgui.h:3576:30
+        [DllImport(LibraryName)]
+        public static extern ImVector_ImWchar* ImVector_ImWchar_create();
+
+        // Function @ cimgui.h:3577:17
+        [DllImport(LibraryName)]
+        public static extern void ImVector_ImWchar_destroy(ImVector_ImWchar* self);
+
+        // Function @ cimgui.h:3578:17
+        [DllImport(LibraryName)]
+        public static extern void ImVector_ImWchar_Init(ImVector_ImWchar* p);
+
+        // Function @ cimgui.h:3579:17
+        [DllImport(LibraryName)]
         public static extern void ImVector_ImWchar_UnInit(ImVector_ImWchar* p);
 
-        // FunctionPointer @ cimgui.h:201:16
+        // FunctionPointer @ cimgui.h:203:16
         [StructLayout(LayoutKind.Sequential)]
         public struct ImGuiSizeCallback
         {
             public delegate* unmanaged<ImGuiSizeCallbackData*, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:2558:77
+        // FunctionPointer @ cimgui.h:2581:77
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_VoidPtr_Int_CStringPtr_CBool
         {
             public delegate* unmanaged<void*, int, CString*, CBool> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:200:15
+        // FunctionPointer @ cimgui.h:202:15
         [StructLayout(LayoutKind.Sequential)]
         public struct ImGuiInputTextCallback
         {
             public delegate* unmanaged<ImGuiInputTextCallbackData*, int> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:2629:65
+        // FunctionPointer @ cimgui.h:2652:65
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_VoidPtr_Int_Float
         {
             public delegate* unmanaged<void*, int, float> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:202:17
+        // FunctionPointer @ cimgui.h:204:17
         [StructLayout(LayoutKind.Sequential)]
         public struct ImGuiMemAllocFunc
         {
             public delegate* unmanaged<ulong, void*, void*> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:203:16
+        // FunctionPointer @ cimgui.h:205:16
         [StructLayout(LayoutKind.Sequential)]
         public struct ImGuiMemFreeFunc
         {
             public delegate* unmanaged<void*, void*, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:204:16
+        // FunctionPointer @ cimgui.h:206:16
         [StructLayout(LayoutKind.Sequential)]
         public struct ImDrawCallback
         {
             public delegate* unmanaged<ImDrawList*, ImDrawCmd*, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:251:16
+        // FunctionPointer @ cimgui.h:3033:79
+        [StructLayout(LayoutKind.Sequential)]
+        public struct FnPtr_IMGUI_VoidPtr_VoidPtr_Int
+        {
+            public delegate* unmanaged<void*, void*, int> Pointer;
+        }
+
+        // FunctionPointer @ cimgui.h:253:16
         [StructLayout(LayoutKind.Sequential)]
         public struct ImGuiErrorLogCallback
         {
             public delegate* unmanaged<void*, CString, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:887:19
+        // FunctionPointer @ cimgui.h:891:19
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_VoidPtr_CString
         {
             public delegate* unmanaged<void*, CString> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:888:12
+        // FunctionPointer @ cimgui.h:892:12
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_VoidPtr_CString_Void
         {
             public delegate* unmanaged<void*, CString, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:890:12
+        // FunctionPointer @ cimgui.h:894:12
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_Int_Int_Void
         {
             public delegate* unmanaged<int, int, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:1708:12
+        // FunctionPointer @ cimgui.h:1728:12
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_ImGuiContextPtr_ImGuiSettingsHandlerPtr_Void
         {
             public delegate* unmanaged<ImGuiContext*, ImGuiSettingsHandler*, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:1710:13
+        // FunctionPointer @ cimgui.h:1730:13
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_ImGuiContextPtr_ImGuiSettingsHandlerPtr_CString_VoidPtr
         {
             public delegate* unmanaged<ImGuiContext*, ImGuiSettingsHandler*, CString, void*> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:1711:12
+        // FunctionPointer @ cimgui.h:1731:12
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_ImGuiContextPtr_ImGuiSettingsHandlerPtr_VoidPtr_CString_Void
         {
             public delegate* unmanaged<ImGuiContext*, ImGuiSettingsHandler*, void*, CString, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:1713:12
+        // FunctionPointer @ cimgui.h:1733:12
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_ImGuiContextPtr_ImGuiSettingsHandlerPtr_ImGuiTextBufferPtr_Void
         {
             public delegate* unmanaged<ImGuiContext*, ImGuiSettingsHandler*, ImGuiTextBuffer*, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:255:16
+        // FunctionPointer @ cimgui.h:257:16
         [StructLayout(LayoutKind.Sequential)]
         public struct ImGuiContextHookCallback
         {
             public delegate* unmanaged<ImGuiContext*, ImGuiContextHook*, void> Pointer;
         }
 
-        // FunctionPointer @ cimgui.h:2339:12
+        // FunctionPointer @ cimgui.h:2360:12
         [StructLayout(LayoutKind.Sequential)]
         public struct FnPtr_IMGUI_ImFontAtlasPtr_CBool
         {
             public delegate* unmanaged<ImFontAtlas*, CBool> Pointer;
         }
 
-        // Struct @ cimgui.h:107:29
-        [StructLayout(LayoutKind.Explicit, Size = 16240, Pack = 8)]
+        // Struct @ cimgui.h:109:29
+        [StructLayout(LayoutKind.Explicit, Size = 16304, Pack = 8)]
         public struct ImGuiContext
         {
             [FieldOffset(0)] // size = 1, padding = 0
@@ -4682,442 +4753,433 @@ namespace bottlenoselabs
             [FieldOffset(1)] // size = 1, padding = 6
             public CBool FontAtlasOwnedByContext;
 
-            [FieldOffset(8)] // size = 5464, padding = 0
+            [FieldOffset(8)] // size = 5480, padding = 0
             public ImGuiIO IO;
 
-            [FieldOffset(5472)] // size = 1048, padding = 0
+            [FieldOffset(5488)] // size = 1048, padding = 0
             public ImGuiStyle Style;
 
-            [FieldOffset(6520)] // size = 8, padding = 0
+            [FieldOffset(6536)] // size = 8, padding = 0
             public ImFont* Font;
 
-            [FieldOffset(6528)] // size = 4, padding = 0
+            [FieldOffset(6544)] // size = 4, padding = 0
             public float FontSize;
 
-            [FieldOffset(6532)] // size = 4, padding = 0
+            [FieldOffset(6548)] // size = 4, padding = 0
             public float FontBaseSize;
 
-            [FieldOffset(6536)] // size = 512, padding = 0
+            [FieldOffset(6552)] // size = 512, padding = 0
             public ImDrawListSharedData DrawListSharedData;
 
-            [FieldOffset(7048)] // size = 8, padding = 0
+            [FieldOffset(7064)] // size = 8, padding = 0
             public double Time;
 
-            [FieldOffset(7056)] // size = 4, padding = 0
+            [FieldOffset(7072)] // size = 4, padding = 0
             public int FrameCount;
 
-            [FieldOffset(7060)] // size = 4, padding = 0
+            [FieldOffset(7076)] // size = 4, padding = 0
             public int FrameCountEnded;
 
-            [FieldOffset(7064)] // size = 4, padding = 0
+            [FieldOffset(7080)] // size = 4, padding = 0
             public int FrameCountRendered;
 
-            [FieldOffset(7068)] // size = 1, padding = 0
+            [FieldOffset(7084)] // size = 1, padding = 0
             public CBool WithinFrameScope;
 
-            [FieldOffset(7069)] // size = 1, padding = 0
+            [FieldOffset(7085)] // size = 1, padding = 0
             public CBool WithinFrameScopeWithImplicitWindow;
 
-            [FieldOffset(7070)] // size = 1, padding = 0
+            [FieldOffset(7086)] // size = 1, padding = 0
             public CBool WithinEndChild;
 
-            [FieldOffset(7071)] // size = 1, padding = 0
+            [FieldOffset(7087)] // size = 1, padding = 0
             public CBool GcCompactAll;
 
-            [FieldOffset(7072)] // size = 1, padding = 7
+            [FieldOffset(7088)] // size = 1, padding = 7
             public CBool TestEngineHookItems;
 
-            [FieldOffset(7080)] // size = 8, padding = 0
+            [FieldOffset(7096)] // size = 8, padding = 0
             public void* TestEngine;
 
-            [FieldOffset(7088)] // size = 16, padding = 0
+            [FieldOffset(7104)] // size = 16, padding = 0
             public ImVector_ImGuiWindowPtr Windows;
 
-            [FieldOffset(7104)] // size = 16, padding = 0
+            [FieldOffset(7120)] // size = 16, padding = 0
             public ImVector_ImGuiWindowPtr WindowsFocusOrder;
 
-            [FieldOffset(7120)] // size = 16, padding = 0
+            [FieldOffset(7136)] // size = 16, padding = 0
             public ImVector_ImGuiWindowPtr WindowsTempSortBuffer;
 
-            [FieldOffset(7136)] // size = 16, padding = 0
+            [FieldOffset(7152)] // size = 16, padding = 0
             public ImVector_ImGuiWindowStackData CurrentWindowStack;
 
-            [FieldOffset(7152)] // size = 16, padding = 0
+            [FieldOffset(7168)] // size = 16, padding = 0
             public ImGuiStorage WindowsById;
 
-            [FieldOffset(7168)] // size = 4, padding = 0
+            [FieldOffset(7184)] // size = 4, padding = 0
             public int WindowsActiveCount;
 
-            [FieldOffset(7172)] // size = 8, padding = 4
+            [FieldOffset(7188)] // size = 8, padding = 4
             public Vector2 WindowsHoverPadding;
 
-            [FieldOffset(7184)] // size = 8, padding = 0
+            [FieldOffset(7200)] // size = 8, padding = 0
             public ImGuiWindow* CurrentWindow;
 
-            [FieldOffset(7192)] // size = 8, padding = 0
+            [FieldOffset(7208)] // size = 8, padding = 0
             public ImGuiWindow* HoveredWindow;
 
-            [FieldOffset(7200)] // size = 8, padding = 0
+            [FieldOffset(7216)] // size = 8, padding = 0
             public ImGuiWindow* HoveredWindowUnderMovingWindow;
 
-            [FieldOffset(7208)] // size = 8, padding = 0
+            [FieldOffset(7224)] // size = 8, padding = 0
             public ImGuiWindow* MovingWindow;
 
-            [FieldOffset(7216)] // size = 8, padding = 0
+            [FieldOffset(7232)] // size = 8, padding = 0
             public ImGuiWindow* WheelingWindow;
 
-            [FieldOffset(7224)] // size = 8, padding = 0
+            [FieldOffset(7240)] // size = 8, padding = 0
             public Vector2 WheelingWindowRefMousePos;
 
-            [FieldOffset(7232)] // size = 4, padding = 0
+            [FieldOffset(7248)] // size = 4, padding = 0
             public float WheelingWindowTimer;
 
-            [FieldOffset(7236)] // size = 4, padding = 0
+            [FieldOffset(7252)] // size = 4, padding = 0
             public ImGuiID DebugHookIdInfo;
 
-            [FieldOffset(7240)] // size = 4, padding = 0
+            [FieldOffset(7256)] // size = 4, padding = 0
             public ImGuiID HoveredId;
 
-            [FieldOffset(7244)] // size = 4, padding = 0
+            [FieldOffset(7260)] // size = 4, padding = 0
             public ImGuiID HoveredIdPreviousFrame;
 
-            [FieldOffset(7248)] // size = 1, padding = 0
+            [FieldOffset(7264)] // size = 1, padding = 0
             public CBool HoveredIdAllowOverlap;
 
-            [FieldOffset(7249)] // size = 1, padding = 0
+            [FieldOffset(7265)] // size = 1, padding = 0
             public CBool HoveredIdUsingMouseWheel;
 
-            [FieldOffset(7250)] // size = 1, padding = 0
+            [FieldOffset(7266)] // size = 1, padding = 0
             public CBool HoveredIdPreviousFrameUsingMouseWheel;
 
-            [FieldOffset(7251)] // size = 1, padding = 0
+            [FieldOffset(7267)] // size = 1, padding = 0
             public CBool HoveredIdDisabled;
 
-            [FieldOffset(7252)] // size = 4, padding = 0
+            [FieldOffset(7268)] // size = 4, padding = 0
             public float HoveredIdTimer;
 
-            [FieldOffset(7256)] // size = 4, padding = 0
+            [FieldOffset(7272)] // size = 4, padding = 0
             public float HoveredIdNotActiveTimer;
 
-            [FieldOffset(7260)] // size = 4, padding = 0
+            [FieldOffset(7276)] // size = 4, padding = 0
             public ImGuiID ActiveId;
 
-            [FieldOffset(7264)] // size = 4, padding = 0
+            [FieldOffset(7280)] // size = 4, padding = 0
             public ImGuiID ActiveIdIsAlive;
 
-            [FieldOffset(7268)] // size = 4, padding = 0
+            [FieldOffset(7284)] // size = 4, padding = 0
             public float ActiveIdTimer;
 
-            [FieldOffset(7272)] // size = 1, padding = 0
+            [FieldOffset(7288)] // size = 1, padding = 0
             public CBool ActiveIdIsJustActivated;
 
-            [FieldOffset(7273)] // size = 1, padding = 0
+            [FieldOffset(7289)] // size = 1, padding = 0
             public CBool ActiveIdAllowOverlap;
 
-            [FieldOffset(7274)] // size = 1, padding = 0
+            [FieldOffset(7290)] // size = 1, padding = 0
             public CBool ActiveIdNoClearOnFocusLoss;
 
-            [FieldOffset(7275)] // size = 1, padding = 0
+            [FieldOffset(7291)] // size = 1, padding = 0
             public CBool ActiveIdHasBeenPressedBefore;
 
-            [FieldOffset(7276)] // size = 1, padding = 0
+            [FieldOffset(7292)] // size = 1, padding = 0
             public CBool ActiveIdHasBeenEditedBefore;
 
-            [FieldOffset(7277)] // size = 1, padding = 0
+            [FieldOffset(7293)] // size = 1, padding = 0
             public CBool ActiveIdHasBeenEditedThisFrame;
 
-            [FieldOffset(7278)] // size = 1, padding = 1
+            [FieldOffset(7294)] // size = 1, padding = 1
             public CBool ActiveIdUsingMouseWheel;
 
-            [FieldOffset(7280)] // size = 4, padding = 0
+            [FieldOffset(7296)] // size = 4, padding = 0
             public uint ActiveIdUsingNavDirMask;
 
-            [FieldOffset(7284)] // size = 4, padding = 0
+            [FieldOffset(7300)] // size = 4, padding = 0
             public uint ActiveIdUsingNavInputMask;
 
-            [FieldOffset(7288)] // size = 8, padding = 0
+            [FieldOffset(7304)] // size = 8, padding = 0
             public ulong ActiveIdUsingKeyInputMask;
 
-            [FieldOffset(7296)] // size = 8, padding = 0
+            [FieldOffset(7312)] // size = 8, padding = 0
             public Vector2 ActiveIdClickOffset;
 
-            [FieldOffset(7304)] // size = 8, padding = 0
+            [FieldOffset(7320)] // size = 8, padding = 0
             public ImGuiWindow* ActiveIdWindow;
 
-            [FieldOffset(7312)] // size = 4, padding = 0
+            [FieldOffset(7328)] // size = 4, padding = 0
             public ImGuiInputSource ActiveIdSource;
 
-            [FieldOffset(7316)] // size = 4, padding = 0
+            [FieldOffset(7332)] // size = 4, padding = 0
             public int ActiveIdMouseButton;
 
-            [FieldOffset(7320)] // size = 4, padding = 0
+            [FieldOffset(7336)] // size = 4, padding = 0
             public ImGuiID ActiveIdPreviousFrame;
 
-            [FieldOffset(7324)] // size = 1, padding = 0
+            [FieldOffset(7340)] // size = 1, padding = 0
             public CBool ActiveIdPreviousFrameIsAlive;
 
-            [FieldOffset(7325)] // size = 1, padding = 2
+            [FieldOffset(7341)] // size = 1, padding = 2
             public CBool ActiveIdPreviousFrameHasBeenEditedBefore;
 
-            [FieldOffset(7328)] // size = 8, padding = 0
+            [FieldOffset(7344)] // size = 8, padding = 0
             public ImGuiWindow* ActiveIdPreviousFrameWindow;
 
-            [FieldOffset(7336)] // size = 4, padding = 0
+            [FieldOffset(7352)] // size = 4, padding = 0
             public ImGuiID LastActiveId;
 
-            [FieldOffset(7340)] // size = 4, padding = 0
+            [FieldOffset(7356)] // size = 4, padding = 0
             public float LastActiveIdTimer;
 
-            [FieldOffset(7344)] // size = 4, padding = 0
+            [FieldOffset(7360)] // size = 4, padding = 0
             public ImGuiItemFlags CurrentItemFlags;
 
-            [FieldOffset(7348)] // size = 20, padding = 0
+            [FieldOffset(7364)] // size = 20, padding = 0
             public ImGuiNextItemData NextItemData;
 
-            [FieldOffset(7368)] // size = 60, padding = 4
+            [FieldOffset(7384)] // size = 60, padding = 4
             public ImGuiLastItemData LastItemData;
 
-            [FieldOffset(7432)] // size = 112, padding = 0
+            [FieldOffset(7448)] // size = 112, padding = 0
             public ImGuiNextWindowData NextWindowData;
 
-            [FieldOffset(7544)] // size = 16, padding = 0
+            [FieldOffset(7560)] // size = 16, padding = 0
             public ImVector_ImGuiColorMod ColorStack;
 
-            [FieldOffset(7560)] // size = 16, padding = 0
+            [FieldOffset(7576)] // size = 16, padding = 0
             public ImVector_ImGuiStyleMod StyleVarStack;
 
-            [FieldOffset(7576)] // size = 16, padding = 0
+            [FieldOffset(7592)] // size = 16, padding = 0
             public ImVector_ImFontPtr FontStack;
 
-            [FieldOffset(7592)] // size = 16, padding = 0
+            [FieldOffset(7608)] // size = 16, padding = 0
             public ImVector_ImGuiID FocusScopeStack;
 
-            [FieldOffset(7608)] // size = 16, padding = 0
+            [FieldOffset(7624)] // size = 16, padding = 0
             public ImVector_ImGuiItemFlags ItemFlagsStack;
 
-            [FieldOffset(7624)] // size = 16, padding = 0
+            [FieldOffset(7640)] // size = 16, padding = 0
             public ImVector_ImGuiGroupData GroupStack;
 
-            [FieldOffset(7640)] // size = 16, padding = 0
+            [FieldOffset(7656)] // size = 16, padding = 0
             public ImVector_ImGuiPopupData OpenPopupStack;
 
-            [FieldOffset(7656)] // size = 16, padding = 0
+            [FieldOffset(7672)] // size = 16, padding = 0
             public ImVector_ImGuiPopupData BeginPopupStack;
 
-            [FieldOffset(7672)] // size = 16, padding = 0
+            [FieldOffset(7688)] // size = 4, padding = 4
+            public int BeginMenuCount;
+
+            [FieldOffset(7696)] // size = 16, padding = 0
             public ImVector_ImGuiViewportPPtr Viewports;
 
-            [FieldOffset(7688)] // size = 8, padding = 0
+            [FieldOffset(7712)] // size = 8, padding = 0
             public ImGuiWindow* NavWindow;
 
-            [FieldOffset(7696)] // size = 4, padding = 0
+            [FieldOffset(7720)] // size = 4, padding = 0
             public ImGuiID NavId;
 
-            [FieldOffset(7700)] // size = 4, padding = 0
+            [FieldOffset(7724)] // size = 4, padding = 0
             public ImGuiID NavFocusScopeId;
 
-            [FieldOffset(7704)] // size = 4, padding = 0
+            [FieldOffset(7728)] // size = 4, padding = 0
             public ImGuiID NavActivateId;
 
-            [FieldOffset(7708)] // size = 4, padding = 0
+            [FieldOffset(7732)] // size = 4, padding = 0
             public ImGuiID NavActivateDownId;
 
-            [FieldOffset(7712)] // size = 4, padding = 0
+            [FieldOffset(7736)] // size = 4, padding = 0
             public ImGuiID NavActivatePressedId;
 
-            [FieldOffset(7716)] // size = 4, padding = 0
+            [FieldOffset(7740)] // size = 4, padding = 0
             public ImGuiID NavActivateInputId;
 
-            [FieldOffset(7720)] // size = 4, padding = 0
+            [FieldOffset(7744)] // size = 4, padding = 0
             public ImGuiActivateFlags NavActivateFlags;
 
-            [FieldOffset(7724)] // size = 4, padding = 0
-            public ImGuiID NavJustTabbedId;
-
-            [FieldOffset(7728)] // size = 4, padding = 0
+            [FieldOffset(7748)] // size = 4, padding = 0
             public ImGuiID NavJustMovedToId;
 
-            [FieldOffset(7732)] // size = 4, padding = 0
+            [FieldOffset(7752)] // size = 4, padding = 0
             public ImGuiID NavJustMovedToFocusScopeId;
 
-            [FieldOffset(7736)] // size = 4, padding = 0
+            [FieldOffset(7756)] // size = 4, padding = 0
             public ImGuiKeyModFlags NavJustMovedToKeyMods;
 
-            [FieldOffset(7740)] // size = 4, padding = 0
+            [FieldOffset(7760)] // size = 4, padding = 0
             public ImGuiID NavNextActivateId;
 
-            [FieldOffset(7744)] // size = 4, padding = 0
+            [FieldOffset(7764)] // size = 4, padding = 0
             public ImGuiActivateFlags NavNextActivateFlags;
 
-            [FieldOffset(7748)] // size = 4, padding = 0
+            [FieldOffset(7768)] // size = 4, padding = 0
             public ImGuiInputSource NavInputSource;
 
-            [FieldOffset(7752)] // size = 4, padding = 0
+            [FieldOffset(7772)] // size = 4, padding = 0
             public ImGuiNavLayer NavLayer;
 
-            [FieldOffset(7756)] // size = 4, padding = 0
-            public int NavIdTabCounter;
-
-            [FieldOffset(7760)] // size = 1, padding = 0
+            [FieldOffset(7776)] // size = 1, padding = 0
             public CBool NavIdIsAlive;
 
-            [FieldOffset(7761)] // size = 1, padding = 0
+            [FieldOffset(7777)] // size = 1, padding = 0
             public CBool NavMousePosDirty;
 
-            [FieldOffset(7762)] // size = 1, padding = 0
+            [FieldOffset(7778)] // size = 1, padding = 0
             public CBool NavDisableHighlight;
 
-            [FieldOffset(7763)] // size = 1, padding = 0
+            [FieldOffset(7779)] // size = 1, padding = 0
             public CBool NavDisableMouseHover;
 
-            [FieldOffset(7764)] // size = 1, padding = 0
+            [FieldOffset(7780)] // size = 1, padding = 0
             public CBool NavAnyRequest;
 
-            [FieldOffset(7765)] // size = 1, padding = 0
+            [FieldOffset(7781)] // size = 1, padding = 0
             public CBool NavInitRequest;
 
-            [FieldOffset(7766)] // size = 1, padding = 1
+            [FieldOffset(7782)] // size = 1, padding = 1
             public CBool NavInitRequestFromMove;
 
-            [FieldOffset(7768)] // size = 4, padding = 0
+            [FieldOffset(7784)] // size = 4, padding = 0
             public ImGuiID NavInitResultId;
 
-            [FieldOffset(7772)] // size = 16, padding = 0
+            [FieldOffset(7788)] // size = 16, padding = 0
             public ImRect NavInitResultRectRel;
 
-            [FieldOffset(7788)] // size = 1, padding = 0
+            [FieldOffset(7804)] // size = 1, padding = 0
             public CBool NavMoveSubmitted;
 
-            [FieldOffset(7789)] // size = 1, padding = 0
+            [FieldOffset(7805)] // size = 1, padding = 0
             public CBool NavMoveScoringItems;
 
-            [FieldOffset(7790)] // size = 1, padding = 1
+            [FieldOffset(7806)] // size = 1, padding = 1
             public CBool NavMoveForwardToNextFrame;
 
-            [FieldOffset(7792)] // size = 4, padding = 0
+            [FieldOffset(7808)] // size = 4, padding = 0
             public ImGuiNavMoveFlags NavMoveFlags;
 
-            [FieldOffset(7796)] // size = 4, padding = 0
+            [FieldOffset(7812)] // size = 4, padding = 0
             public ImGuiScrollFlags NavMoveScrollFlags;
 
-            [FieldOffset(7800)] // size = 4, padding = 0
+            [FieldOffset(7816)] // size = 4, padding = 0
             public ImGuiKeyModFlags NavMoveKeyMods;
 
-            [FieldOffset(7804)] // size = 4, padding = 0
+            [FieldOffset(7820)] // size = 4, padding = 0
             public ImGuiDir NavMoveDir;
 
-            [FieldOffset(7808)] // size = 4, padding = 0
+            [FieldOffset(7824)] // size = 4, padding = 0
             public ImGuiDir NavMoveDirForDebug;
 
-            [FieldOffset(7812)] // size = 4, padding = 0
+            [FieldOffset(7828)] // size = 4, padding = 0
             public ImGuiDir NavMoveClipDir;
 
-            [FieldOffset(7816)] // size = 16, padding = 0
+            [FieldOffset(7832)] // size = 16, padding = 0
             public ImRect NavScoringRect;
 
-            [FieldOffset(7832)] // size = 4, padding = 0
+            [FieldOffset(7848)] // size = 16, padding = 0
+            public ImRect NavScoringNoClipRect;
+
+            [FieldOffset(7864)] // size = 4, padding = 0
             public int NavScoringDebugCount;
 
-            [FieldOffset(7836)] // size = 4, padding = 0
-            public int NavTabbingInputableRemaining;
+            [FieldOffset(7868)] // size = 4, padding = 0
+            public int NavTabbingDir;
 
-            [FieldOffset(7840)] // size = 48, padding = 0
+            [FieldOffset(7872)] // size = 4, padding = 4
+            public int NavTabbingCounter;
+
+            [FieldOffset(7880)] // size = 48, padding = 0
             public ImGuiNavItemData NavMoveResultLocal;
 
-            [FieldOffset(7888)] // size = 48, padding = 0
+            [FieldOffset(7928)] // size = 48, padding = 0
             public ImGuiNavItemData NavMoveResultLocalVisible;
 
-            [FieldOffset(7936)] // size = 48, padding = 0
+            [FieldOffset(7976)] // size = 48, padding = 0
             public ImGuiNavItemData NavMoveResultOther;
 
-            [FieldOffset(7984)] // size = 8, padding = 0
+            [FieldOffset(8024)] // size = 48, padding = 0
+            public ImGuiNavItemData NavTabbingResultFirst;
+
+            [FieldOffset(8072)] // size = 8, padding = 0
             public ImGuiWindow* NavWindowingTarget;
 
-            [FieldOffset(7992)] // size = 8, padding = 0
+            [FieldOffset(8080)] // size = 8, padding = 0
             public ImGuiWindow* NavWindowingTargetAnim;
 
-            [FieldOffset(8000)] // size = 8, padding = 0
+            [FieldOffset(8088)] // size = 8, padding = 0
             public ImGuiWindow* NavWindowingListWindow;
 
-            [FieldOffset(8008)] // size = 4, padding = 0
+            [FieldOffset(8096)] // size = 4, padding = 0
             public float NavWindowingTimer;
 
-            [FieldOffset(8012)] // size = 4, padding = 0
+            [FieldOffset(8100)] // size = 4, padding = 0
             public float NavWindowingHighlightAlpha;
 
-            [FieldOffset(8016)] // size = 1, padding = 7
+            [FieldOffset(8104)] // size = 1, padding = 3
             public CBool NavWindowingToggleLayer;
 
-            [FieldOffset(8024)] // size = 8, padding = 0
-            public ImGuiWindow* TabFocusRequestCurrWindow;
-
-            [FieldOffset(8032)] // size = 8, padding = 0
-            public ImGuiWindow* TabFocusRequestNextWindow;
-
-            [FieldOffset(8040)] // size = 4, padding = 0
-            public int TabFocusRequestCurrCounterTabStop;
-
-            [FieldOffset(8044)] // size = 4, padding = 0
-            public int TabFocusRequestNextCounterTabStop;
-
-            [FieldOffset(8048)] // size = 1, padding = 3
-            public CBool TabFocusPressed;
-
-            [FieldOffset(8052)] // size = 4, padding = 0
+            [FieldOffset(8108)] // size = 4, padding = 0
             public float DimBgRatio;
 
-            [FieldOffset(8056)] // size = 4, padding = 0
+            [FieldOffset(8112)] // size = 4, padding = 0
             public ImGuiMouseCursor MouseCursor;
 
-            [FieldOffset(8060)] // size = 1, padding = 0
+            [FieldOffset(8116)] // size = 1, padding = 0
             public CBool DragDropActive;
 
-            [FieldOffset(8061)] // size = 1, padding = 0
+            [FieldOffset(8117)] // size = 1, padding = 0
             public CBool DragDropWithinSource;
 
-            [FieldOffset(8062)] // size = 1, padding = 1
+            [FieldOffset(8118)] // size = 1, padding = 1
             public CBool DragDropWithinTarget;
 
-            [FieldOffset(8064)] // size = 4, padding = 0
+            [FieldOffset(8120)] // size = 4, padding = 0
             public ImGuiDragDropFlags DragDropSourceFlags;
 
-            [FieldOffset(8068)] // size = 4, padding = 0
+            [FieldOffset(8124)] // size = 4, padding = 0
             public int DragDropSourceFrameCount;
 
-            [FieldOffset(8072)] // size = 4, padding = 4
+            [FieldOffset(8128)] // size = 4, padding = 4
             public int DragDropMouseButton;
 
-            [FieldOffset(8080)] // size = 64, padding = 0
+            [FieldOffset(8136)] // size = 64, padding = 0
             public ImGuiPayload DragDropPayload;
 
-            [FieldOffset(8144)] // size = 16, padding = 0
+            [FieldOffset(8200)] // size = 16, padding = 0
             public ImRect DragDropTargetRect;
 
-            [FieldOffset(8160)] // size = 4, padding = 0
+            [FieldOffset(8216)] // size = 4, padding = 0
             public ImGuiID DragDropTargetId;
 
-            [FieldOffset(8164)] // size = 4, padding = 0
+            [FieldOffset(8220)] // size = 4, padding = 0
             public ImGuiDragDropFlags DragDropAcceptFlags;
 
-            [FieldOffset(8168)] // size = 4, padding = 0
+            [FieldOffset(8224)] // size = 4, padding = 0
             public float DragDropAcceptIdCurrRectSurface;
 
-            [FieldOffset(8172)] // size = 4, padding = 0
+            [FieldOffset(8228)] // size = 4, padding = 0
             public ImGuiID DragDropAcceptIdCurr;
 
-            [FieldOffset(8176)] // size = 4, padding = 0
+            [FieldOffset(8232)] // size = 4, padding = 0
             public ImGuiID DragDropAcceptIdPrev;
 
-            [FieldOffset(8180)] // size = 4, padding = 0
+            [FieldOffset(8236)] // size = 4, padding = 0
             public int DragDropAcceptFrameCount;
 
-            [FieldOffset(8184)] // size = 4, padding = 4
+            [FieldOffset(8240)] // size = 4, padding = 4
             public ImGuiID DragDropHoldJustPressedId;
 
-            [FieldOffset(8192)] // size = 16, padding = 0
+            [FieldOffset(8248)] // size = 16, padding = 0
             public ImVector_unsigned_char DragDropPayloadBufHeap;
 
-            [FieldOffset(8208)] // size = 16, padding = 0
+            [FieldOffset(8264)] // size = 16, padding = 0
             public fixed byte _DragDropPayloadBufLocal[16 / 1]; // unsigned char[16]
 
             public Span<byte> DragDropPayloadBufLocal
@@ -5133,181 +5195,187 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(8224)] // size = 8, padding = 0
+            [FieldOffset(8280)] // size = 4, padding = 4
+            public int ClipperTempDataStacked;
+
+            [FieldOffset(8288)] // size = 16, padding = 0
+            public ImVector_ImGuiListClipperData ClipperTempData;
+
+            [FieldOffset(8304)] // size = 8, padding = 0
             public ImGuiTable* CurrentTable;
 
-            [FieldOffset(8232)] // size = 4, padding = 4
-            public int CurrentTableStackIdx;
+            [FieldOffset(8312)] // size = 4, padding = 4
+            public int TablesTempDataStacked;
 
-            [FieldOffset(8240)] // size = 40, padding = 0
-            public ImPool_ImGuiTable Tables;
-
-            [FieldOffset(8280)] // size = 16, padding = 0
-            public ImVector_ImGuiTableTempData TablesTempDataStack;
-
-            [FieldOffset(8296)] // size = 16, padding = 0
-            public ImVector_float TablesLastTimeActive;
-
-            [FieldOffset(8312)] // size = 16, padding = 0
-            public ImVector_ImDrawChannel DrawChannelsTempMergeBuffer;
-
-            [FieldOffset(8328)] // size = 8, padding = 0
-            public ImGuiTabBar* CurrentTabBar;
+            [FieldOffset(8320)] // size = 16, padding = 0
+            public ImVector_ImGuiTableTempData TablesTempData;
 
             [FieldOffset(8336)] // size = 40, padding = 0
-            public ImPool_ImGuiTabBar TabBars;
+            public ImPool_ImGuiTable Tables;
 
             [FieldOffset(8376)] // size = 16, padding = 0
-            public ImVector_ImGuiPtrOrIndex CurrentTabBarStack;
+            public ImVector_float TablesLastTimeActive;
 
             [FieldOffset(8392)] // size = 16, padding = 0
-            public ImVector_ImGuiShrinkWidthItem ShrinkWidthBuffer;
+            public ImVector_ImDrawChannel DrawChannelsTempMergeBuffer;
 
             [FieldOffset(8408)] // size = 8, padding = 0
+            public ImGuiTabBar* CurrentTabBar;
+
+            [FieldOffset(8416)] // size = 40, padding = 0
+            public ImPool_ImGuiTabBar TabBars;
+
+            [FieldOffset(8456)] // size = 16, padding = 0
+            public ImVector_ImGuiPtrOrIndex CurrentTabBarStack;
+
+            [FieldOffset(8472)] // size = 16, padding = 0
+            public ImVector_ImGuiShrinkWidthItem ShrinkWidthBuffer;
+
+            [FieldOffset(8488)] // size = 8, padding = 0
             public Vector2 MouseLastValidPos;
 
-            [FieldOffset(8416)] // size = 3736, padding = 0
+            [FieldOffset(8496)] // size = 3720, padding = 0
             public ImGuiInputTextState InputTextState;
 
-            [FieldOffset(12152)] // size = 112, padding = 0
+            [FieldOffset(12216)] // size = 112, padding = 0
             public ImFont InputTextPasswordFont;
 
-            [FieldOffset(12264)] // size = 4, padding = 0
+            [FieldOffset(12328)] // size = 4, padding = 0
             public ImGuiID TempInputId;
 
-            [FieldOffset(12268)] // size = 4, padding = 0
+            [FieldOffset(12332)] // size = 4, padding = 0
             public ImGuiColorEditFlags ColorEditOptions;
 
-            [FieldOffset(12272)] // size = 4, padding = 0
+            [FieldOffset(12336)] // size = 4, padding = 0
             public float ColorEditLastHue;
 
-            [FieldOffset(12276)] // size = 4, padding = 0
+            [FieldOffset(12340)] // size = 4, padding = 0
             public float ColorEditLastSat;
 
-            [FieldOffset(12280)] // size = 4, padding = 0
+            [FieldOffset(12344)] // size = 4, padding = 0
             public uint ColorEditLastColor;
 
-            [FieldOffset(12284)] // size = 16, padding = 0
+            [FieldOffset(12348)] // size = 16, padding = 0
             public Vector4 ColorPickerRef;
 
-            [FieldOffset(12300)] // size = 48, padding = 0
+            [FieldOffset(12364)] // size = 48, padding = 0
             public ImGuiComboPreviewData ComboPreviewData;
 
-            [FieldOffset(12348)] // size = 4, padding = 0
+            [FieldOffset(12412)] // size = 4, padding = 0
             public float SliderCurrentAccum;
 
-            [FieldOffset(12352)] // size = 1, padding = 0
+            [FieldOffset(12416)] // size = 1, padding = 0
             public CBool SliderCurrentAccumDirty;
 
-            [FieldOffset(12353)] // size = 1, padding = 2
+            [FieldOffset(12417)] // size = 1, padding = 2
             public CBool DragCurrentAccumDirty;
 
-            [FieldOffset(12356)] // size = 4, padding = 0
+            [FieldOffset(12420)] // size = 4, padding = 0
             public float DragCurrentAccum;
 
-            [FieldOffset(12360)] // size = 4, padding = 0
+            [FieldOffset(12424)] // size = 4, padding = 0
             public float DragSpeedDefaultRatio;
 
-            [FieldOffset(12364)] // size = 4, padding = 0
+            [FieldOffset(12428)] // size = 4, padding = 0
             public float ScrollbarClickDeltaToGrabCenter;
 
-            [FieldOffset(12368)] // size = 4, padding = 0
+            [FieldOffset(12432)] // size = 4, padding = 0
             public float DisabledAlphaBackup;
 
-            [FieldOffset(12372)] // size = 2, padding = 0
+            [FieldOffset(12436)] // size = 2, padding = 0
             public short DisabledStackSize;
 
-            [FieldOffset(12374)] // size = 2, padding = 0
+            [FieldOffset(12438)] // size = 2, padding = 0
             public short TooltipOverrideCount;
 
-            [FieldOffset(12376)] // size = 4, padding = 4
+            [FieldOffset(12440)] // size = 4, padding = 4
             public float TooltipSlowDelay;
 
-            [FieldOffset(12384)] // size = 16, padding = 0
+            [FieldOffset(12448)] // size = 16, padding = 0
             public ImVector_char ClipboardHandlerData;
 
-            [FieldOffset(12400)] // size = 16, padding = 0
+            [FieldOffset(12464)] // size = 16, padding = 0
             public ImVector_ImGuiID MenusIdSubmittedThisFrame;
 
-            [FieldOffset(12416)] // size = 8, padding = 0
+            [FieldOffset(12480)] // size = 8, padding = 0
             public Vector2 PlatformImePos;
 
-            [FieldOffset(12424)] // size = 8, padding = 0
+            [FieldOffset(12488)] // size = 8, padding = 0
             public Vector2 PlatformImeLastPos;
 
-            [FieldOffset(12432)] // size = 1, padding = 0
+            [FieldOffset(12496)] // size = 1, padding = 0
             public CChar PlatformLocaleDecimalPoint;
 
-            [FieldOffset(12433)] // size = 1, padding = 2
+            [FieldOffset(12497)] // size = 1, padding = 2
             public CBool SettingsLoaded;
 
-            [FieldOffset(12436)] // size = 4, padding = 0
+            [FieldOffset(12500)] // size = 4, padding = 0
             public float SettingsDirtyTimer;
 
-            [FieldOffset(12440)] // size = 16, padding = 0
+            [FieldOffset(12504)] // size = 16, padding = 0
             public ImGuiTextBuffer SettingsIniData;
 
-            [FieldOffset(12456)] // size = 16, padding = 0
+            [FieldOffset(12520)] // size = 16, padding = 0
             public ImVector_ImGuiSettingsHandler SettingsHandlers;
 
-            [FieldOffset(12472)] // size = 16, padding = 0
+            [FieldOffset(12536)] // size = 16, padding = 0
             public ImChunkStream_ImGuiWindowSettings SettingsWindows;
 
-            [FieldOffset(12488)] // size = 16, padding = 0
+            [FieldOffset(12552)] // size = 16, padding = 0
             public ImChunkStream_ImGuiTableSettings SettingsTables;
 
-            [FieldOffset(12504)] // size = 16, padding = 0
+            [FieldOffset(12568)] // size = 16, padding = 0
             public ImVector_ImGuiContextHook Hooks;
 
-            [FieldOffset(12520)] // size = 4, padding = 0
+            [FieldOffset(12584)] // size = 4, padding = 0
             public ImGuiID HookIdNext;
 
-            [FieldOffset(12524)] // size = 1, padding = 3
+            [FieldOffset(12588)] // size = 1, padding = 3
             public CBool LogEnabled;
 
-            [FieldOffset(12528)] // size = 4, padding = 4
+            [FieldOffset(12592)] // size = 4, padding = 4
             public ImGuiLogType LogType;
 
-            [FieldOffset(12536)] // size = 8, padding = 0
+            [FieldOffset(12600)] // size = 8, padding = 0
             public ImFileHandle LogFile;
 
-            [FieldOffset(12544)] // size = 16, padding = 0
+            [FieldOffset(12608)] // size = 16, padding = 0
             public ImGuiTextBuffer LogBuffer;
 
-            [FieldOffset(12560)] // size = 8, padding = 0
+            [FieldOffset(12624)] // size = 8, padding = 0
             public CString LogNextPrefix;
 
-            [FieldOffset(12568)] // size = 8, padding = 0
+            [FieldOffset(12632)] // size = 8, padding = 0
             public CString LogNextSuffix;
 
-            [FieldOffset(12576)] // size = 4, padding = 0
+            [FieldOffset(12640)] // size = 4, padding = 0
             public float LogLinePosY;
 
-            [FieldOffset(12580)] // size = 1, padding = 3
+            [FieldOffset(12644)] // size = 1, padding = 3
             public CBool LogLineFirstItem;
 
-            [FieldOffset(12584)] // size = 4, padding = 0
+            [FieldOffset(12648)] // size = 4, padding = 0
             public int LogDepthRef;
 
-            [FieldOffset(12588)] // size = 4, padding = 0
+            [FieldOffset(12652)] // size = 4, padding = 0
             public int LogDepthToExpand;
 
-            [FieldOffset(12592)] // size = 4, padding = 0
+            [FieldOffset(12656)] // size = 4, padding = 0
             public int LogDepthToExpandDefault;
 
-            [FieldOffset(12596)] // size = 1, padding = 3
+            [FieldOffset(12660)] // size = 1, padding = 3
             public CBool DebugItemPickerActive;
 
-            [FieldOffset(12600)] // size = 4, padding = 0
+            [FieldOffset(12664)] // size = 4, padding = 0
             public ImGuiID DebugItemPickerBreakId;
 
-            [FieldOffset(12604)] // size = 16, padding = 4
+            [FieldOffset(12668)] // size = 16, padding = 4
             public ImGuiMetricsConfig DebugMetricsConfig;
 
-            [FieldOffset(12624)] // size = 32, padding = 0
+            [FieldOffset(12688)] // size = 32, padding = 0
             public ImGuiStackTool DebugStackTool;
 
-            [FieldOffset(12656)] // size = 480, padding = 0
+            [FieldOffset(12720)] // size = 480, padding = 0
             public fixed uint _FramerateSecPerFrame[480 / 4]; // float[120]
 
             public Span<float> FramerateSecPerFrame
@@ -5323,25 +5391,25 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(13136)] // size = 4, padding = 0
+            [FieldOffset(13200)] // size = 4, padding = 0
             public int FramerateSecPerFrameIdx;
 
-            [FieldOffset(13140)] // size = 4, padding = 0
+            [FieldOffset(13204)] // size = 4, padding = 0
             public int FramerateSecPerFrameCount;
 
-            [FieldOffset(13144)] // size = 4, padding = 0
+            [FieldOffset(13208)] // size = 4, padding = 0
             public float FramerateSecPerFrameAccum;
 
-            [FieldOffset(13148)] // size = 4, padding = 0
+            [FieldOffset(13212)] // size = 4, padding = 0
             public int WantCaptureMouseNextFrame;
 
-            [FieldOffset(13152)] // size = 4, padding = 0
+            [FieldOffset(13216)] // size = 4, padding = 0
             public int WantCaptureKeyboardNextFrame;
 
-            [FieldOffset(13156)] // size = 4, padding = 0
+            [FieldOffset(13220)] // size = 4, padding = 0
             public int WantTextInputNextFrame;
 
-            [FieldOffset(13160)] // size = 3073, padding = 7
+            [FieldOffset(13224)] // size = 3073, padding = 7
             public fixed byte _TempBuffer[3073 / 1]; // char[3073]
 
             public string TempBuffer
@@ -5358,7 +5426,7 @@ namespace bottlenoselabs
             }
         }
 
-        // Struct @ cimgui.h:113:28
+        // Struct @ cimgui.h:115:28
         [StructLayout(LayoutKind.Explicit, Size = 1168, Pack = 8)]
         public struct ImFontAtlas
         {
@@ -5439,8 +5507,8 @@ namespace bottlenoselabs
             public int PackIdLines;
         }
 
-        // Struct @ cimgui.h:106:24
-        [StructLayout(LayoutKind.Explicit, Size = 5464, Pack = 8)]
+        // Struct @ cimgui.h:108:24
+        [StructLayout(LayoutKind.Explicit, Size = 5480, Pack = 8)]
         public struct ImGuiIO
         {
             [FieldOffset(0)] // size = 4, padding = 0
@@ -5751,7 +5819,39 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(1058)] // size = 5, padding = 0
+            [FieldOffset(1058)] // size = 10, padding = 0
+            public fixed ushort _MouseClickedCount[10 / 2]; // ImU16[5]
+
+            public Span<ushort> MouseClickedCount
+            {
+                get
+                {
+                    fixed (ImGuiIO* @this = &this)
+                    {
+                        var pointer = &@this->_MouseClickedCount[0];
+                        var span = new Span<ushort>(pointer, 5);
+                        return span;
+                    }
+                }
+            }
+
+            [FieldOffset(1068)] // size = 10, padding = 0
+            public fixed ushort _MouseClickedLastCount[10 / 2]; // ImU16[5]
+
+            public Span<ushort> MouseClickedLastCount
+            {
+                get
+                {
+                    fixed (ImGuiIO* @this = &this)
+                    {
+                        var pointer = &@this->_MouseClickedLastCount[0];
+                        var span = new Span<ushort>(pointer, 5);
+                        return span;
+                    }
+                }
+            }
+
+            [FieldOffset(1078)] // size = 5, padding = 0
             public fixed byte _MouseReleased[5 / 1]; // _Bool[5]
 
             public Span<CBool> MouseReleased
@@ -5767,7 +5867,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(1063)] // size = 5, padding = 0
+            [FieldOffset(1083)] // size = 5, padding = 0
             public fixed byte _MouseDownOwned[5 / 1]; // _Bool[5]
 
             public Span<CBool> MouseDownOwned
@@ -5783,7 +5883,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(1068)] // size = 5, padding = 0
+            [FieldOffset(1088)] // size = 5, padding = 3
             public fixed byte _MouseDownOwnedUnlessPopupClose[5 / 1]; // _Bool[5]
 
             public Span<CBool> MouseDownOwnedUnlessPopupClose
@@ -5799,23 +5899,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(1073)] // size = 5, padding = 2
-            public fixed byte _MouseDownWasDoubleClick[5 / 1]; // _Bool[5]
-
-            public Span<CBool> MouseDownWasDoubleClick
-            {
-                get
-                {
-                    fixed (ImGuiIO* @this = &this)
-                    {
-                        var pointer = &@this->_MouseDownWasDoubleClick[0];
-                        var span = new Span<CBool>(pointer, 5);
-                        return span;
-                    }
-                }
-            }
-
-            [FieldOffset(1080)] // size = 20, padding = 0
+            [FieldOffset(1096)] // size = 20, padding = 0
             public fixed uint _MouseDownDuration[20 / 4]; // float[5]
 
             public Span<float> MouseDownDuration
@@ -5831,7 +5915,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(1100)] // size = 20, padding = 0
+            [FieldOffset(1116)] // size = 20, padding = 0
             public fixed uint _MouseDownDurationPrev[20 / 4]; // float[5]
 
             public Span<float> MouseDownDurationPrev
@@ -5847,7 +5931,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(1120)] // size = 40, padding = 0
+            [FieldOffset(1136)] // size = 40, padding = 0
             public fixed uint _MouseDragMaxDistanceAbs[40 / 4]; // ImVec2[5]
 
             public Span<Vector2> MouseDragMaxDistanceAbs
@@ -5863,7 +5947,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(1160)] // size = 20, padding = 0
+            [FieldOffset(1176)] // size = 20, padding = 0
             public fixed uint _MouseDragMaxDistanceSqr[20 / 4]; // float[5]
 
             public Span<float> MouseDragMaxDistanceSqr
@@ -5879,7 +5963,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(1180)] // size = 2048, padding = 0
+            [FieldOffset(1196)] // size = 2048, padding = 0
             public fixed uint _KeysDownDuration[2048 / 4]; // float[512]
 
             public Span<float> KeysDownDuration
@@ -5895,7 +5979,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(3228)] // size = 2048, padding = 0
+            [FieldOffset(3244)] // size = 2048, padding = 0
             public fixed uint _KeysDownDurationPrev[2048 / 4]; // float[512]
 
             public Span<float> KeysDownDurationPrev
@@ -5911,7 +5995,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(5276)] // size = 80, padding = 0
+            [FieldOffset(5292)] // size = 80, padding = 0
             public fixed uint _NavInputsDownDuration[80 / 4]; // float[20]
 
             public Span<float> NavInputsDownDuration
@@ -5927,7 +6011,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(5356)] // size = 80, padding = 0
+            [FieldOffset(5372)] // size = 80, padding = 0
             public fixed uint _NavInputsDownDurationPrev[80 / 4]; // float[20]
 
             public Span<float> NavInputsDownDurationPrev
@@ -5943,20 +6027,20 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(5436)] // size = 4, padding = 0
+            [FieldOffset(5452)] // size = 4, padding = 0
             public float PenPressure;
 
-            [FieldOffset(5440)] // size = 1, padding = 1
+            [FieldOffset(5456)] // size = 1, padding = 1
             public CBool AppFocusLost;
 
-            [FieldOffset(5442)] // size = 2, padding = 4
+            [FieldOffset(5458)] // size = 2, padding = 4
             public ushort InputQueueSurrogate;
 
-            [FieldOffset(5448)] // size = 16, padding = 0
+            [FieldOffset(5464)] // size = 16, padding = 0
             public ImVector_ImWchar InputQueueCharacters;
         }
 
-        // Struct @ cimgui.h:99:27
+        // Struct @ cimgui.h:101:27
         [StructLayout(LayoutKind.Explicit, Size = 1048, Pack = 4)]
         public struct ImGuiStyle
         {
@@ -6097,7 +6181,7 @@ namespace bottlenoselabs
             }
         }
 
-        // Struct @ cimgui.h:119:27
+        // Struct @ cimgui.h:121:27
         [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 8)]
         public struct ImDrawData
         {
@@ -6126,7 +6210,7 @@ namespace bottlenoselabs
             public Vector2 FramebufferScale;
         }
 
-        // Struct @ cimgui.h:118:27
+        // Struct @ cimgui.h:120:27
         [StructLayout(LayoutKind.Explicit, Size = 200, Pack = 8)]
         public struct ImDrawList
         {
@@ -6176,7 +6260,7 @@ namespace bottlenoselabs
             public float _FringeScale;
         }
 
-        // Struct @ cimgui.h:114:23
+        // Struct @ cimgui.h:116:23
         [StructLayout(LayoutKind.Explicit, Size = 112, Pack = 8)]
         public struct ImFont
         {
@@ -6248,7 +6332,7 @@ namespace bottlenoselabs
             }
         }
 
-        // Struct @ cimgui.h:98:36
+        // Struct @ cimgui.h:100:36
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImGuiTableSortSpecs
         {
@@ -6262,7 +6346,7 @@ namespace bottlenoselabs
             public CBool SpecsDirty;
         }
 
-        // Struct @ cimgui.h:102:29
+        // Struct @ cimgui.h:104:29
         [StructLayout(LayoutKind.Explicit, Size = 64, Pack = 8)]
         public struct ImGuiPayload
         {
@@ -6304,7 +6388,7 @@ namespace bottlenoselabs
             public CBool Delivery;
         }
 
-        // Struct @ cimgui.h:94:30
+        // Struct @ cimgui.h:96:30
         [StructLayout(LayoutKind.Explicit, Size = 36, Pack = 4)]
         public struct ImGuiViewport
         {
@@ -6324,7 +6408,7 @@ namespace bottlenoselabs
             public Vector2 WorkSize;
         }
 
-        // Struct @ cimgui.h:117:37
+        // Struct @ cimgui.h:119:37
         [StructLayout(LayoutKind.Explicit, Size = 512, Pack = 8)]
         public struct ImDrawListSharedData
         {
@@ -6388,7 +6472,7 @@ namespace bottlenoselabs
             public Vector4* TexUvLines;
         }
 
-        // Struct @ cimgui.h:100:29
+        // Struct @ cimgui.h:102:29
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImGuiStorage
         {
@@ -6396,7 +6480,7 @@ namespace bottlenoselabs
             public ImVector_ImGuiStoragePair Data;
         }
 
-        // Struct @ cimgui.h:105:43
+        // Struct @ cimgui.h:107:43
         [StructLayout(LayoutKind.Explicit, Size = 56, Pack = 8)]
         public struct ImGuiInputTextCallbackData
         {
@@ -6437,7 +6521,7 @@ namespace bottlenoselabs
             public int SelectionEnd;
         }
 
-        // Struct @ cimgui.h:97:42
+        // Struct @ cimgui.h:99:42
         [StructLayout(LayoutKind.Explicit, Size = 12, Pack = 4)]
         public struct ImGuiTableColumnSortSpecs
         {
@@ -6454,7 +6538,7 @@ namespace bottlenoselabs
             public ImGuiSortDirection SortDirection;
         }
 
-        // Struct @ cimgui.h:103:36
+        // Struct @ cimgui.h:105:36
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiOnceUponAFrame
         {
@@ -6462,7 +6546,7 @@ namespace bottlenoselabs
             public int RefFrame;
         }
 
-        // Struct @ cimgui.h:95:32
+        // Struct @ cimgui.h:97:32
         [StructLayout(LayoutKind.Explicit, Size = 280, Pack = 8)]
         public struct ImGuiTextFilter
         {
@@ -6489,7 +6573,7 @@ namespace bottlenoselabs
             public int CountGrep;
         }
 
-        // Struct @ cimgui.h:91:31
+        // Struct @ cimgui.h:93:31
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImGuiTextRange
         {
@@ -6500,7 +6584,7 @@ namespace bottlenoselabs
             public CString e;
         }
 
-        // Struct @ cimgui.h:292:86
+        // Struct @ cimgui.h:296:86
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiTextRange
         {
@@ -6514,7 +6598,7 @@ namespace bottlenoselabs
             public ImGuiTextRange* Data;
         }
 
-        // Struct @ cimgui.h:96:32
+        // Struct @ cimgui.h:98:32
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImGuiTextBuffer
         {
@@ -6522,7 +6606,7 @@ namespace bottlenoselabs
             public ImVector_char Buf;
         }
 
-        // Struct @ cimgui.h:90:33
+        // Struct @ cimgui.h:92:33
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImGuiStoragePair
         {
@@ -6530,8 +6614,8 @@ namespace bottlenoselabs
             public ImGuiID key;
         }
 
-        // Struct @ cimgui.h:104:33
-        [StructLayout(LayoutKind.Explicit, Size = 28, Pack = 4)]
+        // Struct @ cimgui.h:106:33
+        [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
         public struct ImGuiListClipper
         {
             [FieldOffset(0)] // size = 4, padding = 0
@@ -6544,19 +6628,16 @@ namespace bottlenoselabs
             public int ItemsCount;
 
             [FieldOffset(12)] // size = 4, padding = 0
-            public int StepNo;
-
-            [FieldOffset(16)] // size = 4, padding = 0
-            public int ItemsFrozen;
-
-            [FieldOffset(20)] // size = 4, padding = 0
             public float ItemsHeight;
 
-            [FieldOffset(24)] // size = 4, padding = 0
+            [FieldOffset(16)] // size = 4, padding = 4
             public float StartPosY;
+
+            [FieldOffset(24)] // size = 8, padding = 0
+            public void* TempData;
         }
 
-        // Struct @ cimgui.h:108:24
+        // Struct @ cimgui.h:110:24
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
         public struct ImColor
         {
@@ -6564,7 +6645,7 @@ namespace bottlenoselabs
             public Vector4 Value;
         }
 
-        // Struct @ cimgui.h:120:26
+        // Struct @ cimgui.h:122:26
         [StructLayout(LayoutKind.Explicit, Size = 56, Pack = 8)]
         public struct ImDrawCmd
         {
@@ -6590,7 +6671,7 @@ namespace bottlenoselabs
             public void* UserCallbackData;
         }
 
-        // Struct @ cimgui.h:116:35
+        // Struct @ cimgui.h:118:35
         [StructLayout(LayoutKind.Explicit, Size = 24, Pack = 8)]
         public struct ImDrawListSplitter
         {
@@ -6604,7 +6685,7 @@ namespace bottlenoselabs
             public ImVector_ImDrawChannel _Channels;
         }
 
-        // Struct @ cimgui.h:111:29
+        // Struct @ cimgui.h:113:29
         [StructLayout(LayoutKind.Explicit, Size = 136, Pack = 8)]
         public struct ImFontConfig
         {
@@ -6679,7 +6760,7 @@ namespace bottlenoselabs
             public ImFont* DstFont;
         }
 
-        // Struct @ cimgui.h:109:41
+        // Struct @ cimgui.h:111:41
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImFontGlyphRangesBuilder
         {
@@ -6687,7 +6768,7 @@ namespace bottlenoselabs
             public ImVector_ImU32 UsedChars;
         }
 
-        // Struct @ cimgui.h:300:72
+        // Struct @ cimgui.h:304:72
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImWchar
         {
@@ -6701,7 +6782,7 @@ namespace bottlenoselabs
             public byte* Data;
         }
 
-        // Struct @ cimgui.h:88:38
+        // Struct @ cimgui.h:90:38
         [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
         public struct ImFontAtlasCustomRect
         {
@@ -6730,7 +6811,7 @@ namespace bottlenoselabs
             public ImFont* Font;
         }
 
-        // Struct @ cimgui.h:110:28
+        // Struct @ cimgui.h:112:28
         [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 4)]
         public struct ImFontGlyph
         {
@@ -6771,7 +6852,7 @@ namespace bottlenoselabs
             public float V1;
         }
 
-        // Struct @ cimgui.h:52:25
+        // Struct @ cimgui.h:54:25
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 2)]
         public struct ImVec2ih
         {
@@ -6782,7 +6863,7 @@ namespace bottlenoselabs
             public short y;
         }
 
-        // Struct @ cimgui.h:86:23
+        // Struct @ cimgui.h:88:23
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
         public struct ImRect
         {
@@ -6793,7 +6874,7 @@ namespace bottlenoselabs
             public Vector2 Max;
         }
 
-        // Struct @ cimgui.h:87:28
+        // Struct @ cimgui.h:89:28
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImBitVector
         {
@@ -6801,7 +6882,7 @@ namespace bottlenoselabs
             public ImVector_ImU32 Storage;
         }
 
-        // Struct @ cimgui.h:85:34
+        // Struct @ cimgui.h:87:34
         [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
         public struct ImDrawDataBuilder
         {
@@ -6822,7 +6903,7 @@ namespace bottlenoselabs
             }
         }
 
-        // Struct @ cimgui.h:68:30
+        // Struct @ cimgui.h:70:30
         [StructLayout(LayoutKind.Explicit, Size = 12, Pack = 4)]
         public struct ImGuiStyleMod
         {
@@ -6830,7 +6911,7 @@ namespace bottlenoselabs
             public ImGuiStyleVar VarIdx;
         }
 
-        // Struct @ cimgui.h:50:38
+        // Struct @ cimgui.h:52:38
         [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 4)]
         public struct ImGuiComboPreviewData
         {
@@ -6853,7 +6934,7 @@ namespace bottlenoselabs
             public ImGuiLayoutType BackupLayout;
         }
 
-        // Struct @ cimgui.h:78:33
+        // Struct @ cimgui.h:80:33
         [StructLayout(LayoutKind.Explicit, Size = 28, Pack = 4)]
         public struct ImGuiMenuColumns
         {
@@ -6895,8 +6976,8 @@ namespace bottlenoselabs
             }
         }
 
-        // Struct @ cimgui.h:80:36
-        [StructLayout(LayoutKind.Explicit, Size = 3736, Pack = 8)]
+        // Struct @ cimgui.h:82:36
+        [StructLayout(LayoutKind.Explicit, Size = 3720, Pack = 8)]
         public struct ImGuiInputTextState
         {
             [FieldOffset(0)] // size = 4, padding = 0
@@ -6943,15 +7024,9 @@ namespace bottlenoselabs
 
             [FieldOffset(3712)] // size = 4, padding = 4
             public ImGuiInputTextFlags Flags;
-
-            [FieldOffset(3720)] // size = 8, padding = 0
-            public ImGuiInputTextCallback UserCallback;
-
-            [FieldOffset(3728)] // size = 8, padding = 0
-            public void* UserCallbackData;
         }
 
-        // Struct @ cimgui.h:71:31
+        // Struct @ cimgui.h:73:31
         [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 8)]
         public struct ImGuiPopupData
         {
@@ -6977,7 +7052,7 @@ namespace bottlenoselabs
             public Vector2 OpenMousePos;
         }
 
-        // Struct @ cimgui.h:75:36
+        // Struct @ cimgui.h:77:36
         [StructLayout(LayoutKind.Explicit, Size = 112, Pack = 8)]
         public struct ImGuiNextWindowData
         {
@@ -7027,7 +7102,7 @@ namespace bottlenoselabs
             public Vector2 MenuBarOffsetMinVal;
         }
 
-        // Struct @ cimgui.h:74:34
+        // Struct @ cimgui.h:76:34
         [StructLayout(LayoutKind.Explicit, Size = 20, Pack = 4)]
         public struct ImGuiNextItemData
         {
@@ -7047,7 +7122,7 @@ namespace bottlenoselabs
             public CBool OpenVal;
         }
 
-        // Struct @ cimgui.h:79:34
+        // Struct @ cimgui.h:81:34
         [StructLayout(LayoutKind.Explicit, Size = 60, Pack = 4)]
         public struct ImGuiLastItemData
         {
@@ -7070,7 +7145,7 @@ namespace bottlenoselabs
             public ImRect DisplayRect;
         }
 
-        // Struct @ cimgui.h:69:32
+        // Struct @ cimgui.h:71:32
         [StructLayout(LayoutKind.Explicit, Size = 18, Pack = 2)]
         public struct ImGuiStackSizes
         {
@@ -7102,7 +7177,7 @@ namespace bottlenoselabs
             public short SizeOfDisabledStack;
         }
 
-        // Struct @ cimgui.h:47:32
+        // Struct @ cimgui.h:49:32
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImGuiPtrOrIndex
         {
@@ -7113,7 +7188,47 @@ namespace bottlenoselabs
             public int Index;
         }
 
-        // Struct @ cimgui.h:77:33
+        // Struct @ cimgui.h:48:38
+        [StructLayout(LayoutKind.Explicit, Size = 12, Pack = 4)]
+        public struct ImGuiListClipperRange
+        {
+            [FieldOffset(0)] // size = 4, padding = 0
+            public int Min;
+
+            [FieldOffset(4)] // size = 4, padding = 0
+            public int Max;
+
+            [FieldOffset(8)] // size = 1, padding = 0
+            public CBool PosToIndexConvert;
+
+            [FieldOffset(9)] // size = 1, padding = 0
+            public sbyte PosToIndexOffsetMin;
+
+            [FieldOffset(10)] // size = 1, padding = 1
+            public sbyte PosToIndexOffsetMax;
+        }
+
+        // Struct @ cimgui.h:47:37
+        [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 8)]
+        public struct ImGuiListClipperData
+        {
+            [FieldOffset(0)] // size = 8, padding = 0
+            public ImGuiListClipper* ListClipper;
+
+            [FieldOffset(8)] // size = 4, padding = 0
+            public float LossynessOffset;
+
+            [FieldOffset(12)] // size = 4, padding = 0
+            public int StepNo;
+
+            [FieldOffset(16)] // size = 4, padding = 4
+            public int ItemsFrozen;
+
+            [FieldOffset(24)] // size = 16, padding = 0
+            public ImVector_ImGuiListClipperRange Ranges;
+        }
+
+        // Struct @ cimgui.h:79:33
         [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 8)]
         public struct ImGuiNavItemData
         {
@@ -7142,7 +7257,7 @@ namespace bottlenoselabs
             public float DistAxial;
         }
 
-        // Struct @ cimgui.h:73:35
+        // Struct @ cimgui.h:75:35
         [StructLayout(LayoutKind.Explicit, Size = 28, Pack = 4)]
         public struct ImGuiOldColumnData
         {
@@ -7159,7 +7274,7 @@ namespace bottlenoselabs
             public ImRect ClipRect;
         }
 
-        // Struct @ cimgui.h:72:32
+        // Struct @ cimgui.h:74:32
         [StructLayout(LayoutKind.Explicit, Size = 136, Pack = 8)]
         public struct ImGuiOldColumns
         {
@@ -7273,7 +7388,7 @@ namespace bottlenoselabs
             public Vector2 BuildWorkOffsetMax;
         }
 
-        // Struct @ cimgui.h:58:36
+        // Struct @ cimgui.h:60:36
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
         public struct ImGuiWindowSettings
         {
@@ -7293,7 +7408,7 @@ namespace bottlenoselabs
             public CBool WantApply;
         }
 
-        // Struct @ cimgui.h:70:37
+        // Struct @ cimgui.h:72:37
         [StructLayout(LayoutKind.Explicit, Size = 72, Pack = 8)]
         public struct ImGuiSettingsHandler
         {
@@ -7325,7 +7440,7 @@ namespace bottlenoselabs
             public void* UserData;
         }
 
-        // Struct @ cimgui.h:76:35
+        // Struct @ cimgui.h:78:35
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
         public struct ImGuiMetricsConfig
         {
@@ -7401,7 +7516,7 @@ namespace bottlenoselabs
             public ImVector_ImGuiStackLevelInfo Results;
         }
 
-        // Struct @ cimgui.h:83:33
+        // Struct @ cimgui.h:85:33
         [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
         public struct ImGuiContextHook
         {
@@ -7421,8 +7536,8 @@ namespace bottlenoselabs
             public void* UserData;
         }
 
-        // Struct @ cimgui.h:60:28
-        [StructLayout(LayoutKind.Explicit, Size = 928, Pack = 8)]
+        // Struct @ cimgui.h:62:28
+        [StructLayout(LayoutKind.Explicit, Size = 944, Pack = 8)]
         public struct ImGuiWindow
         {
             [FieldOffset(0)] // size = 8, padding = 0
@@ -7522,9 +7637,12 @@ namespace bottlenoselabs
             public CBool IsFallbackWindow;
 
             [FieldOffset(151)] // size = 1, padding = 0
+            public CBool IsExplicitChild;
+
+            [FieldOffset(152)] // size = 1, padding = 0
             public CBool HasCloseButton;
 
-            [FieldOffset(152)] // size = 1, padding = 1
+            [FieldOffset(153)] // size = 1, padding = 0
             public sbyte ResizeBorderHeld;
 
             [FieldOffset(154)] // size = 2, padding = 0
@@ -7587,82 +7705,85 @@ namespace bottlenoselabs
             [FieldOffset(200)] // size = 16, padding = 0
             public ImVector_ImGuiID IDStack;
 
-            [FieldOffset(216)] // size = 224, padding = 0
+            [FieldOffset(216)] // size = 232, padding = 0
             public ImGuiWindowTempData DC;
 
-            [FieldOffset(440)] // size = 16, padding = 0
+            [FieldOffset(448)] // size = 16, padding = 0
             public ImRect OuterRectClipped;
 
-            [FieldOffset(456)] // size = 16, padding = 0
+            [FieldOffset(464)] // size = 16, padding = 0
             public ImRect InnerRect;
 
-            [FieldOffset(472)] // size = 16, padding = 0
+            [FieldOffset(480)] // size = 16, padding = 0
             public ImRect InnerClipRect;
 
-            [FieldOffset(488)] // size = 16, padding = 0
+            [FieldOffset(496)] // size = 16, padding = 0
             public ImRect WorkRect;
 
-            [FieldOffset(504)] // size = 16, padding = 0
+            [FieldOffset(512)] // size = 16, padding = 0
             public ImRect ParentWorkRect;
 
-            [FieldOffset(520)] // size = 16, padding = 0
+            [FieldOffset(528)] // size = 16, padding = 0
             public ImRect ClipRect;
 
-            [FieldOffset(536)] // size = 16, padding = 0
+            [FieldOffset(544)] // size = 16, padding = 0
             public ImRect ContentRegionRect;
 
-            [FieldOffset(552)] // size = 4, padding = 0
+            [FieldOffset(560)] // size = 4, padding = 0
             public ImVec2ih HitTestHoleSize;
 
-            [FieldOffset(556)] // size = 4, padding = 0
+            [FieldOffset(564)] // size = 4, padding = 0
             public ImVec2ih HitTestHoleOffset;
 
-            [FieldOffset(560)] // size = 4, padding = 0
+            [FieldOffset(568)] // size = 4, padding = 0
             public int LastFrameActive;
 
-            [FieldOffset(564)] // size = 4, padding = 0
+            [FieldOffset(572)] // size = 4, padding = 0
             public float LastTimeActive;
 
-            [FieldOffset(568)] // size = 4, padding = 4
+            [FieldOffset(576)] // size = 4, padding = 4
             public float ItemWidthDefault;
 
-            [FieldOffset(576)] // size = 16, padding = 0
+            [FieldOffset(584)] // size = 16, padding = 0
             public ImGuiStorage StateStorage;
 
-            [FieldOffset(592)] // size = 16, padding = 0
+            [FieldOffset(600)] // size = 16, padding = 0
             public ImVector_ImGuiOldColumns ColumnsStorage;
 
-            [FieldOffset(608)] // size = 4, padding = 0
+            [FieldOffset(616)] // size = 4, padding = 0
             public float FontWindowScale;
 
-            [FieldOffset(612)] // size = 4, padding = 0
+            [FieldOffset(620)] // size = 4, padding = 0
             public int SettingsOffset;
 
-            [FieldOffset(616)] // size = 8, padding = 0
+            [FieldOffset(624)] // size = 8, padding = 0
             public ImDrawList* DrawList;
 
-            [FieldOffset(624)] // size = 200, padding = 0
+            [FieldOffset(632)] // size = 200, padding = 0
             public ImDrawList DrawListInst;
 
-            [FieldOffset(824)] // size = 8, padding = 0
+            [FieldOffset(832)] // size = 8, padding = 0
             public ImGuiWindow* ParentWindow;
 
-            [FieldOffset(832)] // size = 8, padding = 0
-            public ImGuiWindow* RootWindow;
-
             [FieldOffset(840)] // size = 8, padding = 0
-            public ImGuiWindow* RootWindowPopupTree;
+            public ImGuiWindow* ParentWindowInBeginStack;
 
             [FieldOffset(848)] // size = 8, padding = 0
-            public ImGuiWindow* RootWindowForTitleBarHighlight;
+            public ImGuiWindow* RootWindow;
 
             [FieldOffset(856)] // size = 8, padding = 0
-            public ImGuiWindow* RootWindowForNav;
+            public ImGuiWindow* RootWindowPopupTree;
 
             [FieldOffset(864)] // size = 8, padding = 0
-            public ImGuiWindow* NavLastChildNavWindow;
+            public ImGuiWindow* RootWindowForTitleBarHighlight;
 
             [FieldOffset(872)] // size = 8, padding = 0
+            public ImGuiWindow* RootWindowForNav;
+
+            [FieldOffset(880)] // size = 8, padding = 0
+            public ImGuiWindow* NavLastChildNavWindow;
+
+            [FieldOffset(888)] // size = 8, padding = 0
             public fixed uint _NavLastIds[8 / 4]; // ImGuiID[2]
 
             public Span<ImGuiID> NavLastIds
@@ -7678,7 +7799,7 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(880)] // size = 32, padding = 0
+            [FieldOffset(896)] // size = 32, padding = 0
             public fixed uint _NavRectRel[32 / 4]; // ImRect[2]
 
             public Span<ImRect> NavRectRel
@@ -7694,17 +7815,17 @@ namespace bottlenoselabs
                 }
             }
 
-            [FieldOffset(912)] // size = 4, padding = 0
+            [FieldOffset(928)] // size = 4, padding = 0
             public int MemoryDrawListIdxCapacity;
 
-            [FieldOffset(916)] // size = 4, padding = 0
+            [FieldOffset(932)] // size = 4, padding = 0
             public int MemoryDrawListVtxCapacity;
 
-            [FieldOffset(920)] // size = 1, padding = 7
+            [FieldOffset(936)] // size = 1, padding = 7
             public CBool MemoryCompacted;
         }
 
-        // Struct @ cimgui.h:66:29
+        // Struct @ cimgui.h:68:29
         [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 4)]
         public struct ImGuiTabItem
         {
@@ -7742,7 +7863,7 @@ namespace bottlenoselabs
             public CBool WantClose;
         }
 
-        // Struct @ cimgui.h:67:28
+        // Struct @ cimgui.h:69:28
         [StructLayout(LayoutKind.Explicit, Size = 152, Pack = 8)]
         public struct ImGuiTabBar
         {
@@ -7840,7 +7961,7 @@ namespace bottlenoselabs
             public ImGuiTextBuffer TabsNames;
         }
 
-        // Struct @ cimgui.h:64:33
+        // Struct @ cimgui.h:66:33
         [StructLayout(LayoutKind.Explicit, Size = 104, Pack = 4)]
         public struct ImGuiTableColumn
         {
@@ -7968,7 +8089,7 @@ namespace bottlenoselabs
             public byte SortDirectionsAvailList;
         }
 
-        // Struct @ cimgui.h:65:27
+        // Struct @ cimgui.h:67:27
         [StructLayout(LayoutKind.Explicit, Size = 520, Pack = 8)]
         public struct ImGuiTable
         {
@@ -8295,7 +8416,7 @@ namespace bottlenoselabs
             public CBool HostSkipItems;
         }
 
-        // Struct @ cimgui.h:63:35
+        // Struct @ cimgui.h:65:35
         [StructLayout(LayoutKind.Explicit, Size = 112, Pack = 8)]
         public struct ImGuiTableTempData
         {
@@ -8365,7 +8486,7 @@ namespace bottlenoselabs
             public byte IsStretch;
         }
 
-        // Struct @ cimgui.h:62:35
+        // Struct @ cimgui.h:64:35
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
         public struct ImGuiTableSettings
         {
@@ -8388,7 +8509,7 @@ namespace bottlenoselabs
             public CBool WantApply;
         }
 
-        // Struct @ cimgui.h:48:37
+        // Struct @ cimgui.h:50:37
         [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 4)]
         public struct ImGuiShrinkWidthItem
         {
@@ -8399,7 +8520,7 @@ namespace bottlenoselabs
             public float Width;
         }
 
-        // Struct @ cimgui.h:82:34
+        // Struct @ cimgui.h:84:34
         [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
         public struct ImGuiDataTypeInfo
         {
@@ -8416,7 +8537,7 @@ namespace bottlenoselabs
             public CString ScanFmt;
         }
 
-        // Struct @ cimgui.h:294:84
+        // Struct @ cimgui.h:298:84
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiWindowPtr
         {
@@ -8430,7 +8551,7 @@ namespace bottlenoselabs
             public ImGuiWindow** Data;
         }
 
-        // Struct @ cimgui.h:112:32
+        // Struct @ cimgui.h:114:32
         [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 8)]
         public struct ImFontBuilderIO
         {
@@ -8438,7 +8559,7 @@ namespace bottlenoselabs
             public FnPtr_IMGUI_ImFontAtlasPtr_CBool FontBuilder_Build;
         }
 
-        // Struct @ cimgui.h:295:98
+        // Struct @ cimgui.h:299:98
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiWindowStackData
         {
@@ -8452,7 +8573,7 @@ namespace bottlenoselabs
             public ImGuiWindowStackData* Data;
         }
 
-        // Struct @ cimgui.h:275:84
+        // Struct @ cimgui.h:277:84
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiColorMod
         {
@@ -8466,7 +8587,7 @@ namespace bottlenoselabs
             public ImGuiColorMod* Data;
         }
 
-        // Struct @ cimgui.h:288:84
+        // Struct @ cimgui.h:292:84
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiStyleMod
         {
@@ -8480,7 +8601,7 @@ namespace bottlenoselabs
             public ImGuiStyleMod* Data;
         }
 
-        // Struct @ cimgui.h:271:74
+        // Struct @ cimgui.h:273:74
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImFontPtr
         {
@@ -8494,7 +8615,7 @@ namespace bottlenoselabs
             public ImFont** Data;
         }
 
-        // Struct @ cimgui.h:278:72
+        // Struct @ cimgui.h:280:72
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiID
         {
@@ -8508,7 +8629,7 @@ namespace bottlenoselabs
             public ImGuiID* Data;
         }
 
-        // Struct @ cimgui.h:279:86
+        // Struct @ cimgui.h:281:86
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiItemFlags
         {
@@ -8522,7 +8643,7 @@ namespace bottlenoselabs
             public ImGuiItemFlags* Data;
         }
 
-        // Struct @ cimgui.h:277:86
+        // Struct @ cimgui.h:279:86
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiGroupData
         {
@@ -8536,7 +8657,7 @@ namespace bottlenoselabs
             public ImGuiGroupData* Data;
         }
 
-        // Struct @ cimgui.h:282:86
+        // Struct @ cimgui.h:286:86
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiPopupData
         {
@@ -8550,7 +8671,7 @@ namespace bottlenoselabs
             public ImGuiPopupData* Data;
         }
 
-        // Struct @ cimgui.h:293:90
+        // Struct @ cimgui.h:297:90
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiViewportPPtr
         {
@@ -8564,7 +8685,7 @@ namespace bottlenoselabs
             public ImGuiViewportP** Data;
         }
 
-        // Struct @ cimgui.h:303:84
+        // Struct @ cimgui.h:307:84
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_unsigned_char
         {
@@ -8578,21 +8699,21 @@ namespace bottlenoselabs
             public ulong* Data;
         }
 
-        // Struct @ cimgui.h:1018:96
-        [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 8)]
-        public struct ImPool_ImGuiTable
+        // Struct @ cimgui.h:282:98
+        [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
+        public struct ImVector_ImGuiListClipperData
         {
-            [FieldOffset(0)] // size = 16, padding = 0
-            public ImVector_ImGuiTable Buf;
+            [FieldOffset(0)] // size = 4, padding = 0
+            public int Size;
 
-            [FieldOffset(16)] // size = 16, padding = 0
-            public ImGuiStorage Map;
+            [FieldOffset(4)] // size = 4, padding = 0
+            public int Capacity;
 
-            [FieldOffset(32)] // size = 4, padding = 4
-            public ImPoolIdx FreeIdx;
+            [FieldOffset(8)] // size = 8, padding = 0
+            public ImGuiListClipperData* Data;
         }
 
-        // Struct @ cimgui.h:291:94
+        // Struct @ cimgui.h:295:94
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiTableTempData
         {
@@ -8606,7 +8727,21 @@ namespace bottlenoselabs
             public ImGuiTableTempData* Data;
         }
 
-        // Struct @ cimgui.h:302:68
+        // Struct @ cimgui.h:1023:96
+        [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 8)]
+        public struct ImPool_ImGuiTable
+        {
+            [FieldOffset(0)] // size = 16, padding = 0
+            public ImVector_ImGuiTable Buf;
+
+            [FieldOffset(16)] // size = 16, padding = 0
+            public ImGuiStorage Map;
+
+            [FieldOffset(32)] // size = 4, padding = 4
+            public ImPoolIdx FreeIdx;
+        }
+
+        // Struct @ cimgui.h:306:68
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_float
         {
@@ -8620,7 +8755,7 @@ namespace bottlenoselabs
             public float* Data;
         }
 
-        // Struct @ cimgui.h:266:84
+        // Struct @ cimgui.h:268:84
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImDrawChannel
         {
@@ -8634,7 +8769,7 @@ namespace bottlenoselabs
             public ImDrawChannel* Data;
         }
 
-        // Struct @ cimgui.h:1016:98
+        // Struct @ cimgui.h:1021:98
         [StructLayout(LayoutKind.Explicit, Size = 40, Pack = 8)]
         public struct ImPool_ImGuiTabBar
         {
@@ -8648,7 +8783,7 @@ namespace bottlenoselabs
             public ImPoolIdx FreeIdx;
         }
 
-        // Struct @ cimgui.h:283:88
+        // Struct @ cimgui.h:287:88
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiPtrOrIndex
         {
@@ -8662,7 +8797,7 @@ namespace bottlenoselabs
             public ImGuiPtrOrIndex* Data;
         }
 
-        // Struct @ cimgui.h:285:98
+        // Struct @ cimgui.h:289:98
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiShrinkWidthItem
         {
@@ -8676,7 +8811,7 @@ namespace bottlenoselabs
             public ImGuiShrinkWidthItem* Data;
         }
 
-        // Struct @ cimgui.h:301:66
+        // Struct @ cimgui.h:305:66
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_char
         {
@@ -8690,7 +8825,7 @@ namespace bottlenoselabs
             public CString Data;
         }
 
-        // Struct @ cimgui.h:284:98
+        // Struct @ cimgui.h:288:98
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiSettingsHandler
         {
@@ -8704,7 +8839,7 @@ namespace bottlenoselabs
             public ImGuiSettingsHandler* Data;
         }
 
-        // Struct @ cimgui.h:262:86
+        // Struct @ cimgui.h:264:86
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImChunkStream_ImGuiWindowSettings
         {
@@ -8712,7 +8847,7 @@ namespace bottlenoselabs
             public ImVector_ImGuiWindowSettings Buf;
         }
 
-        // Struct @ cimgui.h:260:84
+        // Struct @ cimgui.h:262:84
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImChunkStream_ImGuiTableSettings
         {
@@ -8720,7 +8855,7 @@ namespace bottlenoselabs
             public ImVector_ImGuiTableSettings Buf;
         }
 
-        // Struct @ cimgui.h:276:90
+        // Struct @ cimgui.h:278:90
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiContextHook
         {
@@ -8734,7 +8869,7 @@ namespace bottlenoselabs
             public ImGuiContextHook* Data;
         }
 
-        // Struct @ cimgui.h:272:100
+        // Struct @ cimgui.h:274:100
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImFontAtlasCustomRect
         {
@@ -8748,7 +8883,7 @@ namespace bottlenoselabs
             public ImFontAtlasCustomRect* Data;
         }
 
-        // Struct @ cimgui.h:273:82
+        // Struct @ cimgui.h:275:82
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImFontConfig
         {
@@ -8762,7 +8897,7 @@ namespace bottlenoselabs
             public ImFontConfig* Data;
         }
 
-        // Struct @ cimgui.h:267:76
+        // Struct @ cimgui.h:269:76
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImDrawCmd
         {
@@ -8776,7 +8911,7 @@ namespace bottlenoselabs
             public ImDrawCmd* Data;
         }
 
-        // Struct @ cimgui.h:268:76
+        // Struct @ cimgui.h:270:76
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImDrawIdx
         {
@@ -8790,7 +8925,7 @@ namespace bottlenoselabs
             public ImDrawIdx* Data;
         }
 
-        // Struct @ cimgui.h:270:78
+        // Struct @ cimgui.h:272:78
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImDrawVert
         {
@@ -8804,7 +8939,7 @@ namespace bottlenoselabs
             public ImDrawVert* Data;
         }
 
-        // Struct @ cimgui.h:115:27
+        // Struct @ cimgui.h:117:27
         [StructLayout(LayoutKind.Explicit, Size = 20, Pack = 4)]
         public struct ImDrawVert
         {
@@ -8818,7 +8953,7 @@ namespace bottlenoselabs
             public uint col;
         }
 
-        // Struct @ cimgui.h:299:70
+        // Struct @ cimgui.h:303:70
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImVec4
         {
@@ -8832,7 +8967,7 @@ namespace bottlenoselabs
             public Vector4* Data;
         }
 
-        // Struct @ cimgui.h:296:80
+        // Struct @ cimgui.h:300:80
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImTextureID
         {
@@ -8846,7 +8981,7 @@ namespace bottlenoselabs
             public ImTextureID* Data;
         }
 
-        // Struct @ cimgui.h:298:70
+        // Struct @ cimgui.h:302:70
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImVec2
         {
@@ -8860,7 +8995,7 @@ namespace bottlenoselabs
             public Vector2* Data;
         }
 
-        // Struct @ cimgui.h:89:32
+        // Struct @ cimgui.h:91:32
         [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
         public struct ImDrawCmdHeader
         {
@@ -8874,7 +9009,7 @@ namespace bottlenoselabs
             public uint VtxOffset;
         }
 
-        // Struct @ cimgui.h:101:38
+        // Struct @ cimgui.h:103:38
         [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
         public struct ImGuiSizeCallbackData
         {
@@ -8891,7 +9026,7 @@ namespace bottlenoselabs
             public Vector2 DesiredSize;
         }
 
-        // Struct @ cimgui.h:274:80
+        // Struct @ cimgui.h:276:80
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImFontGlyph
         {
@@ -8905,7 +9040,7 @@ namespace bottlenoselabs
             public ImFontGlyph* Data;
         }
 
-        // Struct @ cimgui.h:287:90
+        // Struct @ cimgui.h:291:90
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiStoragePair
         {
@@ -8919,7 +9054,7 @@ namespace bottlenoselabs
             public ImGuiStoragePair* Data;
         }
 
-        // Struct @ cimgui.h:297:68
+        // Struct @ cimgui.h:301:68
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImU32
         {
@@ -8933,7 +9068,7 @@ namespace bottlenoselabs
             public uint* Data;
         }
 
-        // Struct @ cimgui.h:55:34
+        // Struct @ cimgui.h:57:34
         [StructLayout(LayoutKind.Explicit, Size = 3628, Pack = 4)]
         public struct STB_TexteditState
         {
@@ -8980,7 +9115,21 @@ namespace bottlenoselabs
             public StbUndoState undostate;
         }
 
-        // Struct @ cimgui.h:280:94
+        // Struct @ cimgui.h:283:100
+        [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
+        public struct ImVector_ImGuiListClipperRange
+        {
+            [FieldOffset(0)] // size = 4, padding = 0
+            public int Size;
+
+            [FieldOffset(4)] // size = 4, padding = 0
+            public int Capacity;
+
+            [FieldOffset(8)] // size = 8, padding = 0
+            public ImGuiListClipperRange* Data;
+        }
+
+        // Struct @ cimgui.h:284:94
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiOldColumnData
         {
@@ -8994,7 +9143,7 @@ namespace bottlenoselabs
             public ImGuiOldColumnData* Data;
         }
 
-        // Struct @ cimgui.h:286:96
+        // Struct @ cimgui.h:290:96
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiStackLevelInfo
         {
@@ -9008,8 +9157,8 @@ namespace bottlenoselabs
             public ImGuiStackLevelInfo* Data;
         }
 
-        // Struct @ cimgui.h:59:36
-        [StructLayout(LayoutKind.Explicit, Size = 224, Pack = 8)]
+        // Struct @ cimgui.h:61:36
+        [StructLayout(LayoutKind.Explicit, Size = 232, Pack = 8)]
         public struct ImGuiWindowTempData
         {
             [FieldOffset(0)] // size = 8, padding = 0
@@ -9048,74 +9197,74 @@ namespace bottlenoselabs
             [FieldOffset(72)] // size = 4, padding = 0
             public float GroupOffset;
 
-            [FieldOffset(76)] // size = 4, padding = 0
-            public ImGuiNavLayer NavLayerCurrent;
-
-            [FieldOffset(80)] // size = 2, padding = 0
-            public short NavLayersActiveMask;
-
-            [FieldOffset(82)] // size = 2, padding = 0
-            public short NavLayersActiveMaskNext;
+            [FieldOffset(76)] // size = 8, padding = 0
+            public Vector2 CursorStartPosLossyness;
 
             [FieldOffset(84)] // size = 4, padding = 0
+            public ImGuiNavLayer NavLayerCurrent;
+
+            [FieldOffset(88)] // size = 2, padding = 0
+            public short NavLayersActiveMask;
+
+            [FieldOffset(90)] // size = 2, padding = 0
+            public short NavLayersActiveMaskNext;
+
+            [FieldOffset(92)] // size = 4, padding = 0
             public ImGuiID NavFocusScopeIdCurrent;
 
-            [FieldOffset(88)] // size = 1, padding = 0
+            [FieldOffset(96)] // size = 1, padding = 0
             public CBool NavHideHighlightOneFrame;
 
-            [FieldOffset(89)] // size = 1, padding = 0
+            [FieldOffset(97)] // size = 1, padding = 0
             public CBool NavHasScroll;
 
-            [FieldOffset(90)] // size = 1, padding = 1
+            [FieldOffset(98)] // size = 1, padding = 1
             public CBool MenuBarAppending;
 
-            [FieldOffset(92)] // size = 8, padding = 0
+            [FieldOffset(100)] // size = 8, padding = 0
             public Vector2 MenuBarOffset;
 
-            [FieldOffset(100)] // size = 28, padding = 0
+            [FieldOffset(108)] // size = 28, padding = 0
             public ImGuiMenuColumns MenuColumns;
 
-            [FieldOffset(128)] // size = 4, padding = 0
+            [FieldOffset(136)] // size = 4, padding = 0
             public int TreeDepth;
 
-            [FieldOffset(132)] // size = 4, padding = 0
+            [FieldOffset(140)] // size = 4, padding = 0
             public uint TreeJumpToParentOnPopMask;
 
-            [FieldOffset(136)] // size = 16, padding = 0
+            [FieldOffset(144)] // size = 16, padding = 0
             public ImVector_ImGuiWindowPtr ChildWindows;
 
-            [FieldOffset(152)] // size = 8, padding = 0
+            [FieldOffset(160)] // size = 8, padding = 0
             public ImGuiStorage* StateStorage;
 
-            [FieldOffset(160)] // size = 8, padding = 0
+            [FieldOffset(168)] // size = 8, padding = 0
             public ImGuiOldColumns* CurrentColumns;
 
-            [FieldOffset(168)] // size = 4, padding = 0
+            [FieldOffset(176)] // size = 4, padding = 0
             public int CurrentTableIdx;
 
-            [FieldOffset(172)] // size = 4, padding = 0
+            [FieldOffset(180)] // size = 4, padding = 0
             public ImGuiLayoutType LayoutType;
 
-            [FieldOffset(176)] // size = 4, padding = 0
+            [FieldOffset(184)] // size = 4, padding = 0
             public ImGuiLayoutType ParentLayoutType;
 
-            [FieldOffset(180)] // size = 4, padding = 0
-            public int FocusCounterTabStop;
-
-            [FieldOffset(184)] // size = 4, padding = 0
+            [FieldOffset(188)] // size = 4, padding = 0
             public float ItemWidth;
 
-            [FieldOffset(188)] // size = 4, padding = 0
+            [FieldOffset(192)] // size = 4, padding = 4
             public float TextWrapPos;
 
-            [FieldOffset(192)] // size = 16, padding = 0
+            [FieldOffset(200)] // size = 16, padding = 0
             public ImVector_float ItemWidthStack;
 
-            [FieldOffset(208)] // size = 16, padding = 0
+            [FieldOffset(216)] // size = 16, padding = 0
             public ImVector_float TextWrapPosStack;
         }
 
-        // Struct @ cimgui.h:281:88
+        // Struct @ cimgui.h:285:88
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiOldColumns
         {
@@ -9129,7 +9278,7 @@ namespace bottlenoselabs
             public ImGuiOldColumns* Data;
         }
 
-        // Struct @ cimgui.h:289:82
+        // Struct @ cimgui.h:293:82
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiTabItem
         {
@@ -9143,7 +9292,7 @@ namespace bottlenoselabs
             public ImGuiTabItem* Data;
         }
 
-        // Struct @ cimgui.h:264:92
+        // Struct @ cimgui.h:266:92
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImSpan_ImGuiTableColumn
         {
@@ -9154,7 +9303,7 @@ namespace bottlenoselabs
             public ImGuiTableColumn* DataEnd;
         }
 
-        // Struct @ cimgui.h:265:101
+        // Struct @ cimgui.h:267:101
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImSpan_ImGuiTableColumnIdx
         {
@@ -9165,7 +9314,7 @@ namespace bottlenoselabs
             public ImGuiTableColumnIdx* DataEnd;
         }
 
-        // Struct @ cimgui.h:263:98
+        // Struct @ cimgui.h:265:98
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImSpan_ImGuiTableCellData
         {
@@ -9176,7 +9325,7 @@ namespace bottlenoselabs
             public ImGuiTableCellData* DataEnd;
         }
 
-        // Struct @ cimgui.h:290:108
+        // Struct @ cimgui.h:294:108
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiTableColumnSortSpecs
         {
@@ -9190,7 +9339,7 @@ namespace bottlenoselabs
             public ImGuiTableColumnSortSpecs* Data;
         }
 
-        // Struct @ cimgui.h:49:37
+        // Struct @ cimgui.h:51:37
         [StructLayout(LayoutKind.Explicit, Size = 88, Pack = 8)]
         public struct ImGuiWindowStackData
         {
@@ -9204,7 +9353,7 @@ namespace bottlenoselabs
             public ImGuiStackSizes StackSizesOnBegin;
         }
 
-        // Struct @ cimgui.h:84:30
+        // Struct @ cimgui.h:86:30
         [StructLayout(LayoutKind.Explicit, Size = 20, Pack = 4)]
         public struct ImGuiColorMod
         {
@@ -9215,7 +9364,7 @@ namespace bottlenoselabs
             public Vector4 BackupValue;
         }
 
-        // Struct @ cimgui.h:81:31
+        // Struct @ cimgui.h:83:31
         [StructLayout(LayoutKind.Explicit, Size = 48, Pack = 4)]
         public struct ImGuiGroupData
         {
@@ -9253,7 +9402,7 @@ namespace bottlenoselabs
             public CBool EmitItem;
         }
 
-        // Struct @ cimgui.h:1017:78
+        // Struct @ cimgui.h:1022:78
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiTable
         {
@@ -9267,7 +9416,7 @@ namespace bottlenoselabs
             public ImGuiTable* Data;
         }
 
-        // Struct @ cimgui.h:121:30
+        // Struct @ cimgui.h:123:30
         [StructLayout(LayoutKind.Explicit, Size = 32, Pack = 8)]
         public struct ImDrawChannel
         {
@@ -9278,7 +9427,7 @@ namespace bottlenoselabs
             public ImVector_ImDrawIdx _IdxBuffer;
         }
 
-        // Struct @ cimgui.h:1015:80
+        // Struct @ cimgui.h:1020:80
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiTabBar
         {
@@ -9292,7 +9441,7 @@ namespace bottlenoselabs
             public ImGuiTabBar* Data;
         }
 
-        // Struct @ cimgui.h:261:96
+        // Struct @ cimgui.h:263:96
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiWindowSettings
         {
@@ -9306,7 +9455,7 @@ namespace bottlenoselabs
             public ImGuiWindowSettings* Data;
         }
 
-        // Struct @ cimgui.h:259:94
+        // Struct @ cimgui.h:261:94
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImGuiTableSettings
         {
@@ -9320,7 +9469,7 @@ namespace bottlenoselabs
             public ImGuiTableSettings* Data;
         }
 
-        // Struct @ cimgui.h:269:82
+        // Struct @ cimgui.h:271:82
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 8)]
         public struct ImVector_ImDrawListPtr
         {
@@ -9334,7 +9483,7 @@ namespace bottlenoselabs
             public ImDrawList** Data;
         }
 
-        // Struct @ cimgui.h:56:29
+        // Struct @ cimgui.h:58:29
         [StructLayout(LayoutKind.Explicit, Size = 3596, Pack = 4)]
         public struct StbUndoState
         {
@@ -9394,7 +9543,7 @@ namespace bottlenoselabs
             public ImGuiTableColumnIdx Column;
         }
 
-        // Struct @ cimgui.h:57:30
+        // Struct @ cimgui.h:59:30
         [StructLayout(LayoutKind.Explicit, Size = 16, Pack = 4)]
         public struct StbUndoRecord
         {
@@ -9411,7 +9560,7 @@ namespace bottlenoselabs
             public int char_storage;
         }
 
-        // Typedef @ cimgui.h:185:13
+        // Typedef @ cimgui.h:187:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiWindowFlags
         {
@@ -9422,7 +9571,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiWindowFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:188:22
+        // Typedef @ cimgui.h:190:22
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiID
         {
@@ -9433,7 +9582,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiID(uint data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:171:13
+        // Typedef @ cimgui.h:173:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiFocusedFlags
         {
@@ -9444,7 +9593,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiFocusedFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:172:13
+        // Typedef @ cimgui.h:174:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiHoveredFlags
         {
@@ -9455,7 +9604,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiHoveredFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:152:13
+        // Typedef @ cimgui.h:154:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiCond
         {
@@ -9466,7 +9615,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiCond(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:151:13
+        // Typedef @ cimgui.h:153:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiCol
         {
@@ -9477,7 +9626,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiCol(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:160:13
+        // Typedef @ cimgui.h:162:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiStyleVar
         {
@@ -9488,7 +9637,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiStyleVar(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:166:13
+        // Typedef @ cimgui.h:168:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiButtonFlags
         {
@@ -9499,7 +9648,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiButtonFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:154:13
+        // Typedef @ cimgui.h:156:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiDir
         {
@@ -9510,7 +9659,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiDir(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:186:15
+        // Typedef @ cimgui.h:188:15
         [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 8)]
         public struct ImTextureID
         {
@@ -9521,7 +9670,7 @@ namespace bottlenoselabs
             public static implicit operator ImTextureID(void* data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:169:13
+        // Typedef @ cimgui.h:171:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiComboFlags
         {
@@ -9532,7 +9681,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiComboFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:177:13
+        // Typedef @ cimgui.h:179:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiSliderFlags
         {
@@ -9543,7 +9692,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiSliderFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:153:13
+        // Typedef @ cimgui.h:155:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiDataType
         {
@@ -9554,7 +9703,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiDataType(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:173:13
+        // Typedef @ cimgui.h:175:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiInputTextFlags
         {
@@ -9565,7 +9714,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiInputTextFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:167:13
+        // Typedef @ cimgui.h:169:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiColorEditFlags
         {
@@ -9576,7 +9725,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiColorEditFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:183:13
+        // Typedef @ cimgui.h:185:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiTreeNodeFlags
         {
@@ -9587,7 +9736,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTreeNodeFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:176:13
+        // Typedef @ cimgui.h:178:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiSelectableFlags
         {
@@ -9598,7 +9747,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiSelectableFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:175:13
+        // Typedef @ cimgui.h:177:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiPopupFlags
         {
@@ -9609,7 +9758,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiPopupFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:180:13
+        // Typedef @ cimgui.h:182:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiTableFlags
         {
@@ -9620,7 +9769,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTableFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:182:13
+        // Typedef @ cimgui.h:184:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiTableRowFlags
         {
@@ -9631,7 +9780,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTableRowFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:181:13
+        // Typedef @ cimgui.h:183:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiTableColumnFlags
         {
@@ -9642,7 +9791,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTableColumnFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:161:13
+        // Typedef @ cimgui.h:163:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiTableBgTarget
         {
@@ -9653,7 +9802,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTableBgTarget(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:178:13
+        // Typedef @ cimgui.h:180:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiTabBarFlags
         {
@@ -9664,7 +9813,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTabBarFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:179:13
+        // Typedef @ cimgui.h:181:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiTabItemFlags
         {
@@ -9675,7 +9824,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTabItemFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:170:13
+        // Typedef @ cimgui.h:172:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiDragDropFlags
         {
@@ -9686,7 +9835,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiDragDropFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:157:13
+        // Typedef @ cimgui.h:159:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiMouseButton
         {
@@ -9697,7 +9846,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiMouseButton(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:155:13
+        // Typedef @ cimgui.h:157:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiKey
         {
@@ -9708,7 +9857,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiKey(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:158:13
+        // Typedef @ cimgui.h:160:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiMouseCursor
         {
@@ -9719,7 +9868,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiMouseCursor(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:162:13
+        // Typedef @ cimgui.h:164:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImDrawFlags
         {
@@ -9730,7 +9879,7 @@ namespace bottlenoselabs
             public static implicit operator ImDrawFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:187:24
+        // Typedef @ cimgui.h:189:24
         [StructLayout(LayoutKind.Explicit, Size = 2, Pack = 2)]
         public struct ImDrawIdx
         {
@@ -9741,7 +9890,7 @@ namespace bottlenoselabs
             public static implicit operator ImDrawIdx(ushort data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:253:15
+        // Typedef @ cimgui.h:255:15
         [StructLayout(LayoutKind.Explicit, Size = 8, Pack = 8)]
         public struct ImFileHandle
         {
@@ -9752,7 +9901,7 @@ namespace bottlenoselabs
             public static implicit operator ImFileHandle(nint data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:247:13
+        // Typedef @ cimgui.h:249:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiScrollFlags
         {
@@ -9763,7 +9912,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiScrollFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:240:13
+        // Typedef @ cimgui.h:242:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiItemStatusFlags
         {
@@ -9774,7 +9923,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiItemStatusFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:239:13
+        // Typedef @ cimgui.h:241:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiItemFlags
         {
@@ -9785,7 +9934,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiItemFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:250:13
+        // Typedef @ cimgui.h:252:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiTooltipFlags
         {
@@ -9796,7 +9945,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTooltipFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:244:13
+        // Typedef @ cimgui.h:246:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiNavMoveFlags
         {
@@ -9807,7 +9956,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiNavMoveFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:156:13
+        // Typedef @ cimgui.h:158:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiNavInput
         {
@@ -9818,7 +9967,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiNavInput(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:243:13
+        // Typedef @ cimgui.h:245:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiNavDirSourceFlags
         {
@@ -9829,7 +9978,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiNavDirSourceFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:174:13
+        // Typedef @ cimgui.h:176:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiKeyModFlags
         {
@@ -9840,7 +9989,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiKeyModFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:241:13
+        // Typedef @ cimgui.h:243:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiOldColumnFlags
         {
@@ -9851,7 +10000,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiOldColumnFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:159:13
+        // Typedef @ cimgui.h:161:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiSortDirection
         {
@@ -9862,7 +10011,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiSortDirection(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:242:13
+        // Typedef @ cimgui.h:244:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiNavHighlightFlags
         {
@@ -9873,7 +10022,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiNavHighlightFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:249:13
+        // Typedef @ cimgui.h:251:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiTextFlags
         {
@@ -9884,7 +10033,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTextFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:248:13
+        // Typedef @ cimgui.h:250:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiSeparatorFlags
         {
@@ -9895,7 +10044,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiSeparatorFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:238:13
+        // Typedef @ cimgui.h:240:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiActivateFlags
         {
@@ -9906,7 +10055,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiActivateFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:164:13
+        // Typedef @ cimgui.h:166:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImFontAtlasFlags
         {
@@ -9917,7 +10066,7 @@ namespace bottlenoselabs
             public static implicit operator ImFontAtlasFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:168:13
+        // Typedef @ cimgui.h:170:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiConfigFlags
         {
@@ -9928,7 +10077,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiConfigFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:165:13
+        // Typedef @ cimgui.h:167:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiBackendFlags
         {
@@ -9939,7 +10088,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiBackendFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:163:13
+        // Typedef @ cimgui.h:165:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImDrawListFlags
         {
@@ -9950,7 +10099,7 @@ namespace bottlenoselabs
             public static implicit operator ImDrawListFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:184:13
+        // Typedef @ cimgui.h:186:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiViewportFlags
         {
@@ -9961,7 +10110,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiViewportFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:237:13
+        // Typedef @ cimgui.h:239:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiLayoutType
         {
@@ -9972,7 +10121,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiLayoutType(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:246:13
+        // Typedef @ cimgui.h:248:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiNextWindowDataFlags
         {
@@ -9983,7 +10132,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiNextWindowDataFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:245:13
+        // Typedef @ cimgui.h:247:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImGuiNextItemDataFlags
         {
@@ -9994,7 +10143,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiNextItemDataFlags(int data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:256:14
+        // Typedef @ cimgui.h:258:14
         [StructLayout(LayoutKind.Explicit, Size = 1, Pack = 1)]
         public struct ImGuiTableColumnIdx
         {
@@ -10005,7 +10154,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTableColumnIdx(sbyte data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:257:14
+        // Typedef @ cimgui.h:259:14
         [StructLayout(LayoutKind.Explicit, Size = 1, Pack = 1)]
         public struct ImGuiTableDrawChannelIdx
         {
@@ -10016,7 +10165,7 @@ namespace bottlenoselabs
             public static implicit operator ImGuiTableDrawChannelIdx(byte data) => new() { Data = data };
         }
 
-        // Typedef @ cimgui.h:254:13
+        // Typedef @ cimgui.h:256:13
         [StructLayout(LayoutKind.Explicit, Size = 4, Pack = 4)]
         public struct ImPoolIdx
         {
@@ -10027,7 +10176,7 @@ namespace bottlenoselabs
             public static implicit operator ImPoolIdx(int data) => new() { Data = data };
         }
 
-        // Enum @ cimgui.h:1741:288
+        // Enum @ cimgui.h:1761:288
         public enum ImGuiContextHookType : int
         {
             ImGuiContextHookType_NewFramePre = 0,
@@ -10040,7 +10189,7 @@ namespace bottlenoselabs
             ImGuiContextHookType_PendingRemoval_ = 7
         }
 
-        // Enum @ cimgui.h:1389:2
+        // Enum @ cimgui.h:1393:2
         public enum ImGuiLogType : int
         {
             ImGuiLogType_None = 0,
@@ -10050,7 +10199,7 @@ namespace bottlenoselabs
             ImGuiLogType_Clipboard = 4
         }
 
-        // Enum @ cimgui.h:1420:2
+        // Enum @ cimgui.h:1424:2
         public enum ImGuiPopupPositionPolicy : int
         {
             ImGuiPopupPositionPolicy_Default = 0,
@@ -10058,7 +10207,7 @@ namespace bottlenoselabs
             ImGuiPopupPositionPolicy_Tooltip = 2
         }
 
-        // Enum @ cimgui.h:1415:2
+        // Enum @ cimgui.h:1419:2
         public enum ImGuiInputReadMode : int
         {
             ImGuiInputReadMode_Down = 0,
@@ -10069,7 +10218,7 @@ namespace bottlenoselabs
             ImGuiInputReadMode_RepeatFast = 5
         }
 
-        // Enum @ cimgui.h:1639:2
+        // Enum @ cimgui.h:1659:2
         public enum ImGuiNavLayer : int
         {
             ImGuiNavLayer_Main = 0,
@@ -10077,7 +10226,7 @@ namespace bottlenoselabs
             ImGuiNavLayer_COUNT = 2
         }
 
-        // Enum @ cimgui.h:1394:2
+        // Enum @ cimgui.h:1398:2
         public enum ImGuiAxis : int
         {
             ImGuiAxis_None = -1,
@@ -10085,14 +10234,14 @@ namespace bottlenoselabs
             ImGuiAxis_Y = 1
         }
 
-        // Enum @ cimgui.h:1398:2
+        // Enum @ cimgui.h:1402:2
         public enum ImGuiPlotType : int
         {
             ImGuiPlotType_Lines = 0,
             ImGuiPlotType_Histogram = 1
         }
 
-        // Enum @ cimgui.h:1407:2
+        // Enum @ cimgui.h:1411:2
         public enum ImGuiInputSource : int
         {
             ImGuiInputSource_None = 0,
@@ -10104,7 +10253,7 @@ namespace bottlenoselabs
             ImGuiInputSource_COUNT = 6
         }
 
-        // Pseudo enum 'ImGuiWindowFlags_' @ cimgui.h:313:9
+        // Pseudo enum 'ImGuiWindowFlags_' @ cimgui.h:317:9
         public const int ImGuiWindowFlags_None = 0;
         public const int ImGuiWindowFlags_NoTitleBar = 1;
         public const int ImGuiWindowFlags_NoResize = 2;
@@ -10136,7 +10285,7 @@ namespace bottlenoselabs
         public const int ImGuiWindowFlags_Modal = 134217728;
         public const int ImGuiWindowFlags_ChildMenu = 268435456;
 
-        // Pseudo enum 'ImGuiInputTextFlags_' @ cimgui.h:345:9
+        // Pseudo enum 'ImGuiInputTextFlags_' @ cimgui.h:349:9
         public const int ImGuiInputTextFlags_None = 0;
         public const int ImGuiInputTextFlags_CharsDecimal = 1;
         public const int ImGuiInputTextFlags_CharsHexadecimal = 2;
@@ -10159,7 +10308,7 @@ namespace bottlenoselabs
         public const int ImGuiInputTextFlags_CallbackResize = 262144;
         public const int ImGuiInputTextFlags_CallbackEdit = 524288;
 
-        // Pseudo enum 'ImGuiTreeNodeFlags_' @ cimgui.h:368:9
+        // Pseudo enum 'ImGuiTreeNodeFlags_' @ cimgui.h:372:9
         public const int ImGuiTreeNodeFlags_None = 0;
         public const int ImGuiTreeNodeFlags_Selected = 1;
         public const int ImGuiTreeNodeFlags_Framed = 2;
@@ -10177,7 +10326,7 @@ namespace bottlenoselabs
         public const int ImGuiTreeNodeFlags_NavLeftJumpsBackHere = 8192;
         public const int ImGuiTreeNodeFlags_CollapsingHeader = 26;
 
-        // Pseudo enum 'ImGuiPopupFlags_' @ cimgui.h:386:9
+        // Pseudo enum 'ImGuiPopupFlags_' @ cimgui.h:390:9
         public const int ImGuiPopupFlags_None = 0;
         public const int ImGuiPopupFlags_MouseButtonLeft = 0;
         public const int ImGuiPopupFlags_MouseButtonRight = 1;
@@ -10190,7 +10339,7 @@ namespace bottlenoselabs
         public const int ImGuiPopupFlags_AnyPopupLevel = 256;
         public const int ImGuiPopupFlags_AnyPopup = 384;
 
-        // Pseudo enum 'ImGuiSelectableFlags_' @ cimgui.h:399:9
+        // Pseudo enum 'ImGuiSelectableFlags_' @ cimgui.h:403:9
         public const int ImGuiSelectableFlags_None = 0;
         public const int ImGuiSelectableFlags_DontClosePopups = 1;
         public const int ImGuiSelectableFlags_SpanAllColumns = 2;
@@ -10198,7 +10347,7 @@ namespace bottlenoselabs
         public const int ImGuiSelectableFlags_Disabled = 8;
         public const int ImGuiSelectableFlags_AllowItemOverlap = 16;
 
-        // Pseudo enum 'ImGuiComboFlags_' @ cimgui.h:407:9
+        // Pseudo enum 'ImGuiComboFlags_' @ cimgui.h:411:9
         public const int ImGuiComboFlags_None = 0;
         public const int ImGuiComboFlags_PopupAlignLeft = 1;
         public const int ImGuiComboFlags_HeightSmall = 2;
@@ -10209,7 +10358,7 @@ namespace bottlenoselabs
         public const int ImGuiComboFlags_NoPreview = 64;
         public const int ImGuiComboFlags_HeightMask_ = 30;
 
-        // Pseudo enum 'ImGuiTabBarFlags_' @ cimgui.h:418:9
+        // Pseudo enum 'ImGuiTabBarFlags_' @ cimgui.h:422:9
         public const int ImGuiTabBarFlags_None = 0;
         public const int ImGuiTabBarFlags_Reorderable = 1;
         public const int ImGuiTabBarFlags_AutoSelectNewTabs = 2;
@@ -10222,7 +10371,7 @@ namespace bottlenoselabs
         public const int ImGuiTabBarFlags_FittingPolicyMask_ = 192;
         public const int ImGuiTabBarFlags_FittingPolicyDefault_ = 64;
 
-        // Pseudo enum 'ImGuiTabItemFlags_' @ cimgui.h:431:9
+        // Pseudo enum 'ImGuiTabItemFlags_' @ cimgui.h:435:9
         public const int ImGuiTabItemFlags_None = 0;
         public const int ImGuiTabItemFlags_UnsavedDocument = 1;
         public const int ImGuiTabItemFlags_SetSelected = 2;
@@ -10233,7 +10382,7 @@ namespace bottlenoselabs
         public const int ImGuiTabItemFlags_Leading = 64;
         public const int ImGuiTabItemFlags_Trailing = 128;
 
-        // Pseudo enum 'ImGuiTableFlags_' @ cimgui.h:442:9
+        // Pseudo enum 'ImGuiTableFlags_' @ cimgui.h:446:9
         public const int ImGuiTableFlags_None = 0;
         public const int ImGuiTableFlags_Resizable = 1;
         public const int ImGuiTableFlags_Reorderable = 2;
@@ -10271,7 +10420,7 @@ namespace bottlenoselabs
         public const int ImGuiTableFlags_SortTristate = 134217728;
         public const int ImGuiTableFlags_SizingMask_ = 57344;
 
-        // Pseudo enum 'ImGuiTableColumnFlags_' @ cimgui.h:480:9
+        // Pseudo enum 'ImGuiTableColumnFlags_' @ cimgui.h:484:9
         public const int ImGuiTableColumnFlags_None = 0;
         public const int ImGuiTableColumnFlags_Disabled = 1;
         public const int ImGuiTableColumnFlags_DefaultHide = 2;
@@ -10300,17 +10449,17 @@ namespace bottlenoselabs
         public const int ImGuiTableColumnFlags_StatusMask_ = 251658240;
         public const int ImGuiTableColumnFlags_NoDirectResize_ = 1073741824;
 
-        // Pseudo enum 'ImGuiTableRowFlags_' @ cimgui.h:509:9
+        // Pseudo enum 'ImGuiTableRowFlags_' @ cimgui.h:513:9
         public const int ImGuiTableRowFlags_None = 0;
         public const int ImGuiTableRowFlags_Headers = 1;
 
-        // Pseudo enum 'ImGuiTableBgTarget_' @ cimgui.h:513:9
+        // Pseudo enum 'ImGuiTableBgTarget_' @ cimgui.h:517:9
         public const int ImGuiTableBgTarget_None = 0;
         public const int ImGuiTableBgTarget_RowBg0 = 1;
         public const int ImGuiTableBgTarget_RowBg1 = 2;
         public const int ImGuiTableBgTarget_CellBg = 3;
 
-        // Pseudo enum 'ImGuiFocusedFlags_' @ cimgui.h:519:9
+        // Pseudo enum 'ImGuiFocusedFlags_' @ cimgui.h:523:9
         public const int ImGuiFocusedFlags_None = 0;
         public const int ImGuiFocusedFlags_ChildWindows = 1;
         public const int ImGuiFocusedFlags_RootWindow = 2;
@@ -10318,7 +10467,7 @@ namespace bottlenoselabs
         public const int ImGuiFocusedFlags_NoPopupHierarchy = 8;
         public const int ImGuiFocusedFlags_RootAndChildWindows = 3;
 
-        // Pseudo enum 'ImGuiHoveredFlags_' @ cimgui.h:527:9
+        // Pseudo enum 'ImGuiHoveredFlags_' @ cimgui.h:531:9
         public const int ImGuiHoveredFlags_None = 0;
         public const int ImGuiHoveredFlags_ChildWindows = 1;
         public const int ImGuiHoveredFlags_RootWindow = 2;
@@ -10331,7 +10480,7 @@ namespace bottlenoselabs
         public const int ImGuiHoveredFlags_RectOnly = 416;
         public const int ImGuiHoveredFlags_RootAndChildWindows = 3;
 
-        // Pseudo enum 'ImGuiDragDropFlags_' @ cimgui.h:540:9
+        // Pseudo enum 'ImGuiDragDropFlags_' @ cimgui.h:544:9
         public const int ImGuiDragDropFlags_None = 0;
         public const int ImGuiDragDropFlags_SourceNoPreviewTooltip = 1;
         public const int ImGuiDragDropFlags_SourceNoDisableHover = 2;
@@ -10344,7 +10493,7 @@ namespace bottlenoselabs
         public const int ImGuiDragDropFlags_AcceptNoPreviewTooltip = 4096;
         public const int ImGuiDragDropFlags_AcceptPeekOnly = 3072;
 
-        // Pseudo enum 'ImGuiDataType_' @ cimgui.h:553:9
+        // Pseudo enum 'ImGuiDataType_' @ cimgui.h:557:9
         public const int ImGuiDataType_S8 = 0;
         public const int ImGuiDataType_U8 = 1;
         public const int ImGuiDataType_S16 = 2;
@@ -10357,7 +10506,7 @@ namespace bottlenoselabs
         public const int ImGuiDataType_Double = 9;
         public const int ImGuiDataType_COUNT = 10;
 
-        // Pseudo enum 'ImGuiDir_' @ cimgui.h:566:9
+        // Pseudo enum 'ImGuiDir_' @ cimgui.h:570:9
         public const int ImGuiDir_None = -1;
         public const int ImGuiDir_Left = 0;
         public const int ImGuiDir_Right = 1;
@@ -10365,12 +10514,12 @@ namespace bottlenoselabs
         public const int ImGuiDir_Down = 3;
         public const int ImGuiDir_COUNT = 4;
 
-        // Pseudo enum 'ImGuiSortDirection_' @ cimgui.h:574:9
+        // Pseudo enum 'ImGuiSortDirection_' @ cimgui.h:578:9
         public const int ImGuiSortDirection_None = 0;
         public const int ImGuiSortDirection_Ascending = 1;
         public const int ImGuiSortDirection_Descending = 2;
 
-        // Pseudo enum 'ImGuiKey_' @ cimgui.h:579:9
+        // Pseudo enum 'ImGuiKey_' @ cimgui.h:583:9
         public const int ImGuiKey_Tab = 0;
         public const int ImGuiKey_LeftArrow = 1;
         public const int ImGuiKey_RightArrow = 2;
@@ -10395,14 +10544,14 @@ namespace bottlenoselabs
         public const int ImGuiKey_Z = 21;
         public const int ImGuiKey_COUNT = 22;
 
-        // Pseudo enum 'ImGuiKeyModFlags_' @ cimgui.h:604:9
+        // Pseudo enum 'ImGuiKeyModFlags_' @ cimgui.h:608:9
         public const int ImGuiKeyModFlags_None = 0;
         public const int ImGuiKeyModFlags_Ctrl = 1;
         public const int ImGuiKeyModFlags_Shift = 2;
         public const int ImGuiKeyModFlags_Alt = 4;
         public const int ImGuiKeyModFlags_Super = 8;
 
-        // Pseudo enum 'ImGuiNavInput_' @ cimgui.h:611:9
+        // Pseudo enum 'ImGuiNavInput_' @ cimgui.h:615:9
         public const int ImGuiNavInput_Activate = 0;
         public const int ImGuiNavInput_Cancel = 1;
         public const int ImGuiNavInput_Input = 2;
@@ -10426,7 +10575,7 @@ namespace bottlenoselabs
         public const int ImGuiNavInput_COUNT = 20;
         public const int ImGuiNavInput_InternalStart_ = 16;
 
-        // Pseudo enum 'ImGuiConfigFlags_' @ cimgui.h:635:9
+        // Pseudo enum 'ImGuiConfigFlags_' @ cimgui.h:639:9
         public const int ImGuiConfigFlags_None = 0;
         public const int ImGuiConfigFlags_NavEnableKeyboard = 1;
         public const int ImGuiConfigFlags_NavEnableGamepad = 2;
@@ -10437,14 +10586,14 @@ namespace bottlenoselabs
         public const int ImGuiConfigFlags_IsSRGB = 1048576;
         public const int ImGuiConfigFlags_IsTouchScreen = 2097152;
 
-        // Pseudo enum 'ImGuiBackendFlags_' @ cimgui.h:646:9
+        // Pseudo enum 'ImGuiBackendFlags_' @ cimgui.h:650:9
         public const int ImGuiBackendFlags_None = 0;
         public const int ImGuiBackendFlags_HasGamepad = 1;
         public const int ImGuiBackendFlags_HasMouseCursors = 2;
         public const int ImGuiBackendFlags_HasSetMousePos = 4;
         public const int ImGuiBackendFlags_RendererHasVtxOffset = 8;
 
-        // Pseudo enum 'ImGuiCol_' @ cimgui.h:653:9
+        // Pseudo enum 'ImGuiCol_' @ cimgui.h:657:9
         public const int ImGuiCol_Text = 0;
         public const int ImGuiCol_TextDisabled = 1;
         public const int ImGuiCol_WindowBg = 2;
@@ -10500,7 +10649,7 @@ namespace bottlenoselabs
         public const int ImGuiCol_ModalWindowDimBg = 52;
         public const int ImGuiCol_COUNT = 53;
 
-        // Pseudo enum 'ImGuiStyleVar_' @ cimgui.h:709:9
+        // Pseudo enum 'ImGuiStyleVar_' @ cimgui.h:713:9
         public const int ImGuiStyleVar_Alpha = 0;
         public const int ImGuiStyleVar_DisabledAlpha = 1;
         public const int ImGuiStyleVar_WindowPadding = 2;
@@ -10528,7 +10677,7 @@ namespace bottlenoselabs
         public const int ImGuiStyleVar_SelectableTextAlign = 24;
         public const int ImGuiStyleVar_COUNT = 25;
 
-        // Pseudo enum 'ImGuiButtonFlags_' @ cimgui.h:737:9
+        // Pseudo enum 'ImGuiButtonFlags_' @ cimgui.h:741:9
         public const int ImGuiButtonFlags_None = 0;
         public const int ImGuiButtonFlags_MouseButtonLeft = 1;
         public const int ImGuiButtonFlags_MouseButtonRight = 2;
@@ -10536,7 +10685,7 @@ namespace bottlenoselabs
         public const int ImGuiButtonFlags_MouseButtonMask_ = 7;
         public const int ImGuiButtonFlags_MouseButtonDefault_ = 1;
 
-        // Pseudo enum 'ImGuiColorEditFlags_' @ cimgui.h:745:9
+        // Pseudo enum 'ImGuiColorEditFlags_' @ cimgui.h:749:9
         public const int ImGuiColorEditFlags_None = 0;
         public const int ImGuiColorEditFlags_NoAlpha = 2;
         public const int ImGuiColorEditFlags_NoPicker = 4;
@@ -10567,7 +10716,7 @@ namespace bottlenoselabs
         public const int ImGuiColorEditFlags_PickerMask_ = 100663296;
         public const int ImGuiColorEditFlags_InputMask_ = 402653184;
 
-        // Pseudo enum 'ImGuiSliderFlags_' @ cimgui.h:776:9
+        // Pseudo enum 'ImGuiSliderFlags_' @ cimgui.h:780:9
         public const int ImGuiSliderFlags_None = 0;
         public const int ImGuiSliderFlags_AlwaysClamp = 16;
         public const int ImGuiSliderFlags_Logarithmic = 32;
@@ -10575,13 +10724,13 @@ namespace bottlenoselabs
         public const int ImGuiSliderFlags_NoInput = 128;
         public const int ImGuiSliderFlags_InvalidMask_ = 1879048207;
 
-        // Pseudo enum 'ImGuiMouseButton_' @ cimgui.h:784:9
+        // Pseudo enum 'ImGuiMouseButton_' @ cimgui.h:788:9
         public const int ImGuiMouseButton_Left = 0;
         public const int ImGuiMouseButton_Right = 1;
         public const int ImGuiMouseButton_Middle = 2;
         public const int ImGuiMouseButton_COUNT = 5;
 
-        // Pseudo enum 'ImGuiMouseCursor_' @ cimgui.h:790:9
+        // Pseudo enum 'ImGuiMouseCursor_' @ cimgui.h:794:9
         public const int ImGuiMouseCursor_None = -1;
         public const int ImGuiMouseCursor_Arrow = 0;
         public const int ImGuiMouseCursor_TextInput = 1;
@@ -10594,14 +10743,14 @@ namespace bottlenoselabs
         public const int ImGuiMouseCursor_NotAllowed = 8;
         public const int ImGuiMouseCursor_COUNT = 9;
 
-        // Pseudo enum 'ImGuiCond_' @ cimgui.h:803:9
+        // Pseudo enum 'ImGuiCond_' @ cimgui.h:807:9
         public const int ImGuiCond_None = 0;
         public const int ImGuiCond_Always = 1;
         public const int ImGuiCond_Once = 2;
         public const int ImGuiCond_FirstUseEver = 4;
         public const int ImGuiCond_Appearing = 8;
 
-        // Pseudo enum 'ImDrawFlags_' @ cimgui.h:1066:9
+        // Pseudo enum 'ImDrawFlags_' @ cimgui.h:1070:9
         public const int ImDrawFlags_None = 0;
         public const int ImDrawFlags_Closed = 1;
         public const int ImDrawFlags_RoundCornersTopLeft = 16;
@@ -10617,26 +10766,26 @@ namespace bottlenoselabs
         public const int ImDrawFlags_RoundCornersDefault_ = 240;
         public const int ImDrawFlags_RoundCornersMask_ = 496;
 
-        // Pseudo enum 'ImDrawListFlags_' @ cimgui.h:1082:9
+        // Pseudo enum 'ImDrawListFlags_' @ cimgui.h:1086:9
         public const int ImDrawListFlags_None = 0;
         public const int ImDrawListFlags_AntiAliasedLines = 1;
         public const int ImDrawListFlags_AntiAliasedLinesUseTex = 2;
         public const int ImDrawListFlags_AntiAliasedFill = 4;
         public const int ImDrawListFlags_AllowVtxOffset = 8;
 
-        // Pseudo enum 'ImFontAtlasFlags_' @ cimgui.h:1162:9
+        // Pseudo enum 'ImFontAtlasFlags_' @ cimgui.h:1166:9
         public const int ImFontAtlasFlags_None = 0;
         public const int ImFontAtlasFlags_NoPowerOfTwoHeight = 1;
         public const int ImFontAtlasFlags_NoMouseCursors = 2;
         public const int ImFontAtlasFlags_NoBakedLines = 4;
 
-        // Pseudo enum 'ImGuiViewportFlags_' @ cimgui.h:1212:9
+        // Pseudo enum 'ImGuiViewportFlags_' @ cimgui.h:1216:9
         public const int ImGuiViewportFlags_None = 0;
         public const int ImGuiViewportFlags_IsPlatformWindow = 1;
         public const int ImGuiViewportFlags_IsPlatformMonitor = 2;
         public const int ImGuiViewportFlags_OwnedByApp = 4;
 
-        // Pseudo enum 'ImGuiItemFlags_' @ cimgui.h:1297:9
+        // Pseudo enum 'ImGuiItemFlags_' @ cimgui.h:1301:9
         public const int ImGuiItemFlags_None = 0;
         public const int ImGuiItemFlags_NoTabStop = 1;
         public const int ImGuiItemFlags_ButtonRepeat = 2;
@@ -10648,7 +10797,7 @@ namespace bottlenoselabs
         public const int ImGuiItemFlags_ReadOnly = 128;
         public const int ImGuiItemFlags_Inputable = 256;
 
-        // Pseudo enum 'ImGuiItemStatusFlags_' @ cimgui.h:1309:9
+        // Pseudo enum 'ImGuiItemStatusFlags_' @ cimgui.h:1313:9
         public const int ImGuiItemStatusFlags_None = 0;
         public const int ImGuiItemStatusFlags_HoveredRect = 1;
         public const int ImGuiItemStatusFlags_HasDisplayRect = 2;
@@ -10660,12 +10809,12 @@ namespace bottlenoselabs
         public const int ImGuiItemStatusFlags_HoveredWindow = 128;
         public const int ImGuiItemStatusFlags_FocusedByTabbing = 256;
 
-        // Pseudo enum 'ImGuiInputTextFlagsPrivate_' @ cimgui.h:1321:9
+        // Pseudo enum 'ImGuiInputTextFlagsPrivate_' @ cimgui.h:1325:9
         public const int ImGuiInputTextFlags_Multiline = 67108864;
         public const int ImGuiInputTextFlags_NoMarkEdited = 134217728;
         public const int ImGuiInputTextFlags_MergedItem = 268435456;
 
-        // Pseudo enum 'ImGuiButtonFlagsPrivate_' @ cimgui.h:1326:9
+        // Pseudo enum 'ImGuiButtonFlagsPrivate_' @ cimgui.h:1330:9
         public const int ImGuiButtonFlags_PressedOnClick = 16;
         public const int ImGuiButtonFlags_PressedOnClickRelease = 32;
         public const int ImGuiButtonFlags_PressedOnClickReleaseAnywhere = 64;
@@ -10684,14 +10833,14 @@ namespace bottlenoselabs
         public const int ImGuiButtonFlags_PressedOnMask_ = 1008;
         public const int ImGuiButtonFlags_PressedOnDefault_ = 32;
 
-        // Pseudo enum 'ImGuiComboFlagsPrivate_' @ cimgui.h:1345:9
+        // Pseudo enum 'ImGuiComboFlagsPrivate_' @ cimgui.h:1349:9
         public const int ImGuiComboFlags_CustomPreview = 1048576;
 
-        // Pseudo enum 'ImGuiSliderFlagsPrivate_' @ cimgui.h:1348:9
+        // Pseudo enum 'ImGuiSliderFlagsPrivate_' @ cimgui.h:1352:9
         public const int ImGuiSliderFlags_Vertical = 1048576;
         public const int ImGuiSliderFlags_ReadOnly = 2097152;
 
-        // Pseudo enum 'ImGuiSelectableFlagsPrivate_' @ cimgui.h:1352:9
+        // Pseudo enum 'ImGuiSelectableFlagsPrivate_' @ cimgui.h:1356:9
         public const int ImGuiSelectableFlags_NoHoldingActiveID = 1048576;
         public const int ImGuiSelectableFlags_SelectOnNav = 2097152;
         public const int ImGuiSelectableFlags_SelectOnClick = 4194304;
@@ -10701,33 +10850,33 @@ namespace bottlenoselabs
         public const int ImGuiSelectableFlags_SetNavIdOnHover = 67108864;
         public const int ImGuiSelectableFlags_NoPadWithHalfSpacing = 134217728;
 
-        // Pseudo enum 'ImGuiTreeNodeFlagsPrivate_' @ cimgui.h:1362:9
+        // Pseudo enum 'ImGuiTreeNodeFlagsPrivate_' @ cimgui.h:1366:9
         public const int ImGuiTreeNodeFlags_ClipLabelForTrailingButton = 1048576;
 
-        // Pseudo enum 'ImGuiSeparatorFlags_' @ cimgui.h:1365:9
+        // Pseudo enum 'ImGuiSeparatorFlags_' @ cimgui.h:1369:9
         public const int ImGuiSeparatorFlags_None = 0;
         public const int ImGuiSeparatorFlags_Horizontal = 1;
         public const int ImGuiSeparatorFlags_Vertical = 2;
         public const int ImGuiSeparatorFlags_SpanAllColumns = 4;
 
-        // Pseudo enum 'ImGuiTextFlags_' @ cimgui.h:1371:9
+        // Pseudo enum 'ImGuiTextFlags_' @ cimgui.h:1375:9
         public const int ImGuiTextFlags_None = 0;
         public const int ImGuiTextFlags_NoWidthForLargeClippedText = 1;
 
-        // Pseudo enum 'ImGuiTooltipFlags_' @ cimgui.h:1375:9
+        // Pseudo enum 'ImGuiTooltipFlags_' @ cimgui.h:1379:9
         public const int ImGuiTooltipFlags_None = 0;
         public const int ImGuiTooltipFlags_OverridePreviousTooltip = 1;
 
-        // Pseudo enum 'ImGuiLayoutType_' @ cimgui.h:1379:9
+        // Pseudo enum 'ImGuiLayoutType_' @ cimgui.h:1383:9
         public const int ImGuiLayoutType_Horizontal = 0;
         public const int ImGuiLayoutType_Vertical = 1;
 
-        // Pseudo enum 'ImGuiDataTypePrivate_' @ cimgui.h:1432:9
+        // Pseudo enum 'ImGuiDataTypePrivate_' @ cimgui.h:1436:9
         public const int ImGuiDataType_String = 11;
         public const int ImGuiDataType_Pointer = 12;
         public const int ImGuiDataType_ID = 13;
 
-        // Pseudo enum 'ImGuiNextWindowDataFlags_' @ cimgui.h:1510:9
+        // Pseudo enum 'ImGuiNextWindowDataFlags_' @ cimgui.h:1512:9
         public const int ImGuiNextWindowDataFlags_None = 0;
         public const int ImGuiNextWindowDataFlags_HasPos = 1;
         public const int ImGuiNextWindowDataFlags_HasSize = 2;
@@ -10738,18 +10887,18 @@ namespace bottlenoselabs
         public const int ImGuiNextWindowDataFlags_HasBgAlpha = 64;
         public const int ImGuiNextWindowDataFlags_HasScroll = 128;
 
-        // Pseudo enum 'ImGuiNextItemDataFlags_' @ cimgui.h:1539:9
+        // Pseudo enum 'ImGuiNextItemDataFlags_' @ cimgui.h:1541:9
         public const int ImGuiNextItemDataFlags_None = 0;
         public const int ImGuiNextItemDataFlags_HasWidth = 1;
         public const int ImGuiNextItemDataFlags_HasOpen = 2;
 
-        // Pseudo enum 'ImGuiActivateFlags_' @ cimgui.h:1589:9
+        // Pseudo enum 'ImGuiActivateFlags_' @ cimgui.h:1607:9
         public const int ImGuiActivateFlags_None = 0;
         public const int ImGuiActivateFlags_PreferInput = 1;
         public const int ImGuiActivateFlags_PreferTweak = 2;
         public const int ImGuiActivateFlags_TryToPreserveState = 4;
 
-        // Pseudo enum 'ImGuiScrollFlags_' @ cimgui.h:1595:9
+        // Pseudo enum 'ImGuiScrollFlags_' @ cimgui.h:1613:9
         public const int ImGuiScrollFlags_None = 0;
         public const int ImGuiScrollFlags_KeepVisibleEdgeX = 1;
         public const int ImGuiScrollFlags_KeepVisibleEdgeY = 2;
@@ -10761,20 +10910,21 @@ namespace bottlenoselabs
         public const int ImGuiScrollFlags_MaskX_ = 21;
         public const int ImGuiScrollFlags_MaskY_ = 42;
 
-        // Pseudo enum 'ImGuiNavHighlightFlags_' @ cimgui.h:1607:9
+        // Pseudo enum 'ImGuiNavHighlightFlags_' @ cimgui.h:1625:9
         public const int ImGuiNavHighlightFlags_None = 0;
         public const int ImGuiNavHighlightFlags_TypeDefault = 1;
         public const int ImGuiNavHighlightFlags_TypeThin = 2;
         public const int ImGuiNavHighlightFlags_AlwaysDraw = 4;
         public const int ImGuiNavHighlightFlags_NoRounding = 8;
 
-        // Pseudo enum 'ImGuiNavDirSourceFlags_' @ cimgui.h:1614:9
+        // Pseudo enum 'ImGuiNavDirSourceFlags_' @ cimgui.h:1632:9
         public const int ImGuiNavDirSourceFlags_None = 0;
-        public const int ImGuiNavDirSourceFlags_Keyboard = 1;
-        public const int ImGuiNavDirSourceFlags_PadDPad = 2;
-        public const int ImGuiNavDirSourceFlags_PadLStick = 4;
+        public const int ImGuiNavDirSourceFlags_RawKeyboard = 1;
+        public const int ImGuiNavDirSourceFlags_Keyboard = 2;
+        public const int ImGuiNavDirSourceFlags_PadDPad = 4;
+        public const int ImGuiNavDirSourceFlags_PadLStick = 8;
 
-        // Pseudo enum 'ImGuiNavMoveFlags_' @ cimgui.h:1620:9
+        // Pseudo enum 'ImGuiNavMoveFlags_' @ cimgui.h:1639:9
         public const int ImGuiNavMoveFlags_None = 0;
         public const int ImGuiNavMoveFlags_LoopX = 1;
         public const int ImGuiNavMoveFlags_LoopY = 2;
@@ -10785,11 +10935,12 @@ namespace bottlenoselabs
         public const int ImGuiNavMoveFlags_ScrollToEdgeY = 64;
         public const int ImGuiNavMoveFlags_Forwarded = 128;
         public const int ImGuiNavMoveFlags_DebugNoResult = 256;
-        public const int ImGuiNavMoveFlags_Tabbing = 512;
-        public const int ImGuiNavMoveFlags_Activate = 1024;
-        public const int ImGuiNavMoveFlags_DontSetNavHighlight = 2048;
+        public const int ImGuiNavMoveFlags_FocusApi = 512;
+        public const int ImGuiNavMoveFlags_Tabbing = 1024;
+        public const int ImGuiNavMoveFlags_Activate = 2048;
+        public const int ImGuiNavMoveFlags_DontSetNavHighlight = 4096;
 
-        // Pseudo enum 'ImGuiOldColumnFlags_' @ cimgui.h:1651:9
+        // Pseudo enum 'ImGuiOldColumnFlags_' @ cimgui.h:1671:9
         public const int ImGuiOldColumnFlags_None = 0;
         public const int ImGuiOldColumnFlags_NoBorder = 1;
         public const int ImGuiOldColumnFlags_NoResize = 2;
@@ -10797,12 +10948,12 @@ namespace bottlenoselabs
         public const int ImGuiOldColumnFlags_NoForceWithinWindow = 8;
         public const int ImGuiOldColumnFlags_GrowParentContentsSize = 16;
 
-        // Pseudo enum 'ImGuiTabBarFlagsPrivate_' @ cimgui.h:2089:9
+        // Pseudo enum 'ImGuiTabBarFlagsPrivate_' @ cimgui.h:2110:9
         public const int ImGuiTabBarFlags_DockNode = 1048576;
         public const int ImGuiTabBarFlags_IsFocused = 2097152;
         public const int ImGuiTabBarFlags_SaveSettings = 4194304;
 
-        // Pseudo enum 'ImGuiTabItemFlagsPrivate_' @ cimgui.h:2094:9
+        // Pseudo enum 'ImGuiTabItemFlagsPrivate_' @ cimgui.h:2115:9
         public const int ImGuiTabItemFlags_SectionMask_ = 192;
         public const int ImGuiTabItemFlags_NoCloseButton = 1048576;
         public const int ImGuiTabItemFlags_Button = 2097152;
