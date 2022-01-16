@@ -1,3 +1,5 @@
 <Project>
-    <Import Project="$([MSBuild]::GetPathOfFileAbove('Common.props', '$(MSBuildThisFileDirectory)../'))" />
+
+    <Import Project="$(MSBuildThisFileDirectory)/../Directory.Build.props" />
+
 </Project>

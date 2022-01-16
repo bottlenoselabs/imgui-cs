@@ -1,3 +1,5 @@
 <Project>
-    <Import Project="$([MSBuild]::GetPathOfFileAbove('Common.targets', '$(MSBuildThisFileDirectory)../'))" />
+
+    <Import Project="$(MSBuildThisFileDirectory)/../Directory.Build.targets" />
+
 </Project>

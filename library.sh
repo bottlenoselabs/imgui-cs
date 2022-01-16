@@ -1,8 +1,8 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+echo "Started building native libraries... Directory: $DIR"
 LIB_DIR="$DIR/lib"
 mkdir -p $LIB_DIR
-
 echo "Started '$0' $1 $2 $3 $4"
 
 if [[ ! -z "$1" ]]; then
@@ -14,24 +14,38 @@ if [[ ! -z "$2" ]]; then
 fi
 
 function set_target_build_os {
-    if [[ -z "$TARGET_BUILD_OS" || $TARGET_BUILD_OS == "default" ]]; then
+    if [[ -z "$TARGET_BUILD_OS" || $TARGET_BUILD_OS == "host" ]]; then
         uname_str="$(uname -a)"
         case "${uname_str}" in
-            *Microsoft*)    TARGET_BUILD_OS="microsoft";;
-            *microsoft*)    TARGET_BUILD_OS="microsoft";;
+            *Microsoft*)    TARGET_BUILD_OS="windows";;
+            *microsoft*)    TARGET_BUILD_OS="windows";;
             Linux*)         TARGET_BUILD_OS="linux";;
-            Darwin*)        TARGET_BUILD_OS="apple";;
+            Darwin*)        TARGET_BUILD_OS="macos";;
             CYGWIN*)        TARGET_BUILD_OS="linux";;
-            MINGW*)         TARGET_BUILD_OS="microsoft";;
-            *Msys)          TARGET_BUILD_OS="microsoft";;
+            MINGW*)         TARGET_BUILD_OS="windows";;
+            *Msys)          TARGET_BUILD_OS="windows";;
             *)              TARGET_BUILD_OS="UNKNOWN:${uname_str}"
         esac
-        echo "Target build operating system: '$TARGET_BUILD_OS' (default)"
+
+        if [[
+            "$TARGET_BUILD_OS" != "windows" &&
+            "$TARGET_BUILD_OS" != "macos" &&
+            "$TARGET_BUILD_OS" != "linux"
+        ]]; then
+            echo "Unknown target build operating system: $TARGET_BUILD_OS"
+            exit 1
+        fi
+
+        echo "Target build operating system: '$TARGET_BUILD_OS' (host)"
     else
-        if [[ "$TARGET_BUILD_OS" == "microsoft" || "$TARGET_BUILD_OS" == "linux" || "$TARGET_BUILD_OS" == "apple" ]]; then
+        if [[
+            "$TARGET_BUILD_OS" == "windows" ||
+            "$TARGET_BUILD_OS" == "macos" ||
+            "$TARGET_BUILD_OS" == "linux"
+            ]]; then
             echo "Target build operating system: '$TARGET_BUILD_OS' (override)"
         else
-            echo "Unknown '$TARGET_BUILD_OS' passed as first argument. Use 'default' to use the host build platform or use either: 'microsoft', 'linux', 'apple'."
+            echo "Unknown '$TARGET_BUILD_OS' passed as first argument. Use 'host' to use the host build platform or use either: 'windows', 'macos', 'linux'."
             exit 1
         fi
     fi
@@ -39,7 +53,12 @@ function set_target_build_os {
 
 function set_target_build_arch {
     if [[ -z "$TARGET_BUILD_ARCH" || $TARGET_BUILD_ARCH == "default" ]]; then
-        TARGET_BUILD_ARCH="$(uname -m)"
+        if [[ "$TARGET_BUILD_OS" == "macos" ]]; then
+            TARGET_BUILD_ARCH="x86_64;arm64"
+        else
+            TARGET_BUILD_ARCH="$(uname -m)"
+        fi
+
         echo "Target build CPU architecture: '$TARGET_BUILD_ARCH' (default)"
     else
         if [[ "$TARGET_BUILD_ARCH" == "x86_64" || "$TARGET_BUILD_ARCH" == "arm64" ]]; then
@@ -49,33 +68,13 @@ function set_target_build_arch {
             exit 1
         fi
     fi
+    if [[ "$TARGET_BUILD_OS" == "macos" ]]; then
+        CMAKE_ARCH_ARGS="-DCMAKE_OSX_ARCHITECTURES=$TARGET_BUILD_ARCH"
+    fi
 }
 
 set_target_build_os
 set_target_build_arch
-
-if [[ "$TARGET_BUILD_OS" != "microsoft" && "$TARGET_BUILD_OS" != "apple" && "$TARGET_BUILD_OS" != "linux" ]]; then
-    echo "Unknown target build operating system: $TARGET_BUILD_OS"
-    exit 1
-fi
-
-if [[ "$TARGET_BUILD_ARCH" == "x86_64" ]]; then
-    if [[ "$TARGET_BUILD_OS" == "microsoft" ]]; then
-        CMAKE_TOOLCHAIN_ARGS="-DCMAKE_TOOLCHAIN_FILE=$DIR/mingw-w64-x86_64.cmake"
-    elif [[ "$TARGET_BUILD_OS" == "apple" ]]; then
-        CMAKE_ARCH_ARGS="-DCMAKE_OSX_ARCHITECTURES=x86_64"
-    fi
-elif [[ "$TARGET_BUILD_ARCH" == "arm64" ]]; then
-    if [[ "$TARGET_BUILD_OS" == "microsoft" ]]; then
-        echo "ARM64 not yet supported for Windows."
-        exit 1
-    elif [[ "$TARGET_BUILD_OS" == "apple" ]]; then
-        CMAKE_ARCH_ARGS="-DCMAKE_OSX_ARCHITECTURES=arm64"
-    fi
-else
-    echo "Unknown target build CPU architecture: $TARGET_BUILD_ARCH"
-    exit 1
-fi
 
 function exit_if_last_command_failed() {
     error=$?
@@ -85,19 +84,25 @@ function exit_if_last_command_failed() {
     fi
 }
 
-function build_imgui() {
+function build_cimgui() {
     echo "Building cimgui..."
-    CIMGUI_BUILD_DIR="$DIR/cmake-build-release"
-    cmake $CMAKE_TOOLCHAIN_ARGS -S $DIR/ext/cimgui -B $CIMGUI_BUILD_DIR $CMAKE_ARCH_ARGS
+    CIMGUI_BUILD_DIR="$DIR/cmake-build-release-cimgui"
+    rm -rf CIMGUI_BUILD_DIR
+
+    cmake -S $DIR/ext/cimgui -B $CIMGUI_BUILD_DIR $CMAKE_ARCH_ARGS \
+        `# change output directories` \
+        -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=$CIMGUI_BUILD_DIR -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=$CIMGUI_BUILD_DIR -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=$CIMGUI_BUILD_DIR -DCMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE=$CIMGUI_BUILD_DIR
+    exit_if_last_command_failed
     cmake --build $CIMGUI_BUILD_DIR --config Release
+    exit_if_last_command_failed
 
     if [[ "$TARGET_BUILD_OS" == "linux" ]]; then
-        CIMGUI_LIBRARY_FILENAME="cimgui.so"
+        CIMGUI_LIBRARY_FILENAME="libcimgui.so"
         CIMGUI_LIBRARY_FILE_PATH_BUILD="$(readlink -f $CIMGUI_BUILD_DIR/$CIMGUI_LIBRARY_FILENAME)"
-    elif [[ "$TARGET_BUILD_OS" == "apple" ]]; then
-        CIMGUI_LIBRARY_FILENAME="cimgui.dylib"
-        CIMGUI_LIBRARY_FILE_PATH_BUILD="$CIMGUI_BUILD_DIR/$CIMGUI_LIBRARY_FILENAME"
-    elif [[ "$TARGET_BUILD_OS" == "microsoft" ]]; then
+    elif [[ "$TARGET_BUILD_OS" == "macos" ]]; then
+        CIMGUI_LIBRARY_FILENAME="libcimgui.dylib"
+        CIMGUI_LIBRARY_FILE_PATH_BUILD="$(perl -MCwd -e 'print Cwd::abs_path shift' $CIMGUI_BUILD_DIR/$CIMGUI_LIBRARY_FILENAME)"
+    elif [[ "$TARGET_BUILD_OS" == "windows" ]]; then
         CIMGUI_LIBRARY_FILENAME="cimgui.dll"
         CIMGUI_LIBRARY_FILE_PATH_BUILD="$CIMGUI_BUILD_DIR/$CIMGUI_LIBRARY_FILENAME"
     fi
@@ -117,7 +122,7 @@ function build_imgui() {
     echo "Building cimgui finished!"
 }
 
-build_imgui
+build_cimgui
 ls -d "$LIB_DIR"/*
 
 echo "Finished '$0'!"
