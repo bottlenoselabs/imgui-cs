@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bottlenoselabs/c2cs/main/schema.json",
+  "directory": "./ast",
+  "c": {
+      "input_file": "../ext/cimgui/cimgui.h",
+      "user_include_directories": [
+          "../ext/cimgui"
+      ],
+      "platforms": {
+          "aarch64-apple-darwin": {},
+          "x86_64-apple-darwin": {}
+        }
+  }
+}

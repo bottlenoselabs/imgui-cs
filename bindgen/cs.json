@@ -1,0 +1,80 @@
+{
+    "$schema": "https://raw.githubusercontent.com/bottlenoselabs/c2cs/main/schema.json",
+    "directory": "./ast",
+    "cs": {
+        "output_file": "../imgui.cs",
+        "namespace": "bottlenoselabs",
+        "ignored_names": [
+            "ImWchar",
+            "ImWchar16",
+            "ImWchar32",
+            "Vector4",
+            "Vector3",
+            "Vector2",
+            "ImVec1"
+        ],
+        "mapped_names": [
+            {
+                "source": "ImWchar",
+                "target": "byte"
+            },
+            {
+                "source": "ImWchar16",
+                "target": "ushort"
+            },
+            {
+                "source": "ImWchar32",
+                "target": "uint"
+            },
+            {
+                "source": "ImVec4",
+                "target": "Vector4"
+            },
+            {
+                "source": "ImVec3",
+                "target": "Vector3"
+            },
+            {
+                "source": "ImVec2",
+                "target": "Vector2"
+            },
+            {
+                "source": "ImVec1",
+                "target": "float"
+            },
+            {
+                "source": "ImU64",
+                "target": "ulong"
+            },
+            {
+                "source": "ImU32",
+                "target": "uint"
+            },
+            {
+                "source": "ImU16",
+                "target": "ushort"
+            },
+            {
+                "source": "ImU8",
+                "target": "byte"
+            },
+            {
+                "source": "ImS64",
+                "target": "long"
+            },
+            {
+                "source": "ImS32",
+                "target": "int"
+            },
+            {
+                "source": "ImS16",
+                "target": "short"
+            },
+            {
+                "source": "ImS8",
+                "target": "sbyte"
+            }
+        ],
+        "region_header_file": "../header.cs"
+    }
+}
