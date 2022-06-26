@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/bottlenoselabs/c2cs/main/schema.json",
   "directory": "./ast",
   "c": {
-      "input_file": "../ext/cimgui/cimgui.h",
+      "input_file": "../src/c/cimgui/include/_cimgui.h",
       "user_include_directories": [
           "../ext/cimgui"
       ],
