@@ -9,6 +9,9 @@
       "platforms": {
           "aarch64-apple-darwin": {},
           "x86_64-apple-darwin": {}
-        }
+      },
+      "opaque_types": [
+        "ImGuiStackLevelInfo"
+      ]
   }
 }
