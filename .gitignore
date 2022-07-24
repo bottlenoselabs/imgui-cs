@@ -13,3 +13,7 @@
 
 # C2CS
 /bindgen/**/ast/
+
+# scripts
+/build
+/ext/scripts
