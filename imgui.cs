@@ -21,7 +21,7 @@ namespace bottlenoselabs
 {
     public static unsafe partial class imgui
     {
-        private const string LibraryName = "imgui";
+        private const string LibraryName = "cimgui";
 
         #region API
 

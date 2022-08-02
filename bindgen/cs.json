@@ -3,6 +3,7 @@
     "directory": "./ast",
     "cs": {
         "output_file": "../imgui.cs",
+        "library_name": "cimgui",
         "namespace": "bottlenoselabs",
         "ignored_names": [
             "ImWchar",
