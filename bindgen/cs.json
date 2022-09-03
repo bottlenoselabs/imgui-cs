@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/bottlenoselabs/c2cs/main/schema.json",
     "directory": "./ast",
     "cs": {
-        "output_file": "../imgui.cs",
+        "output_file": "../ImGui.cs",
         "library_name": "cimgui",
         "namespace": "bottlenoselabs",
         "ignored_names": [
