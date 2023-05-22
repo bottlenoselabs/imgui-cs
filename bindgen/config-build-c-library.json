@@ -1,0 +1,6 @@
+{
+  "cMakeDirectoryPath": "../ext/cimgui",
+  "outputDirectoryPath": "../lib",
+  "deleteBuildFiles": true,
+  "cMakeArguments": []
+}

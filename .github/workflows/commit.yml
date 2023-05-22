@@ -10,7 +10,7 @@ jobs:
   commit-job:
     name: "Commit generated C# code"
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]' || github.actor == 'lithiumtoast'
+    if: github.actor == 'dependabot[bot]'
 
     steps:
       - name: "Clone Git repository"
@@ -22,7 +22,7 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: "bindgen-cs"
-          path: "./"
+          path: "./src/cs/production/ImGui"
 
       - name: "Add + commit + push (if necessary)"
         uses: EndBug/add-and-commit@v7

@@ -1,15 +1,13 @@
 #!/bin/bash
 DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-if [[ -z $SCRIPTS_DIRECTORY ]]; then
-    SCRIPTS_DIRECTORY="$DIRECTORY/ext/scripts"
-    git clone "https://github.com/bottlenoselabs/scripts" "$SCRIPTS_DIRECTORY" 2> /dev/null 1> /dev/null || git -C "$SCRIPTS_DIRECTORY" pull 1> /dev/null
+
+if ! [[ -x "$(command -v c2cs)" ]]; then
+  echo "Error: 'c2cs' is not installed. The C2CS tool is used to generate a C shared library for the purposes of P/Invoke with C#. Please visit https://github.com/bottlenoselabs/C2CS for instructions to install the C2CS tool." >&2
+  exit 1
 fi
 
-$DIRECTORY/ext/scripts/c/library/main.sh \
-    $DIRECTORY/ext/cimgui \
-    $DIRECTORY/build \
-    $DIRECTORY/lib \
-    "cimgui" \
-    "cimgui" \
-    "" \
-    "" \
+c2cs library --config "$DIRECTORY/bindgen/config-build-c-library.json"
+	
+if [[ -z "$1" ]]; then
+    read
+fi

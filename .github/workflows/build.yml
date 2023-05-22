@@ -34,12 +34,16 @@ jobs:
         uses: actions/cache@v3
         with:
           path: "./lib"
-          key: "libs-${{ matrix.platform.rid }}-${{ hashFiles('ext/cimgui/**/*') }}"
+          key: "libs-${{ matrix.platform.rid }}-${{ hashFiles('ext/cimgui/**/*') }}-${{ hashFiles('src/c/**/*') }}"
+
+      - name: "Install C2CS"
+        shell: bash
+        run: dotnet tool install --global bottlenoselabs.C2CS.Tool
 
       - name: "Build native libraries"
         if: steps.cache-libs.outputs.cache-hit != 'true'
         shell: bash
-        run: ./library.sh
+        run: ./library.sh "auto"
 
       - name: "Upload native libraries"
         uses: actions/upload-artifact@v2
@@ -79,7 +83,7 @@ jobs:
         continue-on-error: true
         with:
           name: "bindgen-cs"
-          path: "./"
+          path: "./src/cs/production/ImGui"
 
       - name: ".NET Build"
         run: dotnet build

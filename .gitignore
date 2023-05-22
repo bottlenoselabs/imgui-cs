@@ -1,19 +1,19 @@
 # JetBrains
-/.idea/
+.idea/
 
 # C# build artifacts
 /bin/
 /obj/
 
-# macOS
-.DS_Store
+# C# packages
+/nupkg/
 
 # Native libraries
 /lib/
 
-# C2CS
-/bindgen/**/ast/
+# Bindgen
+/bindgen/ast/
+/bindgen/x-ast/
 
-# scripts
-/build
-/ext/scripts
+# macOS
+.DS_store
