@@ -86,5 +86,5 @@ jobs:
           path: "./src/cs/production/ImGui"
 
       - name: ".NET Build"
-        run: dotnet build
+        run: dotnet build "./src/cs"
           
