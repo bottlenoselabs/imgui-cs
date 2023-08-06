@@ -81,5 +81,4 @@ jobs:
           generate_release_notes: true
           prerelease: "{{ github.event.inputs.pre-release == 'true' }}"
           tag_name: "v${{ steps.set-version.outputs.VERSION }}"
-
-
+          
