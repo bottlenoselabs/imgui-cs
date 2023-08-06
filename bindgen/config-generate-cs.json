@@ -38,5 +38,6 @@
   "isEnabledAssemblyAttributes": true,
   "isEnabledLibraryImport": true,
   "isEnabledIdiomaticCSharp": true,
-  "isEnabledEnumValueNamesUpperCase": false
+  "isEnabledEnumValueNamesUpperCase": false,
+  "isEnabledGeneratingRuntimeCode": false
 }
