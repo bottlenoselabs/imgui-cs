@@ -78,7 +78,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         # if: github.event_name == 'schedule' || github.event.inputs.pre-release == 'false'
         with:
-          generateReleaseNotes: true
-          makeLatest: "{{ github.event.inputs.pre-release == 'false' }}"
+          generate_release_notes: true
           prerelease: "{{ github.event.inputs.pre-release == 'true' }}"
           tag_name: "v${{ steps.set-version.outputs.VERSION }}"
