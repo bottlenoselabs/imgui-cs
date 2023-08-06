@@ -1,12 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <!-- MSBuild settings -->
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="bottlenoselabs.C2CS.Runtime" Version="6.1.3" />
-  </ItemGroup>
+    <!-- MSBuild settings -->
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <!-- NuGet settings -->
+    <PropertyGroup>
+        <IsPackable>true</IsPackable>
+        <PackageId>bottlenoselabs.Interop.ImGui</PackageId>
+        <PackageDescription>C# interop bindings for https://github.com/ocornut/imgui based on cimgui.</PackageDescription>
+        <RepositoryUrl>https://github.com/bottlenoselabs/imgui-cs</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>_README_PACKAGE.md</PackageReadmeFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Update="_README_PACKAGE.md">
+            <Pack>true</Pack>
+            <PackagePath>/</PackagePath>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <!-- NuGet package references -->
+    <ItemGroup>
+        <PackageReference Include="bottlenoselabs.C2CS.Runtime" Version="6.1.3"/>
+    </ItemGroup>
 
 </Project>
