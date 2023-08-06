@@ -75,10 +75,10 @@ jobs:
         run: dotnet nuget push "./nupkg/**/*.nupkg" --source https://api.nuget.org/v3/index.json --skip-duplicate --api-key $NUGET_ACCESS_TOKEN
 
       - name: "Create tag and GitHub release" 
-        uses: ncipollo/release-action@v1
-        if: github.event_name == 'schedule' || github.event.inputs.pre-release == 'false'
+        uses: softprops/action-gh-release@v1
+        # if: github.event_name == 'schedule' || github.event.inputs.pre-release == 'false'
         with:
           generateReleaseNotes: true
-          makeLatest: true
-          prerelease: false
-          tag: "v${{ steps.set-version.outputs.VERSION }}"
+          makeLatest: "{{ github.event.inputs.pre-release == 'false' }}"
+          prerelease: "{{ github.event.inputs.pre-release == 'true' }}"
+          tag_name: "v${{ steps.set-version.outputs.VERSION }}"
