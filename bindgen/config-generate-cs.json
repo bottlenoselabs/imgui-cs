@@ -1,6 +1,6 @@
 {
   "inputFilePath": "./x-ast/ast-cross-platform.json",
-  "outputFilePath": "./../src/cs/production/Interop.ImGui/PInvoke.gen.cs",
+  "outputFileDirectory": "./../src/cs/production/Interop.ImGui",
   "namespaceName": "bottlenoselabs.Interop.ImGui",
   "className": "PInvoke",
   "libraryName": "cimgui",
