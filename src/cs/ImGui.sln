@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Production", "Production", "{081F91DD-336C-4BB1-B619-ED0DD3ED32D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImGui", "production\ImGui\ImGui.csproj", "{A97E11AB-6FC5-43C1-9F2D-456A5E63DA0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interop.ImGui", "production\Interop.ImGui\Interop.ImGui.csproj", "{A97E11AB-6FC5-43C1-9F2D-456A5E63DA0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

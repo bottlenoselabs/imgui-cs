@@ -4,7 +4,9 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <RootNamespace />
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="bottlenoselabs.C2CS.Runtime" Version="6.1.3" />
+  </ItemGroup>
 
 </Project>
