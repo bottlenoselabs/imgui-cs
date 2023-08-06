@@ -76,8 +76,10 @@ jobs:
 
       - name: "Create tag and GitHub release" 
         uses: softprops/action-gh-release@v1
-        # if: github.event_name == 'schedule' || github.event.inputs.pre-release == 'false'
+        if: github.event_name == 'schedule' || github.event.inputs.pre-release == 'false'
         with:
           generate_release_notes: true
           prerelease: "{{ github.event.inputs.pre-release == 'true' }}"
           tag_name: "v${{ steps.set-version.outputs.VERSION }}"
+
+
